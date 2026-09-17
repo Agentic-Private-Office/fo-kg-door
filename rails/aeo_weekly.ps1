@@ -10,7 +10,7 @@ try {
   $env:CLOUDFLARE_API_TOKEN = (Get-Content "C:\ALLOOLOO\AGENT KEYS\cloudflare.txt" -Raw).Trim()
   $env:CLOUDFLARE_ACCOUNT_ID = "dd2832b36f171b815f84c8487aada36b"
   npx --yes wrangler deploy 2>&1 | Select-String -Pattern "Success|Uploaded fo-kg|ERROR" | Out-File -Append -Encoding utf8 $log
-  python "C:\MATTHEWKEDDY\FO-KG\SITEails\mirror_door_repo.py" "roll: mirror door source ($(Get-Date -Format yyyy-MM-dd))" 2>&1 | Out-File -Append -Encoding utf8 $log   # public mirror github.com/Agentic-Private-Office/fo-kg-door (CEO ruling 2026-09-17)
+  python "C:\MATTHEWKEDDY\FO-KG\SITE\rails\mirror_door_repo.py" "roll: mirror door source ($(Get-Date -Format yyyy-MM-dd))" 2>&1 | Out-File -Append -Encoding utf8 $log   # public mirror github.com/Agentic-Private-Office/fo-kg-door (CEO ruling 2026-09-17)
   Remove-Item Env:CLOUDFLARE_API_TOKEN
   Set-Location "C:\MATTHEWKEDDY"
   git add FO-KG/SITE/public/facts.json FO-KG/SITE/rails/aeo START_ME_UP/BUILD-LOG.md | Out-Null

@@ -10,7 +10,7 @@
   "principal": "Matthew Keddy",
   "office": "https://agent-kg.ai",
   "office_line": "Family Office Knowledge Graph — familyofficeknowledgegraph.ai",
-  "surface_version": "0.19.12",
+  "surface_version": "0.19.13",
   "as_of": "2026-09-14",
   "record_shape": {
     "name": "Family Office Record (FOR)",

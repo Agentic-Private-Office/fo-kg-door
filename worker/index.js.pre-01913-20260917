@@ -11,7 +11,7 @@ import { handleMcp, serverCard, TOOLS, graph, resolveIdentifier } from "./mcp.js
 const CANON = "familyofficeknowledgegraph.ai";
 const ORIGIN = `https://${CANON}`;
 const OFFICE = "https://agent-kg.ai";
-const VERSION = "0.19.13";
+const VERSION = "0.19.12";
 const OPERATOR = "Agentic KG Holdings";
 const CONTACT = "mailto:mk@agent-kg.ai"; // headers + machine kit only, never page copy
 const KID = "mk-office-2026-09";

@@ -3,7 +3,7 @@
   "name": "ai.familyofficeknowledgegraph/fo-kg",
   "title": "Family Office Knowledge Graph",
   "description": "Family Office Knowledge Graph: read-only MCP door over the public record. Agentic KG Holdings.",
-  "version": "0.19.12",
+  "version": "0.19.13",
   "websiteUrl": "https://familyofficeknowledgegraph.ai",
   "repository": {
     "url": "https://github.com/Agentic-Private-Office/fo-kg-door",

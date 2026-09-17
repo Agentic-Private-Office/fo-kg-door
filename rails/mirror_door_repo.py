@@ -64,9 +64,9 @@ def main():
     r = run('git -c user.name="CC" -c user.email="mk@agent-kg.ai" commit -q -m "%s"' % msg.replace('"', "'"))
     if "nothing to commit" in (r.stdout + r.stderr):
         print("nothing to commit"); return
+    # CEO ruling 2026-09-17: Agentic-Private-Office is the active gh account for every office-root step; never switched away here
     subprocess.run("gh auth switch --user Agentic-Private-Office", shell=True, capture_output=True)
     p = run("git push -q origin main")
-    subprocess.run("gh auth switch --user greencore-solutions", shell=True, capture_output=True)
     print("pushed" if p.returncode == 0 else "PUSH FAILED: " + (p.stderr or p.stdout)[-300:])
 
 
