@@ -1,0 +1,140 @@
+{
+ "record": "Family Office Record",
+ "id": "SG-UEN-202002333R",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "LIONCITY EXCEL MULTI-FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "the registered legal name says so"
+  },
+  "formation": {
+   "value": "2020-01-17",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "9 JURONG TOWN HALL ROAD #02-16 JURONG TOWN HALL 609431",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Local Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Live Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202002333R",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.gov.sg/datasets/d_a2141adf93ec2a3c2ec2837b78d6d46e/view"
+   },
+   "url": "https://data.gov.sg/datasets/d_a2141adf93ec2a3c2ec2837b78d6d46e/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.lioncityexcel.com",
+  "source_url": "http://www.lioncityexcel.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-01-17",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=SG&filter[fulltext]=LIONCITY EXCEL MULTI-FAMILY OFFICE PTE. LTD."
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "http://www.lioncityexcel.com"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_a2141adf93ec2a3c2ec2837b78d6d46e/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500"
+  }
+ ],
+ "sources": [
+  "http://www.lioncityexcel.com",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_a2141adf93ec2a3c2ec2837b78d6d46e&q=family%20office&limit=500"
+ ],
+ "discovery": null
+}

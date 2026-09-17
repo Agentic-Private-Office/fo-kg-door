@@ -1,0 +1,172 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-907994735",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "LGN INVEST FAMILY OFFICE (LIFAO) (LIFAO)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2021-11-16",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "33 RUE VIALA 75015 PARIS",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5710",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "907994735",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/907994735"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/907994735",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "NATHALIE SANDRINE GISELE LE GALL",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "LGN INVEST FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "LIFAO",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2021-11-16",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=LGN INVEST FAMILY OFFICE (LIFAO) (LIFAO)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/lgn-invest-family-office-lifao-lifao-907994735",
+    "https://www.linkedin.com/company/famille-office",
+    "https://www.pappers.fr/entreprise/lifao-lgn-invest-family-office-907994735/documents/LIFAO%20LGN%20INVEST%20FAMILY%20OFFICE%20-%20Copie%20des%20statuts%20mis%20%C3%A0%20jour%2029-08-2025.pdf?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=907994735"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=907994735"
+  }
+ ],
+ "sources": [
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/lgn-invest-family-office-lifao-lifao-907994735",
+  "https://recherche-entreprises.api.gouv.fr/search?q=907994735",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=7",
+  "https://www.linkedin.com/company/famille-office",
+  "https://www.pappers.fr/entreprise/lifao-lgn-invest-family-office-907994735/documents/LIFAO%20LGN%20INVEST%20FAMILY%20OFFICE%20-%20Copie%20des%20statuts%20mis%20%C3%A0%20jour%2029-08-2025.pdf?utm_source=openai"
+ ],
+ "discovery": null
+}

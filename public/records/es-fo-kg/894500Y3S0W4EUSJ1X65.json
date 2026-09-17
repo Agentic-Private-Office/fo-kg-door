@@ -1,0 +1,186 @@
+{
+ "record": "Family Office Record",
+ "id": "894500Y3S0W4EUSJ1X65",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500Y3S0W4EUSJ1X65",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500Y3S0W4EUSJ1X65",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "FAMILY OFFICE SOCIEDAD LIMITADA.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://mabelcapital.com",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gemini-3.6-flash on the page it cites"
+  },
+  "formation": {
+   "value": "2009-02-11",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "CALLE AYALA, 3 - BJ IZ, MADRID, 28001, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000535",
+   "register_id": "RA000535",
+   "id": {
+    "value": "B85639417",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Manuel Campos Guallar",
+    "source_url": "https://mabelcapital.com",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Founder and Chairman as the subject's own page says"
+   },
+   "role": "Founder and Chairman"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.familyofficec.com",
+  "source_url": "https://www.familyofficec.com",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by Grok on the page it opened"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2009-02-11",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-02-06",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-06",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-06",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=FAMILY%20OFFICE%20SOCIEDAD%20LIMITADA.",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500Y3S0W4EUSJ1X65",
+  "https://infonif.economia3.com/ficha-empresa/family-office-sl",
+  "https://lei.bloomberg.com/leis/view/894500Y3S0W4EUSJ1X65?utm_source=openai",
+  "https://mabelcapital.com",
+  "https://www.familyofficec.com"
+ ],
+ "discovery": null
+}

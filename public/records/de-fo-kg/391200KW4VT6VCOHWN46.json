@@ -1,0 +1,208 @@
+{
+ "record": "Family Office Record",
+ "id": "391200KW4VT6VCOHWN46",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200KW4VT6VCOHWN46",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200KW4VT6VCOHWN46",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Seppelfricke & Co. Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://www.seppelfricke-family-office.de",
+   "read_by": "gpt-4.1",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2001-01-10",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Stadttor 1, Düsseldorf, DE-NW, 40219, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "6QQB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000234",
+   "register_id": "RA000234",
+   "id": {
+    "value": "HRB 73045",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Pascal Seppelfricke",
+    "source_url": "https://www.seppelfricke-family-office.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Erwin Bengler",
+    "source_url": "https://www.seppelfricke-family-office.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Jack Lützenrath",
+    "source_url": "https://www.seppelfricke-family-office.de",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorsitzender des Aufsichtsrates as the subject's own page says"
+   },
+   "role": "Vorsitzender des Aufsichtsrates"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.seppelfricke-family-office.de/",
+  "source_url": "https://www.seppelfricke-family-office.de/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2001-01-10",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-05",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-14",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-05",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Seppelfricke+%26+Co.+Family+Office+AG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000234]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/391200KW4VT6VCOHWN46",
+  "https://www.seppelfricke-family-office.de",
+  "https://www.seppelfricke-family-office.de/"
+ ],
+ "discovery": null
+}

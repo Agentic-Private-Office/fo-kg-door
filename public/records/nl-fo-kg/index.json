@@ -1,0 +1,343 @@
+{
+ "node": "nl-fo-kg",
+ "country": "NL",
+ "jurisdiction": "Netherlands",
+ "host": "https://nl.fo-kg.ai",
+ "door": "https://nl.fo-kg.ai/mcp",
+ "host_long": "https://nl-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://nl-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "549300J9438YHJRLPE90",
+   "lei": "549300J9438YHJRLPE90",
+   "legal_name": "De Groot Family Office B.V.",
+   "aliases": [],
+   "register_ids": [
+    "24286475"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Aerdenhout",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://dgfo.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/549300J9438YHJRLPE90.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500D1EXXIGNZM4M46",
+   "lei": "724500D1EXXIGNZM4M46",
+   "legal_name": "Stichting Hendriks Family office",
+   "aliases": [],
+   "register_ids": [
+    "84684925"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Utrecht",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500D1EXXIGNZM4M46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500L0BQHYTY7K5N14",
+   "lei": "724500L0BQHYTY7K5N14",
+   "legal_name": "De Pater Family Office B.V.",
+   "aliases": [],
+   "register_ids": [
+    "99247461"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Oene",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500L0BQHYTY7K5N14.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500NAHUOPME6BTB46",
+   "lei": "724500NAHUOPME6BTB46",
+   "legal_name": "Stichting Value Partners Family Office",
+   "aliases": [],
+   "register_ids": [
+    "24440622"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Gouda",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500NAHUOPME6BTB46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500QAFK7B9JG87567",
+   "lei": "724500QAFK7B9JG87567",
+   "legal_name": "Hoogeveen Damsma Family Office B.V.",
+   "aliases": [],
+   "register_ids": [
+    "98938169"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Haarlem",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500QAFK7B9JG87567.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500UV2D3JW6CPRW13",
+   "lei": "724500UV2D3JW6CPRW13",
+   "legal_name": "Karibuni Family Office B.V.",
+   "aliases": [],
+   "register_ids": [
+    "87317389"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Meijel",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500UV2D3JW6CPRW13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "724500VZJOFG1JBDLB21",
+   "lei": "724500VZJOFG1JBDLB21",
+   "legal_name": "F&F Family Office B.V.",
+   "aliases": [],
+   "register_ids": [
+    "17190066"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Nieuwkuijk",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://fffamilyoffice.nl/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/724500VZJOFG1JBDLB21.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DOE1B1144FB519",
+   "lei": "984500DOE1B1144FB519",
+   "legal_name": "Robinia Family Office Services B.V.",
+   "aliases": [],
+   "register_ids": [
+    "87966271"
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Amsterdam",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.rfos.eu",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/984500DOE1B1144FB519.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "NL-AFM-Wilton_Investment_Services_B_V",
+   "lei": null,
+   "legal_name": "Wilton Investment Services B.V.",
+   "aliases": [
+    "Montes Capital Management",
+    "Wilton Family Office"
+   ],
+   "register_ids": [
+    "Wilton Investment Services B.V."
+   ],
+   "jurisdiction": "Netherlands",
+   "city": "Breda",
+   "entity_status": "listed",
+   "structure": "multi-family",
+   "website": "https://wilton.nl",
+   "fields": {
+    "total": 15,
+    "sourced": 8,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/nl-fo-kg/NL-AFM-Wilton_Investment_Services_B_V.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 132,
+  "sourced": 112,
+  "filled": 12,
+  "confirmed": 8,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 38,
+  "events": 32,
+  "registrations": 17,
+  "principals": 12,
+  "with_lei": 8,
+  "with_website": 4,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 4
+ },
+ "sources": [
+  {
+   "name": "dgfo.com — subject website",
+   "url": "https://dgfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "fffamilyoffice.nl — subject website",
+   "url": "https://fffamilyoffice.nl/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "AFM — registers (CSV export)",
+   "url": "https://www.afm.nl/",
+   "role": "fill and confirm",
+   "reads": 4,
+   "answered_200": 2
+  },
+  {
+   "name": "www.rfos.eu — subject website",
+   "url": "https://www.rfos.eu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "KVK — Handelsregister (Kamer van Koophandel)",
+   "subjects": 9
+  },
+  {
+   "register": "website",
+   "subjects": 1
+  }
+ ],
+ "reads": 7,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/nl-fo-kg/<source>/2026-09-14/"
+ }
+}

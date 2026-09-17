@@ -1,0 +1,200 @@
+{
+ "record": "Family Office Record",
+ "id": "984500C5F41C4D364846",
+ "version": "2026-09-14.2",
+ "node": "dk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://dk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500C5F41C4D364846",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500C5F41C4D364846",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "COHERE Family Office A/S",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "da"
+  },
+  "jurisdiction": {
+   "value": "DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Denmark"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "http://www.coherefamilyoffice.dk",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2019-06-21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Kongevejen 495B, Holte, DK-84, 2840, DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "ZRPO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "register_id": "RA000170",
+   "id": {
+    "value": "40600418",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://datacvr.virk.dk/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.coherefamilyoffice.dk",
+  "source_url": "http://www.coherefamilyoffice.dk",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash"
+ },
+ "aliases": [
+  {
+   "value": "Følsgaard Family Office A/S",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "da"
+  }
+ ],
+ "events": [
+  {
+   "date": "2019-06-21",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-05-09",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-12",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-05-09",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)]",
+   "reason": "CVR answers a challenge page to machines and the open distribution needs a credentialled agreement — never attempted (HITL)",
+   "tried": "https://datacvr.virk.dk/soegeresultater?fritekst=COHERE%20Family%20Office%20A/S",
+   "answer": "challenge page; distribution needs credentials"
+  },
+  {
+   "field": "registrations[Finanstilsynet — Virksomhedsregister]",
+   "reason": "the register's search endpoint answered 404 to every machine read tried; not read this wave",
+   "tried": "https://virksomhedsregister.finanstilsynet.dk/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://datacvr.virk.dk/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846"
+  }
+ ],
+ "sources": [
+  "http://www.coherefamilyoffice.dk",
+  "https://api.gleif.org/api/v1/lei-records/984500C5F41C4D364846",
+  "https://dk.linkedin.com/company/cohere-family-office-a-s",
+  "https://www.coherefamilyoffice.dk",
+  "https://www.proff.dk/firma/cohere-family-office-as/holte/kontor-og-teletjenester/0O67HEI07SL"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://dk.linkedin.com/company/cohere-family-office-a-s",
+   "x": null,
+   "website_named": "http://www.coherefamilyoffice.dk"
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "record": "Family Office Record",
+ "id": "CA-CC-10976709",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "THE CANADIAN FAMILY OFFICE NETWORK LTD.",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporations Canada"
+  },
+  "jurisdiction": {
+   "value": "CA",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2018-09-04",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "incorporation date on Corporations Canada"
+  },
+  "registered_office": {
+   "value": "2010 - 255 Queens Avenue London ON N6A 5R8 Canada",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Corporations Canada (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Corporations Canada"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "1097670-9",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "status": {
+    "value": "Active",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "736096314RC0001",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "10976709",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+   },
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2",
+   "status": {
+    "value": "Active",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "736096314",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Paul Wolfe",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-09-04",
+   "event": "incorporated — Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025",
+   "event": "last annual filing (year) — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-02",
+   "event": "last annual meeting — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CA&filter[fulltext]=THE CANADIAN FAMILY OFFICE NETWORK LTD."
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://canadianfamilyoffices.com/fundamentals/the-list-sixty-multi-family-offices-in-canada/",
+    "https://www.linkedin.com/company/canadianfamilyoffices"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng"
+  }
+ ],
+ "sources": [
+  "https://canadianfamilyoffices.com/fundamentals/the-list-sixty-multi-family-offices-in-canada/",
+  "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+  "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=10976709&lang=eng",
+  "https://www.linkedin.com/company/canadianfamilyoffices"
+ ],
+ "discovery": null
+}

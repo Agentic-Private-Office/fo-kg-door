@@ -1,0 +1,181 @@
+{
+ "record": "Family Office Record",
+ "id": "254900O6TOF1AWD4K718",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "254900O6TOF1AWD4K718",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900O6TOF1AWD4K718",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Monte Carlo Multi Family Office Consultoria Ltda",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "pt"
+  },
+  "jurisdiction": {
+   "value": "BR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Brazil"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "the registered legal name says so"
+  },
+  "formation": {
+   "value": "2025-10-30",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "R PEDROSO ALVARENGA, N 1208, CONJ 202, ITAIM BIBI, SAO PAULO, BR-SP, 04531-911, BR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "QHW1",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000059",
+   "register_id": "RA000059",
+   "id": {
+    "value": "63.435.769/0001-52",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Monte Carlo Multi Family Office",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "TRADING_OR_OPERATING_NAME",
+   "language": "pt"
+  },
+  {
+   "value": "Monte Carlo MFO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "TRADING_OR_OPERATING_NAME",
+   "language": "pt"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-10-30",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-10",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-10",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900O6TOF1AWD4K718"
+ ],
+ "discovery": null
+}

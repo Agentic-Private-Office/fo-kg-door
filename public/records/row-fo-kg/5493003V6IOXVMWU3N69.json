@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "5493003V6IOXVMWU3N69",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "5493003V6IOXVMWU3N69",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/5493003V6IOXVMWU3N69",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "485100001PLJJ09NZT59"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "W. Family Office Aktiebolag",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "sv"
+  },
+  "jurisdiction": {
+   "value": "SE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Sweden"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2010-12-08",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Gamlavägen 28, TORSHÄLLA, 644 36, SE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "XJHM",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000544",
+   "register_id": "RA000544",
+   "id": {
+    "value": "556830-9107",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Joakim Walde Invest AB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "sv"
+  },
+  {
+   "value": "Garraway Investment AB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "sv"
+  }
+ ],
+ "events": [
+  {
+   "date": "2010-12-08",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-10",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-05-28",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-29",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/5493003V6IOXVMWU3N69"
+ ],
+ "discovery": null
+}

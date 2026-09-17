@@ -1,0 +1,239 @@
+{
+ "record": "Family Office Record",
+ "id": "969500FGF35OL025GT67",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "969500FGF35OL025GT67",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/969500FGF35OL025GT67",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "969500Q2MA9VBQ8BG884"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ADN FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://adnfamilyoffice.fr/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1, mistral-medium-latest"
+  },
+  "formation": {
+   "value": "2023-05-02",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2023-05-03",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "140B RUE DE RENNES, PARIS, 75006, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "6CHY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "952145001",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/952145001",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "EUDES BLIN",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  },
+  {
+   "name": {
+    "value": "PHILIPPE CORBEAU",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://adnfamilyoffice.fr/",
+  "source_url": "https://adnfamilyoffice.fr/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6, mistral-medium-latest"
+ },
+ "aliases": [
+  {
+   "value": "BBC INVEST",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "fr"
+  }
+ ],
+ "events": [
+  {
+   "date": "2023-05-02",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-05-03",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=952145001",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-12-17",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-15",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-18",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67"
+  }
+ ],
+ "sources": [
+  "https://adnfamilyoffice.fr/",
+  "https://api.gleif.org/api/v1/lei-records/969500FGF35OL025GT67",
+  "https://recherche-entreprises.api.gouv.fr/search?q=952145001"
+ ],
+ "discovery": null
+}

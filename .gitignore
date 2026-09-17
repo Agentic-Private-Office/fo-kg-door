@@ -1,0 +1,5 @@
+.wrangler/
+node_modules/
+*.pem
+*.log
+__pycache__/

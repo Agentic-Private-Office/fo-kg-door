@@ -1,0 +1,190 @@
+{
+ "record": "Family Office Record",
+ "id": "5299003XOE2A8N7UOI86",
+ "version": "2026-09-14.2",
+ "node": "lu-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://lu.fo-kg.ai/mcp",
+ "lei": {
+  "value": "5299003XOE2A8N7UOI86",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/5299003XOE2A8N7UOI86",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Family Office Fund II",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "lb"
+  },
+  "jurisdiction": {
+   "value": "LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Luxembourg"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2015-10-11",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "15, rue de Flaxweiler, Grevenmacher, LU-GR, L-6776, LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "AIR5",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000433",
+   "register_id": "RA000433",
+   "id": {
+    "value": "O00007938_00000002",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.axxion.lu",
+  "source_url": "https://www.axxion.lu",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "framas-Treuhand - Family Office Fund II",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "fr"
+  }
+ ],
+ "events": [
+  {
+   "date": "2015-09-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2015-10-11",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-14",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-09-03",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CSSF — search entities]",
+   "reason": "the CSSF search-entities application has no machine read the rail could reach; not read this wave",
+   "tried": "https://edesk.apps.cssf.lu/search-entities/search?lng=en&keyword=family%20office",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "registrations[Luxembourg Business Registers (RCS)]",
+   "reason": "LBR extracts need a registered account — never attempted (HITL); the RCS number is as GLEIF records it",
+   "tried": "https://www.lbr.lu/",
+   "answer": "account (extracts); maintenance page"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.axxion.lu"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/5299003XOE2A8N7UOI86",
+  "https://www.axxion.lu"
+ ],
+ "discovery": null
+}

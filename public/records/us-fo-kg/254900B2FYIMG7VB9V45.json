@@ -1,0 +1,173 @@
+{
+ "record": "Family Office Record",
+ "id": "254900B2FYIMG7VB9V45",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900B2FYIMG7VB9V45",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900B2FYIMG7VB9V45",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "RJ FAMILY OFFICE, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US-OK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-07-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/o Paracorp Incorporated, 1833 South Morgan Road, Oklahoma, US-OK, 73128, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "B8XC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Oklahoma Secretary of State — business entities",
+   "register_id": "RA000630",
+   "id": {
+    "value": "3512412938",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.sos.ok.gov/corp/corpInquiryFind.aspx",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2013-07-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-01-30",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-30",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-31",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Oklahoma Secretary of State — business entities]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://rj-familyoffice.com/",
+    "https://lei.bloomberg.com/leis/view/254900B2FYIMG7VB9V45"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.sos.ok.gov/corp/corpInquiryFind.aspx"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=rj&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/254900B2FYIMG7VB9V45",
+  "https://lei.bloomberg.com/leis/view/254900B2FYIMG7VB9V45",
+  "https://rj-familyoffice.com/"
+ ],
+ "discovery": null
+}

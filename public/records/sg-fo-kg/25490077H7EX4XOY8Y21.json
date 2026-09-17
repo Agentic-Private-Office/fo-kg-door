@@ -1,0 +1,194 @@
+{
+ "record": "Family Office Record",
+ "id": "25490077H7EX4XOY8Y21",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "25490077H7EX4XOY8Y21",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/25490077H7EX4XOY8Y21",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "CH Family Office Pte. Ltd.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on ACRA — Accounting and Corporate Regulatory Authority"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2020-09-17",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "96 Robinson Road, #16-01, SIF Building, SINGAPORE, SG-01, 068899, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "77 ROBINSON ROAD #20-01 ROBINSON 77 068896",
+     "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202028485K",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_c0650f23e94c42e7a20921f4c5b75c24/view",
+   "status": {
+    "value": "Struck Off",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-09-17",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-09-17",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-01-28",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-01-28",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-20",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.sgpbusiness.com/company/Ch-Family-Office-Pte-Ltd",
+    "https://www.sgpbusiness.com/company/Ch-Family-Office-Pte-Ltd"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_c0650f23e94c42e7a20921f4c5b75c24/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/25490077H7EX4XOY8Y21",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_c0650f23e94c42e7a20921f4c5b75c24&q=family%20office&limit=500",
+  "https://www.sgpbusiness.com/company/Ch-Family-Office-Pte-Ltd"
+ ],
+ "discovery": null
+}

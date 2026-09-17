@@ -1,0 +1,230 @@
+{
+ "record": "Family Office Record",
+ "id": "254900FHX39HQT0G1Q96",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900FHX39HQT0G1Q96",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900FHX39HQT0G1Q96",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "KORU FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://eservices.mas.gov.sg/fid/institution/detail/226619-KORU-FAMILY-OFFICE-PTE-LTD",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on MAS Financial Institutions Directory"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://korufo.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2018-11-13",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "9 Raffles Place, #06-00, Republic Plaza, Singapore, SG-01, 048619, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on ACRA — Accounting and Corporate Regulatory Authority (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "201838511N",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_5573b0db0575db32190a2ad27919a7aa/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "MAS Financial Institutions Directory",
+   "register_id": null,
+   "id": {
+    "value": "226619",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/226619-KORU-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://eservices.mas.gov.sg/fid/institution/detail/226619-KORU-FAMILY-OFFICE-PTE-LTD",
+   "status": {
+    "value": "listed",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/226619-KORU-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Adrian Ong Yew Chong",
+    "source_url": "https://korufo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Sia Meng Gwee",
+    "source_url": "https://korufo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://korufo.com/",
+  "source_url": "https://korufo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-11-13",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-11-13",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-05-10",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-04",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900FHX39HQT0G1Q96",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_5573b0db0575db32190a2ad27919a7aa&q=family%20office&limit=500",
+  "https://eservices.mas.gov.sg/fid/institution/detail/226619-KORU-FAMILY-OFFICE-PTE-LTD",
+  "https://korufo.com/"
+ ],
+ "discovery": null
+}

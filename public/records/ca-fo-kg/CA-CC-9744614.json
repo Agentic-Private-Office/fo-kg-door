@@ -1,0 +1,215 @@
+{
+ "record": "Family Office Record",
+ "id": "CA-CC-9744614",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Richardson Wealth Private Family Office Limited",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporations Canada"
+  },
+  "jurisdiction": {
+   "value": "CA",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2016-05-09",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "incorporation date on Corporations Canada"
+  },
+  "registered_office": {
+   "value": "100 Queens Quay East 2500 Toronto ON M5E 1Y3 Canada",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Corporations Canada (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Corporations Canada"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "974461-4",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "status": {
+    "value": "Active",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "770018729RC0001",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "9744614",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+   },
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2",
+   "status": {
+    "value": "Active",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "770018729",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Stephan Bourbonnais",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://rwprivatefamilyoffice.com",
+  "source_url": "https://rwprivatefamilyoffice.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "Patrimoine Richardson – Bureau privé de gestion de patrimoine Limitée",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2016-05-09",
+   "event": "incorporated — Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-02-27",
+   "event": "last annual meeting — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026",
+   "event": "last annual filing (year) — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CA&filter[fulltext]=Richardson Wealth Private Family Office Limited"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://rwprivatefamilyoffice.com"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng"
+  }
+ ],
+ "sources": [
+  "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+  "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=9744614&lang=eng",
+  "https://rwprivatefamilyoffice.com"
+ ],
+ "discovery": null
+}

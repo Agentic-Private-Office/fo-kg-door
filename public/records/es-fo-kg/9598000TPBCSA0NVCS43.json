@@ -1,0 +1,190 @@
+{
+ "record": "Family Office Record",
+ "id": "9598000TPBCSA0NVCS43",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9598000TPBCSA0NVCS43",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9598000TPBCSA0NVCS43",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "959800R2X69K6Y6MX775"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "SABAIL FAMILY OFFICE SL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://www.sabailfamilyoffice.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": {
+   "value": "2023-06-21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "MARQUES DE SAN ESTEBAN 2, Gijón, 33206, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000533",
+   "register_id": "RA000533",
+   "id": {
+    "value": "1000239511975",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "CHAPELAIN CHRISTOPHE",
+    "source_url": "https://www.sabailfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.sabailfamilyoffice.com",
+  "source_url": "https://www.sabailfamilyoffice.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2023-06-21",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-03-08",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-03-08",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-21",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=SABAIL%20FAMILY%20OFFICE%20SL",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "website",
+   "reason": "answered 403",
+   "tried": "https://www.sabailfamilyoffice.com",
+   "answer": 403
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9598000TPBCSA0NVCS43",
+  "https://www.sabailfamilyoffice.com",
+  "https://www.sabailfamilyoffice.com/?utm_source=openai"
+ ],
+ "discovery": null
+}

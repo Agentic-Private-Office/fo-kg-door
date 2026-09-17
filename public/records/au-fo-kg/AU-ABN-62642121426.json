@@ -1,0 +1,151 @@
+{
+ "record": "Family Office Record",
+ "id": "AU-ABN-62642121426",
+ "version": "2026-09-14.2",
+ "node": "au-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://au.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "CUTHBERTS BUSINESS ADVISORY PTY LTD",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "AU",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Australia"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "http://www.apfamily.com",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2020-06-27",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "NSW 2000, AU",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Australian Private Company",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Australian Business Register (ABN Lookup)",
+   "register_id": "RA000009",
+   "id": {
+    "value": "62642121426",
+    "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "status": {
+    "value": "Active",
+    "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.apfamily.com",
+  "source_url": "http://www.apfamily.com",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1"
+ },
+ "aliases": [
+  {
+   "value": "Active Family Office Advisory Business Name 2000 NSW",
+   "source_url": "https://abr.business.gov.au/Search/ResultsActive?SearchText=family%20office",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as enumerated (search result); the register page names the entity differently"
+  }
+ ],
+ "events": [
+  {
+   "date": "2020-06-27",
+   "event": "ABN active from — ABN Lookup",
+   "source_url": "https://abr.business.gov.au/ABN/View?abn=62642121426",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=AU&filter[fulltext]=Active Family Office Advisory Business Name 2000 NSW"
+  },
+  {
+   "field": "registrations[ASIC Connect — registers]",
+   "reason": "ASIC Connect search has no machine read; the open-data registers stand in for it",
+   "tried": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://abr.business.gov.au/ABN/View?abn=62642121426"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://abr.business.gov.au/ABN/View?abn=62642121426"
+  }
+ ],
+ "sources": [
+  "http://www.apfamily.com",
+  "https://abr.business.gov.au/ABN/View?abn=62642121426",
+  "https://abr.business.gov.au/Search/ResultsActive?SearchText=family%20office",
+  "https://www.asic.gov.au/online-services/search-asic-registers/business-names-register"
+ ],
+ "discovery": null
+}

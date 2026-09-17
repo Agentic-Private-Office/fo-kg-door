@@ -1,0 +1,197 @@
+{
+ "record": "Family Office Record",
+ "id": "815600D4347020EE4A30",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "815600D4347020EE4A30",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/815600D4347020EE4A30",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "CS FAMILY OFFICE S.R.L. SOCIETA' DI CONSULENZA FINANZIARIA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.csfamilyoffice.com/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2003-09-22",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "VIA AZZONE VISCONTI, 56, LECCO, IT-LC, 23900, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "OV32",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "02761610134",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Massimo Cilio",
+    "source_url": "https://www.csfamilyoffice.com/massimo-cilio/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "socio amministratore as the subject's own page says"
+   },
+   "role": "socio amministratore"
+  },
+  {
+   "name": {
+    "value": "Marcella Sivori",
+    "source_url": "https://www.csfamilyoffice.com/marcella-sivori/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "socio amministratore as the subject's own page says"
+   },
+   "role": "socio amministratore"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.csfamilyoffice.com/",
+  "source_url": "https://www.csfamilyoffice.com/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2003-09-22",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-23",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-08",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-23",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/815600D4347020EE4A30",
+  "https://www.csfamilyoffice.com/",
+  "https://www.ufficiocamerale.it/5391/cs-family-office-srl-societa-di-consulenza-finanziaria"
+ ],
+ "discovery": null
+}

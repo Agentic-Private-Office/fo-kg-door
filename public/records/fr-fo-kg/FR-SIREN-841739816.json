@@ -1,0 +1,170 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-841739816",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "SERENE FAMILY OFFICE (SFO)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2018-08-20",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "14 AVENUE ROBERT SCHUMAN 92100 BOULOGNE-BILLANCOURT",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5710",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "841739816",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/841739816"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/841739816",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "MALIKA NORIA MOUALHI",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://serene-office.com/",
+  "source_url": "https://serene-office.com/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1"
+ },
+ "aliases": [
+  {
+   "value": "SERENE FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "SFO",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2018-08-20",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=SERENE FAMILY OFFICE (SFO)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=841739816"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=841739816"
+  }
+ ],
+ "sources": [
+  "https://recherche-entreprises.api.gouv.fr/search?q=841739816",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=5",
+  "https://serene-office.com/",
+  "https://www.pappers.fr/entreprise/sfo-serene-family-office-841739816",
+  "https://www.serene-office.com/"
+ ],
+ "discovery": null
+}

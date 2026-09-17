@@ -1,0 +1,426 @@
+{
+ "node": "it-fo-kg",
+ "country": "IT",
+ "jurisdiction": "Italy",
+ "host": "https://it.fo-kg.ai",
+ "door": "https://it.fo-kg.ai/mcp",
+ "host_long": "https://it-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://it-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "81560008F514C8CCBA18",
+   "lei": "81560008F514C8CCBA18",
+   "legal_name": "A.B. SOLUTE FAMILY OFFICE & CONSULTING SRL",
+   "aliases": [],
+   "register_ids": [
+    "03027910243"
+   ],
+   "jurisdiction": "Italy",
+   "city": "VICENZA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.absolutenet.eu/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/81560008F514C8CCBA18.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "81560057F6E208E94936",
+   "lei": "81560057F6E208E94936",
+   "legal_name": "81 SOCIETA' DI CONSULENZA FINANZIARIA FAMILY OFFICE SRL",
+   "aliases": [
+    "81 SOCIETA' DI CONSULENZA FINANZIARIA FAMILY OFFICE SPA IN FORMA ABBREVIATA \"81 SCF SPA\""
+   ],
+   "register_ids": [
+    "03341580243"
+   ],
+   "jurisdiction": "Italy",
+   "city": "VICENZA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.81scf.com/",
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/81560057F6E208E94936.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "81560077E3EB04AF2252",
+   "lei": "81560077E3EB04AF2252",
+   "legal_name": "KAYAK FAMILY OFFICE S.R.L.",
+   "aliases": [],
+   "register_ids": [
+    "12401090969"
+   ],
+   "jurisdiction": "Italy",
+   "city": "MILANO",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/81560077E3EB04AF2252.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600A451B54F577118",
+   "lei": "815600A451B54F577118",
+   "legal_name": "CORPORATE FAMILY OFFICE SIM S.P.A. - SOCIETA' DI INTERMEDIAZIONE MOBILIARE - ABBREVIATA CFO SIM S.P.A.",
+   "aliases": [],
+   "register_ids": [
+    "13256570154"
+   ],
+   "jurisdiction": "Italy",
+   "city": "Milano",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.cfosim.com",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600A451B54F577118.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600AB6AAB04524E83",
+   "lei": "815600AB6AAB04524E83",
+   "legal_name": "MF FAMILY OFFICE S.S.",
+   "aliases": [],
+   "register_ids": [
+    "94269750488"
+   ],
+   "jurisdiction": "Italy",
+   "city": "FIRENZE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600AB6AAB04524E83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600B6A58745730C93",
+   "lei": "815600B6A58745730C93",
+   "legal_name": "COLUSSI FAMILY OFFICE S.R.L. O IN FORMA ABBREVIATA CFO S.R.L.",
+   "aliases": [],
+   "register_ids": [
+    "10430240969"
+   ],
+   "jurisdiction": "Italy",
+   "city": "MILANO",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600B6A58745730C93.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600D025401AC6C512",
+   "lei": "815600D025401AC6C512",
+   "legal_name": "ALETTI MONTANO & CO. FAMILY OFFICE S.R.L.",
+   "aliases": [],
+   "register_ids": [
+    "12903610157"
+   ],
+   "jurisdiction": "Italy",
+   "city": "VARESE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.alettimontano.it",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600D025401AC6C512.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600D4347020EE4A30",
+   "lei": "815600D4347020EE4A30",
+   "legal_name": "CS FAMILY OFFICE S.R.L. SOCIETA' DI CONSULENZA FINANZIARIA",
+   "aliases": [],
+   "register_ids": [
+    "02761610134"
+   ],
+   "jurisdiction": "Italy",
+   "city": "LECCO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.csfamilyoffice.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600D4347020EE4A30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600D8A70D3736AD23",
+   "lei": "815600D8A70D3736AD23",
+   "legal_name": "FAMILY OFFICE ITALIA - SOCIETA' DI CONSULENZA FINANZIARIA SRL",
+   "aliases": [],
+   "register_ids": [
+    "04525690402"
+   ],
+   "jurisdiction": "Italy",
+   "city": "RIMINI",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.familyofficeitalia.it/",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600D8A70D3736AD23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600DCCE3F552DB834",
+   "lei": "815600DCCE3F552DB834",
+   "legal_name": "GISEV FAMILY OFFICE S.P.A.",
+   "aliases": [],
+   "register_ids": [
+    "02159210026"
+   ],
+   "jurisdiction": "Italy",
+   "city": "MILANO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.gisev.com",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600DCCE3F552DB834.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600F0CFBB381D4522",
+   "lei": "815600F0CFBB381D4522",
+   "legal_name": "SPAFID FAMILY OFFICE SIM S.P.A.",
+   "aliases": [],
+   "register_ids": [
+    "09586370968"
+   ],
+   "jurisdiction": "Italy",
+   "city": "MILANO",
+   "entity_status": "INACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.spafid.it/it",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600F0CFBB381D4522.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "815600F9DA3A56576786",
+   "lei": "815600F9DA3A56576786",
+   "legal_name": "VPS FAMILY OFFICE S.R.L.",
+   "aliases": [],
+   "register_ids": [
+    "03230350591"
+   ],
+   "jurisdiction": "Italy",
+   "city": "CISTERNA DI LATINA",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/it-fo-kg/815600F9DA3A56576786.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 190,
+  "sourced": 153,
+  "filled": 22,
+  "confirmed": 15,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 54,
+  "events": 46,
+  "registrations": 12,
+  "principals": 21,
+  "with_lei": 12,
+  "with_website": 8,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 3
+ },
+ "sources": [
+  {
+   "name": "www.absolutenet.eu — subject website",
+   "url": "https://www.absolutenet.eu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.gisev.com — subject website",
+   "url": "https://www.gisev.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.spafid.it — subject website",
+   "url": "https://www.spafid.it/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "CONSOB — albi ed elenchi",
+   "subjects": 12
+  },
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "subjects": 12
+  },
+  {
+   "register": "website",
+   "subjects": 1
+  }
+ ],
+ "reads": 3,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/it-fo-kg/<source>/2026-09-14/"
+ }
+}

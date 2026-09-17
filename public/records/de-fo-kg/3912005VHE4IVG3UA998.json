@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "3912005VHE4IVG3UA998",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "3912005VHE4IVG3UA998",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/3912005VHE4IVG3UA998",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "WI Rheinfels Family Office GmbH & Co. KG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-05-05",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Oststr. 11-13, Köln, DE-NW, 50996, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8Z6G",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000280",
+   "register_id": "RA000280",
+   "id": {
+    "value": "HRA 38138",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-05-05",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-17",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-17",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=WI+Rheinfels+Family+Office+GmbH+%26+Co.+KG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000280]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.de/WI%20Rheinfels%20Family%20Office%20GmbH%20&%20Co%C2%B7%20KG,%20K%C3%B6ln/HRA%2038138",
+    "https://www.northdata.com/WI%20Rheinfels%20Family%20Office%20GmbH%20&%20Co%C2%B7%20KG,%20K%C3%B6ln/HRA%2038138",
+    "https://www.companyhouse.de/WI-Rheinfels-Family-Office-GmbH-Co-KG-Koeln?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/3912005VHE4IVG3UA998",
+  "https://www.companyhouse.de/WI-Rheinfels-Family-Office-GmbH-Co-KG-Koeln?utm_source=openai",
+  "https://www.northdata.com/WI%20Rheinfels%20Family%20Office%20GmbH%20&%20Co%C2%B7%20KG,%20K%C3%B6ln/HRA%2038138",
+  "https://www.northdata.de/WI%20Rheinfels%20Family%20Office%20GmbH%20&%20Co%C2%B7%20KG,%20K%C3%B6ln/HRA%2038138"
+ ],
+ "discovery": null
+}

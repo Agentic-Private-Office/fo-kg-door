@@ -1,0 +1,197 @@
+{
+ "record": "Family Office Record",
+ "id": "984500684OWB067B6177",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500684OWB067B6177",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500684OWB067B6177",
+  "registration_status": "ISSUED",
+  "corroboration": "PARTIALLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Sigma2 Bureau Familial Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "fr"
+  },
+  "jurisdiction": {
+   "value": "CA-QC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2022-12-28",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "455-1 car. Westmount, Westmount, CA-QC, H3Z 2P9, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registraire des entreprises (Québec)",
+   "register_id": "RA000081",
+   "id": {
+    "value": "1178289873",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registreentreprises.gouv.qc.ca/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Ronald Mayers",
+    "source_url": "https://www.sigma2fo.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.sigma2fo.com",
+  "source_url": "https://www.sigma2fo.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "Sigma2 Family Office Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2022-12-28",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-08-02",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-03",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-08-02",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Registraire des entreprises (Québec)]",
+   "reason": "the NEQ page answers a challenge page to machines",
+   "tried": "https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.CodeService=S00436&NEQ=1178289873",
+   "answer": 403
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.sigma2fo.com/"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.sigma2fo.com"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/984500684OWB067B6177",
+  "https://www.sigma2fo.com",
+  "https://www.sigma2fo.com/"
+ ],
+ "discovery": null
+}

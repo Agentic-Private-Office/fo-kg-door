@@ -1,0 +1,166 @@
+{
+ "record": "Family Office Record",
+ "id": "95980020140005205197",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "95980020140005205197",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/95980020140005205197",
+  "registration_status": "ANNULLED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "959800R2X69K6Y6MX775"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ADVISORY FAMILY OFFICE SERVICES, SL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "CARRER DOCTORS TRIAS I PUJOL, 6-8, Barcelona, 08034, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "NULL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000533",
+   "register_id": "RA000533",
+   "id": {
+    "value": "tomo 36418 folio 0040 hoja 288393",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.summapatrimonia.com",
+  "source_url": "http://www.summapatrimonia.com",
+  "read_by": "gpt-4.1",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gpt-4.1 on the page it cites"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2014-02-12",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2015-02-12",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=ADVISORY%20FAMILY%20OFFICE%20SERVICES%2C%20SL",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/95980020140005205197"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/95980020140005205197"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/95980020140005205197"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/95980020140005205197"
+  }
+ ],
+ "sources": [
+  "http://www.summapatrimonia.com",
+  "https://api.gleif.org/api/v1/lei-records/95980020140005205197",
+  "https://www.anchoreafi.com/en/family-office",
+  "https://www.linkedin.com/company/summa-patrimonia-eafi-s.l."
+ ],
+ "discovery": null
+}

@@ -1,0 +1,162 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE134949049",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "AVA FAMILY OFFICE SAGL",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.avafamilyoffice.ch",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Via Canova, 9, 6900",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "GmbH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-134.949.049",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-134.949.049"
+   },
+   "url": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-134.949.049",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Vittorio Scala",
+    "source_url": "https://www.avafamilyoffice.ch",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "José Marco Casellini",
+    "source_url": "https://www.avafamilyoffice.ch",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.avafamilyoffice.ch",
+  "source_url": "https://www.avafamilyoffice.ch",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-01-30",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=AVA FAMILY OFFICE SAGL"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "answered 403",
+   "tried": "https://www.avafamilyoffice.ch",
+   "answer": 403
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json"
+  }
+ ],
+ "sources": [
+  "https://www.avafamilyoffice.ch",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1423896.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

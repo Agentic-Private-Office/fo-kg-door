@@ -1,0 +1,217 @@
+{
+ "record": "Family Office Record",
+ "id": "894500M0CC0Z3HLWMT45",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500M0CC0Z3HLWMT45",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500M0CC0Z3HLWMT45",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "LA RECTORIE FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2023-07-30",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2023-07-31",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "332 RUE SAINT-HONORE, PARIS, 75001, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "V9QP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "978315927",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/978315927",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "CLÉMENT JOREZ",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2023-07-30",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-07-31",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-01-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-25",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.linkedin.com/company/la-rectorie-family-office",
+    "https://www.linkedin.com/company/la-rectorie-family-office",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500M0CC0Z3HLWMT45",
+  "https://recherche-entreprises.api.gouv.fr/search?q=978315927",
+  "https://www.linkedin.com/company/la-rectorie-family-office"
+ ],
+ "discovery": null
+}

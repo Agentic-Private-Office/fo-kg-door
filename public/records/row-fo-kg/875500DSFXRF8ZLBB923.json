@@ -1,0 +1,160 @@
+{
+ "record": "Family Office Record",
+ "id": "875500DSFXRF8ZLBB923",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "875500DSFXRF8ZLBB923",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/875500DSFXRF8ZLBB923",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "52990034RLKT0WSOAM90"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Al Tajir Family Office Establishment",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "LI",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Liechtenstein"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-07-04",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Pflugstrasse 10, Vaduz, LI-11, 9490, LI",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "TMU1",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000428",
+   "register_id": "RA000428",
+   "id": {
+    "value": "FL-0002.458.537-3",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2013-07-04",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-05-28",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-20",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-30",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/875500DSFXRF8ZLBB923"
+ ],
+ "discovery": null
+}

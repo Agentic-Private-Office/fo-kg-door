@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "9845008A3FC6C4EC6611",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9845008A3FC6C4EC6611",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9845008A3FC6C4EC6611",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Hagemann Family Office GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2018-05-31",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Burgfeldstraße 7, Bad Segeberg, DE-SH, 23795, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000277",
+   "register_id": "RA000277",
+   "id": {
+    "value": "HRB 19679 KI",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Healthy Family Office GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "de"
+  }
+ ],
+ "events": [
+  {
+   "date": "2018-05-31",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-06-19",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-19",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-19",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Hagemann+Family+Office+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000277]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.com/Hagemann%20Family%20Office%20GmbH,%20Bad%20Segeberg/Amtsgericht%20Kiel%20HRB%2019679%20KI",
+    "https://www.northdata.de/Hagemann%20Family%20Office%20GmbH,%20Bad%20Segeberg/Amtsgericht%20Kiel%20HRB%2019679%20KI",
+    "https://branchenbuch.meinestadt.de/bad-segeberg/company/15245793?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9845008A3FC6C4EC6611",
+  "https://branchenbuch.meinestadt.de/bad-segeberg/company/15245793?utm_source=openai",
+  "https://www.northdata.com/Hagemann%20Family%20Office%20GmbH,%20Bad%20Segeberg/Amtsgericht%20Kiel%20HRB%2019679%20KI",
+  "https://www.northdata.de/Hagemann%20Family%20Office%20GmbH,%20Bad%20Segeberg/Amtsgericht%20Kiel%20HRB%2019679%20KI"
+ ],
+ "discovery": null
+}

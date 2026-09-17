@@ -1,0 +1,173 @@
+{
+ "record": "Family Office Record",
+ "id": "AS-synovus-family-office",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": null,
+ "associations": [
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "faculty",
+   "listing": {
+    "value": "Synovus Family Office",
+    "source_url": "https://uhnwinstitute.org/faculty",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2026-01-01",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "advisory-board",
+   "listing": {
+    "value": "Synovus Family Office",
+    "source_url": "https://uhnwinstitute.org/advisory-board",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Synovus Family Office",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "panelist",
+    "page_date": "2022-11-17",
+    "basis": "named on the The UHNW Institute page as panelist"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "Synovus Family Office",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "ZZ",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Rest of world"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": null,
+  "legal_form": null,
+  "entity_status": null,
+  "category": null
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-11-17",
+   "event": "named on The UHNW Institute page (cited; panelist)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-01",
+   "event": "named on The UHNW Institute page (faculty; listed)",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-14",
+   "event": "named on The UHNW Institute page (advisory-board; listed) — dated by the read; the page states no date",
+   "source_url": "https://uhnwinstitute.org/advisory-board",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=ZZ&filter[fulltext]=Synovus Family Office"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.linkedin.com/company/the-family-office-at-synovus",
+    "https://www.linkedin.com/company/the-family-office-at-synovus"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://uhnwinstitute.org/faculty"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://uhnwinstitute.org/faculty"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://uhnwinstitute.org/faculty"
+  },
+  {
+   "field": "registrations",
+   "reason": "not on any register read under this name; the association or conference page is the only source (ORDER-006)",
+   "tried": "https://uhnwinstitute.org/faculty"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://uhnwinstitute.org/faculty"
+  }
+ ],
+ "sources": [
+  "https://uhnwinstitute.org/advisory-board",
+  "https://uhnwinstitute.org/faculty",
+  "https://www.linkedin.com/company/the-family-office-at-synovus",
+  "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-family-office-at-synovus",
+   "x": null,
+   "website_named": "https://synovusfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-family-office-at-synovus",
+   "x": null,
+   "website_named": "https://synovusfamilyoffice.com/"
+  }
+ ]
+}

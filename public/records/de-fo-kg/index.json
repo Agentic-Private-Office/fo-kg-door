@@ -1,0 +1,6050 @@
+{
+ "node": "de-fo-kg",
+ "country": "DE",
+ "jurisdiction": "Germany",
+ "host": "https://de.fo-kg.ai",
+ "door": "https://de.fo-kg.ai/mcp",
+ "host_long": "https://de-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://de-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "213800OQ17L3PB4O1U38",
+   "lei": "213800OQ17L3PB4O1U38",
+   "legal_name": "HSBC TRINKAUS FAMILY OFFICE GMBH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 53760"
+   ],
+   "jurisdiction": "Germany",
+   "city": "DÜSSELDORF",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.hsbc-zertifikate.de/emittent",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/213800OQ17L3PB4O1U38.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2549002JRTWM7GX64E18",
+   "lei": "2549002JRTWM7GX64E18",
+   "legal_name": "BAUMGARTNER FAMILY OFFICE GMBH",
+   "aliases": [
+    "Management & Investment Advisors GmbH",
+    "Baumgartner Management Advisor GmbH",
+    "Baumgartner Management Advisors GmbH"
+   ],
+   "register_ids": [
+    "HRB 196583"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Munich",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/2549002JRTWM7GX64E18.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "39120006JLC0R618QN82",
+   "lei": "39120006JLC0R618QN82",
+   "legal_name": "KaBu Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 58720"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ratingen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/39120006JLC0R618QN82.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912000CH15FCLEWYI07",
+   "lei": "3912000CH15FCLEWYI07",
+   "legal_name": "Vicis Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 232591"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ubstadt-Weiher",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.vicis-gmbh.de/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912000CH15FCLEWYI07.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912000DANFPJTFLT486",
+   "lei": "3912000DANFPJTFLT486",
+   "legal_name": "Markus Plank Family Office Holding UG (haftungsbeschränkt)",
+   "aliases": [],
+   "register_ids": [
+    "HRB 82941"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912000DANFPJTFLT486.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912001EPPXQSHVRCE33",
+   "lei": "3912001EPPXQSHVRCE33",
+   "legal_name": "ABT Family Office und Consulting GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 11035"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Wenden",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://abt-family-office.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912001EPPXQSHVRCE33.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912001U2APCZPYKTT97",
+   "lei": "3912001U2APCZPYKTT97",
+   "legal_name": "A/VENTUM family office Consulting AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 752076"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Stuttgart",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.avfo.de",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912001U2APCZPYKTT97.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200210YLCKXC7IS06",
+   "lei": "391200210YLCKXC7IS06",
+   "legal_name": "Klaus Hinkel Family Office Holding UG (haftungsbeschränkt)",
+   "aliases": [],
+   "register_ids": [
+    "HRB 19689"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Meerbusch",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200210YLCKXC7IS06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912005MKNVWCOYFVF52",
+   "lei": "3912005MKNVWCOYFVF52",
+   "legal_name": "UMC Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 281420"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912005MKNVWCOYFVF52.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912005T56KYNOO4RO31",
+   "lei": "3912005T56KYNOO4RO31",
+   "legal_name": "Fiorik Family Office GmbH",
+   "aliases": [
+    "Fiorik GmbH"
+   ],
+   "register_ids": [
+    "HRB 19750"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bochum",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://fiorik.de",
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912005T56KYNOO4RO31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912005VHE4IVG3UA998",
+   "lei": "3912005VHE4IVG3UA998",
+   "legal_name": "WI Rheinfels Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 38138"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912005VHE4IVG3UA998.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "39120063CUD060MQCH30",
+   "lei": "39120063CUD060MQCH30",
+   "legal_name": "Schumacher-Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 12240"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Flensburg",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/39120063CUD060MQCH30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912006BIPT4RLZCTN44",
+   "lei": "3912006BIPT4RLZCTN44",
+   "legal_name": "Wolf Family Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Essen",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.wolf-familyoffice.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912006BIPT4RLZCTN44.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912006MPWJDI2TVJD06",
+   "lei": "3912006MPWJDI2TVJD06",
+   "legal_name": "TRESONO Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 71421"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.tresono.de/",
+   "fields": {
+    "total": 23,
+    "sourced": 13,
+    "filled": 8,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912006MPWJDI2TVJD06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912007AGDEJVVMGY203",
+   "lei": "3912007AGDEJVVMGY203",
+   "legal_name": "P. L Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 31817"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Genthin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912007AGDEJVVMGY203.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912007IVJ6ODAJGQC58",
+   "lei": "3912007IVJ6ODAJGQC58",
+   "legal_name": "Family Office Contor GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 208542"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Seevetal",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://foc-gerwing.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912007IVJ6ODAJGQC58.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "39120082ZSLED7DLFO41",
+   "lei": "39120082ZSLED7DLFO41",
+   "legal_name": "LM Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 123794"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Karlsruhe",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/39120082ZSLED7DLFO41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912008N70TO1RDU3Z54",
+   "lei": "3912008N70TO1RDU3Z54",
+   "legal_name": "F&S Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 33225"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Dortmund",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/3912008N70TO1RDU3Z54.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "39120096NIYJK0A4KO38",
+   "lei": "39120096NIYJK0A4KO38",
+   "legal_name": "Thesauros Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 119929"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.thesauros.eu/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/39120096NIYJK0A4KO38.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200ACGUFOYNJ2AX22",
+   "lei": "391200ACGUFOYNJ2AX22",
+   "legal_name": "LUCA Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 213179"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200ACGUFOYNJ2AX22.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200B8HETKF7R2KK84",
+   "lei": "391200B8HETKF7R2KK84",
+   "legal_name": "Startup Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 741871"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Weingarten",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://sfo.vc",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200B8HETKF7R2KK84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200BWL3S24F4Q2J56",
+   "lei": "391200BWL3S24F4Q2J56",
+   "legal_name": "KARERO Family Office KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 25412"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.schulz.ooo/karero/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200BWL3S24F4Q2J56.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200CQXHYPG7SY7G34",
+   "lei": "391200CQXHYPG7SY7G34",
+   "legal_name": "NOVETHOS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 118099"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.novethos.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200CQXHYPG7SY7G34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200CXVWW68C4DDO91",
+   "lei": "391200CXVWW68C4DDO91",
+   "legal_name": "Trowe Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 27607"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Duesseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200CXVWW68C4DDO91.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200D4CQ2YUK6D3B16",
+   "lei": "391200D4CQ2YUK6D3B16",
+   "legal_name": "HONESTAS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 146900"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.honestas-family-office.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200D4CQ2YUK6D3B16.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200DD1JSFTX9Z4I70",
+   "lei": "391200DD1JSFTX9Z4I70",
+   "legal_name": "ANDREEW Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 228061"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200DD1JSFTX9Z4I70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200DJFQ750OQ8WR76",
+   "lei": "391200DJFQ750OQ8WR76",
+   "legal_name": "Peter May Family Office Service GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 127086"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.petermay-fos.com",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200DJFQ750OQ8WR76.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200FEPJG79TE4DH11",
+   "lei": "391200FEPJG79TE4DH11",
+   "legal_name": "SJS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 240425"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Erding",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200FEPJG79TE4DH11.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200FWZU17GJ2PAE35",
+   "lei": "391200FWZU17GJ2PAE35",
+   "legal_name": "Hausmann Family Office GmbH",
+   "aliases": [
+    "Hausmann Projekt- und Verwaltungs GmbH"
+   ],
+   "register_ids": [
+    "HRB 19007HL"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Lübeck",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://hausmann.family/",
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200FWZU17GJ2PAE35.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200GJNRJLU6NIHS59",
+   "lei": "391200GJNRJLU6NIHS59",
+   "legal_name": "Atlas Family Office KGaA",
+   "aliases": [],
+   "register_ids": [
+    "HRB 90343"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Frankfurt am Main",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200GJNRJLU6NIHS59.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200GO2SLISYRZAB26",
+   "lei": "391200GO2SLISYRZAB26",
+   "legal_name": "Hans Hinkel Family Office Holding UG (haftungsbeschränkt)",
+   "aliases": [],
+   "register_ids": [
+    "HRB 82944"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200GO2SLISYRZAB26.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200HE1OSR2YGDFO78",
+   "lei": "391200HE1OSR2YGDFO78",
+   "legal_name": "Zechendorf Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 210869"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Lüneburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.zechendorf.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200HE1OSR2YGDFO78.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200IEZFF743YUIR10",
+   "lei": "391200IEZFF743YUIR10",
+   "legal_name": "Rödl Family Office GmbH &Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 12925"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Rückersdorf",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": "http://www.roedl.de",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200IEZFF743YUIR10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200INBBQBZW7UHE03",
+   "lei": "391200INBBQBZW7UHE03",
+   "legal_name": "Rhenish Family Office GmbH",
+   "aliases": [
+    "Juergen Fritzen UG (haftungsbeschränkt)"
+   ],
+   "register_ids": [
+    "HRB 186368"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Markt Schwaben",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200INBBQBZW7UHE03.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200JRIYX6LIR8FT29",
+   "lei": "391200JRIYX6LIR8FT29",
+   "legal_name": "KINGSWAY Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 183376"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://kingsway-fo.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200JRIYX6LIR8FT29.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200JVZ2K5ARBCIH13",
+   "lei": "391200JVZ2K5ARBCIH13",
+   "legal_name": "Salem Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 159426"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200JVZ2K5ARBCIH13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200KW4VT6VCOHWN46",
+   "lei": "391200KW4VT6VCOHWN46",
+   "legal_name": "Seppelfricke & Co. Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 73045"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.seppelfricke-family-office.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200KW4VT6VCOHWN46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200L2Y5ZU44U61T35",
+   "lei": "391200L2Y5ZU44U61T35",
+   "legal_name": "AFO GmbH Aurelia Family Office",
+   "aliases": [],
+   "register_ids": [
+    "HRB 215701"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Andechs",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200L2Y5ZU44U61T35.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200LGCSMVTETHB954",
+   "lei": "391200LGCSMVTETHB954",
+   "legal_name": "Bodenstein Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 25396KI"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Kiel",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200LGCSMVTETHB954.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200LMDHDQMZHWY110",
+   "lei": "391200LMDHDQMZHWY110",
+   "legal_name": "BeFinanz Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 245466"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://befinanz.de",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200LMDHDQMZHWY110.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200M2OIOZLSE8DF48",
+   "lei": "391200M2OIOZLSE8DF48",
+   "legal_name": "Bremer Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 25651HB"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bremen",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://bfo-ag.de/",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200M2OIOZLSE8DF48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200N93SVN725QRN23",
+   "lei": "391200N93SVN725QRN23",
+   "legal_name": "REVISIO Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 31927"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Wiesbaden",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://revisio-family.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200N93SVN725QRN23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200NL6P7OR8BT5O36",
+   "lei": "391200NL6P7OR8BT5O36",
+   "legal_name": "A/VENTUM family office Immobilien GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 770834"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Stuttgart",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200NL6P7OR8BT5O36.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200OJO6PTJ8PVIC27",
+   "lei": "391200OJO6PTJ8PVIC27",
+   "legal_name": "Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 134734"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.family-office-gmbh.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200OJO6PTJ8PVIC27.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200P8LL2QOYXZ8Z46",
+   "lei": "391200P8LL2QOYXZ8Z46",
+   "legal_name": "L-Family Office Nr. 7 GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 106335"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Riemerling",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.l-familyoffice.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200P8LL2QOYXZ8Z46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200PDS9ALOWBXTN13",
+   "lei": "391200PDS9ALOWBXTN13",
+   "legal_name": "M&M Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 212373"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hannover",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200PDS9ALOWBXTN13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200PILIG9KCEP0898",
+   "lei": "391200PILIG9KCEP0898",
+   "legal_name": "MB Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 12668"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Lippstadt",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200PILIG9KCEP0898.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200Q4ER8TDVVKAN52",
+   "lei": "391200Q4ER8TDVVKAN52",
+   "legal_name": "Düsterberg-Eissing Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 19011"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Neuss",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.de-fo.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200Q4ER8TDVVKAN52.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200QCXK2SEYXJXT03",
+   "lei": "391200QCXK2SEYXJXT03",
+   "legal_name": "L-Family Office Nr. 8 GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 101281"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200QCXK2SEYXJXT03.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200QH91GLUC9W8O94",
+   "lei": "391200QH91GLUC9W8O94",
+   "legal_name": "Taubenhuber Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 276425"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200QH91GLUC9W8O94.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200RPA6FI24KJ6877",
+   "lei": "391200RPA6FI24KJ6877",
+   "legal_name": "Kraus & Freund Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 3455"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Viechtach",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200RPA6FI24KJ6877.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200RUGBEBCRBURG26",
+   "lei": "391200RUGBEBCRBURG26",
+   "legal_name": "Schmidt Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 94998"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200RUGBEBCRBURG26.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200S91TBLZCGAIJ45",
+   "lei": "391200S91TBLZCGAIJ45",
+   "legal_name": "L-Family Office Nr. 2 GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 106084"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": "https://www.l-familyoffice.com/",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200S91TBLZCGAIJ45.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200SDKXMEULT49Z69",
+   "lei": "391200SDKXMEULT49Z69",
+   "legal_name": "Labud Family Office GmbH",
+   "aliases": [
+    "SEB Beteiligungen GmbH"
+   ],
+   "register_ids": [
+    "HRB 103450"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200SDKXMEULT49Z69.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200SRUSP3QXNALX86",
+   "lei": "391200SRUSP3QXNALX86",
+   "legal_name": "TRIPLE Family Office Vermögensverwaltungsgesellschaft mbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 122931"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.schwanenland.de",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200SRUSP3QXNALX86.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200SWI1LYDY13D348",
+   "lei": "391200SWI1LYDY13D348",
+   "legal_name": "Frers Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 16723"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Delbrück",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200SWI1LYDY13D348.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200TOHJB1VPQP4U11",
+   "lei": "391200TOHJB1VPQP4U11",
+   "legal_name": "917 Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 47867"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Neu-Isenburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://917family.de",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200TOHJB1VPQP4U11.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200TWN2IV9PZQ2E23",
+   "lei": "391200TWN2IV9PZQ2E23",
+   "legal_name": "SAENTIS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 50241"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Mainz",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://saentis-fo.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200TWN2IV9PZQ2E23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200U19HVSA6OLMQ81",
+   "lei": "391200U19HVSA6OLMQ81",
+   "legal_name": "Kurt Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 221999"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hannover",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200U19HVSA6OLMQ81.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200UA0EL0TC7PG143",
+   "lei": "391200UA0EL0TC7PG143",
+   "legal_name": "Sander Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 101323"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200UA0EL0TC7PG143.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200URUQJXLQ17Z514",
+   "lei": "391200URUQJXLQ17Z514",
+   "legal_name": "Lötzsch family office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Norderstedt",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200URUQJXLQ17Z514.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200UZJKH9HKQWQF67",
+   "lei": "391200UZJKH9HKQWQF67",
+   "legal_name": "Hibiskus Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 26469"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Wachtberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200UZJKH9HKQWQF67.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200VBBR0FF0DHDC88",
+   "lei": "391200VBBR0FF0DHDC88",
+   "legal_name": "kjup Capital Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 85224"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.kjup.com",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200VBBR0FF0DHDC88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200VDIXYXK5TJOK14",
+   "lei": "391200VDIXYXK5TJOK14",
+   "legal_name": "Dr. Giesen Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 29849"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Essen",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://dgfo.group/",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200VDIXYXK5TJOK14.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200VO3T1UA4BQQN59",
+   "lei": "391200VO3T1UA4BQQN59",
+   "legal_name": "TREVIAS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 108986"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200VO3T1UA4BQQN59.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200WS4LG4IQY48Z82",
+   "lei": "391200WS4LG4IQY48Z82",
+   "legal_name": "Brigitte Herzog TELIOS Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 8,
+   "events": 3,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200WS4LG4IQY48Z82.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200XGQZRLLOT1RM54",
+   "lei": "391200XGQZRLLOT1RM54",
+   "legal_name": "Medicus Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 126268"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200XGQZRLLOT1RM54.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200Y23HTLWRB6H722",
+   "lei": "391200Y23HTLWRB6H722",
+   "legal_name": "Rüdiger Jäger Family Office Holding UG (haftungsbeschränkt)",
+   "aliases": [],
+   "register_ids": [
+    "HRB 82891"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200Y23HTLWRB6H722.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200Y3PIWK7P3DEV69",
+   "lei": "391200Y3PIWK7P3DEV69",
+   "legal_name": "M.P. Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 258616"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Grünwald",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://mp-familyoffice.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200Y3PIWK7P3DEV69.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200Y6KFK94U1JZG50",
+   "lei": "391200Y6KFK94U1JZG50",
+   "legal_name": "CFO Confidenus Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 55385"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Offenbach am Main",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200Y6KFK94U1JZG50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200YWQ235013KC081",
+   "lei": "391200YWQ235013KC081",
+   "legal_name": "Geissler Family Office KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 105490"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200YWQ235013KC081.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200Z56ZSC8PQ4B486",
+   "lei": "391200Z56ZSC8PQ4B486",
+   "legal_name": "Reinhardt Family Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Büchenbach",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200Z56ZSC8PQ4B486.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200ZX0H2056GKKO06",
+   "lei": "391200ZX0H2056GKKO06",
+   "legal_name": "Trinitas Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 125019"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200ZX0H2056GKKO06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200ZXMN8ZF17AAA88",
+   "lei": "391200ZXMN8ZF17AAA88",
+   "legal_name": "Dr. Giesen Family Office Immobilien eGbR",
+   "aliases": [
+    "Dr. Giesen Family Office GbR"
+   ],
+   "register_ids": [
+    "GsR 133"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Essen",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://dgfo.group",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/391200ZXMN8ZF17AAA88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299001LWJFYWBS9BR80",
+   "lei": "5299001LWJFYWBS9BR80",
+   "legal_name": "Wild Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 722080"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Furtwangen im Schwarzwald",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299001LWJFYWBS9BR80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299002GIQONM1ZJHF70",
+   "lei": "5299002GIQONM1ZJHF70",
+   "legal_name": "MH Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 100914"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hasselroth",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299002GIQONM1ZJHF70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299002GSRG7BMNCOA34",
+   "lei": "5299002GSRG7BMNCOA34",
+   "legal_name": "Harald Quandt Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 1608"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bad Homburg v.d.Höhe",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://haraldquandt.de/en/welcome",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299002GSRG7BMNCOA34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299002N1SPG4SJY4U28",
+   "lei": "5299002N1SPG4SJY4U28",
+   "legal_name": "Veit Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 723361"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ellwangen (Jagst)",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299002N1SPG4SJY4U28.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "52990036FUAV7ZDKPZ49",
+   "lei": "52990036FUAV7ZDKPZ49",
+   "legal_name": "Vogt Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 748499"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Brühl",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/52990036FUAV7ZDKPZ49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "52990039PB91GTVB5Y96",
+   "lei": "52990039PB91GTVB5Y96",
+   "legal_name": "Mankel Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 6797"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ennepetal",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.dormakaba.com/de-de",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/52990039PB91GTVB5Y96.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299003G9CMV5CY1FU81",
+   "lei": "5299003G9CMV5CY1FU81",
+   "legal_name": "Deutsche Oppenheim Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 99241"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.deutsche-oppenheim.de",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299003G9CMV5CY1FU81.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "52990058MAHSK68RZ692",
+   "lei": "52990058MAHSK68RZ692",
+   "legal_name": "CJH Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 83628"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://cjhfo.de",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/52990058MAHSK68RZ692.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900665RJM09MHGV55",
+   "lei": "529900665RJM09MHGV55",
+   "legal_name": "Fielmann Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 159551"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.fielmann-group.com/en/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900665RJM09MHGV55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299006B0TJW7EMLUI17",
+   "lei": "5299006B0TJW7EMLUI17",
+   "legal_name": "Peter Family Office Berlin Gewerbe GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 16192"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Fürth",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299006B0TJW7EMLUI17.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299006EDP0W6YCXKK46",
+   "lei": "5299006EDP0W6YCXKK46",
+   "legal_name": "RBG Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 24021"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Schlangenbad",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.rbg-online.com",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299006EDP0W6YCXKK46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900816HWHX9MNL978",
+   "lei": "529900816HWHX9MNL978",
+   "legal_name": "Köppl Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 11734"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Eggenfelden",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.koeppl.de/formierungen/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900816HWHX9MNL978.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299008DT6U7QL9VYM98",
+   "lei": "5299008DT6U7QL9VYM98",
+   "legal_name": "Pala Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 14709 FL"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Schleswig",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299008DT6U7QL9VYM98.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299009S60CTEVZTNW10",
+   "lei": "5299009S60CTEVZTNW10",
+   "legal_name": "Schönlands Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 9678"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bonn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/5299009S60CTEVZTNW10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ADCJYC0741Y431",
+   "lei": "529900ADCJYC0741Y431",
+   "legal_name": "DANKE Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 712838"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Heidelberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ADCJYC0741Y431.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900AUD5FD312ISD61",
+   "lei": "529900AUD5FD312ISD61",
+   "legal_name": "FOSTER Forschungsinstitut für Family Offices GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 84934"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Frankfurt am Main",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.foster-institut.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900AUD5FD312ISD61.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900B84OGL7U6JY566",
+   "lei": "529900B84OGL7U6JY566",
+   "legal_name": "ODDO BHF Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 51846"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Frankfurt am Main",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://fo.oddo-bhf.com/en/",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900B84OGL7U6JY566.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900BJBIWHXRABC713",
+   "lei": "529900BJBIWHXRABC713",
+   "legal_name": "Augeos Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 24054"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Übersee",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://augeos.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900BJBIWHXRABC713.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900CMUF39U5RGNP46",
+   "lei": "529900CMUF39U5RGNP46",
+   "legal_name": "JAGI Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 32058"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Essen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900CMUF39U5RGNP46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900CYSIC7Q7P20N83",
+   "lei": "529900CYSIC7Q7P20N83",
+   "legal_name": "R2 Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 8350"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Alsfeld",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900CYSIC7Q7P20N83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900DD0S0USZ8OUU90",
+   "lei": "529900DD0S0USZ8OUU90",
+   "legal_name": "Goldberg Family Office GmbH",
+   "aliases": [
+    "Goldberg Family Office UG (haftungsbeschränkt)"
+   ],
+   "register_ids": [
+    "HRB 12994"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Leiblfing",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900DD0S0USZ8OUU90.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900DJSWRKFB4FDO40",
+   "lei": "529900DJSWRKFB4FDO40",
+   "legal_name": "E & W Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 34079"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Dortmund",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://ew-familyoffice.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900DJSWRKFB4FDO40.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900DMTYBY7NCWQ308",
+   "lei": "529900DMTYBY7NCWQ308",
+   "legal_name": "Ralf Schäfer Consulting Family Office GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 731788"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Fellbach",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.consulting-family-office.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900DMTYBY7NCWQ308.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900DR898IJFOWD403",
+   "lei": "529900DR898IJFOWD403",
+   "legal_name": "Martagon Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 751599"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ludwigsburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.martagon-fo.de/",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900DR898IJFOWD403.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900E39BD3JZCSZD24",
+   "lei": "529900E39BD3JZCSZD24",
+   "legal_name": "Erdmann Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 10980"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Arnsberg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.efo-gmbh.de/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900E39BD3JZCSZD24.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ESD413XQ1QJK17",
+   "lei": "529900ESD413XQ1QJK17",
+   "legal_name": "Atlan Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 144870"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://atlan-fo.com/en/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ESD413XQ1QJK17.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900F3KLOM161U2C13",
+   "lei": "529900F3KLOM161U2C13",
+   "legal_name": "Mertesacker Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 220099"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hannover",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://mertesacker-family-office.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900F3KLOM161U2C13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900FZ6KWMRT189D59",
+   "lei": "529900FZ6KWMRT189D59",
+   "legal_name": "Family Office Fuchs GbR Inhaber Fuchs, Fährmann & Förg GbR",
+   "aliases": [
+    "Family Office Fuchs GbR Inhaber Fuchs & Fährmann GbR"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Kirchseeon",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://familyofficefuchs.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900FZ6KWMRT189D59.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900GEREIYXZHQX681",
+   "lei": "529900GEREIYXZHQX681",
+   "legal_name": "Peter Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 15498"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Fürth",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900GEREIYXZHQX681.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900HI6FVJU7LS7G25",
+   "lei": "529900HI6FVJU7LS7G25",
+   "legal_name": "Palatina Multi Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 714343"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Angelbachtal",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.palatina-mfo.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900HI6FVJU7LS7G25.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900HOSAMXR8NM8N61",
+   "lei": "529900HOSAMXR8NM8N61",
+   "legal_name": "Kontora Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 85129"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.kontora.com",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900HOSAMXR8NM8N61.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900HT5040WN4YN490",
+   "lei": "529900HT5040WN4YN490",
+   "legal_name": "Lohr family office KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 5040"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Haltern am See",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900HT5040WN4YN490.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900HT63G7K638XP67",
+   "lei": "529900HT63G7K638XP67",
+   "legal_name": "RA Dr. Becker Family Office Holding GmbH & Co. KG",
+   "aliases": [
+    "RA-MICRO Holding GmbH & Co. KG"
+   ],
+   "register_ids": [
+    "HRA 45430B"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900HT63G7K638XP67.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900I04PSISHCI3H31",
+   "lei": "529900I04PSISHCI3H31",
+   "legal_name": "Tonn Family Office Verwaltungs GmbH",
+   "aliases": [
+    "Tonn Family Office AG"
+   ],
+   "register_ids": [
+    "HRB 182743"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://tonn.investments/",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900I04PSISHCI3H31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900I2IMOLGNKXMV83",
+   "lei": "529900I2IMOLGNKXMV83",
+   "legal_name": "Kiris Family Office GmbH",
+   "aliases": [
+    "Kiris Beteiligungen GmbH"
+   ],
+   "register_ids": [
+    "HRB 771069"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Stuttgart",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900I2IMOLGNKXMV83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900I982CYWWT94J60",
+   "lei": "529900I982CYWWT94J60",
+   "legal_name": "L&P Family Office GmbH",
+   "aliases": [
+    "Marengo GmbH"
+   ],
+   "register_ids": [
+    "HRB 193614"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://landsiedelpartner.com",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900I982CYWWT94J60.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ISLQHDE5Y80C06",
+   "lei": "529900ISLQHDE5Y80C06",
+   "legal_name": "Horne Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 552089"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Waldburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://horne-family-office.de/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ISLQHDE5Y80C06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ISWSVAYYRFJL49",
+   "lei": "529900ISWSVAYYRFJL49",
+   "legal_name": "Lacuna Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 7868"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Regensburg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.lacuna.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ISWSVAYYRFJL49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900IZ3F05IGMMYI12",
+   "lei": "529900IZ3F05IGMMYI12",
+   "legal_name": "SMG Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 114608"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Frankfurt am Main",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900IZ3F05IGMMYI12.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900JG7S0803QGOW39",
+   "lei": "529900JG7S0803QGOW39",
+   "legal_name": "Vertiva Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 744469"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Stuttgart",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.vertiva.de/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900JG7S0803QGOW39.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900JWO8Z4L0LRMC93",
+   "lei": "529900JWO8Z4L0LRMC93",
+   "legal_name": "Oldendorff Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 24701 HL"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Lübeck",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900JWO8Z4L0LRMC93.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900K1X7MTBPO82J91",
+   "lei": "529900K1X7MTBPO82J91",
+   "legal_name": "Lennertz & Co. Family Office GmbH",
+   "aliases": [
+    "Lennertz & Co. GmbH"
+   ],
+   "register_ids": [
+    "HRB 137568"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.lennertz.com",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900K1X7MTBPO82J91.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900K335PRDAU7VC88",
+   "lei": "529900K335PRDAU7VC88",
+   "legal_name": "Aureca Family Office AG i.G.",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Sindelfingen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900K335PRDAU7VC88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900M52OSLKNV5DD64",
+   "lei": "529900M52OSLKNV5DD64",
+   "legal_name": "DN&A Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 20608"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Münster",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://dnanda.de/",
+   "fields": {
+    "total": 24,
+    "sourced": 13,
+    "filled": 9,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900M52OSLKNV5DD64.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900MSO52CVMSG6I29",
+   "lei": "529900MSO52CVMSG6I29",
+   "legal_name": "ALPMA Family Office Vermögen GmbH & Co. KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 14149"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Rott am Inn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900MSO52CVMSG6I29.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900O292UN4YVWV680",
+   "lei": "529900O292UN4YVWV680",
+   "legal_name": "VISKA Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 210025"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Visselhövede",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900O292UN4YVWV680.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900PLUFOKXYXKPZ45",
+   "lei": "529900PLUFOKXYXKPZ45",
+   "legal_name": "DMLS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 123590"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900PLUFOKXYXKPZ45.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900QJ0AFOJUHQL824",
+   "lei": "529900QJ0AFOJUHQL824",
+   "legal_name": "Dr. Dreier Family Office eGbR",
+   "aliases": [
+    "Dr. Dreier Family Office GbR"
+   ],
+   "register_ids": [
+    "GsR 28"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Gelsenkirchen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900QJ0AFOJUHQL824.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900QMN1C7HSIYTC88",
+   "lei": "529900QMN1C7HSIYTC88",
+   "legal_name": "Deutsche Oppenheim Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 110460"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Grasbrunn",
+   "entity_status": "INACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.deutsche-oppenheim.de/en/",
+   "fields": {
+    "total": 21,
+    "sourced": 11,
+    "filled": 8,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900QMN1C7HSIYTC88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900QPRDCJPW9OEX54",
+   "lei": "529900QPRDCJPW9OEX54",
+   "legal_name": "FONTIS Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 22018"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Stuttgart",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.fontis.de/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900QPRDCJPW9OEX54.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900RZA0PIOQN4LX20",
+   "lei": "529900RZA0PIOQN4LX20",
+   "legal_name": "Strenger family office eGbR",
+   "aliases": [],
+   "register_ids": [
+    "GsR 888"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Asperg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900RZA0PIOQN4LX20.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900SZQ56J33J73786",
+   "lei": "529900SZQ56J33J73786",
+   "legal_name": "Mamisch Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 176183"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Grünwald",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://mamisch.de/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900SZQ56J33J73786.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900UHYVP8DOS5D374",
+   "lei": "529900UHYVP8DOS5D374",
+   "legal_name": "ReiPa Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 298405"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900UHYVP8DOS5D374.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900UT9NSVB9YX0A96",
+   "lei": "529900UT9NSVB9YX0A96",
+   "legal_name": "Krichenbaum Family-Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Merenberg",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.krichenbaum.de/family-office",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900UT9NSVB9YX0A96.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900VUAU8GFEBU5067",
+   "lei": "529900VUAU8GFEBU5067",
+   "legal_name": "WSH Family Office GmbH",
+   "aliases": [
+    "WSH Deutsche Vermögenstreuhand GmbH"
+   ],
+   "register_ids": [
+    "HRB 37941"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.wsh-family-office.de/",
+   "fields": {
+    "total": 22,
+    "sourced": 14,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900VUAU8GFEBU5067.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900WFYKAOFAW12585",
+   "lei": "529900WFYKAOFAW12585",
+   "legal_name": "Böhke & Co. Family Office Fonds",
+   "aliases": [
+    "Böhke & Compagnie Vermögensverwaltungsfonds"
+   ],
+   "register_ids": [
+    "70149487"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://am.oddo-bhf.com",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900WFYKAOFAW12585.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900YR4MB5M68Q7T09",
+   "lei": "529900YR4MB5M68Q7T09",
+   "legal_name": "mdc investment Family Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Geisenheim",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 8,
+   "events": 3,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900YR4MB5M68Q7T09.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ZPB26IIOMGQU55",
+   "lei": "529900ZPB26IIOMGQU55",
+   "legal_name": "Dr. Schmitt Family GmbH",
+   "aliases": [
+    "Dr. Schmitt Family Office GmbH"
+   ],
+   "register_ids": [
+    "HRB 737827"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Pforzheim",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ZPB26IIOMGQU55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ZUY95BRE7RZX66",
+   "lei": "529900ZUY95BRE7RZX66",
+   "legal_name": "ALPS Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 15062"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Dietmannsried",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://alpsfamilyoffice.de",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/529900ZUY95BRE7RZX66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300ETHNK8E5TTWR27",
+   "lei": "549300ETHNK8E5TTWR27",
+   "legal_name": "GD Family Office Verwaltungs GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 515354"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Ilmenau",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/549300ETHNK8E5TTWR27.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300EVAK48D4HNDQ63",
+   "lei": "549300EVAK48D4HNDQ63",
+   "legal_name": "Peter Seifert Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 40570"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Dresden",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/549300EVAK48D4HNDQ63.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300NHP4IO063BNJ67",
+   "lei": "549300NHP4IO063BNJ67",
+   "legal_name": "Ahlers Family Offices GmbH",
+   "aliases": [
+    "ACTANOL Renewable Technologies GmbH"
+   ],
+   "register_ids": [
+    "HRB 284663"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bad Wiessee",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/549300NHP4IO063BNJ67.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "87550018XKELZZXIYX30",
+   "lei": "87550018XKELZZXIYX30",
+   "legal_name": "DWL - Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 100772"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Leverkusen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/87550018XKELZZXIYX30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8755005H5R8PCFR1MS42",
+   "lei": "8755005H5R8PCFR1MS42",
+   "legal_name": "Pap Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 16127"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Eldena an der Elde",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/8755005H5R8PCFR1MS42.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "875500GW0H2U33I7Z459",
+   "lei": "875500GW0H2U33I7Z459",
+   "legal_name": "SAF Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 36345 HB"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bremen",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://saf-ag.de",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/875500GW0H2U33I7Z459.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "875500OAXVEZYLZNSD77",
+   "lei": "875500OAXVEZYLZNSD77",
+   "legal_name": "Buhl Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 12164"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Burbach",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/875500OAXVEZYLZNSD77.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945000NUR985Q4CC216",
+   "lei": "8945000NUR985Q4CC216",
+   "legal_name": "Pinetree Family Office KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 61742"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Limburgerhof",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/8945000NUR985Q4CC216.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945004OL7EW88AVEC50",
+   "lei": "8945004OL7EW88AVEC50",
+   "legal_name": "Family Office Reh GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 15482 FL"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Sylt / OT Westerland",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/8945004OL7EW88AVEC50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "89450091CIWZUEPU2X29",
+   "lei": "89450091CIWZUEPU2X29",
+   "legal_name": "MH Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 269436"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Gauting",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/89450091CIWZUEPU2X29.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500D3RQSK08L8C310",
+   "lei": "894500D3RQSK08L8C310",
+   "legal_name": "AkMo Family Office Steuerberatungsgesellschaft mbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 733106"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Mannheim",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500D3RQSK08L8C310.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500PDIWHQFB8PLA49",
+   "lei": "894500PDIWHQFB8PLA49",
+   "legal_name": "Gröner Family Office GmbH",
+   "aliases": [
+    "P80 Immobilien GmbH"
+   ],
+   "register_ids": [
+    "HRB 199343"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://groener-family.de/",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500PDIWHQFB8PLA49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500SXXL4GWBI8AB11",
+   "lei": "894500SXXL4GWBI8AB11",
+   "legal_name": "Vinicius Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 35837"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Nürnberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500SXXL4GWBI8AB11.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500TY9QPNJXDQPE77",
+   "lei": "894500TY9QPNJXDQPE77",
+   "legal_name": "Family Office Fuchs",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Kirchseeon",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://familyofficefuchs.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500TY9QPNJXDQPE77.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500TZYEK3R2GDBM84",
+   "lei": "894500TZYEK3R2GDBM84",
+   "legal_name": "Kristian Lenz Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 214143"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hannover",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://klfo.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500TZYEK3R2GDBM84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500ZBI8U5PKI8VN74",
+   "lei": "894500ZBI8U5PKI8VN74",
+   "legal_name": "Quast Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 230846 B"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.zumfachwirt.de",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/894500ZBI8U5PKI8VN74.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9676000W6W1VKQ7IZR64",
+   "lei": "9676000W6W1VKQ7IZR64",
+   "legal_name": "von Plettenberg, Conradt & Cie. Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "HRB 91215"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Düsseldorf",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.vpc-familyoffice.de/",
+   "fields": {
+    "total": 24,
+    "sourced": 13,
+    "filled": 9,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9676000W6W1VKQ7IZR64.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "967600CPMT059PLKMT71",
+   "lei": "967600CPMT059PLKMT71",
+   "legal_name": "Münster Stegmaier Rombach Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 600475"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bad Waldsee",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.msr-familyoffice.de",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/967600CPMT059PLKMT71.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "967600EY4A0JA0CK4M75",
+   "lei": "967600EY4A0JA0CK4M75",
+   "legal_name": "Gerhard Friedenberger Vermögensverwaltung und Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 4353"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Deggendorf",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.friedenberger-vermoegensverwaltung.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/967600EY4A0JA0CK4M75.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "967600I78WA2YU0RAE08",
+   "lei": "967600I78WA2YU0RAE08",
+   "legal_name": "Kurtz Family Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Kreuzwertheim",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/967600I78WA2YU0RAE08.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "967600TLLRB15QUS8S21",
+   "lei": "967600TLLRB15QUS8S21",
+   "legal_name": "Werte Invest Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 67981"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://werte-invest.com",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/967600TLLRB15QUS8S21.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450000A91D879F9675",
+   "lei": "98450000A91D879F9675",
+   "legal_name": "Family Office Möhlmann Vermögensverwaltungs GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 21078"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Raesfeld",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/98450000A91D879F9675.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450007805K4C5B5634",
+   "lei": "98450007805K4C5B5634",
+   "legal_name": "Bischoff Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 18050"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Petershagen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/98450007805K4C5B5634.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845000BBE88Q5D4C116",
+   "lei": "9845000BBE88Q5D4C116",
+   "legal_name": "Family Office M + P GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 39965"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Kissing",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845000BBE88Q5D4C116.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845000F65F1C9B44457",
+   "lei": "9845000F65F1C9B44457",
+   "legal_name": "nF Founder's Office UG (haftungsbeschränkt)",
+   "aliases": [
+    "Schütze Family Offices UG (haftungsbeschränkt)",
+    "Solem Geminum North UG (haftungsbeschränkt)"
+   ],
+   "register_ids": [
+    "HRB 145758"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hamburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845000F65F1C9B44457.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845001F06089BDEE295",
+   "lei": "9845001F06089BDEE295",
+   "legal_name": "Robert Elster Family Office & Vermögensverwaltung GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 740419"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Eislingen",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://elster-partner.de",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845001F06089BDEE295.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500200C947B07B939",
+   "lei": "984500200C947B07B939",
+   "legal_name": "WRK Nm Family Office Verwaltungs GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 42087"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Nürnberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500200C947B07B939.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845004759SC2BC0A428",
+   "lei": "9845004759SC2BC0A428",
+   "legal_name": "AH Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 744453"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Uhingen",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://ah-familyoffice.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845004759SC2BC0A428.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450047B9I6EC10D402",
+   "lei": "98450047B9I6EC10D402",
+   "legal_name": "Hahn Family Office GmbH",
+   "aliases": [
+    "Bergmann & Hahn Family Office GmbH"
+   ],
+   "register_ids": [
+    "HRB 156059"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Berlin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.hahn-family-office.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/98450047B9I6EC10D402.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845004F7AE496CRC668",
+   "lei": "9845004F7AE496CRC668",
+   "legal_name": "Nimani Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 731373"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Villingen-Schwenningen",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://nimani-fo.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845004F7AE496CRC668.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450052EPB61F973V10",
+   "lei": "98450052EPB61F973V10",
+   "legal_name": "WRK Nm GmbH & Co. KG",
+   "aliases": [
+    "WRK Nm Family Office GmbH & Co. KG"
+   ],
+   "register_ids": [
+    "HRA 19864"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Nürnberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/98450052EPB61F973V10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845007RE3JIOEED0825",
+   "lei": "9845007RE3JIOEED0825",
+   "legal_name": "Murphy Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 26458"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bonn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845007RE3JIOEED0825.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845008380E2B9415A91",
+   "lei": "9845008380E2B9415A91",
+   "legal_name": "GM-Family-Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Bad Waldsee",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845008380E2B9415A91.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845008A3FC6C4EC6611",
+   "lei": "9845008A3FC6C4EC6611",
+   "legal_name": "Hagemann Family Office GmbH",
+   "aliases": [
+    "Healthy Family Office GmbH"
+   ],
+   "register_ids": [
+    "HRB 19679 KI"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bad Segeberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845008A3FC6C4EC6611.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845008C372D005CAC73",
+   "lei": "9845008C372D005CAC73",
+   "legal_name": "Family Office Prof. Bredemeier GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 110310"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Köln",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.dr-bredemeier.de",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845008C372D005CAC73.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500973A4C93F2D011",
+   "lei": "984500973A4C93F2D011",
+   "legal_name": "ASBAG Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 17325 PI"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Klein Offenseth-Sparrieshoop",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500973A4C93F2D011.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845009D675A01FA5956",
+   "lei": "9845009D675A01FA5956",
+   "legal_name": "Hendricks Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 23483"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Neuss",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845009D675A01FA5956.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845009FAEF7CB391F06",
+   "lei": "9845009FAEF7CB391F06",
+   "legal_name": "Kuhn family office eGbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Freiberg am Neckar",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845009FAEF7CB391F06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845009FBCD8C658CF12",
+   "lei": "9845009FBCD8C658CF12",
+   "legal_name": "PAO Family Office GmbH",
+   "aliases": [
+    "PAO Vermögensverwaltungs-UG (haftungsbeschränkt)"
+   ],
+   "register_ids": [
+    "HRB 221906"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hannover",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/9845009FBCD8C658CF12.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500A6LBBJB88E7407",
+   "lei": "984500A6LBBJB88E7407",
+   "legal_name": "Isserstedt Family Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Wuppertal",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500A6LBBJB88E7407.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500AFB6B4F6E48513",
+   "lei": "984500AFB6B4F6E48513",
+   "legal_name": "Zinke Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 54595"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Langen (Hessen)",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500AFB6B4F6E48513.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B01PFV1D0B5E97",
+   "lei": "984500B01PFV1D0B5E97",
+   "legal_name": "Plutus Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 41981"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Dresden",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500B01PFV1D0B5E97.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500E5EE500D9CF865",
+   "lei": "984500E5EE500D9CF865",
+   "legal_name": "Eta Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 216223"
+   ],
+   "jurisdiction": "Germany",
+   "city": "München",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.eta-fo.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500E5EE500D9CF865.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500FB968579DN8D20",
+   "lei": "984500FB968579DN8D20",
+   "legal_name": "Knops Family-Office GbR",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Germany",
+   "city": "Villingen-Schwenningen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500FB968579DN8D20.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500JC1A65B46D6502",
+   "lei": "984500JC1A65B46D6502",
+   "legal_name": "K5 Family Office GmbH",
+   "aliases": [
+    "Neuberger Verwaltungs UG (haftungsbeschränkt)",
+    "Neuberger Verwaltungs GmbH"
+   ],
+   "register_ids": [
+    "HRB 194497"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Grünwald",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.k5.ag",
+   "fields": {
+    "total": 19,
+    "sourced": 16,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500JC1A65B46D6502.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500T3FA9E46686186",
+   "lei": "984500T3FA9E46686186",
+   "legal_name": "MM Schäfer Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 99165"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Hanau",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500T3FA9E46686186.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500T5F005EEFE0C51",
+   "lei": "984500T5F005EEFE0C51",
+   "legal_name": "Borchert Family Office KG",
+   "aliases": [],
+   "register_ids": [
+    "HRA 201962"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Bovenden",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.bfo-immobilien.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500T5F005EEFE0C51.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500Y6FD63CBF9A660",
+   "lei": "984500Y6FD63CBF9A660",
+   "legal_name": "JK Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "HRB 107298"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Wipperfürth",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500Y6FD63CBF9A660.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500ZC97DF5641E904",
+   "lei": "984500ZC97DF5641E904",
+   "legal_name": "Bach & Erle Family Office GmbH",
+   "aliases": [
+    "Bach & Erle Family Office UG (haftungsbeschränkt)"
+   ],
+   "register_ids": [
+    "HRB 15939"
+   ],
+   "jurisdiction": "Germany",
+   "city": "Kahl am Main",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://be-fo.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/de-fo-kg/984500ZC97DF5641E904.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 2735,
+  "sourced": 2356,
+  "filled": 240,
+  "confirmed": 128,
+  "conflict": 11,
+  "unverified": 0,
+  "gaps": 912,
+  "events": 715,
+  "registrations": 168,
+  "principals": 223,
+  "with_lei": 182,
+  "with_website": 84,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 67
+ },
+ "sources": [
+  {
+   "name": "917family.de — subject website",
+   "url": "https://917family.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "abt-family-office.de — subject website",
+   "url": "https://abt-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ah-familyoffice.com — subject website",
+   "url": "https://ah-familyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "alpsfamilyoffice.de — subject website",
+   "url": "https://alpsfamilyoffice.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "am.oddo-bhf.com — subject website",
+   "url": "https://am.oddo-bhf.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "atlan-fo.com — subject website",
+   "url": "https://atlan-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "augeos.de — subject website",
+   "url": "https://augeos.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "befinanz.de — subject website",
+   "url": "https://befinanz.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "bfo-ag.de — subject website",
+   "url": "https://bfo-ag.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "cjhfo.de — subject website",
+   "url": "https://cjhfo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dgfo.group — subject website",
+   "url": "https://dgfo.group/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dnanda.de — subject website",
+   "url": "https://dnanda.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "elster-partner.de — subject website",
+   "url": "https://elster-partner.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ew-familyoffice.de — subject website",
+   "url": "https://ew-familyoffice.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "familyofficefuchs.de — subject website",
+   "url": "https://familyofficefuchs.de/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "fiorik.de — subject website",
+   "url": "https://fiorik.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "fo.oddo-bhf.com — subject website",
+   "url": "https://fo.oddo-bhf.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "foc-gerwing.de — subject website",
+   "url": "https://foc-gerwing.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "haraldquandt.de — subject website",
+   "url": "https://haraldquandt.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "hausmann.family — subject website",
+   "url": "https://hausmann.family/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "horne-family-office.de — subject website",
+   "url": "https://horne-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "kingsway-fo.com — subject website",
+   "url": "https://kingsway-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "klfo.de — subject website",
+   "url": "https://klfo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "landsiedelpartner.com — subject website",
+   "url": "https://landsiedelpartner.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "mertesacker-family-office.de — subject website",
+   "url": "https://mertesacker-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "mp-familyoffice.de — subject website",
+   "url": "https://mp-familyoffice.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "nimani-fo.de — subject website",
+   "url": "https://nimani-fo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "revisio-family.de — subject website",
+   "url": "https://revisio-family.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "saentis-fo.de — subject website",
+   "url": "https://saentis-fo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "saf-ag.de — subject website",
+   "url": "https://saf-ag.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "sfo.vc — subject website",
+   "url": "https://sfo.vc/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "tonn.investments — subject website",
+   "url": "https://tonn.investments/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "werte-invest.com — subject website",
+   "url": "https://werte-invest.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.avfo.de — subject website",
+   "url": "https://www.avfo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.bfo-immobilien.de — subject website",
+   "url": "https://www.bfo-immobilien.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.consulting-family-office.de — subject website",
+   "url": "https://www.consulting-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.de-fo.com — subject website",
+   "url": "https://www.de-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.deutsche-oppenheim.de — subject website",
+   "url": "https://www.deutsche-oppenheim.de/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.dormakaba.com — subject website",
+   "url": "https://www.dormakaba.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.efo-gmbh.de — subject website",
+   "url": "https://www.efo-gmbh.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.eta-fo.de — subject website",
+   "url": "https://www.eta-fo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.family-office-gmbh.com — subject website",
+   "url": "https://www.family-office-gmbh.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.fielmann-group.com — subject website",
+   "url": "https://www.fielmann-group.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.fontis.de — subject website",
+   "url": "https://www.fontis.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.foster-institut.com — subject website",
+   "url": "https://www.foster-institut.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.hahn-family-office.de — subject website",
+   "url": "https://www.hahn-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.honestas-family-office.de — subject website",
+   "url": "https://www.honestas-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.hsbc-zertifikate.de — subject website",
+   "url": "https://www.hsbc-zertifikate.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.k5.ag — subject website",
+   "url": "https://www.k5.ag/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.kjup.com — subject website",
+   "url": "https://www.kjup.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.koeppl.de — subject website",
+   "url": "https://www.koeppl.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.kontora.com — subject website",
+   "url": "https://www.kontora.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.krichenbaum.de — subject website",
+   "url": "https://www.krichenbaum.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.l-familyoffice.com — subject website",
+   "url": "https://www.l-familyoffice.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.lacuna.de — subject website",
+   "url": "https://www.lacuna.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.lennertz.com — subject website",
+   "url": "https://www.lennertz.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.martagon-fo.de — subject website",
+   "url": "https://www.martagon-fo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.palatina-mfo.de — subject website",
+   "url": "https://www.palatina-mfo.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.schulz.ooo — subject website",
+   "url": "https://www.schulz.ooo/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.thesauros.eu — subject website",
+   "url": "https://www.thesauros.eu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.tresono.de — subject website",
+   "url": "https://www.tresono.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.vertiva.de — subject website",
+   "url": "https://www.vertiva.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.vicis-gmbh.de — subject website",
+   "url": "https://www.vicis-gmbh.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.wolf-familyoffice.de — subject website",
+   "url": "https://www.wolf-familyoffice.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.wsh-family-office.de — subject website",
+   "url": "https://www.wsh-family-office.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.zechendorf.com — subject website",
+   "url": "https://www.zechendorf.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.zumfachwirt.de — subject website",
+   "url": "https://www.zumfachwirt.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  }
+ ],
+ "refused": [
+  {
+   "register": "BaFin — company database",
+   "subjects": 182
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000203",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000205",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000206",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000209",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000213",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000217",
+   "subjects": 7
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000219",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000220",
+   "subjects": 3
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000222",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000226",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000229",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000230",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000231",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000232",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000234",
+   "subjects": 12
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000239",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000240",
+   "subjects": 3
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000242",
+   "subjects": 5
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000243",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000247",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000249",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000251",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000253",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000258",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000259",
+   "subjects": 15
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000261",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000262",
+   "subjects": 5
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000273",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000276",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000277",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000280",
+   "subjects": 10
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000285",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000290",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000291",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000293",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000295",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000296",
+   "subjects": 6
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000304",
+   "subjects": 22
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000305",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000309",
+   "subjects": 3
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000311",
+   "subjects": 4
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000313",
+   "subjects": 3
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000317",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000320",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000325",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000328",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000339",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000348",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000350",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000351",
+   "subjects": 8
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000354",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000355",
+   "subjects": 6
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000358",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000365",
+   "subjects": 2
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA000373",
+   "subjects": 1
+  },
+  {
+   "register": "Handelsregister (Registerportal) — RA999999",
+   "subjects": 14
+  },
+  {
+   "register": "website",
+   "subjects": 7
+  }
+ ],
+ "reads": 70,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/de-fo-kg/<source>/2026-09-14/"
+ }
+}

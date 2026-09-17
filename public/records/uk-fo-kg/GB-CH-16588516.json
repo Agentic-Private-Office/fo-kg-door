@@ -1,0 +1,158 @@
+{
+ "record": "Family Office Record",
+ "id": "GB-CH-16588516",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "THE MANVEDEEP SINGH FAMILY OFFICE LIMITED",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-07-17",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "42-44 Bishopsgate, London, United Kingdom, EC2N 4AH",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Private limited Company",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "16588516",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "16588516",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/16588516/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "SINGH, Manvedeep",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-07-17",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/16588516",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=GB&filter[fulltext]=THE MANVEDEEP SINGH FAMILY OFFICE LIMITED"
+  },
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=THE%20MANVEDEEP%20SINGH%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://find-and-update.company-information.service.gov.uk/company/16588516",
+    "https://find-and-update.company-information.service.gov.uk/company/16588516"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/16588516"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/16588516"
+  }
+ ],
+ "sources": [
+  "https://find-and-update.company-information.service.gov.uk/company/16588516",
+  "https://find-and-update.company-information.service.gov.uk/company/16588516/officers",
+  "https://find-and-update.company-information.service.gov.uk/search/companies?q=family+office"
+ ],
+ "discovery": null
+}

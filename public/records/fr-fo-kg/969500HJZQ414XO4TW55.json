@@ -1,0 +1,244 @@
+{
+ "record": "Family Office Record",
+ "id": "969500HJZQ414XO4TW55",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "969500HJZQ414XO4TW55",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/969500HJZQ414XO4TW55",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "969500Q2MA9VBQ8BG884"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "LYNQ PRIVATE OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://lynqprivateoffice.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6, mistral-medium-latest"
+  },
+  "formation": {
+   "value": "2024-01-02",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2024-01-03",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "1 RUE DE STOCKHOLM, PARIS, 75008, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "6CHY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "983107731",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/983107731",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "YACINE KADRI",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://lynqprivateoffice.com/",
+  "source_url": "https://lynqprivateoffice.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6, mistral-medium-latest"
+ },
+ "aliases": [
+  {
+   "value": "SUPER CAPITAL FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "fr"
+  },
+  {
+   "value": "LYNQ PRIVATE OFFICE (LYNQ)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  {
+   "value": "LYNQ",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2024-01-02",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-01-03",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=983107731",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-10-16",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-12",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-12",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/969500HJZQ414XO4TW55",
+  "https://lynqprivateoffice.com/",
+  "https://recherche-entreprises.api.gouv.fr/search?q=983107731"
+ ],
+ "discovery": null
+}

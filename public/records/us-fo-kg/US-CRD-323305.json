@@ -1,0 +1,257 @@
+{
+ "record": "Family Office Record",
+ "id": "US-CRD-323305",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "ONEASCENT FAMILY OFFICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://oneascentfamilyoffices.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "BIRMINGHAM, 35243, US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01) (city and postal code agree)"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "323305",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "registered",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "801-126924",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "323305",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/323305"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/323305",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "126924",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Harry Pearson",
+    "source_url": "https://oneascentfamilyoffices.com/team/harry-pearson/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CFP®, CRPC®, CKA® as the subject's own page says"
+   },
+   "role": "CFP®, CRPC®, CKA®"
+  },
+  {
+   "name": {
+    "value": "Phil Shaffer",
+    "source_url": "https://oneascentfamilyoffices.com/team/phil-shaffer/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CIMA® as the subject's own page says"
+   },
+   "role": "CIMA®"
+  },
+  {
+   "name": {
+    "value": "Tom Powell",
+    "source_url": "https://oneascentfamilyoffices.com/team/tom-powell/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CFP®, QPA, ERPA as the subject's own page says"
+   },
+   "role": "CFP®, QPA, ERPA"
+  },
+  {
+   "name": {
+    "value": "Nathan Willis",
+    "source_url": "https://oneascentfamilyoffices.com/team/nathan-willis/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CFA®, CAIA as the subject's own page says"
+   },
+   "role": "CFA®, CAIA"
+  },
+  {
+   "name": {
+    "value": "Peter Klingelhofer",
+    "source_url": "https://oneascentfamilyoffices.com/team/peter-klingelhofer",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CFA®, CKA® as the subject's own page says"
+   },
+   "role": "CFA®, CKA®"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.facebook.com/oneascent",
+  "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "website as disclosed on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+ },
+ "aliases": [
+  {
+   "value": "ONEASCENT FAMILY OFFICE LLC",
+   "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as enumerated (search result); the register page names the entity differently"
+  },
+  {
+   "value": "ONEASCENT FAMILY OFFICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "NEW CITY FAMILY OFFICE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "ONEASCENT FAMILY OFFICE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-09-14",
+   "event": "website https://oneascentfamilyoffices.com redirects to https://oneascent.com/family-offices/",
+   "source_url": "https://oneascentfamilyoffices.com",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=ONEASCENT FAMILY OFFICE LLC"
+  },
+  {
+   "field": "website",
+   "reason": "the site now redirects to https://oneascent.com/family-offices/",
+   "tried": "https://oneascentfamilyoffices.com"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=323305&hl=false&nrows=10&start=0&wt=json",
+  "https://oneascentfamilyoffices.com",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip"
+ ],
+ "discovery": null
+}

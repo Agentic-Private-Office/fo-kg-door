@@ -1,0 +1,170 @@
+{
+ "record": "Family Office Record",
+ "id": "549300TD0SKI61W6T828",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "549300TD0SKI61W6T828",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300TD0SKI61W6T828",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "52990034RLKT0WSOAM90"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "FERREIRA - FAMILY OFFICE, SGPS, S.A.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "pt"
+  },
+  "jurisdiction": {
+   "value": "PT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Portugal"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2015-12-15",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Rua Deputado Pedro Botelho Neves, Edificio Copam, São João da Talha, PT-11, 2695-722, PT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DFE5",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000487",
+   "register_id": "RA000487",
+   "id": {
+    "value": "513788433",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "VALINSERT SGPS S A",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "pt"
+  }
+ ],
+ "events": [
+  {
+   "date": "2015-12-15",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2016-03-25",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-07-15",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300TD0SKI61W6T828"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,134 @@
+{
+ "record": "Family Office Record",
+ "id": "SG-UEN-202019464M",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "GLORIOUS FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2020-07-08",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "28 BEACH ROAD #43-05 SOUTH BEACH RESIDENCES 189762",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Local Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Live Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202019464M",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.gov.sg/datasets/d_b58303c68e9cf0d2ae93b73ffdbfbfa1/view"
+   },
+   "url": "https://data.gov.sg/datasets/d_b58303c68e9cf0d2ae93b73ffdbfbfa1/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-07-08",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=SG&filter[fulltext]=GLORIOUS FAMILY OFFICE PTE. LTD."
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://opengovsg.com/corporate/202019464M",
+    "https://www.swfinstitute.org/profile/5e39a52afcbe7e8ca72001c9"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_b58303c68e9cf0d2ae93b73ffdbfbfa1/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500"
+  }
+ ],
+ "sources": [
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_b58303c68e9cf0d2ae93b73ffdbfbfa1&q=family%20office&limit=500",
+  "https://opengovsg.com/corporate/202019464M",
+  "https://www.swfinstitute.org/profile/5e39a52afcbe7e8ca72001c9"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,353 @@
+{
+ "record": "Family Office Record",
+ "id": "GB-CH-06254698",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "CAROLINE BAKER FAMILY OFFICE LIMITED",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.carolinebaker.co.uk/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2007-05-21",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "Unit 32 Chelsea Wharf, 15 Lots Road, London, England, SW10 0QJ",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Private limited Company",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "06254698",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "06254698",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "BAKER, Caroline Lucy",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "KAEMPFER, Lucas Benjamin",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "STAFFORD ALLEN, Amanda",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "BAKER, Andrew",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "CASE, Benjamin John",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "COVELL, Michael",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "DUNCOMBE, Charlotte Pauncefort",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "GOSLING, Adam",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "HUGHES, Andrew Gordon",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "LAMAISON, Sarah Maeve",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "ROBERTSON, Tim James",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "STEWART, Georgina Elizabeth",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Caroline Lucy Baker",
+    "source_url": "https://www.carolinebaker.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Lucas Benjamin Kaempfer",
+    "source_url": "https://www.carolinebaker.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Amanda Stafford Allen",
+    "source_url": "https://www.carolinebaker.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Caroline Baker",
+    "source_url": "https://www.carolinebaker.co.uk/our-people/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Founder as the subject's own page says"
+   },
+   "role": "Founder"
+  },
+  {
+   "name": {
+    "value": "Lucas Kaempfer",
+    "source_url": "https://www.carolinebaker.co.uk/our-people/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CEO as the subject's own page says"
+   },
+   "role": "CEO"
+  },
+  {
+   "name": {
+    "value": "Lucy Stafford Allen",
+    "source_url": "https://www.carolinebaker.co.uk/our-people/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Managing Director as the subject's own page says"
+   },
+   "role": "Managing Director"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.carolinebaker.co.uk/",
+  "source_url": "https://www.carolinebaker.co.uk/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2007-05-21",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06254698",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=GB&filter[fulltext]=CAROLINE BAKER FAMILY OFFICE LIMITED"
+  },
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=CAROLINE%20BAKER%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.carolinebaker.co.uk/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/06254698"
+  }
+ ],
+ "sources": [
+  "https://find-and-update.company-information.service.gov.uk/company/06254698",
+  "https://find-and-update.company-information.service.gov.uk/company/06254698/officers",
+  "https://find-and-update.company-information.service.gov.uk/search/companies?q=family+office",
+  "https://www.carolinebaker.co.uk/"
+ ],
+ "discovery": null
+}

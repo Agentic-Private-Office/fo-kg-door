@@ -1,0 +1,170 @@
+{
+ "record": "Family Office Record",
+ "id": "254900SINBNMYFVS2W22",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "254900SINBNMYFVS2W22",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900SINBNMYFVS2W22",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "הימלאיה פמילי אופיס ייעוץ בע\"מ",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "he"
+  },
+  "jurisdiction": {
+   "value": "IL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Israel"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2008-11-26",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "5, הברזל, רמת החייל, IL-TA, 6971009, IL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "PDQC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000406",
+   "register_id": "RA000406",
+   "id": {
+    "value": "514206887",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "HIMALAYA FAMILY OFFICE ADVISING LTD",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2008-11-26",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-11-17",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-07-04",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900SINBNMYFVS2W22"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,236 @@
+{
+ "record": "Family Office Record",
+ "id": "96950021BS3SXZ4TD280",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "96950021BS3SXZ4TD280",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/96950021BS3SXZ4TD280",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "969500Q2MA9VBQ8BG884"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "MARS 31",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2015-11-02",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2015-11-03",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "118 RUE BACHAGA BENHAMIDA, PEROLS, FR-34, 34470, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "V9QP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "814556148",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/814556148",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "YASSIR MENAA",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "MARS 31 MNM CAPITAL ELIO REAL ESTATE MEN2A FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "TRADING_OR_OPERATING_NAME",
+   "language": "fr"
+  },
+  {
+   "value": "MARS 31 (MARS 31 MNM CAPITAL ELIO REAL ESTATE MEN2A FAMILY OFFICE)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2015-11-02",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2015-11-03",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-09",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-09",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-09",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.societe.com/societe/mars-31-814556148.html",
+    "https://www.societe.com/societe/mars-31-814556148.html",
+    "https://www.pappers.fr/entreprise/mars-31-814556148?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/96950021BS3SXZ4TD280",
+  "https://recherche-entreprises.api.gouv.fr/search?q=814556148",
+  "https://www.pappers.fr/entreprise/mars-31-814556148?utm_source=openai",
+  "https://www.societe.com/societe/mars-31-814556148.html"
+ ],
+ "discovery": null
+}

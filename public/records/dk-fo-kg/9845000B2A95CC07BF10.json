@@ -1,0 +1,209 @@
+{
+ "record": "Family Office Record",
+ "id": "9845000B2A95CC07BF10",
+ "version": "2026-09-14.2",
+ "node": "dk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://dk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9845000B2A95CC07BF10",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9845000B2A95CC07BF10",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Nordic Luminary ApS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "da"
+  },
+  "jurisdiction": {
+   "value": "DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Denmark"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "http://nordicluminary.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": {
+   "value": "2021-11-26",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Strandboulevarden 123, 1. tv, København Ø, DK-84, 2100, DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "H8VP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "register_id": "RA000170",
+   "id": {
+    "value": "42862037",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://datacvr.virk.dk/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Laura Sabbie Falk",
+    "source_url": "http://nordicluminary.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://nordicluminary.com",
+  "source_url": "http://nordicluminary.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1"
+ },
+ "aliases": [
+  {
+   "value": "Falk Family Office ApS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "da"
+  },
+  {
+   "value": "Falk Office ApS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "da"
+  }
+ ],
+ "events": [
+  {
+   "date": "2021-11-26",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-11-29",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-18",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)]",
+   "reason": "CVR answers a challenge page to machines and the open distribution needs a credentialled agreement — never attempted (HITL)",
+   "tried": "https://datacvr.virk.dk/soegeresultater?fritekst=Nordic%20Luminary%20ApS",
+   "answer": "challenge page; distribution needs credentials"
+  },
+  {
+   "field": "registrations[Finanstilsynet — Virksomhedsregister]",
+   "reason": "the register's search endpoint answered 404 to every machine read tried; not read this wave",
+   "tried": "https://virksomhedsregister.finanstilsynet.dk/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "answered 0",
+   "tried": "http://nordicluminary.com",
+   "answer": 0
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10"
+  }
+ ],
+ "sources": [
+  "http://nordicluminary.com",
+  "https://api.gleif.org/api/v1/lei-records/9845000B2A95CC07BF10"
+ ],
+ "discovery": null
+}

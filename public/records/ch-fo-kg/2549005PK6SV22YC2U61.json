@@ -1,0 +1,188 @@
+{
+ "record": "Family Office Record",
+ "id": "2549005PK6SV22YC2U61",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "2549005PK6SV22YC2U61",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/2549005PK6SV22YC2U61",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Swiss - IFP SA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "fr"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-05-17",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Piazza San Roch 2, Grono, 6537, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "MVII",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-377.982.843",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.zefix.ch/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Private Value Family Office SA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "fr"
+  }
+ ],
+ "events": [
+  {
+   "date": "2013-05-17",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-03-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-25",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-26",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Zefix — Zentraler Firmenindex (Swiss commercial register)]",
+   "reason": "Zefix search returned no firm under this exact name",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json",
+   "answer": "no firm of this name"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.lixt.ch/it/registro-di-commercio/swiss-ifp-sa-929559",
+    "https://schweiz-lei.ch/detaillierte-informationen/207089/2549005PK6SV22YC2U61/swiss-ifp-sa/"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.zefix.ch/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/2549005PK6SV22YC2U61",
+  "https://schweiz-lei.ch/detaillierte-informationen/207089/2549005PK6SV22YC2U61/swiss-ifp-sa/",
+  "https://www.lixt.ch/it/registro-di-commercio/swiss-ifp-sa-929559"
+ ],
+ "discovery": null
+}

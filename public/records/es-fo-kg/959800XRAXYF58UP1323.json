@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "959800XRAXYF58UP1323",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "959800XRAXYF58UP1323",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/959800XRAXYF58UP1323",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "959800R2X69K6Y6MX775"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "FAMILY OFFICE SOLUTIONS S.L",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2002-07-04",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Romero Giron 4A 3/3, Madrid, 28036, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000533",
+   "register_id": "RA000533",
+   "id": {
+    "value": "1000269032156",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2002-07-04",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-10-09",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-19",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-10-15",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=FAMILY%20OFFICE%20SOLUTIONS%20S.L",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.empresia.es/empresa/family-office-solutions/",
+    "https://www.datoscif.es/empresa/family-office-solutions-sl",
+    "https://www.iberinform.es/empresa/1639589/family-office-solutions?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/959800XRAXYF58UP1323",
+  "https://www.datoscif.es/empresa/family-office-solutions-sl",
+  "https://www.empresia.es/empresa/family-office-solutions/",
+  "https://www.iberinform.es/empresa/1639589/family-office-solutions?utm_source=openai"
+ ],
+ "discovery": null
+}

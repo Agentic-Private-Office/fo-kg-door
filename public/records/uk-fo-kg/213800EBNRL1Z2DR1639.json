@@ -1,0 +1,234 @@
+{
+ "record": "Family Office Record",
+ "id": "213800EBNRL1Z2DR1639",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "213800EBNRL1Z2DR1639",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/213800EBNRL1Z2DR1639",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "DPS FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2024-07-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Companies House",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "UNIT 205, CERVANTES HOUSE 5-9 HEADSTONE ROAD, HARROW, GB-HRW, HA1 1PD, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "Creed Farm Creed Farm, Charing Hill, Ashford, Kent, United Kingdom, TN27 0NG",
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "15848391",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "15848391",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15848391/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "LABAHN, Sibylle Roswitha",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "PATEL, David",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-07-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-07-19",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15848391",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-09-12",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-12",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=DPS%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://find-and-update.company-information.service.gov.uk/company/15848391",
+    "https://www.checkcompany.co.uk/company/15848391/DPS-FAMILY-OFFICE-LIMITED"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/213800EBNRL1Z2DR1639",
+  "https://find-and-update.company-information.service.gov.uk/company/15848391",
+  "https://find-and-update.company-information.service.gov.uk/company/15848391/officers",
+  "https://www.checkcompany.co.uk/company/15848391/DPS-FAMILY-OFFICE-LIMITED"
+ ],
+ "discovery": null
+}

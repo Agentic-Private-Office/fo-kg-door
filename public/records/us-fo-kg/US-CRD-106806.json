@@ -1,0 +1,547 @@
+{
+ "record": "Family Office Record",
+ "id": "US-CRD-106806",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "associations": [
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "faculty",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://uhnwinstitute.org/faculty",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2026-01-01",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "partners",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/educational-partners/",
+    "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "not on this page (appears only in a different article, not the educational-partners page)",
+    "page_date": "2024-07-31",
+    "basis": "named on the The UHNW Institute page as not on this page (appears only in a different article, not the educational-partners page)"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-10-23",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-womens-summit-meet-the-speakers/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-04-29",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/event/the-womens-leadership-summit/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2026-06-24",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-08-28",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/our-team/",
+    "read_by": "fo-kg-harvest/0.2, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "place": "St. Louis",
+    "page_date": "2025-07-21",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/preparing-for-the-wealth-shift-of-the-century-highlights-from-the-uhnw-institutes-inaugural-womens-leadership-summit/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Educational Partner, Panelist",
+    "page_date": "2025-06-12",
+    "basis": "named on the The UHNW Institute page as Educational Partner, Panelist"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "panelist",
+    "page_date": "2022-11-17",
+    "basis": "named on the The UHNW Institute page as panelist"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Matter Family Office",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-12-11",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "MATTER FAMILY OFFICE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.matterfamilyoffice.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "ST LOUIS, 63105, US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01) (city and postal code agree)"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "106806",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "registered",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "801-37738",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "106806",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/106806"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/106806",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "37738",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Katherine Lintz",
+    "source_url": "https://www.matterfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Kathy Lintz",
+    "source_url": "https://www.matterfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Katherine B. Lintz",
+    "source_url": "https://www.matterfamilyoffice.com/the-matter-team/katherine-b-lintz-cfp/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Managing Partner, Founder as the subject's own page says"
+   },
+   "role": "Managing Partner, Founder"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://www.matterfamilyoffice.com",
+  "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "website as disclosed on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+ },
+ "aliases": [
+  {
+   "value": "MATTER, LLC",
+   "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as enumerated (search result); the register page names the entity differently"
+  },
+  {
+   "value": "MATTER FAMILY OFFICE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "FINANCIAL MANAGEMENT PARTNERS",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "MATTER, INC.",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "FINANCIAL MANAGEMENT PARTNERS CORPORATION",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2022-11-17",
+   "event": "named on The UHNW Institute page (cited; panelist)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-07-31",
+   "event": "named on The UHNW Institute page (partners; not on this page (appears only in a different article, not the educational-partners page))",
+   "source_url": "https://www.uhnwinstitute.org/educational-partners/",
+   "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-04-29",
+   "event": "named on The UHNW Institute page (speakers; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-womens-summit-meet-the-speakers/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-06-12",
+   "event": "named on The UHNW Institute page (cited; Educational Partner, Panelist)",
+   "source_url": "https://www.uhnwinstitute.org/preparing-for-the-wealth-shift-of-the-century-highlights-from-the-uhnw-institutes-inaugural-womens-leadership-summit/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-07-21",
+   "event": "named on The UHNW Institute page (cited; listed)",
+   "source_url": "https://www.uhnwinstitute.org/our-team/",
+   "read_by": "fo-kg-harvest/0.2, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-08-28",
+   "event": "named on The UHNW Institute page (speakers; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-23",
+   "event": "named on The UHNW Institute page (speakers; listed)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-11",
+   "event": "named on The UHNW Institute page (cited; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-01",
+   "event": "named on The UHNW Institute page (faculty; listed)",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-24",
+   "event": "named on The UHNW Institute page (speakers; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/event/the-womens-leadership-summit/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=MATTER, LLC"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=106806&hl=false&nrows=10&start=0&wt=json",
+  "https://uhnwinstitute.org/faculty",
+  "https://www.linkedin.com/company/matter-family-office",
+  "https://www.matterfamilyoffice.com",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+  "https://www.uhnwinstitute.org/2025-symposium/",
+  "https://www.uhnwinstitute.org/educational-partners/",
+  "https://www.uhnwinstitute.org/event/the-womens-leadership-summit/",
+  "https://www.uhnwinstitute.org/our-team/",
+  "https://www.uhnwinstitute.org/preparing-for-the-wealth-shift-of-the-century-highlights-from-the-uhnw-institutes-inaugural-womens-leadership-summit/",
+  "https://www.uhnwinstitute.org/the-uhnw-institute-2022-symposium-recap/",
+  "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+  "https://www.uhnwinstitute.org/the-uhnw-institutes-womens-summit-meet-the-speakers/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": "https://x.com/MatterFamOffice",
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/matter-family-office",
+   "x": null,
+   "website_named": "https://www.matterfamilyoffice.com/"
+  }
+ ]
+}

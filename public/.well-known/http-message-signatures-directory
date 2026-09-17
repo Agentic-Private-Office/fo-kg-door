@@ -1,0 +1,15 @@
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "vbzPBHvUK2iNSaUCcVhzTw26zJQbYxdDLIrHXZfoiJI",
+      "kid": "mk-office-2026-09",
+      "use": "sig",
+      "alg": "EdDSA",
+      "nbf": 1757721600,
+      "exp": 1789257600
+    }
+  ],
+  "operator": "Agentic KG Holdings"
+}

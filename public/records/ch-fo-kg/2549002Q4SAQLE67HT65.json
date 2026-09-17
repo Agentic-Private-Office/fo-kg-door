@@ -1,0 +1,175 @@
+{
+ "record": "Family Office Record",
+ "id": "2549002Q4SAQLE67HT65",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "2549002Q4SAQLE67HT65",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/2549002Q4SAQLE67HT65",
+  "registration_status": "ISSUED",
+  "corroboration": "ENTITY_SUPPLIED_ONLY",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "AFS Trustee Swiss SA as Trustee of the Mont Blanc Settlement",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-06-06",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O AFS Trustee Swiss Sarl, 14, Rue Jacques Dalphin, Clarmont, Montreux, CH-GE, 1227, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "FJG4",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Mont Rose Trustees & Family Office Ltd as Trustee of the Mont Blanc Settlement",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2013-06-06",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-22",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-14",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-10-14",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations",
+   "reason": "GLEIF records no registration authority for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65"
+  },
+  {
+   "field": "registrations[Zefix — Zentraler Firmenindex (Swiss commercial register)]",
+   "reason": "Zefix search returned no firm under this exact name",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json",
+   "answer": "no firm of this name"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://lei.report/LEI/2549002Q4SAQLE67HT65/",
+    "https://lei.info/2549002Q4SAQLE67HT65"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/2549002Q4SAQLE67HT65",
+  "https://lei.info/2549002Q4SAQLE67HT65",
+  "https://lei.report/LEI/2549002Q4SAQLE67HT65/"
+ ],
+ "discovery": null
+}

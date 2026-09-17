@@ -1,0 +1,262 @@
+{
+ "record": "Family Office Record",
+ "id": "254900WN0M5OLKZTM395",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900WN0M5OLKZTM395",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900WN0M5OLKZTM395",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Granite Family Office Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporations Canada"
+  },
+  "jurisdiction": {
+   "value": "CA-QC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.granitemfo.com/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "the site says multi-family office"
+  },
+  "formation": {
+   "value": "2022-11-28",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Corporations Canada",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1100-1 Car. Westmount, Westmount, Montreal, CA-QC, H3Z 2P9, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Corporations Canada (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "UG3Z",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Corporations Canada"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registraire des entreprises (Québec)",
+   "register_id": "RA000081",
+   "id": {
+    "value": "1178213717",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registreentreprises.gouv.qc.ca/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "1456052-3",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+   "status": {
+    "value": "Active",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "787925411RC0001",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "14560523",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+   },
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2",
+   "status": {
+    "value": "Active",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "787925411",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Pierre Lapointe",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.granitemfo.com/",
+  "source_url": "https://www.granitemfo.com/",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "the page names 'granite family office'"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-11-28",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-11-28",
+   "event": "incorporated — Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-12-07",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025",
+   "event": "last annual filing (year) — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-11-10",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-07",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Registraire des entreprises (Québec)]",
+   "reason": "the NEQ page answers a challenge page to machines",
+   "tried": "https://www.registreentreprises.gouv.qc.ca/RQAnonymeGR/GR/GR03/GR03A2_19A_PIU_RechEnt_PC/PageEtatRens.aspx?T1.CodeService=S00436&NEQ=1178213717",
+   "answer": 403
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900WN0M5OLKZTM395",
+  "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+  "https://granitemfo.com/",
+  "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=14560523&lang=eng",
+  "https://www.granitemfo.com/"
+ ],
+ "discovery": null
+}

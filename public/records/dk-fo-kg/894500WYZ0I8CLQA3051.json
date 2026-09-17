@@ -1,0 +1,181 @@
+{
+ "record": "Family Office Record",
+ "id": "894500WYZ0I8CLQA3051",
+ "version": "2026-09-14.2",
+ "node": "dk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://dk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500WYZ0I8CLQA3051",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500WYZ0I8CLQA3051",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Bigler Family Office ApS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "da"
+  },
+  "jurisdiction": {
+   "value": "DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Denmark"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2004-06-13",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Odeons Kvarter 21, 16, Odense C, DK-83, 5000, DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "H8VP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "register_id": "RA000170",
+   "id": {
+    "value": "27908357",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://datacvr.virk.dk/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2004-06-13",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-04-19",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-29",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-19",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)]",
+   "reason": "CVR answers a challenge page to machines and the open distribution needs a credentialled agreement — never attempted (HITL)",
+   "tried": "https://datacvr.virk.dk/soegeresultater?fritekst=Bigler%20Family%20Office%20ApS",
+   "answer": "challenge page; distribution needs credentials"
+  },
+  {
+   "field": "registrations[Finanstilsynet — Virksomhedsregister]",
+   "reason": "the register's search endpoint answered 404 to every machine read tried; not read this wave",
+   "tried": "https://virksomhedsregister.finanstilsynet.dk/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://ownr.dk/companies/public-profile/27908357",
+    "https://www.paqle.dk/p/bfo-1234-aps/189371",
+    "https://regnskaber.cvrapi.dk/75380972/amNsb3VkczovLzAzLzg4LzFkLzY3L2FmLzVhZGQtNDE0My1hMTBiLTk0ODdiOTY2NjFmYw.pdf?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://datacvr.virk.dk/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500WYZ0I8CLQA3051",
+  "https://ownr.dk/companies/public-profile/27908357",
+  "https://regnskaber.cvrapi.dk/75380972/amNsb3VkczovLzAzLzg4LzFkLzY3L2FmLzVhZGQtNDE0My1hMTBiLTk0ODdiOTY2NjFmYw.pdf?utm_source=openai",
+  "https://www.paqle.dk/p/bfo-1234-aps/189371"
+ ],
+ "discovery": null
+}

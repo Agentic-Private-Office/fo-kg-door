@@ -1,0 +1,209 @@
+{
+ "record": "Family Office Record",
+ "id": "506700366U8O62X2FU63",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "506700366U8O62X2FU63",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/506700366U8O62X2FU63",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "506700LOLO7M6V0E4247"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "W & P Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "de-CH",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2003-10-21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "In der Hinterzelg 71, Küsnacht ZH, CH-ZH, 8700, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Zefix — Zentraler Firmenindex (Swiss commercial register) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "MVII",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE110267930",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.zefix.ch/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-110.267.930",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-110.267.930"
+   },
+   "url": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-110.267.930",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2003-10-21",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-09-28",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-31",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-18",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-05",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://locaris.ch/fr/firma/CHE110267930",
+    "https://www.moneyhouse.ch/en/company/w-p-family-office-ag-11135300031"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.zefix.ch/",
+    "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-110.267.930"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/506700366U8O62X2FU63",
+  "https://locaris.ch/fr/firma/CHE110267930",
+  "https://www.moneyhouse.ch/en/company/w-p-family-office-ag-11135300031",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/722155.json"
+ ],
+ "discovery": null
+}

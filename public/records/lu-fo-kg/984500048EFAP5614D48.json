@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "984500048EFAP5614D48",
+ "version": "2026-09-14.2",
+ "node": "lu-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://lu.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500048EFAP5614D48",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500048EFAP5614D48",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "My Family Office",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "fr"
+  },
+  "jurisdiction": {
+   "value": "LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Luxembourg"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://myfamilyoffice.lu/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1"
+  },
+  "formation": {
+   "value": "2007-09-20",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "2, rue de l'Eau, LUXEMBOURG, LU-LU, 1449, LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5GGB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Luxembourg Business Registers (RCS)",
+   "register_id": "RA000432",
+   "id": {
+    "value": "B131564",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.lbr.lu/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://myfamilyoffice.lu/",
+  "source_url": "https://myfamilyoffice.lu/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2007-09-20",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-03-28",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-28",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-28",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CSSF — search entities]",
+   "reason": "the CSSF search-entities application has no machine read the rail could reach; not read this wave",
+   "tried": "https://edesk.apps.cssf.lu/search-entities/search?lng=en&keyword=family%20office",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "registrations[Luxembourg Business Registers (RCS)]",
+   "reason": "LBR extracts need a registered account — never attempted (HITL); the RCS number is as GLEIF records it",
+   "tried": "https://www.lbr.lu/",
+   "answer": "account (extracts); maintenance page"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.lbr.lu/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/984500048EFAP5614D48",
+  "https://lu.linkedin.com/company/my-family-office",
+  "https://myfamilyoffice.lu",
+  "https://myfamilyoffice.lu/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://lu.linkedin.com/company/my-family-office",
+   "x": null,
+   "website_named": "https://myfamilyoffice.lu/"
+  }
+ ]
+}

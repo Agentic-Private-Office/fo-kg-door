@@ -1,0 +1,178 @@
+{
+ "record": "Family Office Record",
+ "id": "8945009D74VK2I6QGM79",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "8945009D74VK2I6QGM79",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/8945009D74VK2I6QGM79",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "West Oak Family Office Corporate Investment Pool",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2024-12-18",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "3100-130 Adelaide St W, Toronto, CA-ON, M5H 3P5, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "D90J",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "SEDAR (System for Electronic Document Analysis and Retrieval)",
+   "register_id": "RA000830",
+   "id": {
+    "value": "000107493",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.sedarplus.ca/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-12-18",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-02-07",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-09",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-09",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[SEDAR (System for Electronic Document Analysis and Retrieval)]",
+   "reason": "profile pages need a browser session",
+   "tried": "https://www.sedarplus.ca/",
+   "answer": "browser session needed"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://advisor.wellington-altus.ca/westoakfamilyoffice/"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://advisor.wellington-altus.ca/westoakfamilyoffice/",
+    "https://advisor.wellington-altus.ca/westoakfamilyoffice/",
+    "https://www.linkedin.com/company/westoakfamilyoffice"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.sedarplus.ca/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79"
+  }
+ ],
+ "sources": [
+  "https://advisor.wellington-altus.ca/westoakfamilyoffice/",
+  "https://api.gleif.org/api/v1/lei-records/8945009D74VK2I6QGM79",
+  "https://www.linkedin.com/company/westoakfamilyoffice"
+ ],
+ "discovery": null
+}

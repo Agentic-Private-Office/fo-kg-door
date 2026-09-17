@@ -1,0 +1,173 @@
+{
+ "record": "Family Office Record",
+ "id": "549300C3MLB25SNTM135",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300C3MLB25SNTM135",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300C3MLB25SNTM135",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "WILSHIRE PRIVATE MARKETS REAL ESTATE FAMILY OFFICE FUND I, L.P.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-03-06",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O REGISTERED AGENT SOLUTIONS, INC., 838 WALKER ROAD SUITE 21-2, DOVER, US-DE, 19904, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "SEC EDGAR (company filings)",
+   "register_id": "RA000665",
+   "id": {
+    "value": "0001581864",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2013-03-06",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-08-01",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-15",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[SEC EDGAR (company filings)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.sec.gov/Archives/edgar/data/1807668/0001104659-24-123995-index.htm",
+    "https://eulerpool.com/da/virksomheder/US-DE/WILSHIRE%20PRIVATE%20MARKETS%20REAL%20ESTATE%20FAMILY%20OFFICE%20FUND%20I,%20L.P.,DOVER,5299097"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.sec.gov/edgar/searchedgar/companysearch"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=wilshire%20markets%20real%20estate&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/549300C3MLB25SNTM135",
+  "https://eulerpool.com/da/virksomheder/US-DE/WILSHIRE%20PRIVATE%20MARKETS%20REAL%20ESTATE%20FAMILY%20OFFICE%20FUND%20I,%20L.P.,DOVER,5299097",
+  "https://www.sec.gov/Archives/edgar/data/1807668/0001104659-24-123995-index.htm"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,71 @@
+name = "fo-kg"
+main = "worker/index.js"
+compatibility_date = "2026-09-01"
+# account_id: the office zones live in Cloudflare account "GSC AI Agent Stack" dd2832b36f171b815f84c8487aada36b by CEO ruling
+# 2026-09-13 (registrar + email + Worker only). Set at deploy time via CLOUDFLARE_ACCOUNT_ID; never hard-coded here.
+workers_dev = false
+routes = [
+  { pattern = "familyofficeknowledgegraph.ai",          custom_domain = true },
+  { pattern = "www.familyofficeknowledgegraph.ai",      custom_domain = true },
+  { pattern = "mcp.familyofficeknowledgegraph.ai",      custom_domain = true },
+  { pattern = "agent.familyofficeknowledgegraph.ai",    custom_domain = true },
+  { pattern = "ca-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "us-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "uk-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "ch-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "sg-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "it-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "fr-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "es-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "nl-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "dk-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "no-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "de-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "lu-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "au-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "ae-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "row-fo-kg.familyofficeknowledgegraph.ai", custom_domain = true },
+  { pattern = "mcp.fo-kg.ai", custom_domain = true },
+  { pattern = "agent.fo-kg.ai", custom_domain = true },
+  { pattern = "ca.fo-kg.ai", custom_domain = true },
+  { pattern = "us.fo-kg.ai", custom_domain = true },
+  { pattern = "uk.fo-kg.ai", custom_domain = true },
+  { pattern = "ch.fo-kg.ai", custom_domain = true },
+  { pattern = "sg.fo-kg.ai", custom_domain = true },
+  { pattern = "it.fo-kg.ai", custom_domain = true },
+  { pattern = "fr.fo-kg.ai", custom_domain = true },
+  { pattern = "es.fo-kg.ai", custom_domain = true },
+  { pattern = "nl.fo-kg.ai", custom_domain = true },
+  { pattern = "dk.fo-kg.ai", custom_domain = true },
+  { pattern = "no.fo-kg.ai", custom_domain = true },
+  { pattern = "de.fo-kg.ai", custom_domain = true },
+  { pattern = "lu.fo-kg.ai", custom_domain = true },
+  { pattern = "au.fo-kg.ai", custom_domain = true },
+  { pattern = "ae.fo-kg.ai", custom_domain = true },
+  { pattern = "row.fo-kg.ai", custom_domain = true },
+  { pattern = "familyofficeknowledgegraph.com",         custom_domain = true },
+  { pattern = "www.familyofficeknowledgegraph.com",     custom_domain = true },
+  { pattern = "familyofficeknowledgegraph.org",         custom_domain = true },
+  { pattern = "www.familyofficeknowledgegraph.org",     custom_domain = true },
+  { pattern = "familyofficeknowledgegraph.io",          custom_domain = true },
+  { pattern = "www.familyofficeknowledgegraph.io",      custom_domain = true }
+]
+
+[vars]
+X402_NETWORK = "base"
+
+[[services]]
+binding = "SELF"
+service = "fo-kg"
+
+[[kv_namespaces]]
+binding = "FO_KG_OFFICE"
+id = "e852a74b91a948bba7d0567c9b8a7743"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[observability]
+enabled = true

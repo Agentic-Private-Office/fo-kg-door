@@ -1,0 +1,256 @@
+{
+ "record": "Family Office Record",
+ "id": "959800G8WMBSQ7W9SS72",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "959800G8WMBSQ7W9SS72",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/959800G8WMBSQ7W9SS72",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "959800R2X69K6Y6MX775"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "CLUSTER FAMILY OFFICE S.L.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://clusterfamilyoffice.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, grok-4.6"
+  },
+  "formation": {
+   "value": "2007-11-22",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/Can Rabia 3 4, Barcelona, 08017, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000533",
+   "register_id": "RA000533",
+   "id": {
+    "value": "1000360624137",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Gian Paolo Amato",
+    "source_url": "https://clusterfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Javier Mariana",
+    "source_url": "https://clusterfamilyoffice.com/xavier-mariana-i-rams/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Managing Partner as the subject's own page says"
+   },
+   "role": "Managing Partner"
+  },
+  {
+   "name": {
+    "value": "Àngels Descamps",
+    "source_url": "https://clusterfamilyoffice.com/m-angels-descamps/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Legal – Back Office as the subject's own page says"
+   },
+   "role": "Legal – Back Office"
+  },
+  {
+   "name": {
+    "value": "Cristina Fernández",
+    "source_url": "https://clusterfamilyoffice.com",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Back Office Assistant as the subject's own page says"
+   },
+   "role": "Back Office Assistant"
+  },
+  {
+   "name": {
+    "value": "Alfonso Carrillo",
+    "source_url": "https://clusterfamilyoffice.com/alfonso-carrillo/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Joan Albert Mercader",
+    "source_url": "https://clusterfamilyoffice.com/joan-albert-mercader/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Xavier Mariana",
+    "source_url": "https://clusterfamilyoffice.com/equipo/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Managing Partner as the subject's own page says"
+   },
+   "role": "Managing Partner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://clusterfamilyoffice.com",
+  "source_url": "https://clusterfamilyoffice.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2007-11-22",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-11-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-19",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-03",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=CLUSTER%20FAMILY%20OFFICE%20S.L.",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://clusterfamilyoffice.com"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/959800G8WMBSQ7W9SS72",
+  "https://clusterfamilyoffice.com"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,169 @@
+{
+ "record": "Family Office Record",
+ "id": "391200Y23HTLWRB6H722",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200Y23HTLWRB6H722",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200Y23HTLWRB6H722",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Rüdiger Jäger Family Office Holding UG (haftungsbeschränkt)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "Am Südfriedhof 16, Düsseldorf, 40221, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "63KS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000234",
+   "register_id": "RA000234",
+   "id": {
+    "value": "HRB 82891",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-03-13",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-13",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=R%C3%BCdiger+J%C3%A4ger+Family+Office+Holding+UG+%28haftungsbeschr%C3%A4nkt%29&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000234]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://vivid.money/de-de/firmensuche/rudiger-jager-family-office-holding-ug-haftungsbeschrankt-1347686/",
+    "https://www.companyhouse.de/l/p/Rainer-Jaeger",
+    "https://branchenbuch.meinestadt.de/duesseldorf/company/15307629?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/391200Y23HTLWRB6H722",
+  "https://branchenbuch.meinestadt.de/duesseldorf/company/15307629?utm_source=openai",
+  "https://vivid.money/de-de/firmensuche/rudiger-jager-family-office-holding-ug-haftungsbeschrankt-1347686/",
+  "https://www.companyhouse.de/l/p/Rainer-Jaeger"
+ ],
+ "discovery": null
+}

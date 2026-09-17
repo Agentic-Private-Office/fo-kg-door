@@ -1,0 +1,173 @@
+{
+ "record": "Family Office Record",
+ "id": "549300E4ELY9HIACTB83",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300E4ELY9HIACTB83",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300E4ELY9HIACTB83",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "BJS FAMILY OFFICE, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US-FL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2007-08-10",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O CORR, DIANE E, 150 East Palmetto Park Road, Suite 800, BOCA RATON, US-FL, 33432, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8N21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Florida Division of Corporations (Sunbiz)",
+   "register_id": "RA000603",
+   "id": {
+    "value": "L07000082947",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2007-08-10",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-04-23",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-04-21",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-05-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Florida Division of Corporations (Sunbiz)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://bocaratonobserver.com/profiles/fiduciary-family-office-llc/",
+    "https://florida.intercreditreport.com/company/bjs-family-office-llc-l07000082947"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=bjs&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/549300E4ELY9HIACTB83",
+  "https://bocaratonobserver.com/profiles/fiduciary-family-office-llc/",
+  "https://florida.intercreditreport.com/company/bjs-family-office-llc-l07000082947"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,466 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://mcp.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://ae.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://ae.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://au.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://au.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://ca.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://ca.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://ch.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://ch.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://de.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://de.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://dk.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://dk.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://es.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://es.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://fr.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://fr.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://it.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://it.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://lu.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://lu.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://nl.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://nl.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://no.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://no.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://row.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://row.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://sg.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://sg.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://uk.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://uk.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://us.fo-kg.ai/mcp",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/llms.txt",
+          "type": "text/plain"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ],
+      "service-meta": [
+        {
+          "href": "https://us.fo-kg.ai/.well-known/mcp.json",
+          "type": "application/json"
+        }
+      ]
+    },
+    {
+      "anchor": "https://familyofficeknowledgegraph.ai/api",
+      "service-desc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/openapi.json",
+          "type": "application/openapi+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/x402",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://familyofficeknowledgegraph.ai/health.json"
+        }
+      ]
+    }
+  ]
+}

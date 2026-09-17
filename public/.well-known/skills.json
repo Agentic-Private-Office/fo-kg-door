@@ -1,0 +1,407 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "operator": "Agentic KG Holdings",
+  "principal": "Matthew Keddy",
+  "surface": "https://familyofficeknowledgegraph.ai",
+  "version": "0.19.10",
+  "skills": [
+    {
+      "name": "resolve_family_office",
+      "type": "skill-md",
+      "description": "Resolve an identifier (LEI, legal name, alias or register id) to the family-office records that carry it, with the node that serves each.",
+      "url": "/.well-known/agent-skills/resolve_family_office/SKILL.md",
+      "digest": "sha256:6c0bd086506b8d28c29f747fdfad28187eb4239ea895894db316b6a48472204d",
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "lei": {
+                  "type": "string"
+                },
+                "legal_name": {
+                  "type": "string"
+                },
+                "node": {
+                  "type": "string"
+                },
+                "record": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "matches"
+        ]
+      },
+      "endpoints": [
+        "https://mcp.fo-kg.ai/mcp",
+        "https://ae.fo-kg.ai/mcp",
+        "https://au.fo-kg.ai/mcp",
+        "https://ca.fo-kg.ai/mcp",
+        "https://ch.fo-kg.ai/mcp",
+        "https://de.fo-kg.ai/mcp",
+        "https://dk.fo-kg.ai/mcp",
+        "https://es.fo-kg.ai/mcp",
+        "https://fr.fo-kg.ai/mcp",
+        "https://it.fo-kg.ai/mcp",
+        "https://lu.fo-kg.ai/mcp",
+        "https://nl.fo-kg.ai/mcp",
+        "https://no.fo-kg.ai/mcp",
+        "https://row.fo-kg.ai/mcp",
+        "https://sg.fo-kg.ai/mcp",
+        "https://uk.fo-kg.ai/mcp",
+        "https://us.fo-kg.ai/mcp",
+        "https://familyofficeknowledgegraph.ai/resolve/{identifier}"
+      ]
+    },
+    {
+      "name": "get_record",
+      "type": "skill-md",
+      "description": "The Family Office Record for one identifier: identity, registrations, lei, principals, sectors, website, aliases, events, gaps — every field with value, source_url, read_by, read and state; optionally a named version.",
+      "url": "/.well-known/agent-skills/get_record/SKILL.md",
+      "digest": "sha256:4f9c0c5f6fe929caed25f7e0215e9d67210683a6c8a8cf84cb8b0b68fc1b30ae",
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "record": {
+            "type": "object",
+            "properties": {
+              "lei": {
+                "type": "object",
+                "properties": {
+                  "value": {},
+                  "source_url": {
+                    "type": "string"
+                  },
+                  "read_by": {
+                    "type": "string"
+                  },
+                  "read": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "sourced",
+                      "filled",
+                      "confirmed",
+                      "conflict",
+                      "unverified"
+                    ]
+                  }
+                },
+                "required": [
+                  "value",
+                  "source_url",
+                  "read_by",
+                  "state"
+                ]
+              },
+              "identity": {
+                "type": "object"
+              },
+              "registrations": {
+                "type": "array"
+              },
+              "principals": {
+                "type": "array"
+              },
+              "aliases": {
+                "type": "array"
+              },
+              "events": {
+                "type": "array"
+              },
+              "gaps": {
+                "type": "array"
+              }
+            }
+          }
+        },
+        "required": [
+          "record"
+        ]
+      },
+      "endpoints": [
+        "https://mcp.fo-kg.ai/mcp",
+        "https://ae.fo-kg.ai/mcp",
+        "https://au.fo-kg.ai/mcp",
+        "https://ca.fo-kg.ai/mcp",
+        "https://ch.fo-kg.ai/mcp",
+        "https://de.fo-kg.ai/mcp",
+        "https://dk.fo-kg.ai/mcp",
+        "https://es.fo-kg.ai/mcp",
+        "https://fr.fo-kg.ai/mcp",
+        "https://it.fo-kg.ai/mcp",
+        "https://lu.fo-kg.ai/mcp",
+        "https://nl.fo-kg.ai/mcp",
+        "https://no.fo-kg.ai/mcp",
+        "https://row.fo-kg.ai/mcp",
+        "https://sg.fo-kg.ai/mcp",
+        "https://uk.fo-kg.ai/mcp",
+        "https://us.fo-kg.ai/mcp"
+      ]
+    },
+    {
+      "name": "list_events_since",
+      "type": "skill-md",
+      "description": "Dated, URL'd events on one record, oldest first, optionally since a date, paged by cursor.",
+      "url": "/.well-known/agent-skills/list_events_since/SKILL.md",
+      "digest": "sha256:5ca400fe86d87d563ed47314126d75d4b902598849b5cbcc5600a4e1735902f5",
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          },
+          "since": {
+            "type": "string",
+            "format": "date"
+          },
+          "cursor": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "lei": {
+            "type": "string"
+          },
+          "events": {
+            "type": "array"
+          },
+          "next_cursor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "lei",
+          "events"
+        ]
+      },
+      "endpoints": [
+        "https://mcp.fo-kg.ai/mcp",
+        "https://ae.fo-kg.ai/mcp",
+        "https://au.fo-kg.ai/mcp",
+        "https://ca.fo-kg.ai/mcp",
+        "https://ch.fo-kg.ai/mcp",
+        "https://de.fo-kg.ai/mcp",
+        "https://dk.fo-kg.ai/mcp",
+        "https://es.fo-kg.ai/mcp",
+        "https://fr.fo-kg.ai/mcp",
+        "https://it.fo-kg.ai/mcp",
+        "https://lu.fo-kg.ai/mcp",
+        "https://nl.fo-kg.ai/mcp",
+        "https://no.fo-kg.ai/mcp",
+        "https://row.fo-kg.ai/mcp",
+        "https://sg.fo-kg.ai/mcp",
+        "https://uk.fo-kg.ai/mcp",
+        "https://us.fo-kg.ai/mcp"
+      ]
+    },
+    {
+      "name": "list_aliases",
+      "type": "skill-md",
+      "description": "Every name the record carries for one identifier, each with its source.",
+      "url": "/.well-known/agent-skills/list_aliases/SKILL.md",
+      "digest": "sha256:cddea00dcaa169c8adb0e616c7fba53d5170588edcf94c1c9358efb9a8986712",
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "lei": {
+            "type": "string"
+          },
+          "legal_name": {
+            "type": "object",
+            "properties": {
+              "value": {},
+              "source_url": {
+                "type": "string"
+              },
+              "read_by": {
+                "type": "string"
+              },
+              "read": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string",
+                "enum": [
+                  "sourced",
+                  "filled",
+                  "confirmed",
+                  "conflict",
+                  "unverified"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "source_url",
+              "read_by",
+              "state"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value": {},
+                "source_url": {
+                  "type": "string"
+                },
+                "read_by": {
+                  "type": "string"
+                },
+                "read": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "enum": [
+                    "sourced",
+                    "filled",
+                    "confirmed",
+                    "conflict",
+                    "unverified"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "source_url",
+                "read_by",
+                "state"
+              ]
+            }
+          }
+        },
+        "required": [
+          "lei",
+          "aliases"
+        ]
+      },
+      "endpoints": [
+        "https://mcp.fo-kg.ai/mcp",
+        "https://ae.fo-kg.ai/mcp",
+        "https://au.fo-kg.ai/mcp",
+        "https://ca.fo-kg.ai/mcp",
+        "https://ch.fo-kg.ai/mcp",
+        "https://de.fo-kg.ai/mcp",
+        "https://dk.fo-kg.ai/mcp",
+        "https://es.fo-kg.ai/mcp",
+        "https://fr.fo-kg.ai/mcp",
+        "https://it.fo-kg.ai/mcp",
+        "https://lu.fo-kg.ai/mcp",
+        "https://nl.fo-kg.ai/mcp",
+        "https://no.fo-kg.ai/mcp",
+        "https://row.fo-kg.ai/mcp",
+        "https://sg.fo-kg.ai/mcp",
+        "https://uk.fo-kg.ai/mcp",
+        "https://us.fo-kg.ai/mcp"
+      ]
+    },
+    {
+      "name": "list_nodes",
+      "type": "skill-md",
+      "description": "The graph's nodes with record counts read from each node's index, the node door and its as-of.",
+      "url": "/.well-known/agent-skills/list_nodes/SKILL.md",
+      "digest": "sha256:00ad8450eb21be87ef978edd30637e62ad5be854d5ff2ed0e4b4aa06d53a9a3d",
+      "input": {
+        "type": "object",
+        "properties": {}
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "nodes": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "nodes"
+        ]
+      },
+      "endpoints": [
+        "https://mcp.fo-kg.ai/mcp",
+        "https://ae.fo-kg.ai/mcp",
+        "https://au.fo-kg.ai/mcp",
+        "https://ca.fo-kg.ai/mcp",
+        "https://ch.fo-kg.ai/mcp",
+        "https://de.fo-kg.ai/mcp",
+        "https://dk.fo-kg.ai/mcp",
+        "https://es.fo-kg.ai/mcp",
+        "https://fr.fo-kg.ai/mcp",
+        "https://it.fo-kg.ai/mcp",
+        "https://lu.fo-kg.ai/mcp",
+        "https://nl.fo-kg.ai/mcp",
+        "https://no.fo-kg.ai/mcp",
+        "https://row.fo-kg.ai/mcp",
+        "https://sg.fo-kg.ai/mcp",
+        "https://uk.fo-kg.ai/mcp",
+        "https://us.fo-kg.ai/mcp",
+        "https://familyofficeknowledgegraph.ai/records/nodes.json"
+      ]
+    }
+  ]
+}

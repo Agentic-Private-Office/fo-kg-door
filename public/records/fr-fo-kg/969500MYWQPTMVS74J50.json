@@ -1,0 +1,218 @@
+{
+ "record": "Family Office Record",
+ "id": "969500MYWQPTMVS74J50",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "969500MYWQPTMVS74J50",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/969500MYWQPTMVS74J50",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "969500Q2MA9VBQ8BG884"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "BIRDIE FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2021-09-30",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2021-10-01",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "23 AVENUE MAC-MAHON, 23-25, PARIS, 75017, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "6CHY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "904459567",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/904459567",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "ANDRE DAMIENS",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2021-09-30",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-10-01",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-11-28",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-11-28",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-28",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/904459567",
+    "https://www.linkedin.com/company/famille-office",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50"
+  }
+ ],
+ "sources": [
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/904459567",
+  "https://api.gleif.org/api/v1/lei-records/969500MYWQPTMVS74J50",
+  "https://recherche-entreprises.api.gouv.fr/search?q=904459567",
+  "https://www.linkedin.com/company/famille-office"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,194 @@
+{
+ "record": "Family Office Record",
+ "id": "NL-AFM-Wilton_Investment_Services_B_V",
+ "version": "2026-09-14.2",
+ "node": "nl-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://nl.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Wilton Investment Services B.V.",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "NL",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Netherlands"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://wilton.nl",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Breda, NL",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "listed",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "AFM register — beleggingsondernemingen",
+   "register_id": null,
+   "id": {
+    "value": "Wilton Investment Services B.V.",
+    "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.afm.nl/en/sector/registers"
+   },
+   "url": "https://www.afm.nl/en/sector/registers",
+   "status": {
+    "value": "listed",
+    "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Hans Wilton",
+    "source_url": "https://wilton.nl/en/over-wilton",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Adrianne van Vliet",
+    "source_url": "https://wilton.nl/en/over-wilton",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Arne van der Ent",
+    "source_url": "https://wilton.nl/en/over-wilton",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Paul de Kroon",
+    "source_url": "https://wilton.nl/en/over-wilton",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Michiel Krauss",
+    "source_url": "https://wilton.nl/en/over-wilton",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://wilton.nl",
+  "source_url": "https://wilton.nl",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [
+  {
+   "value": "Montes Capital Management",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "Wilton Family Office",
+   "source_url": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=NL&filter[fulltext]=Wilton Investment Services B.V."
+  },
+  {
+   "field": "registrations[KVK — Handelsregister (Kamer van Koophandel)]",
+   "reason": "KVK public search renders client-side and extracts are paid — never attempted (HITL)",
+   "tried": "https://www.kvk.nl/zoeken/?source=all&q=Wilton%20Investment%20Services%20B.V.",
+   "answer": "client-side search; extracts paid"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef"
+  }
+ ],
+ "sources": [
+  "https://wilton.nl",
+  "https://www.afm.nl/export.aspx?KeyWords=family+office&format=csv&type=8f59acf7-047b-4009-9fa7-90a264e6f3ef",
+  "https://www.afm.nl/nl-nl/sector/registers/vergunningenregisters/beleggingsondernemingen/details?id=0BD96A33-E5FA-DF11-BB5A-005056BE6692",
+  "https://www.wilton.nl"
+ ],
+ "discovery": null
+}

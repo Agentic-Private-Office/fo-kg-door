@@ -1,0 +1,159 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-825336761",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "LORENTE FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2016-12-20",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "BATIMENT MECABESS ZAC PORCHE DU VAL D'AURON 18340 PLAIMPIED-GIVAUDINS",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "9220",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "825336761",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/825336761"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/825336761",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "LORENTE FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2016-12-20",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=LORENTE FAMILY OFFICE"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://annuaire-entreprises.data.gouv.fr/etablissement/82533676100010",
+    "https://www.societe.com/societe/lorente-family-office-825336761.html",
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/lorente-family-office-825336761?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=825336761"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/825336761"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=825336761"
+  }
+ ],
+ "sources": [
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/lorente-family-office-825336761?utm_source=openai",
+  "https://annuaire-entreprises.data.gouv.fr/etablissement/82533676100010",
+  "https://recherche-entreprises.api.gouv.fr/search?q=825336761",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=5",
+  "https://www.societe.com/societe/lorente-family-office-825336761.html"
+ ],
+ "discovery": null
+}

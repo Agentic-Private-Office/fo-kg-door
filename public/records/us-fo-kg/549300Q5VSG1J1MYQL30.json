@@ -1,0 +1,332 @@
+{
+ "record": "Family Office Record",
+ "id": "549300Q5VSG1J1MYQL30",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300Q5VSG1J1MYQL30",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300Q5VSG1J1MYQL30",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "offices": [
+  {
+   "value": "320 SOUTH CANAL STREET, FLOOR 12, CHICAGO, IL, 60606, United States",
+   "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "kind": "main office as filed on Form ADV"
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "BMO FAMILY OFFICE, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "jurisdiction": {
+   "value": "US-DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "http://www.bmofamilyoffice.com",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2013-04-10",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER 1209 ORANGE ST, WILMINGTON, US-DE, 19801, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "HZEH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Delaware Division of Corporations",
+   "register_id": "RA000602",
+   "id": {
+    "value": "3086034",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "110264",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "registered",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "801-56868",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "110264",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/110264"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/110264",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "56868",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.linkedin.com/company/bmowealthmanagement-us",
+  "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "website as disclosed on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+ },
+ "aliases": [
+  {
+   "value": "Harris myCFO, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "CTC myCFO, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "BMO FAMILY OFFICE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "MYCFO INVESTMENT ADVISORY SERVICES, LLC",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "MYCFO INVESTMENT ADVISORY SERVICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "MYCFO",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "HARRIS MYCFO INVESTMENT ADVISORY SERVICES LLC",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "CTC  | MYCFO",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "BMO WEALTH MANAGEMENT",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "BMO PRIVATE WEALTH",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2013-04-09",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2013-04-10",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2015-02-28",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-06-06",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Delaware Division of Corporations]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://icis.corp.delaware.gov/ecorp/entitysearch/namesearch.aspx",
+    "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+    "https://adviserinfo.sec.gov/firm/summary/110264"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30"
+  }
+ ],
+ "sources": [
+  "http://www.bmofamilyoffice.com",
+  "https://api.adviserinfo.sec.gov/search/firm?query=110264&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/549300Q5VSG1J1MYQL30",
+  "https://www.linkedin.com/company/bmofamilyoffice",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip"
+ ],
+ "discovery": null
+}

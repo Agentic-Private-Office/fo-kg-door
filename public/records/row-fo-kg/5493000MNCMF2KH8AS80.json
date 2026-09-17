@@ -1,0 +1,150 @@
+{
+ "record": "Family Office Record",
+ "id": "5493000MNCMF2KH8AS80",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "5493000MNCMF2KH8AS80",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/5493000MNCMF2KH8AS80",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "JAMES ALPHA FAMILY OFFICE CAYMAN FUND LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "KY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Cayman Islands"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "C/O DMS Corporate Services Ltd., 2nd Floor, DMS House,PO Box 1344, 20 Genesis Close, George Town, KY1-1108, KY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "OSBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000086",
+   "register_id": "RA000086",
+   "id": {
+    "value": "DM-322846",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-07-13",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-03-30",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-08-03",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/5493000MNCMF2KH8AS80"
+ ],
+ "discovery": null
+}

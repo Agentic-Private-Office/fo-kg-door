@@ -1,0 +1,202 @@
+{
+ "record": "Family Office Record",
+ "id": "959800TR9EGFF5QJW270",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "959800TR9EGFF5QJW270",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/959800TR9EGFF5QJW270",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "959800R2X69K6Y6MX775"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ANCHOR FAMILY OFFICE SERVICES S.L.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://anchoreafi.com/family-office",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gpt-4.1, grok-4.6"
+  },
+  "formation": {
+   "value": "2006-06-21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Avinguda Diagonal 467 4-1B, Barcelona, 08036, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000533",
+   "register_id": "RA000533",
+   "id": {
+    "value": "1000357864274",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "David Gassó",
+    "source_url": "https://anchoreafi.com/family-office",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://anchoreafi.com/family-office",
+  "source_url": "https://anchoreafi.com/family-office",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1, grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "LONG-ONLY INVESTMENT S.L.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "es"
+  }
+ ],
+ "events": [
+  {
+   "date": "2006-06-21",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-07",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=ANCHOR%20FAMILY%20OFFICE%20SERVICES%20S.L.",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "website",
+   "reason": "answered 0",
+   "tried": "https://anchoreafi.com/family-office",
+   "answer": 0
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270"
+  }
+ ],
+ "sources": [
+  "https://anchoreafi.com/family-office",
+  "https://api.gleif.org/api/v1/lei-records/959800TR9EGFF5QJW270",
+  "https://www.anchoreafi.com/family-office"
+ ],
+ "discovery": null
+}

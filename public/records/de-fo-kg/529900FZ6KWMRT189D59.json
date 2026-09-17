@@ -1,0 +1,217 @@
+{
+ "record": "Family Office Record",
+ "id": "529900FZ6KWMRT189D59",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900FZ6KWMRT189D59",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900FZ6KWMRT189D59",
+  "registration_status": "ISSUED",
+  "corroboration": "ENTITY_SUPPLIED_ONLY",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Family Office Fuchs GbR Inhaber Fuchs, Fährmann & Förg GbR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://familyofficefuchs.de/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "read by Grok on the page it opened",
+   "conflict_with": [
+    {
+     "value": "single-family",
+     "source_url": "https://familyofficefuchs.de/",
+     "read_by": "gpt-4.1"
+    }
+   ]
+  },
+  "formation": {
+   "value": "2024-12-12",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Am Herterfeld, 47, Kirchseeon, DE-BY, 85614, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "FR3V",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [],
+ "principals": [
+  {
+   "name": {
+    "value": "Christian Fuchs",
+    "source_url": "https://familyofficefuchs.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Gründer und Geschäftsführer as the subject's own page says"
+   },
+   "role": "Gründer und Geschäftsführer"
+  },
+  {
+   "name": {
+    "value": "Jonas Fährmann",
+    "source_url": "https://familyofficefuchs.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Robert Förg",
+    "source_url": "https://familyofficefuchs.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://familyofficefuchs.de/",
+  "source_url": "https://familyofficefuchs.de/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "Family Office Fuchs GbR Inhaber Fuchs & Fährmann GbR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "de"
+  }
+ ],
+ "events": [
+  {
+   "date": "2024-12-12",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-01",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-09-01",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations",
+   "reason": "GLEIF records no registration authority for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59"
+  },
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Family+Office+Fuchs+GbR+Inhaber+Fuchs%2C+F%C3%A4hrmann+%26+F%C3%B6rg+GbR&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA999999]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://familyofficefuchs.de/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900FZ6KWMRT189D59",
+  "https://familyofficefuchs.de/"
+ ],
+ "discovery": null
+}

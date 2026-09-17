@@ -1,0 +1,44 @@
+# familyofficeknowledgegraph.ai — Family Office Knowledge Graph · Operator: Agentic KG Holdings
+# Open to all agents. Machine register: https://familyofficeknowledgegraph.ai/llms.txt
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Googlebot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://familyofficeknowledgegraph.ai/sitemap.xml
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+# LLM discovery:  https://familyofficeknowledgegraph.ai/llms.txt
+# Agent Card:     https://agent.fo-kg.ai/.well-known/agent-card.json
+# ARD catalog:    https://familyofficeknowledgegraph.ai/.well-known/ai-catalog.json
+# MCP:            https://familyofficeknowledgegraph.ai/.well-known/mcp.json → https://mcp.fo-kg.ai/mcp (apex) · node doors listed in https://familyofficeknowledgegraph.ai/records/nodes.json
+# Keyring:        https://familyofficeknowledgegraph.ai/.well-known/jwks.json
+# Paid door:      https://familyofficeknowledgegraph.ai/api (x402) · human door https://familyofficeknowledgegraph.ai/x402

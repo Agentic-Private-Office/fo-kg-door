@@ -1,0 +1,171 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-538572710",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "SIMON PATRIMOINE CONSEIL (FINANCIERE D3 GLOBAL FAMILY OFFICE) (SCP)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://financiered3.com",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gemini-3.6-flash on the page it cites"
+  },
+  "formation": {
+   "value": "2011-11-01",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "91 RUE DU FAUBOURG SAINT-HONORE 75008 PARIS",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5499",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "538572710",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/538572710"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/538572710",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "FREDERIQUE SIMON",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://financiered3.com",
+  "source_url": "https://financiered3.com",
+  "read_by": "gemini-3.6-flash",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gemini-3.6-flash on the page it cites"
+ },
+ "aliases": [
+  {
+   "value": "SIMON PATRIMOINE CONSEIL",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "SCP",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on INSEE — Sirene (registre national des entreprises)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2011-11-01",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=SIMON PATRIMOINE CONSEIL (FINANCIERE D3 GLOBAL FAMILY OFFICE) (SCP)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=538572710"
+  }
+ ],
+ "sources": [
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/538572710",
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/simon-patrimoine-conseil-financiere-d3-global-family-office-scp-538572710",
+  "https://financiered3.com",
+  "https://recherche-entreprises.api.gouv.fr/search?q=538572710",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=22"
+ ],
+ "discovery": null
+}

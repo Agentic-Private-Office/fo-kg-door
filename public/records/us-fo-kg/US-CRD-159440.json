@@ -1,0 +1,265 @@
+{
+ "record": "Family Office Record",
+ "id": "US-CRD-159440",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "TFO FAMILY OFFICE PARTNERS",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://tfofamilyoffice.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "PHOENIX, 85018, US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01) (city and postal code agree)"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "159440",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "registered",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "801-72840",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "159440",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/159440"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/159440",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "72840",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Christopher Edward Erblich",
+    "source_url": "https://tfofamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Chris Erblich, Esq.",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CEO and Chairman | Partner as the subject's own page says"
+   },
+   "role": "CEO and Chairman | Partner"
+  },
+  {
+   "name": {
+    "value": "Scott Horn, CPA",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "President | Partner as the subject's own page says"
+   },
+   "role": "President | Partner"
+  },
+  {
+   "name": {
+    "value": "Chuck Carroll, CFA, CAIA",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Chief Investment Officer | Partner as the subject's own page says"
+   },
+   "role": "Chief Investment Officer | Partner"
+  },
+  {
+   "name": {
+    "value": "Damon Miller",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Donald Scott, J.D.",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner as the subject's own page says"
+   },
+   "role": "Partner"
+  },
+  {
+   "name": {
+    "value": "Brittany Genzale",
+    "source_url": "https://tfofamilyoffice.com/our-team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Chief Operating Officer | Partner as the subject's own page says"
+   },
+   "role": "Chief Operating Officer | Partner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://www.tfopartners.com",
+  "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "website as disclosed on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+ },
+ "aliases": [
+  {
+   "value": "TFO FAMILY OFFICE PARTNERS, LLC",
+   "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as enumerated (search result); the register page names the entity differently"
+  },
+  {
+   "value": "TFO FAMILY OFFICE PARTNERS",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "TFO PHOENIX, INC.",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "TFO FAMILY OFFICE PARTNERS, INC.",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=TFO FAMILY OFFICE PARTNERS, LLC"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=159440&hl=false&nrows=10&start=0&wt=json",
+  "https://tfofamilyoffice.com",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip"
+ ],
+ "discovery": null
+}

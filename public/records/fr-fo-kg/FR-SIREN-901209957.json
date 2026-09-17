@@ -1,0 +1,165 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-901209957",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "MORGAN & CIE. FAMILY OFFICE (MORGAN & CIE F.O)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.morgan-cie.com",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2021-07-19",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "231 RUE SAINT-HONORE 75001 PARIS",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5499",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "901209957",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/901209957"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/901209957",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "MORGAN ZOUAOUI",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.morgan-cie.com",
+  "source_url": "https://www.morgan-cie.com",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash"
+ },
+ "aliases": [
+  {
+   "value": "MORGAN & CIE. FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2021-07-19",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=MORGAN & CIE. FAMILY OFFICE (MORGAN & CIE F.O)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=901209957"
+  }
+ ],
+ "sources": [
+  "http://www.morgan-cie.com/",
+  "https://recherche-entreprises.api.gouv.fr/search?q=901209957",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=7",
+  "https://www.morgan-cie.com",
+  "https://www.morgan-cie.com/"
+ ],
+ "discovery": null
+}

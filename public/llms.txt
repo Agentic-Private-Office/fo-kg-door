@@ -1,0 +1,603 @@
+# Family Office Knowledge Graph
+
+> One record per family office, drawn from the public record: the GLEIF spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Nothing is inferred and nothing is typed.
+
+Operator: Agentic KG Holdings · Principal: Matthew Keddy · Office: https://agent-kg.ai · Surface: https://familyofficeknowledgegraph.ai · Surface version 0.19.10 · as of 2026-09-14
+
+## What it is
+
+A knowledge graph of the office's kind (FO_START_ME_UP_3): one Family Office Record (FOR) per subject. Field = { value, source_url, read_by, read, state } — second_source_url, second_read_by where two independent public sources agree. States: sourced · filled · confirmed · conflict · unverified. Passes: harvest → fill → confirm. Records are confirmed, not signed.
+
+## Nodes (counts read from each node's index at build; the page reads them live)
+
+- ae-fo-kg — United Arab Emirates · 8 records as of 2026-09-14 · door https://ae.fo-kg.ai/mcp · index https://ae.fo-kg.ai/records/ae-fo-kg/index.json · spine GLEIF
+- au-fo-kg — Australia · 24 records as of 2026-09-14 · door https://au.fo-kg.ai/mcp · index https://au.fo-kg.ai/records/au-fo-kg/index.json · spine GLEIF
+- ca-fo-kg — Canada · 46 records as of 2026-09-14 · door https://ca.fo-kg.ai/mcp · index https://ca.fo-kg.ai/records/ca-fo-kg/index.json · spine GLEIF
+- ch-fo-kg — Switzerland · 314 records as of 2026-09-14 · door https://ch.fo-kg.ai/mcp · index https://ch.fo-kg.ai/records/ch-fo-kg/index.json · spine GLEIF
+- de-fo-kg — Germany · 182 records as of 2026-09-14 · door https://de.fo-kg.ai/mcp · index https://de.fo-kg.ai/records/de-fo-kg/index.json · spine GLEIF
+- dk-fo-kg — Denmark · 16 records as of 2026-09-14 · door https://dk.fo-kg.ai/mcp · index https://dk.fo-kg.ai/records/dk-fo-kg/index.json · spine GLEIF
+- es-fo-kg — Spain · 39 records as of 2026-09-14 · door https://es.fo-kg.ai/mcp · index https://es.fo-kg.ai/records/es-fo-kg/index.json · spine GLEIF
+- fr-fo-kg — France · 196 records as of 2026-09-14 · door https://fr.fo-kg.ai/mcp · index https://fr.fo-kg.ai/records/fr-fo-kg/index.json · spine GLEIF
+- it-fo-kg — Italy · 12 records as of 2026-09-14 · door https://it.fo-kg.ai/mcp · index https://it.fo-kg.ai/records/it-fo-kg/index.json · spine GLEIF
+- lu-fo-kg — Luxembourg · 14 records as of 2026-09-14 · door https://lu.fo-kg.ai/mcp · index https://lu.fo-kg.ai/records/lu-fo-kg/index.json · spine GLEIF
+- nl-fo-kg — Netherlands · 9 records as of 2026-09-14 · door https://nl.fo-kg.ai/mcp · index https://nl.fo-kg.ai/records/nl-fo-kg/index.json · spine GLEIF
+- no-fo-kg — Norway · 12 records as of 2026-09-14 · door https://no.fo-kg.ai/mcp · index https://no.fo-kg.ai/records/no-fo-kg/index.json · spine GLEIF
+- row-fo-kg — Rest of world · 176 records as of 2026-09-14 · door https://row.fo-kg.ai/mcp · index https://row.fo-kg.ai/records/row-fo-kg/index.json · spine GLEIF
+- sg-fo-kg — Singapore · 580 records as of 2026-09-14 · door https://sg.fo-kg.ai/mcp · index https://sg.fo-kg.ai/records/sg-fo-kg/index.json · spine GLEIF
+- uk-fo-kg — United Kingdom · 204 records as of 2026-09-14 · door https://uk.fo-kg.ai/mcp · index https://uk.fo-kg.ai/records/uk-fo-kg/index.json · spine GLEIF
+- us-fo-kg — United States · 113 records as of 2026-09-14 · door https://us.fo-kg.ai/mcp · index https://us.fo-kg.ai/records/us-fo-kg/index.json · spine GLEIF
+- Totals at build: 24591 fields · 1550 confirmed · 21339 sourced · 1579 filled · 123 conflict · 0 unverified · 2308 register entries · 4162 events · 9325 declared gaps
+
+## Doors
+
+- Apex door (MCP, streamable-http): https://mcp.fo-kg.ai/mcp — holds the index, forwards to the node door · card https://familyofficeknowledgegraph.ai/.well-known/mcp.json · node doors <node>.fo-kg.ai/mcp (ca.fo-kg.ai … row.fo-kg.ai) · long names keep answering (https://mcp.familyofficeknowledgegraph.ai/mcp, <node>.familyofficeknowledgegraph.ai/mcp, https://agent.familyofficeknowledgegraph.ai)
+- Node doors: https://ae.fo-kg.ai/mcp · https://au.fo-kg.ai/mcp · https://ca.fo-kg.ai/mcp · https://ch.fo-kg.ai/mcp · https://de.fo-kg.ai/mcp · https://dk.fo-kg.ai/mcp · https://es.fo-kg.ai/mcp · https://fr.fo-kg.ai/mcp · https://it.fo-kg.ai/mcp · https://lu.fo-kg.ai/mcp · https://nl.fo-kg.ai/mcp · https://no.fo-kg.ai/mcp · https://row.fo-kg.ai/mcp · https://sg.fo-kg.ai/mcp · https://uk.fo-kg.ai/mcp · https://us.fo-kg.ai/mcp — serve the records
+- Tools (five, same names on every office graph): resolve_family_office(identifier) · get_record(identifier, version?) · list_events_since(identifier, since?, cursor?, limit?) · list_aliases(identifier) · list_nodes()
+- Agent Card (A2A): https://agent.fo-kg.ai/.well-known/agent-card.json
+- Over HTTP: https://familyofficeknowledgegraph.ai/resolve/{identifier} · https://familyofficeknowledgegraph.ai/records/nodes.json · https://familyofficeknowledgegraph.ai/records/<node>/index.json · https://familyofficeknowledgegraph.ai/records/<node>/<LEI>.json
+- Paid door (x402 v2, $0.01 USDC, Base mainnet): GET https://familyofficeknowledgegraph.ai/api → 402 offer; with PAYMENT-SIGNATURE → { receipt, statement, data } = the graph index of record signed (kid fo-kg-x402-2026-09); human door https://familyofficeknowledgegraph.ai/x402; doctrine https://agent-kg.ai/x402
+- Licensed route: GET https://familyofficeknowledgegraph.ai/licensed/index with a Bearer token from the office authorization server (https://agent-kg.ai/oauth/token, scope office:read); protected-resource metadata https://familyofficeknowledgegraph.ai/.well-known/oauth-protected-resource; instructions https://familyofficeknowledgegraph.ai/auth.md
+- Human contact: https://familyofficeknowledgegraph.ai/#contact — the form is the only door on the page
+
+## Sources read for the nodes above
+
+- www.theoakfieldgroup.com — subject website — https://www.theoakfieldgroup.com/ · fill
+- ABN Lookup — Australian Business Register — https://abr.business.gov.au/ · fill and confirm
+- ASIC registers — open data (data.gov.au) — https://data.gov.au/ · fill and confirm
+- accessfo.com — subject website — https://accessfo.com/ · fill
+- advisor.wellington-altus.ca — subject website — https://advisor.wellington-altus.ca/ · fill
+- SEC IAPD — Investment Adviser Public Disclosure (search API) — https://api.adviserinfo.sec.gov/ · fill and confirm
+- copperbeech.com — subject website — https://copperbeech.com/ · fill
+- Corporations Canada — open data, active CBCA corporations (CSV) — https://d4bf66bykfyaf.cloudfront.net/ · fill and confirm
+- Corporations Canada — federal corporation pages — https://ised-isde.canada.ca/ · fill and confirm
+- mckmfamilyoffice.com — subject website — https://mckmfamilyoffice.com/ · fill
+- OrgBook BC — BC Registries — https://orgbook.gov.bc.ca/ · fill and confirm
+- ourfamilyoffice.ca — subject website — https://ourfamilyoffice.ca/ · fill
+- pangeafamilyoffices.com — subject website — https://pangeafamilyoffices.com/ · fill
+- rwprivatefamilyoffice.com — subject website — https://rwprivatefamilyoffice.com/ · fill
+- samara.ca — subject website — https://samara.ca/ · fill
+- The UHNW Institute — published member/directory page — https://uhnwinstitute.org/ · association source
+- Ontario Business Registry — https://www.appmybizaccount.gov.on.ca/ · refuses machines — gap
+- www.borealfo.com — subject website — https://www.borealfo.com/ · fill
+- www.firstaffiliated.ca — subject website — https://www.firstaffiliated.ca/ · fill
+- www.granitemfo.com — subject website — https://www.granitemfo.com/ · fill
+- www.holdun.com — subject website — https://www.holdun.com/ · fill
+- www.middletonfamilyoffice.com — subject website — https://www.middletonfamilyoffice.com/ · fill
+- www.northwoodfamilyoffice.com — subject website — https://www.northwoodfamilyoffice.com/ · fill
+- Ontario Securities Commission — orders, rulings and decisions — https://www.osc.ca/ · fill and confirm
+- Registraire des entreprises (Québec) — https://www.registreentreprises.gouv.qc.ca/ · refuses machines — gap
+- SEC EDGAR — https://www.sec.gov/ · fill
+- www.sigma2fo.com — subject website — https://www.sigma2fo.com/ · fill
+- www.thefamilyoffice.ca — subject website — https://www.thefamilyoffice.ca/ · fill
+- The UHNW Institute — published member/directory page — https://www.uhnwinstitute.org/ · association source
+- www.werklund.com — subject website — https://www.werklund.com/ · fill
+- yourprivatecfo.com — subject website — https://yourprivatecfo.com/ · fill
+- 1856familyoffice.com — subject website — https://1856familyoffice.com/ · fill
+- 3tfo.com — subject website — https://3tfo.com/ · fill
+- advantage-office.com — subject website — https://advantage-office.com/ · fill
+- ak-familyoffice.com — subject website — https://ak-familyoffice.com/ · fill
+- amgfo.com — subject website — https://amgfo.com/ · fill
+- artfamilyoffice.ch — subject website — https://artfamilyoffice.ch/ · fill
+- atag-familyoffice.ch — subject website — https://atag-familyoffice.ch/ · fill
+- atrium-office.ch — subject website — https://atrium-office.ch/ · fill
+- azurewealth.ch — subject website — https://azurewealth.ch/ · fill
+- bfo.swiss — subject website — https://bfo.swiss/ · fill
+- bfoag.ch — subject website — https://bfoag.ch/ · fill
+- blackoak.ch — subject website — https://blackoak.ch/ · fill
+- bodewisecottonfield.com — subject website — https://bodewisecottonfield.com/ · fill
+- bonifazigroup.com — subject website — https://bonifazigroup.com/ · fill
+- braginskycollection.com — subject website — https://braginskycollection.com/ · fill
+- bratschi.com — subject website — https://bratschi.com/ · fill
+- breufamilyoffice.ch — subject website — https://breufamilyoffice.ch/ · fill
+- candeo.ch — subject website — https://candeo.ch/ · fill
+- columbusprivate.ch — subject website — https://columbusprivate.ch/ · fill
+- csffamilyoffice.com — subject website — https://csffamilyoffice.com/ · fill
+- d-tail.ch — subject website — https://d-tail.ch/ · fill
+- davidoff-family-office.ch — subject website — https://davidoff-family-office.ch/ · fill
+- dolfid.ch — subject website — https://dolfid.ch/ · fill
+- dvbgroup.ch — subject website — https://dvbgroup.ch/ · fill
+- emcge.com — subject website — https://emcge.com/ · fill
+- finad.com — subject website — https://finad.com/ · fill
+- finanz-konzept.ch — subject website — https://finanz-konzept.ch/ · fill
+- fo.oddo-bhf.com — subject website — https://fo.oddo-bhf.com/ · fill
+- fomfiduciaria.ch — subject website — https://fomfiduciaria.ch/ · fill
+- fons-sa.ch — subject website — https://fons-sa.ch/ · fill
+- freyfamilyoffice.com — subject website — https://freyfamilyoffice.com/ · fill
+- fvl-treuhand.ch — subject website — https://fvl-treuhand.ch/ · fill
+- fwfo.ch — subject website — https://fwfo.ch/ · fill
+- gfo-group.com — subject website — https://gfo-group.com/ · fill
+- gsass.ch — subject website — https://gsass.ch/ · fill
+- gtgroup.ch — subject website — https://gtgroup.ch/ · fill
+- hermitage1815.ch — subject website — https://hermitage1815.ch/ · fill
+- inchportfolio.ch — subject website — https://inchportfolio.ch/ · fill
+- jbdn-invest.com — subject website — https://jbdn-invest.com/ · fill
+- jeannet.com — subject website — https://jeannet.com/ · fill
+- kairos-fo.ch — subject website — https://kairos-fo.ch/ · fill
+- kfo-familyoffice.com — subject website — https://kfo-familyoffice.com/ · fill
+- lidafo.com — subject website — https://lidafo.com/ · fill
+- mayfairfamilyoffice.com — subject website — https://mayfairfamilyoffice.com/ · fill
+- mellonmazi.com — subject website — https://mellonmazi.com/ · fill
+- morgenstern-holding.com — subject website — https://morgenstern-holding.com/ · fill
+- muellerfamilyoffice.ch — subject website — https://muellerfamilyoffice.ch/ · fill
+- multifamilyofficezollikon.ch — subject website — https://multifamilyofficezollikon.ch/ · fill
+- nessfo.ch — subject website — https://nessfo.ch/ · fill
+- obsidian.swiss — subject website — https://obsidian.swiss/ · fill
+- octogone.ch — subject website — https://octogone.ch/ · fill
+- piushusmann.ch — subject website — https://piushusmann.ch/ · fill
+- platanuslegacy.com — subject website — https://platanuslegacy.com/ · fill
+- plus-group.ch — subject website — https://plus-group.ch/ · fill
+- point5familyoffice.com — subject website — https://point5familyoffice.com/ · fill
+- preciousfo.ch — subject website — https://preciousfo.ch/ · fill
+- prokulewiczgrants.com — subject website — https://prokulewiczgrants.com/ · fill
+- rigi-fo.com — subject website — https://rigi-fo.com/ · fill
+- samira.business — subject website — https://samira.business/ · fill
+- schmidt-familyoffice.com — subject website — https://schmidt-familyoffice.com/ · fill
+- scipiofamilyoffice.com — subject website — https://scipiofamilyoffice.com/ · fill
+- shfo.ch — subject website — https://shfo.ch/ · fill
+- skyfamilyoffice.ch — subject website — https://skyfamilyoffice.ch/ · fill
+- sutterfamilyofficesa.ch — subject website — https://sutterfamilyofficesa.ch/ · fill
+- swissfamily-office.com — subject website — https://swissfamily-office.com/ · fill
+- swisstrust.ch — subject website — https://swisstrust.ch/ · fill
+- swixfo.com — subject website — https://swixfo.com/ · fill
+- thefamilyoffices.ch — subject website — https://thefamilyoffices.ch/ · fill
+- trianonfamilyoffice.com — subject website — https://trianonfamilyoffice.com/ · fill
+- woodmanfo.ch — subject website — https://woodmanfo.ch/ · fill
+- www.ajfo.ch — subject website — https://www.ajfo.ch/ · fill
+- www.allina.ch — subject website — https://www.allina.ch/ · fill
+- www.almafamilyoffice.ch — subject website — https://www.almafamilyoffice.ch/ · fill
+- www.amfamilyoffice.ch — subject website — https://www.amfamilyoffice.ch/ · fill
+- www.arabella.ch — subject website — https://www.arabella.ch/ · fill
+- www.armatus.ch — subject website — https://www.armatus.ch/ · fill
+- www.arrfamilyoffice.com — subject website — https://www.arrfamilyoffice.com/ · fill
+- www.aura-fo.com — subject website — https://www.aura-fo.com/ · fill
+- www.avafamilyoffice.ch — subject website — https://www.avafamilyoffice.ch/ · fill
+- www.bco.swiss — subject website — https://www.bco.swiss/ · fill
+- www.cahero.com — subject website — https://www.cahero.com/ · fill
+- www.cbfamilyoffice.com — subject website — https://www.cbfamilyoffice.com/ · fill
+- www.cottonfield.ch — subject website — https://www.cottonfield.ch/ · fill
+- www.dominisign.com — subject website — https://www.dominisign.com/ · fill
+- www.dosch-family-office.com — subject website — https://www.dosch-family-office.com/ · fill
+- www.eightstone.com — subject website — https://www.eightstone.com/ · fill
+- www.essentiafamily.ch — subject website — https://www.essentiafamily.ch/ · fill
+- www.familyoffice-viollet.ch — subject website — https://www.familyoffice-viollet.ch/ · fill
+- www.familyofficeswitzerland.ch — subject website — https://www.familyofficeswitzerland.ch/ · fill
+- www.famos-global.com — subject website — https://www.famos-global.com/ · fill
+- www.fo-leman.com — subject website — https://www.fo-leman.com/ · fill
+- www.g7nesis.com — subject website — https://www.g7nesis.com/ · fill
+- www.globfamoffice.com — subject website — https://www.globfamoffice.com/ · fill
+- www.gordian-partners.com — subject website — https://www.gordian-partners.com/ · fill
+- www.gotham-family-office.ch — subject website — https://www.gotham-family-office.ch/ · fill
+- www.helmsfamilyoffice.com — subject website — https://www.helmsfamilyoffice.com/ · fill
+- www.hfamilyoffice.ch — subject website — https://www.hfamilyoffice.ch/ · fill
+- www.hnwoffice.ch — subject website — https://www.hnwoffice.ch/ · fill
+- www.hofiinvest.ch — subject website — https://www.hofiinvest.ch/ · fill
+- www.honestus.ch — subject website — https://www.honestus.ch/ · fill
+- www.ifo-sa.ch — subject website — https://www.ifo-sa.ch/ · fill
+- www.iptrustcapital.com — subject website — https://www.iptrustcapital.com/ · fill
+- www.jenkinsoffice.com — subject website — https://www.jenkinsoffice.com/ · fill
+- www.juliusbaer.com — subject website — https://www.juliusbaer.com/ · fill
+- www.k-familyoffice.ch — subject website — https://www.k-familyoffice.ch/ · fill
+- www.l-fo.ch — subject website — https://www.l-fo.ch/ · fill
+- www.landert.ch — subject website — https://www.landert.ch/ · fill
+- www.lasuissegroup.com — subject website — https://www.lasuissegroup.com/ · fill
+- www.lbfo.ch — subject website — https://www.lbfo.ch/ · fill
+- www.leovest.com — subject website — https://www.leovest.com/ · fill
+- www.lfgfo.ch — subject website — https://www.lfgfo.ch/ · fill
+- www.lypage.ch — subject website — https://www.lypage.ch/ · fill
+- www.marcuardfamilyoffice.com — subject website — https://www.marcuardfamilyoffice.com/ · fill
+- www.matterhornfamilyoffice.com — subject website — https://www.matterhornfamilyoffice.com/ · fill
+- www.mfo-medical.com — subject website — https://www.mfo-medical.com/ · fill
+- www.msh-familyoffice.com — subject website — https://www.msh-familyoffice.com/ · fill
+- www.newventureassociates.com — subject website — https://www.newventureassociates.com/ · fill
+- www.palms-familyoffice.com — subject website — https://www.palms-familyoffice.com/ · fill
+- www.panzel.ch — subject website — https://www.panzel.ch/ · fill
+- www.perlefamilyoffice.ch — subject website — https://www.perlefamilyoffice.ch/ · fill
+- www.priopartners.ch — subject website — https://www.priopartners.ch/ · fill
+- www.prosperitycircle.org — subject website — https://www.prosperitycircle.org/ · fill
+- www.pwfo.org — subject website — https://www.pwfo.org/ · fill
+- www.sayano.ch — subject website — https://www.sayano.ch/ · fill
+- www.schoeller.de — subject website — https://www.schoeller.de/ · fill
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- www.sip.ch — subject website — https://www.sip.ch/ · fill
+- www.sportsfamilyoffice.ch — subject website — https://www.sportsfamilyoffice.ch/ · fill
+- www.ssfo.ch — subject website — https://www.ssfo.ch/ · fill
+- www.studerfamilyoffice.com — subject website — https://www.studerfamilyoffice.com/ · fill
+- www.suissy.ch — subject website — https://www.suissy.ch/ · fill
+- www.swiss-familyoffice.com — subject website — https://www.swiss-familyoffice.com/ · fill
+- www.tigerfamilyoffice.com — subject website — https://www.tigerfamilyoffice.com/ · fill
+- www.treubera.ch — subject website — https://www.treubera.ch/ · fill
+- www.trigon.fo — subject website — https://www.trigon.fo/ · fill
+- www.turigum.com — subject website — https://www.turigum.com/ · fill
+- www.vecogroup.ch — subject website — https://www.vecogroup.ch/ · fill
+- www.victoria-fo.com — subject website — https://www.victoria-fo.com/ · fill
+- www.weberfrey.ch — subject website — https://www.weberfrey.ch/ · fill
+- www.wild-group.ch — subject website — https://www.wild-group.ch/ · fill
+- Zefix — Swiss central business name index (public REST) — https://www.zefix.ch/ · fill and confirm
+- 917family.de — subject website — https://917family.de/ · fill
+- abt-family-office.de — subject website — https://abt-family-office.de/ · fill
+- ah-familyoffice.com — subject website — https://ah-familyoffice.com/ · fill
+- alpsfamilyoffice.de — subject website — https://alpsfamilyoffice.de/ · fill
+- am.oddo-bhf.com — subject website — https://am.oddo-bhf.com/ · fill
+- atlan-fo.com — subject website — https://atlan-fo.com/ · fill
+- augeos.de — subject website — https://augeos.de/ · fill
+- befinanz.de — subject website — https://befinanz.de/ · fill
+- bfo-ag.de — subject website — https://bfo-ag.de/ · fill
+- cjhfo.de — subject website — https://cjhfo.de/ · fill
+- dgfo.group — subject website — https://dgfo.group/ · fill
+- dnanda.de — subject website — https://dnanda.de/ · fill
+- elster-partner.de — subject website — https://elster-partner.de/ · fill
+- ew-familyoffice.de — subject website — https://ew-familyoffice.de/ · fill
+- familyofficefuchs.de — subject website — https://familyofficefuchs.de/ · fill
+- fiorik.de — subject website — https://fiorik.de/ · fill
+- fo.oddo-bhf.com — subject website — https://fo.oddo-bhf.com/ · fill
+- foc-gerwing.de — subject website — https://foc-gerwing.de/ · fill
+- haraldquandt.de — subject website — https://haraldquandt.de/ · fill
+- hausmann.family — subject website — https://hausmann.family/ · fill
+- horne-family-office.de — subject website — https://horne-family-office.de/ · fill
+- kingsway-fo.com — subject website — https://kingsway-fo.com/ · fill
+- klfo.de — subject website — https://klfo.de/ · fill
+- landsiedelpartner.com — subject website — https://landsiedelpartner.com/ · fill
+- mertesacker-family-office.de — subject website — https://mertesacker-family-office.de/ · fill
+- mp-familyoffice.de — subject website — https://mp-familyoffice.de/ · fill
+- nimani-fo.de — subject website — https://nimani-fo.de/ · fill
+- revisio-family.de — subject website — https://revisio-family.de/ · fill
+- saentis-fo.de — subject website — https://saentis-fo.de/ · fill
+- saf-ag.de — subject website — https://saf-ag.de/ · fill
+- sfo.vc — subject website — https://sfo.vc/ · fill
+- tonn.investments — subject website — https://tonn.investments/ · fill
+- werte-invest.com — subject website — https://werte-invest.com/ · fill
+- www.avfo.de — subject website — https://www.avfo.de/ · fill
+- www.bfo-immobilien.de — subject website — https://www.bfo-immobilien.de/ · fill
+- www.consulting-family-office.de — subject website — https://www.consulting-family-office.de/ · fill
+- www.de-fo.com — subject website — https://www.de-fo.com/ · fill
+- www.deutsche-oppenheim.de — subject website — https://www.deutsche-oppenheim.de/ · fill
+- www.dormakaba.com — subject website — https://www.dormakaba.com/ · fill
+- www.efo-gmbh.de — subject website — https://www.efo-gmbh.de/ · fill
+- www.eta-fo.de — subject website — https://www.eta-fo.de/ · fill
+- www.family-office-gmbh.com — subject website — https://www.family-office-gmbh.com/ · fill
+- www.fielmann-group.com — subject website — https://www.fielmann-group.com/ · fill
+- www.fontis.de — subject website — https://www.fontis.de/ · fill
+- www.foster-institut.com — subject website — https://www.foster-institut.com/ · fill
+- www.hahn-family-office.de — subject website — https://www.hahn-family-office.de/ · fill
+- www.honestas-family-office.de — subject website — https://www.honestas-family-office.de/ · fill
+- www.hsbc-zertifikate.de — subject website — https://www.hsbc-zertifikate.de/ · fill
+- www.k5.ag — subject website — https://www.k5.ag/ · fill
+- www.kjup.com — subject website — https://www.kjup.com/ · fill
+- www.koeppl.de — subject website — https://www.koeppl.de/ · fill
+- www.kontora.com — subject website — https://www.kontora.com/ · fill
+- www.krichenbaum.de — subject website — https://www.krichenbaum.de/ · fill
+- www.l-familyoffice.com — subject website — https://www.l-familyoffice.com/ · fill
+- www.lacuna.de — subject website — https://www.lacuna.de/ · fill
+- www.lennertz.com — subject website — https://www.lennertz.com/ · fill
+- www.martagon-fo.de — subject website — https://www.martagon-fo.de/ · fill
+- www.palatina-mfo.de — subject website — https://www.palatina-mfo.de/ · fill
+- www.schulz.ooo — subject website — https://www.schulz.ooo/ · fill
+- www.thesauros.eu — subject website — https://www.thesauros.eu/ · fill
+- www.tresono.de — subject website — https://www.tresono.de/ · fill
+- www.vertiva.de — subject website — https://www.vertiva.de/ · fill
+- www.vicis-gmbh.de — subject website — https://www.vicis-gmbh.de/ · fill
+- www.wolf-familyoffice.de — subject website — https://www.wolf-familyoffice.de/ · fill
+- www.wsh-family-office.de — subject website — https://www.wsh-family-office.de/ · fill
+- www.zechendorf.com — subject website — https://www.zechendorf.com/ · fill
+- www.zumfachwirt.de — subject website — https://www.zumfachwirt.de/ · fill
+- nordicluminary.com — subject website — https://nordicluminary.com/ · fill
+- stubkjaerfamily.dk — subject website — https://stubkjaerfamily.dk/ · fill
+- www.foc.dk — subject website — https://www.foc.dk/ · fill
+- www.herafamilyoffice.dk — subject website — https://www.herafamilyoffice.dk/ · fill
+- www.imperium-fo.dk — subject website — https://www.imperium-fo.dk/ · fill
+- www.metis-familyoffice.dk — subject website — https://www.metis-familyoffice.dk/ · fill
+- www.nefo.com — subject website — https://www.nefo.com/ · fill
+- alliron.com — subject website — https://alliron.com/ · fill
+- anchoreafi.com — subject website — https://anchoreafi.com/ · fill
+- bernatfo.com — subject website — https://bernatfo.com/ · fill
+- brownpetersonmfo.com — subject website — https://brownpetersonmfo.com/ · fill
+- clusterfamilyoffice.com — subject website — https://clusterfamilyoffice.com/ · fill
+- familyofficec.com — subject website — https://familyofficec.com/ · fill
+- www.aurafamilyoffice.es — subject website — https://www.aurafamilyoffice.es/ · fill
+- www.jopafamily.es — subject website — https://www.jopafamily.es/ · fill
+- www.lemontree.capital — subject website — https://www.lemontree.capital/ · fill
+- www.sabailfamilyoffice.com — subject website — https://www.sabailfamilyoffice.com/ · fill
+- acl-ic.com — subject website — https://acl-ic.com/ · fill
+- adnfamilyoffice.fr — subject website — https://adnfamilyoffice.fr/ · fill
+- agami.com — subject website — https://agami.com/ · fill
+- alcyone-family.com — subject website — https://alcyone-family.com/ · fill
+- annuaire-entreprises.data.gouv.fr — subject website — https://annuaire-entreprises.data.gouv.fr/ · fill
+- apertio-fo.com — subject website — https://apertio-fo.com/ · fill
+- blackpearlparis.com — subject website — https://blackpearlparis.com/ · fill
+- blackwellfamilyoffice.com — subject website — https://blackwellfamilyoffice.com/ · fill
+- comemaisonfinanciere.com — subject website — https://comemaisonfinanciere.com/ · fill
+- conciergerieaimable.fr — subject website — https://conciergerieaimable.fr/ · fill
+- dandcfo.com — subject website — https://dandcfo.com/ · fill
+- delta-b-groupe.fr — subject website — https://delta-b-groupe.fr/ · fill
+- etoile-familyoffice.fr — subject website — https://etoile-familyoffice.fr/ · fill
+- family-office.meeschaert.com — subject website — https://family-office.meeschaert.com/ · fill
+- finaix.fr — subject website — https://finaix.fr/ · fill
+- groener-family.de — subject website — https://groener-family.de/ · fill
+- groener-family.fr — subject website — https://groener-family.fr/ · fill
+- holistik-patrimoine.com — subject website — https://holistik-patrimoine.com/ · fill
+- initialfo.com — subject website — https://initialfo.com/ · fill
+- invidia-office.fr — subject website — https://invidia-office.fr/ · fill
+- ivesta-fo.com — subject website — https://ivesta-fo.com/ · fill
+- lb-familyoffice.com — subject website — https://lb-familyoffice.com/ · fill
+- lynqprivateoffice.com — subject website — https://lynqprivateoffice.com/ · fill
+- myfamilyofficer.fr — subject website — https://myfamilyofficer.fr/ · fill
+- orienpatrimoine.com — subject website — https://orienpatrimoine.com/ · fill
+- ostara-fo.com — subject website — https://ostara-fo.com/ · fill
+- pacemfamily.com — subject website — https://pacemfamily.com/ · fill
+- INSEE Sirene open data — recherche-entreprises API — https://recherche-entreprises.api.gouv.fr/ · fill and confirm
+- rikthduttafamilyoffice.eu — subject website — https://rikthduttafamilyoffice.eu/ · fill
+- www.alsace-family-office.fr — subject website — https://www.alsace-family-office.fr/ · fill
+- www.altride.fr — subject website — https://www.altride.fr/ · fill
+- www.astra-family-office.fr — subject website — https://www.astra-family-office.fr/ · fill
+- www.bee-family-office.com — subject website — https://www.bee-family-office.com/ · fill
+- www.bmfamilyoffice.com — subject website — https://www.bmfamilyoffice.com/ · fill
+- www.citadelle-fo.com — subject website — https://www.citadelle-fo.com/ · fill
+- www.colbertfamilyoffice.com — subject website — https://www.colbertfamilyoffice.com/ · fill
+- www.cpigroupe.com — subject website — https://www.cpigroupe.com/ · fill
+- www.etz-fo.com — subject website — https://www.etz-fo.com/ · fill
+- www.familyandoffice.fr — subject website — https://www.familyandoffice.fr/ · fill
+- www.fleurbouvier.com — subject website — https://www.fleurbouvier.com/ · fill
+- www.fobs-family-office.fr — subject website — https://www.fobs-family-office.fr/ · fill
+- www.frenchfamilyoffice.fr — subject website — https://www.frenchfamilyoffice.fr/ · fill
+- www.frigara-familyoffice.com — subject website — https://www.frigara-familyoffice.com/ · fill
+- www.gowen.ch — subject website — https://www.gowen.ch/ · fill
+- www.gp-familyoffice.fr — subject website — https://www.gp-familyoffice.fr/ · fill
+- www.idmconseils.fr — subject website — https://www.idmconseils.fr/ · fill
+- www.iker-fo.fr — subject website — https://www.iker-fo.fr/ · fill
+- www.lffo.eu — subject website — https://www.lffo.eu/ · fill
+- www.luzefamilyoffice.com — subject website — https://www.luzefamilyoffice.com/ · fill
+- www.mbfamilyoffice.fr — subject website — https://www.mbfamilyoffice.fr/ · fill
+- www.mfo.agency — subject website — https://www.mfo.agency/ · fill
+- www.midas-wealth-management.com — subject website — https://www.midas-wealth-management.com/ · fill
+- www.montsegur.com — subject website — https://www.montsegur.com/ · fill
+- www.mua-group.com — subject website — https://www.mua-group.com/ · fill
+- www.myway-fo.fr — subject website — https://www.myway-fo.fr/ · fill
+- www.navasgestion.com — subject website — https://www.navasgestion.com/ · fill
+- www.octave-fo.com — subject website — https://www.octave-fo.com/ · fill
+- www.pappers.fr — subject website — https://www.pappers.fr/ · fill
+- www.patrimoinesprives.com — subject website — https://www.patrimoinesprives.com/ · fill
+- www.pcginvest.com — subject website — https://www.pcginvest.com/ · fill
+- www.pembrokefamilyoffice.fr — subject website — https://www.pembrokefamilyoffice.fr/ · fill
+- www.plt-family-office.com — subject website — https://www.plt-family-office.com/ · fill
+- www.shamrockfamilyoffice.com — subject website — https://www.shamrockfamilyoffice.com/ · fill
+- www.studerfamilyoffice.com — subject website — https://www.studerfamilyoffice.com/ · fill
+- www.umami-fo.com — subject website — https://www.umami-fo.com/ · fill
+- www.vault.family — subject website — https://www.vault.family/ · fill
+- www.vmp-capital.fr — subject website — https://www.vmp-capital.fr/ · fill
+- www.vyp.fr — subject website — https://www.vyp.fr/ · fill
+- www.xelisfamilyoffice.com — subject website — https://www.xelisfamilyoffice.com/ · fill
+- www.absolutenet.eu — subject website — https://www.absolutenet.eu/ · fill
+- www.gisev.com — subject website — https://www.gisev.com/ · fill
+- www.spafid.it — subject website — https://www.spafid.it/ · fill
+- www.axxion.lu — subject website — https://www.axxion.lu/ · fill
+- www.denoo.com — subject website — https://www.denoo.com/ · fill
+- www.forumgruppe.de — subject website — https://www.forumgruppe.de/ · fill
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- dgfo.com — subject website — https://dgfo.com/ · fill
+- fffamilyoffice.nl — subject website — https://fffamilyoffice.nl/ · fill
+- AFM — registers (CSV export) — https://www.afm.nl/ · fill and confirm
+- www.rfos.eu — subject website — https://www.rfos.eu/ · fill
+- Brønnøysundregistrene — Enhetsregisteret (open data API) — https://data.brreg.no/ · fill and confirm
+- Family Office Exchange (FOX) — published member/directory page — https://familyoffice.com/ · association source
+- nordicfamilyoffice.no — subject website — https://nordicfamilyoffice.no/ · fill
+- parklanefo.com — subject website — https://parklanefo.com/ · fill
+- Finanstilsynet — Virksomhetsregisteret (licence lists) — https://www.finanstilsynet.no/ · fill and confirm
+- www.labrusca.se — subject website — https://www.labrusca.se/ · fill
+- www.oslofamilyoffice.com — subject website — https://www.oslofamilyoffice.com/ · fill
+- conference.iglobalforum.com — subject website — https://conference.iglobalforum.com/ · fill
+- Family Office Networks — conferences — published speaker/sponsor page — https://familyofficenetworks.com/ · association source
+- Family Office Club — published member/directory page — https://familyoffices.com/ · association source
+- Opal Group — Family Office & Private Wealth Management Forum — published speaker/sponsor page — https://opalgroup.net/ · association source
+- The UHNW Institute — published member/directory page — https://uhnwinstitute.org/ · association source
+- Family Office Exchange (FOX) — published member/directory page — https://www.familyoffice.com/ · association source
+- Family Office Association Hong Kong — published member/directory page — https://www.foahk.org/ · association source
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- The UHNW Institute — published member/directory page — https://www.uhnwinstitute.org/ · association source
+- 111familyoffice.com — subject website — https://111familyoffice.com/ · fill
+- actin-fo.com — subject website — https://actin-fo.com/ · fill
+- aglaiaim.com — subject website — https://aglaiaim.com/ · fill
+- alpharockfamilyofficepte.com — subject website — https://alpharockfamilyofficepte.com/ · fill
+- apacfamilyoffice.asia — subject website — https://apacfamilyoffice.asia/ · fill
+- bartoszfo.com — subject website — https://bartoszfo.com/ · fill
+- bonworldsingapore.com — subject website — https://bonworldsingapore.com/ · fill
+- chengsg.com — subject website — https://chengsg.com/ · fill
+- circlefamilyoffice.com — subject website — https://circlefamilyoffice.com/ · fill
+- cm1-group.com — subject website — https://cm1-group.com/ · fill
+- ddfamoff.com — subject website — https://ddfamoff.com/ · fill
+- dfo.sg — subject website — https://dfo.sg/ · fill
+- dlfamilyoffice.com — subject website — https://dlfamilyoffice.com/ · fill
+- MAS Financial Institutions Directory — https://eservices.mas.gov.sg/ · fill and confirm
+- fmmfo.com — subject website — https://fmmfo.com/ · fill
+- fofa.asia — subject website — https://fofa.asia/ · fill
+- grandway.sg — subject website — https://grandway.sg/ · fill
+- ikcap.com — subject website — https://ikcap.com/ · fill
+- jadefo.com — subject website — https://jadefo.com/ · fill
+- korufo.com — subject website — https://korufo.com/ · fill
+- leefamilyoffice.com.au — subject website — https://leefamilyoffice.com.au/ · fill
+- liontrust.com.sg — subject website — https://liontrust.com.sg/ · fill
+- mackwestgroup.com — subject website — https://mackwestgroup.com/ · fill
+- rheingoldfo.com — subject website — https://rheingoldfo.com/ · fill
+- rj-familyoffice.com — subject website — https://rj-familyoffice.com/ · fill
+- treehousecapital.sg — subject website — https://treehousecapital.sg/ · fill
+- vtgroup.sg — subject website — https://vtgroup.sg/ · fill
+- willfield-sg.com — subject website — https://willfield-sg.com/ · fill
+- www.999-familyoffice.com — subject website — https://www.999-familyoffice.com/ · fill
+- www.arcusfamilyoffice.com — subject website — https://www.arcusfamilyoffice.com/ · fill
+- www.aspenwd.com — subject website — https://www.aspenwd.com/ · fill
+- www.avenue.limited — subject website — https://www.avenue.limited/ · fill
+- www.bnshhmfo.com — subject website — https://www.bnshhmfo.com/ · fill
+- www.cahero.com — subject website — https://www.cahero.com/ · fill
+- www.camellia-fo.com — subject website — https://www.camellia-fo.com/ · fill
+- www.eia-gr.com — subject website — https://www.eia-gr.com/ · fill
+- www.familyofficesg.com — subject website — https://www.familyofficesg.com/ · fill
+- Family Office Association Hong Kong — published member/directory page — https://www.foahk.org/ · association source
+- www.globalfoundationfamilyofficepte.com — subject website — https://www.globalfoundationfamilyofficepte.com/ · fill
+- www.gloryfamilyoffice.com — subject website — https://www.gloryfamilyoffice.com/ · fill
+- www.highlandsfo.com — subject website — https://www.highlandsfo.com/ · fill
+- www.jia-asia.com.sg — subject website — https://www.jia-asia.com.sg/ · fill
+- www.lioncityexcel.com — subject website — https://www.lioncityexcel.com/ · fill
+- www.m3familyoffice.com — subject website — https://www.m3familyoffice.com/ · fill
+- www.merklepoint.com — subject website — https://www.merklepoint.com/ · fill
+- www.mkg.com.sg — subject website — https://www.mkg.com.sg/ · fill
+- www.nefo.com — subject website — https://www.nefo.com/ · fill
+- www.premieralts.com — subject website — https://www.premieralts.com/ · fill
+- www.rafflesgroup.co — subject website — https://www.rafflesgroup.co/ · fill
+- www.raofamilyoffice.com — subject website — https://www.raofamilyoffice.com/ · fill
+- www.royce-financial.com — subject website — https://www.royce-financial.com/ · fill
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- www.sophiafamily-group.com — subject website — https://www.sophiafamily-group.com/ · fill
+- www.tps.com.sg — subject website — https://www.tps.com.sg/ · fill
+- www.tsao.com — subject website — https://www.tsao.com/ · fill
+- www.twofo.org — subject website — https://www.twofo.org/ · fill
+- www.womeninfamilyoffices.com — subject website — https://www.womeninfamilyoffices.com/ · fill
+- www.zfo.ai — subject website — https://www.zfo.ai/ · fill
+- wynnes.com.sg — subject website — https://wynnes.com.sg/ · fill
+- zetapac.com — subject website — https://zetapac.com/ · fill
+- acfamilyoffice.com — subject website — https://acfamilyoffice.com/ · fill
+- ajfoc.com — subject website — https://ajfoc.com/ · fill
+- arkfamilyoffice.co.uk — subject website — https://arkfamilyoffice.co.uk/ · fill
+- bespokefamilyoffice.co.uk — subject website — https://bespokefamilyoffice.co.uk/ · fill
+- blg.ie — subject website — https://blg.ie/ · fill
+- charlesparkfamilyoffice.com — subject website — https://charlesparkfamilyoffice.com/ · fill
+- coppicewealth.com — subject website — https://coppicewealth.com/ · fill
+- damazein.com — subject website — https://damazein.com/ · fill
+- dandi.com — subject website — https://dandi.com/ · fill
+- daofamily.com — subject website — https://daofamily.com/ · fill
+- dgfo.com — subject website — https://dgfo.com/ · fill
+- dhfamilyoffice.com — subject website — https://dhfamilyoffice.com/ · fill
+- dubaifamilyoffice.co.uk — subject website — https://dubaifamilyoffice.co.uk/ · fill
+- enseadafo.co.uk — subject website — https://enseadafo.co.uk/ · fill
+- everstreamfamilyoffice.com — subject website — https://everstreamfamilyoffice.com/ · fill
+- familyofficeinlondon.com — subject website — https://familyofficeinlondon.com/ · fill
+- ferndalefamily.co.uk — subject website — https://ferndalefamily.co.uk/ · fill
+- Companies House — company and officers pages — https://find-and-update.company-information.service.gov.uk/ · fill and confirm
+- fitzpatrickfamilyoffice.com — subject website — https://fitzpatrickfamilyoffice.com/ · fill
+- fo-mc.com — subject website — https://fo-mc.com/ · fill
+- gfo.capital — subject website — https://gfo.capital/ · fill
+- kaazarcapital.com — subject website — https://kaazarcapital.com/ · fill
+- londonfamilyoffice.org — subject website — https://londonfamilyoffice.org/ · fill
+- lsfamilyoffice.com — subject website — https://lsfamilyoffice.com/ · fill
+- masselos-family-office.webnode.co.uk — subject website — https://masselos-family-office.webnode.co.uk/ · fill
+- mayfairfamilyoffice.com — subject website — https://mayfairfamilyoffice.com/ · fill
+- redrockfamilyoffice.com — subject website — https://redrockfamilyoffice.com/ · fill
+- The UHNW Institute — published member/directory page — https://uhnwinstitute.org/ · association source
+- waminvest.co.uk — subject website — https://waminvest.co.uk/ · fill
+- wfo.am — subject website — https://wfo.am/ · fill
+- wrightfamilyoffice.com — subject website — https://wrightfamilyoffice.com/ · fill
+- www.555gmildorvdorfamilyoffice.com — subject website — https://www.555gmildorvdorfamilyoffice.com/ · fill
+- www.asifo.com — subject website — https://www.asifo.com/ · fill
+- www.bksfamilyoffice.com — subject website — https://www.bksfamilyoffice.com/ · fill
+- www.blu-fo.com — subject website — https://www.blu-fo.com/ · fill
+- www.cahero.com — subject website — https://www.cahero.com/ · fill
+- www.capstonefamilyllp.com — subject website — https://www.capstonefamilyllp.com/ · fill
+- www.carolinebaker.co.uk — subject website — https://www.carolinebaker.co.uk/ · fill
+- www.cavfo.com — subject website — https://www.cavfo.com/ · fill
+- www.crewfo.com — subject website — https://www.crewfo.com/ · fill
+- www.cwfo.uk — subject website — https://www.cwfo.uk/ · fill
+- www.encorefamilyoffice.com — subject website — https://www.encorefamilyoffice.com/ · fill
+- www.familyofficetax.co.uk — subject website — https://www.familyofficetax.co.uk/ · fill
+- www.ferguson.ch — subject website — https://www.ferguson.ch/ · fill
+- www.frigus.is — subject website — https://www.frigus.is/ · fill
+- www.globalfamilyofficecommunity.com — subject website — https://www.globalfamilyofficecommunity.com/ · fill
+- www.hawkfo.com — subject website — https://www.hawkfo.com/ · fill
+- www.hfmcwealth.com — subject website — https://www.hfmcwealth.com/ · fill
+- www.hill-family.com — subject website — https://www.hill-family.com/ · fill
+- www.ishercapital.com — subject website — https://www.ishercapital.com/ · fill
+- www.jcfo.co.uk — subject website — https://www.jcfo.co.uk/ · fill
+- www.klesch.com — subject website — https://www.klesch.com/ · fill
+- www.martinfamilyoffice.co.uk — subject website — https://www.martinfamilyoffice.co.uk/ · fill
+- www.mccarthyhillfamilyoffice.co.uk — subject website — https://www.mccarthyhillfamilyoffice.co.uk/ · fill
+- www.medynsky.co.uk — subject website — https://www.medynsky.co.uk/ · fill
+- www.moorefamilyofficegroup.com — subject website — https://www.moorefamilyofficegroup.com/ · fill
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- www.stanbridgefamilyoffice.co.uk — subject website — https://www.stanbridgefamilyoffice.co.uk/ · fill
+- www.thefamilyoffice.co.uk — subject website — https://www.thefamilyoffice.co.uk/ · fill
+- www.thefamilyofficer.com — subject website — https://www.thefamilyofficer.com/ · fill
+- www.tyd-fo.co.uk — subject website — https://www.tyd-fo.co.uk/ · fill
+- The UHNW Institute — published member/directory page — https://www.uhnwinstitute.org/ · association source
+- www.vardygroup.com — subject website — https://www.vardygroup.com/ · fill
+- 818familyoffice.com — subject website — https://818familyoffice.com/ · fill
+- acfamilyoffice.com — subject website — https://acfamilyoffice.com/ · fill
+- activ8familyoffice.com — subject website — https://activ8familyoffice.com/ · fill
+- adamo.capital — subject website — https://adamo.capital/ · fill
+- allie-intl.com — subject website — https://allie-intl.com/ · fill
+- SEC IAPD — Investment Adviser Public Disclosure (search API) — https://api.adviserinfo.sec.gov/ · fill and confirm
+- aurelius.net — subject website — https://aurelius.net/ · fill
+- awadvisor.com — subject website — https://awadvisor.com/ · fill
+- btfamilyoffice.com — subject website — https://btfamilyoffice.com/ · fill
+- capitolcfo.com — subject website — https://capitolcfo.com/ · fill
+- classvifamilyoffice.com — subject website — https://classvifamilyoffice.com/ · fill
+- colonyfamilyoffices.com — subject website — https://colonyfamilyoffices.com/ · fill
+- conference.iglobalforum.com — subject website — https://conference.iglobalforum.com/ · fill
+- conscientiafo.com — subject website — https://conscientiafo.com/ · fill
+- custosfo.com — subject website — https://custosfo.com/ · fill
+- dcafamilyoffice.com — subject website — https://dcafamilyoffice.com/ · fill
+- destinyfamilyoffice.com — subject website — https://destinyfamilyoffice.com/ · fill
+- duquesne.com — subject website — https://duquesne.com/ · fill
+- eaglebayadvisors.com — subject website — https://eaglebayadvisors.com/ · fill
+- Family Office Club — published member/directory page — https://familyoffices.com/ · association source
+- financialgravityfamilyofficeservices.com — subject website — https://financialgravityfamilyofficeservices.com/ · fill
+- fortitudefo.com — subject website — https://fortitudefo.com/ · fill
+- freedomfamilyoffice.com — subject website — https://freedomfamilyoffice.com/ · fill
+- heritagefo.com — subject website — https://heritagefo.com/ · fill
+- ifollc.com — subject website — https://ifollc.com/ · fill
+- inscriptionfamilyoffice.com — subject website — https://inscriptionfamilyoffice.com/ · fill
+- jfgllc.net — subject website — https://jfgllc.net/ · fill
+- legacybridgepfo.com — subject website — https://legacybridgepfo.com/ · fill
+- oneascentfamilyoffices.com — subject website — https://oneascentfamilyoffices.com/ · fill
+- pmgfamilyoffice.com — subject website — https://pmgfamilyoffice.com/ · fill
+- rivergladesfo.com — subject website — https://rivergladesfo.com/ · fill
+- sestante.com — subject website — https://sestante.com/ · fill
+- stokesfamilyoffice.com — subject website — https://stokesfamilyoffice.com/ · fill
+- story-one.com — subject website — https://story-one.com/ · fill
+- superiorplanning.com — subject website — https://superiorplanning.com/ · fill
+- tfofamilyoffice.com — subject website — https://tfofamilyoffice.com/ · fill
+- The UHNW Institute — published member/directory page — https://uhnwinstitute.org/ · association source
+- virtus-usa.com — subject website — https://virtus-usa.com/ · fill
+- wellspringfo.com — subject website — https://wellspringfo.com/ · fill
+- wilshire.com — subject website — https://wilshire.com/ · fill
+- www.adgfo.com — subject website — https://www.adgfo.com/ · fill
+- www.angelesinvestments.com — subject website — https://www.angelesinvestments.com/ · fill
+- www.arrowrootfamilyoffice.com — subject website — https://www.arrowrootfamilyoffice.com/ · fill
+- www.biltmorefamilyoffice.com — subject website — https://www.biltmorefamilyoffice.com/ · fill
+- www.bosfam.com — subject website — https://www.bosfam.com/ · fill
+- www.cambient.com — subject website — https://www.cambient.com/ · fill
+- www.ccfo.com — subject website — https://www.ccfo.com/ · fill
+- www.compoundfamilyoffices.com — subject website — https://www.compoundfamilyoffices.com/ · fill
+- www.doubleeaglecapital.com — subject website — https://www.doubleeaglecapital.com/ · fill
+- www.dow.us — subject website — https://www.dow.us/ · fill
+- Family Office Exchange (FOX) — published member/directory page — https://www.familyoffice.com/ · association source
+- www.familyofficeresearch.com — subject website — https://www.familyofficeresearch.com/ · fill
+- www.jakepnoch.com — subject website — https://www.jakepnoch.com/ · fill
+- www.legacyroad.com — subject website — https://www.legacyroad.com/ · fill
+- www.longwallfamilyoffice.com — subject website — https://www.longwallfamilyoffice.com/ · fill
+- www.matterfamilyoffice.com — subject website — https://www.matterfamilyoffice.com/ · fill
+- www.pulliamfamilyoffice.com — subject website — https://www.pulliamfamilyoffice.com/ · fill
+- www.seic.com — subject website — https://www.seic.com/ · fill
+- Swiss family-office association (SFOA / Verband) — published member/directory page — https://www.sfoa.ch/ · association source
+- www.sigmallc.com — subject website — https://www.sigmallc.com/ · fill
+- www.stengerfamilyoffice.com — subject website — https://www.stengerfamilyoffice.com/ · fill
+- www.tffamilyoffice.com — subject website — https://www.tffamilyoffice.com/ · fill
+- www.timonier.com — subject website — https://www.timonier.com/ · fill
+- The UHNW Institute — published member/directory page — https://www.uhnwinstitute.org/ · association source
+- www.wealthdimensions.com — subject website — https://www.wealthdimensions.com/ · fill
+- www.wefamilyoffices.com — subject website — https://www.wefamilyoffices.com/ · fill
+- www.wpafamilyoffice.com — subject website — https://www.wpafamilyoffice.com/ · fill
+- xceptionfamilyoffice.com — subject website — https://xceptionfamilyoffice.com/ · fill
+
+## Machine kit
+
+- https://familyofficeknowledgegraph.ai/facts.json — facts of record (live counts and paid-calls line)
+- https://agent.fo-kg.ai/.well-known/agent-card.json — A2A Agent Card (the five tools as skills); also served at https://familyofficeknowledgegraph.ai/.well-known/agent-card.json
+- https://familyofficeknowledgegraph.ai/.well-known/mcp.json — MCP server card (also /.well-known/mcp/server-card.json)
+- https://familyofficeknowledgegraph.ai/.well-known/ai-catalog.json — ARD catalog (also /.well-known/ard.json); https://familyofficeknowledgegraph.ai/ai-catalog.json — resource catalogue
+- https://familyofficeknowledgegraph.ai/.well-known/skills.json — skills with input/output shapes; https://familyofficeknowledgegraph.ai/.well-known/agent-skills/index.json — skills index with digests
+- https://familyofficeknowledgegraph.ai/.well-known/jwks.json — office keyring, kid mk-office-2026-09; https://familyofficeknowledgegraph.ai/x402/jwks.json — x402 receipt key, kid fo-kg-x402-2026-09
+- https://familyofficeknowledgegraph.ai/.well-known/api-catalog — RFC 9727 linkset; https://familyofficeknowledgegraph.ai/openapi.json — OpenAPI 3.1; https://familyofficeknowledgegraph.ai/health.json — status
+- https://familyofficeknowledgegraph.ai/.well-known/security.txt — security contact; https://familyofficeknowledgegraph.ai/.well-known/http-message-signatures-directory — Web Bot Auth key directory
+- https://familyofficeknowledgegraph.ai/robots.txt (open, Content-Signal permissive) · https://familyofficeknowledgegraph.ai/sitemap.xml
+- Signal headers on every response: X-Office-Version · X-Office-Operator · X-Office-Node · X-Office-As-Of · X-Office-Source: public-record · X-Office-Keyring · X-Office-Contact · X-Office-X402
+
+## Twins
+
+- https://familyofficeknowledgegraph.com/, https://familyofficeknowledgegraph.org/ and https://familyofficeknowledgegraph.io/ forward (301) to https://familyofficeknowledgegraph.ai/

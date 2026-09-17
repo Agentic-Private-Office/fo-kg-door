@@ -1,0 +1,439 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Family Office Knowledge Graph",
+    "identifier": "did:web:familyofficeknowledgegraph.ai",
+    "url": "https://familyofficeknowledgegraph.ai"
+  },
+  "publisher": {
+    "displayName": "Agentic KG Holdings",
+    "identifier": "did:web:agent-kg.ai",
+    "principal": "Matthew Keddy",
+    "url": "https://agent-kg.ai",
+    "contact": "mailto:mk@agent-kg.ai"
+  },
+  "entries": [
+    {
+      "displayName": "The apex door",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:apex",
+      "type": "application/mcp-server+json",
+      "url": "https://mcp.fo-kg.ai/mcp",
+      "description": "Streamable-http MCP door over the Family Office Knowledge Graph: holds the index, forwards to the node that serves the record. Five tools: resolve_family_office, get_record, list_events_since, list_aliases, list_nodes. No authentication for reads.",
+      "capabilities": [
+        "resolve-family-office",
+        "family-office-record",
+        "events",
+        "aliases",
+        "nodes"
+      ],
+      "representativeQueries": [
+        "Which Canadian family offices carry an LEI?",
+        "Give me the public record for Samara Multi-Family Office.",
+        "What registers is Werklund Family Office listed on?",
+        "What happened to Northwood Family Office and when?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "principal": "Matthew Keddy",
+        "serverCard": "https://familyofficeknowledgegraph.ai/.well-known/mcp.json",
+        "keyring": "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+        "source": "public-record"
+      }
+    },
+    {
+      "displayName": "Node door ae-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:ae-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://ae.fo-kg.ai/mcp",
+      "description": "The United Arab Emirates node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the United Arab Emirates node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "ae-fo-kg",
+        "index": "https://ae.fo-kg.ai/records/ae-fo-kg/index.json",
+        "serverCard": "https://ae.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door au-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:au-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://au.fo-kg.ai/mcp",
+      "description": "The Australia node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Australia node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "au-fo-kg",
+        "index": "https://au.fo-kg.ai/records/au-fo-kg/index.json",
+        "serverCard": "https://au.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door ca-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:ca-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://ca.fo-kg.ai/mcp",
+      "description": "The Canada node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Canada node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "ca-fo-kg",
+        "index": "https://ca.fo-kg.ai/records/ca-fo-kg/index.json",
+        "serverCard": "https://ca.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door ch-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:ch-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://ch.fo-kg.ai/mcp",
+      "description": "The Switzerland node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Switzerland node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "ch-fo-kg",
+        "index": "https://ch.fo-kg.ai/records/ch-fo-kg/index.json",
+        "serverCard": "https://ch.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door de-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:de-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://de.fo-kg.ai/mcp",
+      "description": "The Germany node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Germany node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "de-fo-kg",
+        "index": "https://de.fo-kg.ai/records/de-fo-kg/index.json",
+        "serverCard": "https://de.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door dk-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:dk-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://dk.fo-kg.ai/mcp",
+      "description": "The Denmark node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Denmark node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "dk-fo-kg",
+        "index": "https://dk.fo-kg.ai/records/dk-fo-kg/index.json",
+        "serverCard": "https://dk.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door es-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:es-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://es.fo-kg.ai/mcp",
+      "description": "The Spain node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Spain node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "es-fo-kg",
+        "index": "https://es.fo-kg.ai/records/es-fo-kg/index.json",
+        "serverCard": "https://es.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door fr-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:fr-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://fr.fo-kg.ai/mcp",
+      "description": "The France node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the France node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "fr-fo-kg",
+        "index": "https://fr.fo-kg.ai/records/fr-fo-kg/index.json",
+        "serverCard": "https://fr.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door it-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:it-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://it.fo-kg.ai/mcp",
+      "description": "The Italy node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Italy node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "it-fo-kg",
+        "index": "https://it.fo-kg.ai/records/it-fo-kg/index.json",
+        "serverCard": "https://it.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door lu-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:lu-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://lu.fo-kg.ai/mcp",
+      "description": "The Luxembourg node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Luxembourg node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "lu-fo-kg",
+        "index": "https://lu.fo-kg.ai/records/lu-fo-kg/index.json",
+        "serverCard": "https://lu.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door nl-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:nl-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://nl.fo-kg.ai/mcp",
+      "description": "The Netherlands node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Netherlands node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "nl-fo-kg",
+        "index": "https://nl.fo-kg.ai/records/nl-fo-kg/index.json",
+        "serverCard": "https://nl.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door no-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:no-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://no.fo-kg.ai/mcp",
+      "description": "The Norway node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Norway node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "no-fo-kg",
+        "index": "https://no.fo-kg.ai/records/no-fo-kg/index.json",
+        "serverCard": "https://no.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door row-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:row-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://row.fo-kg.ai/mcp",
+      "description": "The Rest of world node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Rest of world node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "row-fo-kg",
+        "index": "https://row.fo-kg.ai/records/row-fo-kg/index.json",
+        "serverCard": "https://row.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door sg-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:sg-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://sg.fo-kg.ai/mcp",
+      "description": "The Singapore node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the Singapore node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "sg-fo-kg",
+        "index": "https://sg.fo-kg.ai/records/sg-fo-kg/index.json",
+        "serverCard": "https://sg.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door uk-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:uk-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://uk.fo-kg.ai/mcp",
+      "description": "The United Kingdom node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the United Kingdom node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "uk-fo-kg",
+        "index": "https://uk.fo-kg.ai/records/uk-fo-kg/index.json",
+        "serverCard": "https://uk.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "Node door us-fo-kg",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:server:us-fo-kg",
+      "type": "application/mcp-server+json",
+      "url": "https://us.fo-kg.ai/mcp",
+      "description": "The United States node of the Family Office Knowledge Graph: serves the records (spine GLEIF; fill and confirm from the national registers). As of 2026-09-14.",
+      "capabilities": [
+        "family-office-record",
+        "events",
+        "aliases"
+      ],
+      "representativeQueries": [
+        "List the family offices on the United States node.",
+        "Which fields on this record are confirmed by two sources?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "node": "us-fo-kg",
+        "index": "https://us.fo-kg.ai/records/us-fo-kg/index.json",
+        "serverCard": "https://us.fo-kg.ai/.well-known/mcp.json"
+      }
+    },
+    {
+      "displayName": "The graph as an A2A party",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:agent:graph",
+      "type": "application/json",
+      "url": "https://agent.fo-kg.ai/.well-known/agent-card.json",
+      "description": "A2A Agent Card: the five tools as skills; supported interfaces the apex door, the node doors and HTTP+JSON; security schemes none, office OAuth and x402.",
+      "capabilities": [
+        "resolve-family-office",
+        "family-office-record"
+      ],
+      "representativeQueries": [
+        "How do I query the Family Office Knowledge Graph as an agent?",
+        "Which node serves a given family office?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "principal": "Matthew Keddy",
+        "office": "https://agent-kg.ai"
+      }
+    },
+    {
+      "displayName": "The paid door (x402)",
+      "identifier": "urn:air:familyofficeknowledgegraph.ai:api:x402",
+      "type": "application/json",
+      "url": "https://familyofficeknowledgegraph.ai/api",
+      "description": "GET /api answers 402 (x402 v2, $0.01 USDC on Base mainnet, scheme exact); with payment it returns { receipt, statement, data } — the graph index of record signed, with a receipt that resolves forever at /x402/receipt/{nonce}.",
+      "capabilities": [
+        "x402",
+        "signed-receipt"
+      ],
+      "representativeQueries": [
+        "How much does the signed index cost?",
+        "Where do receipts resolve and which key signs them?"
+      ],
+      "metadata": {
+        "operator": "Agentic KG Holdings",
+        "price_usdc": "0.01",
+        "network": "eip155:8453",
+        "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402",
+        "kid": "fo-kg-x402-2026-09",
+        "page": "https://familyofficeknowledgegraph.ai/x402"
+      }
+    }
+  ]
+}

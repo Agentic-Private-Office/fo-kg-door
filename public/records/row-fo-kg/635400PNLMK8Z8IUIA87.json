@@ -1,0 +1,150 @@
+{
+ "record": "Family Office Record",
+ "id": "635400PNLMK8Z8IUIA87",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "635400PNLMK8Z8IUIA87",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/635400PNLMK8Z8IUIA87",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "635400DZBUIMTBCXGA12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "BLG Family Office Limited",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en-IE"
+  },
+  "jurisdiction": {
+   "value": "IE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Ireland"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "The Boathouse, Bishop Street, Dublin 8, Dublin, IE-D, IE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "MNQ7",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000402",
+   "register_id": "RA000402",
+   "id": {
+    "value": "506558",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-11-12",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-11-12",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-11-12",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/635400PNLMK8Z8IUIA87"
+ ],
+ "discovery": null
+}

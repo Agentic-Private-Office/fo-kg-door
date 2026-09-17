@@ -1,0 +1,245 @@
+{
+ "record": "Family Office Record",
+ "id": "815600DCCE3F552DB834",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "815600DCCE3F552DB834",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/815600DCCE3F552DB834",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "GISEV FAMILY OFFICE S.P.A.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.gisev.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gpt-4.1, grok-4.6"
+  },
+  "formation": {
+   "value": "2004-05-06",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "VIA CAMPERIO, 9, MILANO, IT-MI, 20123, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "P418",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "02159210026",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Achille G. Severgnini",
+    "source_url": "https://www.gisev.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Giammaria Giuliani",
+    "source_url": "https://www.gisev.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Mario Giuliani",
+    "source_url": "https://www.gisev.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Vincenzo Bosco",
+    "source_url": "https://www.gisev.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Giorgio Ghezzi",
+    "source_url": "https://www.gisev.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Mario Germano Giuliani",
+    "source_url": "https://www.gisev.com/storia/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Fondatore as the subject's own page says"
+   },
+   "role": "Fondatore"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.gisev.com",
+  "source_url": "https://www.gisev.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2004-05-06",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-11-16",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-18",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-16",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.gisev.com"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/815600DCCE3F552DB834",
+  "https://www.gisev.com"
+ ],
+ "discovery": null
+}

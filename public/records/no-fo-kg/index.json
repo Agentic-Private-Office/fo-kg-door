@@ -1,0 +1,466 @@
+{
+ "node": "no-fo-kg",
+ "country": "NO",
+ "jurisdiction": "Norway",
+ "host": "https://no.fo-kg.ai",
+ "door": "https://no.fo-kg.ai/mcp",
+ "host_long": "https://no-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://no-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.3",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "549300ESO2E4IT75N193",
+   "lei": "549300ESO2E4IT75N193",
+   "legal_name": "PARK LANE FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "912 892 638",
+    "912892638"
+   ],
+   "jurisdiction": "Norway",
+   "city": "Oslo",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": "https://parklanefo.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/549300ESO2E4IT75N193.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-837066972",
+   "lei": null,
+   "legal_name": "ME FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "837066972",
+    "837066972"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-837066972.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-929232054",
+   "lei": null,
+   "legal_name": "BSG FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "929232054",
+    "929232054"
+   ],
+   "jurisdiction": "Norway",
+   "city": "SANDEFJORD",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 18,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-929232054.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-989219162",
+   "lei": null,
+   "legal_name": "MY FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "989219162",
+    "989219162"
+   ],
+   "jurisdiction": "Norway",
+   "city": "HAMAR",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-989219162.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-931724967",
+   "lei": null,
+   "legal_name": "NORDIC FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "931724967",
+    "931724967"
+   ],
+   "jurisdiction": "Norway",
+   "city": "NØTTERØY",
+   "entity_status": "registered",
+   "structure": "multi-family",
+   "website": "https://nordicfamilyoffice.no",
+   "fields": {
+    "total": 22,
+    "sourced": 17,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-931724967.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-925257125",
+   "lei": null,
+   "legal_name": "OSLO FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "925257125",
+    "925257125"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": "multi-family",
+   "website": "https://oslofamilyoffice.com",
+   "fields": {
+    "total": 19,
+    "sourced": 17,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-925257125.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-915271162",
+   "lei": null,
+   "legal_name": "WAK FAMILY OFFICE AS",
+   "aliases": [],
+   "register_ids": [
+    "915271162",
+    "915271162"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": "single-family",
+   "website": "http://familyoffice.com",
+   "fields": {
+    "total": 17,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-915271162.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-936040268",
+   "lei": null,
+   "legal_name": "MUSTAD FAMILY OFFICE 1 AS",
+   "aliases": [],
+   "register_ids": [
+    "936040268",
+    "936040268"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-936040268.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-936040160",
+   "lei": null,
+   "legal_name": "MUSTAD FAMILY OFFICE 2 AS",
+   "aliases": [],
+   "register_ids": [
+    "936040160",
+    "936040160"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-936040160.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-936048463",
+   "lei": null,
+   "legal_name": "MUSTAD FAMILY OFFICE 3 AS",
+   "aliases": [],
+   "register_ids": [
+    "936048463",
+    "936048463"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-936048463.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-936012132",
+   "lei": null,
+   "legal_name": "MUSTAD FAMILY OFFICE 4 AS",
+   "aliases": [],
+   "register_ids": [
+    "936012132",
+    "936012132"
+   ],
+   "jurisdiction": "Norway",
+   "city": "OSLO",
+   "entity_status": "registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-936012132.json",
+   "version": "2026-09-14.3"
+  },
+  {
+   "id": "NO-ORG-895925012",
+   "lei": null,
+   "legal_name": "THE LABRUSCA FAMILY OFFICE AB",
+   "aliases": [],
+   "register_ids": [
+    "995551136",
+    "995551136"
+   ],
+   "jurisdiction": "Norway",
+   "city": "111 43 Stockholm",
+   "entity_status": "registered",
+   "structure": "single-family",
+   "website": "http://www.labrusca.se",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/no-fo-kg/NO-ORG-895925012.json",
+   "version": "2026-09-14.3"
+  }
+ ],
+ "totals": {
+  "fields": 190,
+  "sourced": 177,
+  "filled": 7,
+  "confirmed": 5,
+  "conflict": 1,
+  "unverified": 0,
+  "gaps": 43,
+  "events": 26,
+  "registrations": 24,
+  "principals": 34,
+  "with_lei": 1,
+  "with_website": 5,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 7
+ },
+ "sources": [
+  {
+   "name": "Brønnøysundregistrene — Enhetsregisteret (open data API)",
+   "url": "https://data.brreg.no/",
+   "role": "fill and confirm",
+   "reads": 21,
+   "answered_200": 20
+  },
+  {
+   "name": "Family Office Exchange (FOX) — published member/directory page",
+   "url": "https://familyoffice.com/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "nordicfamilyoffice.no — subject website",
+   "url": "https://nordicfamilyoffice.no/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "parklanefo.com — subject website",
+   "url": "https://parklanefo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Finanstilsynet — Virksomhetsregisteret (licence lists)",
+   "url": "https://www.finanstilsynet.no/",
+   "role": "fill and confirm",
+   "reads": 4,
+   "answered_200": 0
+  },
+  {
+   "name": "www.labrusca.se — subject website",
+   "url": "https://www.labrusca.se/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.oslofamilyoffice.com — subject website",
+   "url": "https://www.oslofamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "website",
+   "subjects": 1
+  }
+ ],
+ "reads": 30,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/no-fo-kg/<source>/2026-09-14/"
+ },
+ "excluded": [
+  {
+   "id": "NO-ORG-997118154",
+   "name": "STIFTINGA FAMILIEKONTORET I NORDFJORD",
+   "reason": "a state-contracted family counselling foundation (industry code 88.992 Family counselling services), not a family office; admitted by the local form 'familiekontor'",
+   "register_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997118154",
+   "ruling": "CEO 2026-09-14",
+   "pond": "FO-KG/harvest/pond/no-fo-kg/ (drop kept as read)"
+  }
+ ]
+}

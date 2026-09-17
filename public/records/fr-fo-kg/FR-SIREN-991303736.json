@@ -1,0 +1,164 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-991303736",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "AKKA FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-09-12",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "2 LE LISSE 56410 ERDEVEN",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5499",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "991303736",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/991303736"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/991303736",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "ALIX KLOBOUKOFF",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "AKKA FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-09-12",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=AKKA FAMILY OFFICE"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/991303736",
+    "https://entreprises.lefigaro.fr/akka-family-office-56/entreprise-991303736",
+    "https://www.pappers.fr/entreprise/akka-family-office-991303736?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=991303736"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=991303736"
+  }
+ ],
+ "sources": [
+  "https://annuaire-entreprises.data.gouv.fr/entreprise/991303736",
+  "https://entreprises.lefigaro.fr/akka-family-office-56/entreprise-991303736",
+  "https://recherche-entreprises.api.gouv.fr/search?q=991303736",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=4",
+  "https://www.pappers.fr/entreprise/akka-family-office-991303736?utm_source=openai"
+ ],
+ "discovery": null
+}

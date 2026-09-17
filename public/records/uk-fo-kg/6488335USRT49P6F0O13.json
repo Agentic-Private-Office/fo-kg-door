@@ -1,0 +1,239 @@
+{
+ "record": "Family Office Record",
+ "id": "6488335USRT49P6F0O13",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "6488335USRT49P6F0O13",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/6488335USRT49P6F0O13",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "485100001PLJJ09NZT59"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "MEDYNSKY FAMILY OFFICE UK LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2023-01-02",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2023-01-03",
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "Suite 1-2 Brookfield Court, Selby Road, Leeds, LS25 1NB, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "Thorney Court, Palace Gate, London, England, W8 5NJ",
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "14567942",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "14567942",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/14567942/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "RASHID, Masood",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Evan Medynsky",
+    "source_url": "https://www.medynsky.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.medynsky.co.uk/",
+  "source_url": "https://www.medynsky.co.uk/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2023-01-02",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-01-03",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/14567942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-11-21",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-24",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-20",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=MEDYNSKY%20FAMILY%20OFFICE%20UK%20LTD.&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/6488335USRT49P6F0O13",
+  "https://find-and-update.company-information.service.gov.uk/company/14567942",
+  "https://find-and-update.company-information.service.gov.uk/company/14567942/officers",
+  "https://www.medynsky.co.uk/"
+ ],
+ "discovery": null
+}

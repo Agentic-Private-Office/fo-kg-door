@@ -1,0 +1,197 @@
+{
+ "record": "Family Office Record",
+ "id": "98450039E6BZ952ADV68",
+ "version": "2026-09-14.2",
+ "node": "ae-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ae.fo-kg.ai/mcp",
+ "lei": {
+  "value": "98450039E6BZ952ADV68",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/98450039E6BZ952ADV68",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "شركة سحام العائلية المحدودة",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "ar"
+  },
+  "jurisdiction": {
+   "value": "AE-DU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Arab Emirates"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://saham.com/en/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2024-02-01",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "الوحدة OT 14-44, دبي، الإمارات, مكاتب سنترال بارك، مركز دبي المالي العالمي, الطابق 14 العربية المتحدة, دبي, AE-DU, AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "70EO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000660",
+   "register_id": "RA000660",
+   "id": {
+    "value": "CL8001",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Moulay Hafid Elalamy",
+    "source_url": "https://saham.com/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Founded in 1995 by Moulay Hafid Elalamy as the subject's own page says"
+   },
+   "role": "Founded in 1995 by Moulay Hafid Elalamy"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://saham.com/en/",
+  "source_url": "https://saham.com/en/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by Grok on the page it opened"
+ },
+ "aliases": [
+  {
+   "value": "SAHAM FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2024-02-01",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-08-02",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-04",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-08-02",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[DIFC public register]",
+   "reason": "the DIFC public register answered a security checkpoint page to machines",
+   "tried": "https://www.difc.ae/public-register",
+   "answer": "security checkpoint (429)"
+  },
+  {
+   "field": "registrations[ADGM public registers — RA000660]",
+   "reason": "no machine-readable search was found on the ADGM public-registers pages; the register id is as GLEIF records it",
+   "tried": "https://www.adgm.com/public-registers",
+   "answer": "no machine read"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68"
+  }
+ ],
+ "sources": [
+  "https://2gis.ae/dubai/firm/70000001093544065",
+  "https://api.gleif.org/api/v1/lei-records/98450039E6BZ952ADV68",
+  "https://lei.bloomberg.com/leis/view/98450039E6BZ952ADV68?utm_source=openai",
+  "https://saham.com/en/",
+  "https://www.saham.com"
+ ],
+ "discovery": null
+}

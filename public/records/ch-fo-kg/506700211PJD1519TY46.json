@@ -1,0 +1,287 @@
+{
+ "record": "Family Office Record",
+ "id": "506700211PJD1519TY46",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "506700211PJD1519TY46",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/506700211PJD1519TY46",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "506700LOLO7M6V0E4247"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "SWIX Family Office SA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "it-CH",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://swixfo.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2013-04-26",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Piazza Indipendenza 1, Lugano, CH-TI, 6900, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Zefix — Zentraler Firmenindex (Swiss commercial register) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "MVII",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE359289738",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.zefix.ch/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-359.289.738",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-359.289.738"
+   },
+   "url": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-359.289.738",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Giacomo Marco Bernasconi",
+    "source_url": "https://swixfo.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Manucer Alexander-David",
+    "source_url": "https://swixfo.com/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Co-Founder & Executive Chairman as the subject's own page says"
+   },
+   "role": "Co-Founder & Executive Chairman"
+  },
+  {
+   "name": {
+    "value": "Giacomo «Jacky» Bernasconi",
+    "source_url": "https://swixfo.com/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Co-Founder & CEO as the subject's own page says"
+   },
+   "role": "Co-Founder & CEO"
+  },
+  {
+   "name": {
+    "value": "Francesca Clavarino",
+    "source_url": "https://swixfo.com/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CIO & Partner as the subject's own page says"
+   },
+   "role": "CIO & Partner"
+  },
+  {
+   "name": {
+    "value": "Patrizio Manzuoli",
+    "source_url": "https://swixfo.com/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Partner & Senior Relationship Manager as the subject's own page says"
+   },
+   "role": "Partner & Senior Relationship Manager"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://swixfo.com",
+  "source_url": "https://swixfo.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "SWIX Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "de-CH"
+  },
+  {
+   "value": "SWIX Family Office Ltd",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en-US"
+  }
+ ],
+ "events": [
+  {
+   "date": "2013-04-26",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-10",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-02-29",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-29",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/506700211PJD1519TY46",
+  "https://swixfo.com",
+  "https://swixfo.com/",
+  "https://www.linkedin.com/company/swix-family-office-sa",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1137961.json"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/swix-family-office-sa",
+   "x": null,
+   "website_named": "http://swixfo.com"
+  }
+ ]
+}

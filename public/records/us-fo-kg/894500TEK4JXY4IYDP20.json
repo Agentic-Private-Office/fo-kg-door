@@ -1,0 +1,172 @@
+{
+ "record": "Family Office Record",
+ "id": "894500TEK4JXY4IYDP20",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500TEK4JXY4IYDP20",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500TEK4JXY4IYDP20",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Presto Family Office LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US-GA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2021-11-01",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "265 Shady Marsh Trail, Roswell, US-GA, 30075, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "6IIM",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Georgia Secretary of State — Corporations Division",
+   "register_id": "RA000604",
+   "id": {
+    "value": "21278014",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://ecorp.sos.ga.gov/BusinessSearch",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2021-11-01",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-12-01",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-12-01",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-12-01",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Georgia Secretary of State — Corporations Division]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://altss.com/companies/yc/presto",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://ecorp.sos.ga.gov/BusinessSearch"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20"
+  }
+ ],
+ "sources": [
+  "https://altss.com/companies/yc/presto",
+  "https://api.adviserinfo.sec.gov/search/firm?query=presto&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/894500TEK4JXY4IYDP20"
+ ],
+ "discovery": null
+}

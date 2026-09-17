@@ -1,0 +1,178 @@
+{
+ "record": "Family Office Record",
+ "id": "391200CXVWW68C4DDO91",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200CXVWW68C4DDO91",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200CXVWW68C4DDO91",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Trowe Family Office GmbH & Co. KG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2023-12-08",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Kennedydamm 24, Duesseldorf, 40476, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8Z6G",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000234",
+   "register_id": "RA000234",
+   "id": {
+    "value": "HRA 27607",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2023-12-08",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-12-15",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-21",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-15",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Trowe+Family+Office+GmbH+%26+Co.+KG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000234]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.cloppenburg-gruppe.de/uploads/managed-files/3d9f5ebe-00e0-11f1-ae82-4c72b9252fb1/1/geschaeftsbericht-2024-2025.pdf",
+    "https://www.linkedin.com/company/trovefamilyoffice",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/391200CXVWW68C4DDO91",
+  "https://www.cloppenburg-gruppe.de/uploads/managed-files/3d9f5ebe-00e0-11f1-ae82-4c72b9252fb1/1/geschaeftsbericht-2024-2025.pdf",
+  "https://www.linkedin.com/company/trovefamilyoffice"
+ ],
+ "discovery": null
+}

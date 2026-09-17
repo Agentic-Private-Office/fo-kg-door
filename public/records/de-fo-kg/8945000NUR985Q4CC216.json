@@ -1,0 +1,178 @@
+{
+ "record": "Family Office Record",
+ "id": "8945000NUR985Q4CC216",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "8945000NUR985Q4CC216",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/8945000NUR985Q4CC216",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Pinetree Family Office KG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2019-07-31",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Donnersbergstraße 7, Limburgerhof, 67117, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8Z6G",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000291",
+   "register_id": "RA000291",
+   "id": {
+    "value": "HRA 61742",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2019-07-31",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-10-21",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-07",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-21",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Pinetree+Family+Office+KG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000291]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://handelsregister.ai/de/organizations/limburgerhof/wagniskapital-beteiligungsgesellschaften/pinetree-family-office-kg-7b921aa3c1210b167a5dd7a2a8ef93ff",
+    "https://www.linkedin.com/company/pinetreecapital",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/8945000NUR985Q4CC216",
+  "https://handelsregister.ai/de/organizations/limburgerhof/wagniskapital-beteiligungsgesellschaften/pinetree-family-office-kg-7b921aa3c1210b167a5dd7a2a8ef93ff",
+  "https://www.linkedin.com/company/pinetreecapital"
+ ],
+ "discovery": null
+}

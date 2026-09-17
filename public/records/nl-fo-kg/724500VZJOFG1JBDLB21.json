@@ -1,0 +1,216 @@
+{
+ "record": "Family Office Record",
+ "id": "724500VZJOFG1JBDLB21",
+ "version": "2026-09-14.2",
+ "node": "nl-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://nl.fo-kg.ai/mcp",
+ "lei": {
+  "value": "724500VZJOFG1JBDLB21",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/724500VZJOFG1JBDLB21",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "724500A93Z8V1MJK5349"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "F&F Family Office B.V.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "nl"
+  },
+  "jurisdiction": {
+   "value": "NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Netherlands"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://fffamilyoffice.nl/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, grok-4.6"
+  },
+  "formation": {
+   "value": "2006-04-18",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Hopbrouwer 18, Nieuwkuijk, 5253RE, NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "54M6",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "KVK — Handelsregister (Kamer van Koophandel)",
+   "register_id": "RA000463",
+   "id": {
+    "value": "17190066",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.kvk.nl/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "AFM registers",
+   "register_id": null,
+   "id": null,
+   "url": "https://www.afm.nl/en/sector/registers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Peter Valk",
+    "source_url": "https://fffamilyoffice.nl/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Jolanda Reuling",
+    "source_url": "https://fffamilyoffice.nl/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Guido Teeuwen",
+    "source_url": "https://fffamilyoffice.nl/over-ons/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "ondersteunt deze families op financieel, administratief en secretarieel gebied as the subject's own page says"
+   },
+   "role": "ondersteunt deze families op financieel, administratief en secretarieel gebied"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://fffamilyoffice.nl/",
+  "source_url": "https://fffamilyoffice.nl/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2006-04-18",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-27",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-12-27",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-12-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[KVK — Handelsregister (Kamer van Koophandel)]",
+   "reason": "KVK public search renders client-side and extracts are paid — never attempted (HITL)",
+   "tried": "https://www.kvk.nl/zoeken/?source=all&q=F%26F%20Family%20Office%20B.V.",
+   "answer": "client-side search; extracts paid"
+  },
+  {
+   "field": "website",
+   "reason": "answered 400",
+   "tried": "https://fffamilyoffice.nl/",
+   "answer": 400
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/724500VZJOFG1JBDLB21",
+  "https://fffamilyoffice.nl/",
+  "https://www.afm.nl/en/sector/registers"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,134 @@
+{
+ "record": "Family Office Record",
+ "id": "SG-UEN-202216856W",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "RUIJI FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2022-05-17",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "160 ROBINSON ROAD #19-10 SINGAPORE BUSINESS FEDERATION CENTER 068914",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Local Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Live Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202216856W",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view"
+   },
+   "url": "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-05-17",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=SG&filter[fulltext]=RUIJI FAMILY OFFICE PTE. LTD."
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.sgpbusiness.com/company/Ruiji-Family-Office-Pte-Ltd",
+    "https://opengovsg.com/corporate/202216856W"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500"
+  }
+ ],
+ "sources": [
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+  "https://opengovsg.com/corporate/202216856W",
+  "https://www.sgpbusiness.com/company/Ruiji-Family-Office-Pte-Ltd"
+ ],
+ "discovery": null
+}

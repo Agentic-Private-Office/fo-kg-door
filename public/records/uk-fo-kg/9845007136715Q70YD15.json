@@ -1,0 +1,237 @@
+{
+ "record": "Family Office Record",
+ "id": "9845007136715Q70YD15",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9845007136715Q70YD15",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9845007136715Q70YD15",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "DARK HORSE FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://dhfamilyoffice.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": {
+   "value": "2024-01-09",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Companies House",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "21 Arlington Street, London, GB-LND, SW1A 1RN, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Companies House (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "15399803",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "15399803",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15399803/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "STOCKBRIDGE, Brian",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Brian Stockbridge",
+    "source_url": "https://dhfamilyoffice.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dhfamilyoffice.com/",
+  "source_url": "https://dhfamilyoffice.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-01-09",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-01-09",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15399803",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-01-15",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-11-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-15",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=DARK%20HORSE%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "answered 404",
+   "tried": "https://dhfamilyoffice.com/",
+   "answer": 404
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9845007136715Q70YD15",
+  "https://dhfamilyoffice.com/",
+  "https://find-and-update.company-information.service.gov.uk/company/15399803",
+  "https://find-and-update.company-information.service.gov.uk/company/15399803/officers"
+ ],
+ "discovery": null
+}

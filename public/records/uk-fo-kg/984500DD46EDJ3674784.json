@@ -1,0 +1,294 @@
+{
+ "record": "Family Office Record",
+ "id": "984500DD46EDJ3674784",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500DD46EDJ3674784",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500DD46EDJ3674784",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "REDROCK FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "language": "en",
+   "conflict_with": [
+    {
+     "value": [
+      "BLACKWOOD FINANCIAL SOLUTIONS LIMITED"
+     ],
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2022-04-04",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Companies House",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "4 Fitzhardinge Street, London, W1H 6EG, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "111 Seven Sisters Road - Unit C, Finsbury Park, London, England, N7 7FN",
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "14023616",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+   "status": {
+    "value": "Dissolved Dissolved on 7 July 2026",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "14023616",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "RAEZ, Alfredo Mark",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "STERNEK, Patrik",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "TOMLIN, Sinead",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "WARING, Jordan Whitney",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://redrockfamilyoffice.com/",
+  "source_url": "https://redrockfamilyoffice.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "JANUS AVIATION HOLDINGS LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "ROSINA INVESTMENT GROUP LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "BLACKWOOD FINANCIAL SOLUTIONS LIMITED",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on Companies House"
+  }
+ ],
+ "events": [
+  {
+   "date": "2022-04-04",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-04-04",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-10-11",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-11",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-07",
+   "event": "dissolved — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/14023616",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-29",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=REDROCK%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/984500DD46EDJ3674784",
+  "https://find-and-update.company-information.service.gov.uk/company/14023616",
+  "https://find-and-update.company-information.service.gov.uk/company/14023616/officers",
+  "https://redrockfamilyoffice.com/"
+ ],
+ "discovery": null
+}

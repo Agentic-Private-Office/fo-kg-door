@@ -1,0 +1,178 @@
+{
+ "record": "Family Office Record",
+ "id": "391200SRUSP3QXNALX86",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200SRUSP3QXNALX86",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200SRUSP3QXNALX86",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "TRIPLE Family Office Vermögensverwaltungsgesellschaft mbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "http://www.schwanenland.de",
+   "read_by": "gpt-4.1",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gpt-4.1 on the page it cites"
+  },
+  "formation": {
+   "value": "2012-05-07",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Colonnaden 21, Hamburg, DE-HH, 20354, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000259",
+   "register_id": "RA000259",
+   "id": {
+    "value": "HRB 122931",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.schwanenland.de",
+  "source_url": "http://www.schwanenland.de",
+  "read_by": "gpt-4.1",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gpt-4.1 on the page it cites"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2012-05-07",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-11-22",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-25",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-11-22",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=TRIPLE+Family+Office+Verm%C3%B6gensverwaltungsgesellschaft+mbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000259]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86"
+  }
+ ],
+ "sources": [
+  "http://www.schwanenland.de",
+  "https://api.gleif.org/api/v1/lei-records/391200SRUSP3QXNALX86",
+  "https://fusionbase.com/de/data/organization/beb468f041df2b3ceee853ccb855b2df/TRIPLE+Family+Office+Verm%C3%B6gensverwaltungsgesellschaft+mbH",
+  "https://www.linkedin.com/company/triple-family-office"
+ ],
+ "discovery": null
+}

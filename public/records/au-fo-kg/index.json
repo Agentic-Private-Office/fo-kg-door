@@ -1,0 +1,801 @@
+{
+ "node": "au-fo-kg",
+ "country": "AU",
+ "jurisdiction": "Australia",
+ "host": "https://au.fo-kg.ai",
+ "door": "https://au.fo-kg.ai/mcp",
+ "host_long": "https://au-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://au-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "254900EMGQ0VLSNLQW70",
+   "lei": "254900EMGQ0VLSNLQW70",
+   "legal_name": "CHOWALLOOR FAMILY OFFICE PTY LTD",
+   "aliases": [],
+   "register_ids": [
+    "699 872 636"
+   ],
+   "jurisdiction": "Australia",
+   "city": "Sydney",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/254900EMGQ0VLSNLQW70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900ZFXNT4BZIIFW41",
+   "lei": "254900ZFXNT4BZIIFW41",
+   "legal_name": "901 FAMILY OFFICE PTY LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "663 193 039"
+   ],
+   "jurisdiction": "Australia",
+   "city": "Sydney",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/254900ZFXNT4BZIIFW41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450043884CED6GDF79",
+   "lei": "98450043884CED6GDF79",
+   "legal_name": "ATAYF FAMILY OFFICE PTY LTD",
+   "aliases": [],
+   "register_ids": [
+    "612 191 063"
+   ],
+   "jurisdiction": "Australia",
+   "city": "ADELAIDE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/98450043884CED6GDF79.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B80ECCF5752353",
+   "lei": "984500B80ECCF5752353",
+   "legal_name": "ALOHA FAMILY OFFICE PTY LTD",
+   "aliases": [],
+   "register_ids": [
+    "615 658 725"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NORTH SYDNEY",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/984500B80ECCF5752353.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-96094952959",
+   "lei": null,
+   "legal_name": "CLARKE & COMPANY PTY LTD",
+   "aliases": [
+    "Active THE FAMILY OFFICE Business Name 3000 VIC"
+   ],
+   "register_ids": [
+    "96094952959"
+   ],
+   "jurisdiction": "Australia",
+   "city": "VIC 3000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-96094952959.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-58628260337",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE CO PTY LTD",
+   "aliases": [
+    "Active THE FAMILY OFFICE CO PTY LTD Entity Name 3122 VIC"
+   ],
+   "register_ids": [
+    "58628260337"
+   ],
+   "jurisdiction": "Australia",
+   "city": "VIC 3122",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-58628260337.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-84894672192",
+   "lei": null,
+   "legal_name": "DE BOER, DONALD WILFRED",
+   "aliases": [
+    "Active The Family Office Other Name 2000 NSW"
+   ],
+   "register_ids": [
+    "84894672192"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-84894672192.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-38137679399",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE.COM.AU PTY LTD",
+   "aliases": [
+    "Active THE FAMILY OFFICE.COM.AU PTY LTD Entity Name 2000 NSW"
+   ],
+   "register_ids": [
+    "38137679399"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-38137679399.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-23662504118",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE CARBON PTY LTD",
+   "aliases": [
+    "Active FAMILY OFFICE CARBON PTY LTD Entity Name 6083 WA"
+   ],
+   "register_ids": [
+    "23662504118"
+   ],
+   "jurisdiction": "Australia",
+   "city": "WA 6083",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-23662504118.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-90138735350",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE CONNECT PTY LIMITED",
+   "aliases": [
+    "Active FAMILY OFFICE CONNECT PTY LIMITED Entity Name 2000 NSW"
+   ],
+   "register_ids": [
+    "90138735350"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-90138735350.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-22628252022",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE DEVELOPMENT PTY LTD",
+   "aliases": [
+    "Active FAMILY OFFICE DEVELOPMENT PTY LTD Entity Name 2565 NSW"
+   ],
+   "register_ids": [
+    "22628252022"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2565",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-22628252022.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-88660398032",
+   "lei": null,
+   "legal_name": "BLACKMOUNTAIN CAPITAL PTY LTD",
+   "aliases": [
+    "Active FAMILY OFFICE INSIDER Business Name 2000 NSW"
+   ],
+   "register_ids": [
+    "88660398032"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.familyofficeinsider.co/",
+   "fields": {
+    "total": 16,
+    "sourced": 10,
+    "filled": 6,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-88660398032.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-42671705436",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE INSIDER PTY LTD",
+   "aliases": [
+    "Active FAMILY OFFICE INSIDER PTY LTD Entity Name 2000 NSW"
+   ],
+   "register_ids": [
+    "42671705436"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://familyofficeinsider.co/",
+   "fields": {
+    "total": 11,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-42671705436.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-64108403514",
+   "lei": null,
+   "legal_name": "DSC-IT Pty Ltd",
+   "aliases": [
+    "Active Family Office AI Business Name 6000 WA"
+   ],
+   "register_ids": [
+    "64108403514"
+   ],
+   "jurisdiction": "Australia",
+   "city": "WA 6000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-64108403514.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-62642121426",
+   "lei": null,
+   "legal_name": "CUTHBERTS BUSINESS ADVISORY PTY LTD",
+   "aliases": [
+    "Active Family Office Advisory Business Name 2000 NSW"
+   ],
+   "register_ids": [
+    "62642121426"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2000",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "http://www.apfamily.com",
+   "fields": {
+    "total": 12,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-62642121426.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-56692437573",
+   "lei": null,
+   "legal_name": "Family Office Alliance",
+   "aliases": [
+    "Active Family Office Alliance Entity Name 3805 VIC"
+   ],
+   "register_ids": [
+    "56692437573"
+   ],
+   "jurisdiction": "Australia",
+   "city": "VIC 3805",
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.foa.org.au/",
+   "fields": {
+    "total": 11,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-56692437573.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-61613060236",
+   "lei": null,
+   "legal_name": "WSL CONSULTING PTY LTD",
+   "aliases": [
+    "Active Family Office Services Business Name 2060 NSW"
+   ],
+   "register_ids": [
+    "61613060236"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2060",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-61613060236.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-14917734408",
+   "lei": null,
+   "legal_name": "The trustee for Hale Family Trust",
+   "aliases": [
+    "Active The Family Office Academy Business Name 3950 VIC"
+   ],
+   "register_ids": [
+    "14917734408"
+   ],
+   "jurisdiction": "Australia",
+   "city": "VIC 3950",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-14917734408.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-54580307865",
+   "lei": null,
+   "legal_name": "The Trustee for FAMILY OFFICE TRUST",
+   "aliases": [
+    "Active The Trustee for FAMILY OFFICE TRUST Entity Name 4116 QLD"
+   ],
+   "register_ids": [
+    "54580307865"
+   ],
+   "jurisdiction": "Australia",
+   "city": "QLD 4116",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-54580307865.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-87664721683",
+   "lei": null,
+   "legal_name": "The Trustee for The Family Office Unit Trust",
+   "aliases": [
+    "Active The Trustee for The Family Office Unit Trust Entity Name 4558 QLD"
+   ],
+   "register_ids": [
+    "87664721683"
+   ],
+   "jurisdiction": "Australia",
+   "city": "QLD 4558",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-87664721683.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-62426604332",
+   "lei": null,
+   "legal_name": "FOX, MICHAEL JAMES",
+   "aliases": [
+    "Active FAMILY OFFICE ASSOCIATION AUSTRALIA Business Name 5034 SA"
+   ],
+   "register_ids": [
+    "62426604332"
+   ],
+   "jurisdiction": "Australia",
+   "city": "SA 5034",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-62426604332.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-67502644864",
+   "lei": null,
+   "legal_name": "VINCI CARBONE PROPERTY TRUST",
+   "aliases": [
+    "Active FAMILY OFFICE REAL ESTATE ADVISORY Business Name 3000 VIC"
+   ],
+   "register_ids": [
+    "67502644864"
+   ],
+   "jurisdiction": "Australia",
+   "city": "VIC 3000",
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.familyofficerea.com.au",
+   "fields": {
+    "total": 11,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-67502644864.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-82709711647",
+   "lei": null,
+   "legal_name": "The Trustee for Family Office Investment Trust",
+   "aliases": [
+    "Active The Trustee for Family Office Investment Trust Entity Name 4209 QLD"
+   ],
+   "register_ids": [
+    "82709711647"
+   ],
+   "jurisdiction": "Australia",
+   "city": "QLD 4209",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-82709711647.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AU-ABN-18002263710",
+   "lei": null,
+   "legal_name": "PERFORMAX PTY LTD",
+   "aliases": [
+    "Active THE FAMILY OFFICEADVANCE MANAGEMENT CENTRE Trading Name 2088 NSW"
+   ],
+   "register_ids": [
+    "18002263710"
+   ],
+   "jurisdiction": "Australia",
+   "city": "NSW 2088",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/au-fo-kg/AU-ABN-18002263710.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 263,
+  "sourced": 252,
+  "filled": 10,
+  "confirmed": 1,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 137,
+  "events": 36,
+  "registrations": 24,
+  "principals": 5,
+  "with_lei": 4,
+  "with_website": 5,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 2
+ },
+ "sources": [
+  {
+   "name": "ABN Lookup — Australian Business Register",
+   "url": "https://abr.business.gov.au/",
+   "role": "fill and confirm",
+   "reads": 78,
+   "answered_200": 78
+  },
+  {
+   "name": "ASIC registers — open data (data.gov.au)",
+   "url": "https://data.gov.au/",
+   "role": "fill and confirm",
+   "reads": 2,
+   "answered_200": 2
+  }
+ ],
+ "refused": [
+  {
+   "register": "ASIC Connect — registers",
+   "subjects": 24
+  },
+  {
+   "register": "Australian Business Register (ABN Lookup)",
+   "subjects": 4
+  }
+ ],
+ "reads": 80,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/au-fo-kg/<source>/2026-09-14/"
+ }
+}

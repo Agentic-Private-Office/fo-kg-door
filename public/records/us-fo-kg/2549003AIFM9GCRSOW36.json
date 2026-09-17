@@ -1,0 +1,240 @@
+{
+ "record": "Family Office Record",
+ "id": "2549003AIFM9GCRSOW36",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "2549003AIFM9GCRSOW36",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/2549003AIFM9GCRSOW36",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "GRAND FAMILY OFFICE LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "jurisdiction": {
+   "value": "US-WY",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2026-04-27",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O WEIHAO YE, 2306 E 9TH ST, UNIT B, CHEYENNE, US-WY, 82001, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on SEC Investment Adviser Public Disclosure (IAPD) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "NB58",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Wyoming Secretary of State — business filings",
+   "register_id": "RA000644",
+   "id": {
+    "value": "2026-001961382",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://wyobiz.wy.gov/Business/FilingSearch.aspx",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "SEC Form ADV roster — exempt reporting advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "342516",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-exempt.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "exempt reporting adviser",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-exempt.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "802-136418",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-exempt.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "342516",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/342516"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/342516",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "136418",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-04-27",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-23",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-23",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Wyoming Secretary of State — business filings]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://altss.com/profile/grand-family-office-llc",
+    "https://altss.com/profile/grand-family-office-llc"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://wyobiz.wy.gov/Business/FilingSearch.aspx",
+    "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+    "https://adviserinfo.sec.gov/firm/summary/342516"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36"
+  }
+ ],
+ "sources": [
+  "https://altss.com/profile/grand-family-office-llc",
+  "https://api.adviserinfo.sec.gov/search/firm?query=342516&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/2549003AIFM9GCRSOW36",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-exempt.zip"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,440 @@
+{
+ "record": "Family Office Record",
+ "id": "2549004OC158Y226JX48",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "2549004OC158Y226JX48",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/2549004OC158Y226JX48",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "associations": [
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "members",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/",
+    "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as listed"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/board-of-directors",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2024-01-01",
+    "basis": "named on the Family Office Association Hong Kong page as listed"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+    "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "board member",
+    "place": "null",
+    "page_date": "2022-09-15",
+    "basis": "named on the Family Office Association Hong Kong page as board member"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Board member",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as Board member"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+    "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "founder mentioned as FOAHK founding executive",
+    "place": "Hong Kong, China",
+    "page_date": "2020-11-20",
+    "basis": "named on the Family Office Association Hong Kong page as founder mentioned as FOAHK founding executive"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Raffles Family Office",
+    "source_url": "https://www.foahk.org/news/five-family-office-execs-start-hong-kong-association",
+    "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "mentioned as founded by a FOAHK founding member",
+    "page_date": "2020-11-19",
+    "basis": "named on the Family Office Association Hong Kong page as mentioned as founded by a FOAHK founding member"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "RAFFLES FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on MAS Financial Institutions Directory"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.rafflesgroup.co",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2018-07-30",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1 RAFFLES PLACE, #29-02/03, ONE RAFFLES PLACE, SINGAPORE, SG-01, 048616, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "50 COLLYER QUAY #11-03/04 OUE BAYFRONT 049321",
+     "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "201825888R",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "MAS Financial Institutions Directory",
+   "register_id": null,
+   "id": {
+    "value": "222933",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD",
+   "status": {
+    "value": "Exempt Financial Adviser",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.rafflesgroup.co",
+  "source_url": "https://www.rafflesgroup.co",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "Raffles Family Office",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as the Family Office Association Hong Kong page lists it"
+  }
+ ],
+ "events": [
+  {
+   "date": "2018-07-30",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-07-30",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-01-06",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-11-19",
+   "event": "named on the Family Office Association Hong Kong page (cited; mentioned as founded by a FOAHK founding member)",
+   "source_url": "https://www.foahk.org/news/five-family-office-execs-start-hong-kong-association",
+   "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-11-20",
+   "event": "named on the Family Office Association Hong Kong page (cited; founder mentioned as FOAHK founding executive)",
+   "source_url": "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+   "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-15",
+   "event": "named on the Family Office Association Hong Kong page (cited; board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+   "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-01-01",
+   "event": "named on the Family Office Association Hong Kong page (cited; listed)",
+   "source_url": "https://www.foahk.org/board-of-directors",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (members; listed)",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "fo-kg-harvest/0.2, sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (cited; Board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-30",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-06",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view",
+    "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/2549004OC158Y226JX48",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+  "https://eservices.mas.gov.sg/fid/institution/detail/222933-RAFFLES-FAMILY-OFFICE-PTE-LTD",
+  "https://sg.linkedin.com/company/raffles-family-office",
+  "https://www.foahk.org/",
+  "https://www.foahk.org/board-of-directors",
+  "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+  "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+  "https://www.foahk.org/news/five-family-office-execs-start-hong-kong-association",
+  "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+  "https://www.linkedin.com/company/raffles-family-office",
+  "https://www.rafflesgroup.co",
+  "https://www.rafflesgroup.co/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/raffles-family-office",
+   "x": "https://x.com/RafflesGroupCo",
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": "https://x.com/RafflesGroupCo",
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": "https://x.com/RafflesGroupCo",
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/raffles-family-office",
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/raffles-family-office",
+   "x": "https://x.com/RafflesGroupCo",
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://www.rafflesgroup.co/"
+  }
+ ]
+}

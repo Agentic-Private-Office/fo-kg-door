@@ -1,0 +1,393 @@
+{
+ "record": "Family Office Record",
+ "id": "US-CRD-109869",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "associations": [
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "WE Family Offices",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-10-23",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "WE Family Offices",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+    "read_by": "sonar-pro, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "place": "New York, NY",
+    "page_date": "2025-08-28",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "WE Family Offices",
+    "source_url": "https://www.uhnwinstitute.org/our-team/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Board of Directors",
+    "page_date": "2025-07-21",
+    "basis": "named on the The UHNW Institute page as Board of Directors"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "WE Family Offices",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+    "read_by": "fo-kg-harvest/0.2, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-12-11",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "GenSpring Family Offices",
+    "source_url": "https://www.uhnwinstitute.org/our-team/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed as former employer",
+    "place": "United States",
+    "page_date": "2025-07-21",
+    "basis": "named on the The UHNW Institute page as listed as former employer"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "WE FAMILY OFFICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.wefamilyoffices.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "CORAL GABLES, 33134, US",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01) (city and postal code agree)"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)",
+   "register_id": null,
+   "id": {
+    "value": "109869",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://www.sec.gov/help/foiadocsinvafoiahtm.html"
+   },
+   "url": "https://www.sec.gov/help/foiadocsinvafoiahtm.html",
+   "status": {
+    "value": "registered",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "801-60025",
+    "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "109869",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/109869"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/109869",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "60025",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Santiago Ulloa",
+    "source_url": "https://www.wefamilyoffices.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Mel Lagomasino",
+    "source_url": "https://www.wefamilyoffices.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Michael Zeuner",
+    "source_url": "https://www.wefamilyoffices.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.facebook.com/wefamilyofficesofficialpage/",
+  "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "website as disclosed on SEC Form ADV roster — registered investment advisers (FOIA file 2026-09-01)"
+ },
+ "aliases": [
+  {
+   "value": "W.E. FAMILY OFFICES, LLC",
+   "source_url": "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as enumerated (search result); the register page names the entity differently"
+  },
+  {
+   "value": "WE FAMILY OFFICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  },
+  {
+   "value": "GENSPRING FAMILY OFFICES",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "TBK INVESTMENTS, INC.",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "GENSPRING INTERNATIONAL LLC",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  {
+   "value": "GENSPRING FAMILY OFFICES INTERNATIONAL LLC",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-07-21",
+   "event": "named on The UHNW Institute page (cited; Board of Directors)",
+   "source_url": "https://www.uhnwinstitute.org/our-team/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-07-21",
+   "event": "named on The UHNW Institute page (cited; listed as former employer)",
+   "source_url": "https://www.uhnwinstitute.org/our-team/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-08-28",
+   "event": "named on The UHNW Institute page (speakers; listed)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+   "read_by": "sonar-pro, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-23",
+   "event": "named on The UHNW Institute page (speakers; listed)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-11",
+   "event": "named on The UHNW Institute page (cited; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+   "read_by": "fo-kg-harvest/0.2, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=W.E. FAMILY OFFICES, LLC"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=109869&hl=false&nrows=10&start=0&wt=json",
+  "https://www.linkedin.com/company/we-family-offices",
+  "https://www.sec.gov/files/investment/data/other/information-about-registered-investment-advisers-exempt-reporting-advisers/ia09012026-registered.zip",
+  "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+  "https://www.uhnwinstitute.org/2025-symposium/",
+  "https://www.uhnwinstitute.org/our-team/",
+  "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+  "https://www.wefamilyoffices.com/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/we-family-offices",
+   "x": null,
+   "website_named": "https://www.wefamilyoffices.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/we-family-offices",
+   "x": null,
+   "website_named": "https://www.wefamilyoffices.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/we-family-offices",
+   "x": "https://x.com/wefamilyoffices",
+   "website_named": "https://www.wefamilyoffices.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/we-family-offices",
+   "x": "https://x.com/wefamilyoffices",
+   "website_named": "https://www.wefamilyoffices.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/we-family-offices",
+   "x": null,
+   "website_named": "https://www.wefamilyoffices.com/"
+  }
+ ]
+}

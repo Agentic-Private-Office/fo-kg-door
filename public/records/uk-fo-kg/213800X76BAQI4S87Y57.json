@@ -1,0 +1,314 @@
+{
+ "record": "Family Office Record",
+ "id": "213800X76BAQI4S87Y57",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "213800X76BAQI4S87Y57",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/213800X76BAQI4S87Y57",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "VARDY FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "http://www.vardygroup.com",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": {
+   "value": "1999-09-24",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "32 PORTLAND TERRACE, NEWCASTLE UPON TYNE, GB-NET, NE2 1QP, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Companies House (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "03847743",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "03847743",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "EDWARDS, Paul Alexander",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "MAK, Mai Lai Chun",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "MURRAY, Gerard Thomas",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "RUTHERFORD, Francesca",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "BARWICK-BELL, Jodie Melissa",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "MURRAY, Graham John",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "VARDY, Richard Angus Reginald",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Peter Vardy",
+    "source_url": "http://www.vardygroup.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Margaret Barr Vardy",
+    "source_url": "http://www.vardygroup.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Sir Peter Vardy",
+    "source_url": "http://www.vardygroup.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://www.vardygroup.com",
+  "source_url": "http://www.vardygroup.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "1999-09-24",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/03847743",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-15",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-12-15",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-01-21",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=VARDY%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "answered 0",
+   "tried": "http://www.vardygroup.com",
+   "answer": 0
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57"
+  }
+ ],
+ "sources": [
+  "http://www.vardygroup.com",
+  "https://api.gleif.org/api/v1/lei-records/213800X76BAQI4S87Y57",
+  "https://find-and-update.company-information.service.gov.uk/company/03847743",
+  "https://find-and-update.company-information.service.gov.uk/company/03847743/officers"
+ ],
+ "discovery": null
+}

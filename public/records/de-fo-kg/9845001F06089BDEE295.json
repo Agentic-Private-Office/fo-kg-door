@@ -1,0 +1,202 @@
+{
+ "record": "Family Office Record",
+ "id": "9845001F06089BDEE295",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9845001F06089BDEE295",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9845001F06089BDEE295",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Robert Elster Family Office & Vermögensverwaltung GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://elster-partner.de",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "cited by Sonar as the page that names the entity",
+   "conflict_with": [
+    {
+     "value": "multi-family",
+     "source_url": "https://elster-partner.de",
+     "read_by": "gpt-4.1"
+    },
+    {
+     "value": "multi-family",
+     "source_url": "https://elster-partner.de",
+     "read_by": "gemini-3.6-flash"
+    }
+   ]
+  },
+  "formation": {
+   "value": "2020-07-29",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Schillerstraße 21, Eislingen, DE-BW, 73054, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000355",
+   "register_id": "RA000355",
+   "id": {
+    "value": "HRB 740419",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Robert Elster",
+    "source_url": "https://elster-partner.de",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://elster-partner.de",
+  "source_url": "https://elster-partner.de",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-07-29",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-04-12",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-11",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Robert+Elster+Family+Office+%26+Verm%C3%B6gensverwaltung+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000355]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://elster-partner.de"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9845001F06089BDEE295",
+  "https://elster-partner.de",
+  "https://elster-partner.de/"
+ ],
+ "discovery": null
+}

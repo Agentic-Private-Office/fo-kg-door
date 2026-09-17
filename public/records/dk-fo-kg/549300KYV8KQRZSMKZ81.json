@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "549300KYV8KQRZSMKZ81",
+ "version": "2026-09-14.2",
+ "node": "dk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://dk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300KYV8KQRZSMKZ81",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300KYV8KQRZSMKZ81",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "NORTH-EAST FAMILY OFFICE HOLDING 4 APS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Denmark"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.nefo.com",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gemini-3.6-flash on the page it cites"
+  },
+  "formation": {
+   "value": "2015-04-15",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "VESTAGERVEJ 17, HELLERUP, DK-85, 2900, DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "H8VP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "register_id": "RA000170",
+   "id": {
+    "value": "36713445",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://datacvr.virk.dk/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.nefo.com",
+  "source_url": "https://www.nefo.com",
+  "read_by": "gemini-3.6-flash",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gemini-3.6-flash on the page it cites"
+ },
+ "aliases": [
+  {
+   "value": "ALGOT INVEST 2 APS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME"
+  }
+ ],
+ "events": [
+  {
+   "date": "2015-04-15",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2015-06-13",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-06-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-12-16",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)]",
+   "reason": "CVR answers a challenge page to machines and the open distribution needs a credentialled agreement — never attempted (HITL)",
+   "tried": "https://datacvr.virk.dk/soegeresultater?fritekst=NORTH-EAST%20FAMILY%20OFFICE%20HOLDING%204%20APS",
+   "answer": "challenge page; distribution needs credentials"
+  },
+  {
+   "field": "registrations[Finanstilsynet — Virksomhedsregister]",
+   "reason": "the register's search endpoint answered 404 to every machine read tried; not read this wave",
+   "tried": "https://virksomhedsregister.finanstilsynet.dk/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://datacvr.virk.dk/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300KYV8KQRZSMKZ81",
+  "https://cvrdb.dk/virksomhed/dk/northeast-family-office-aps/35244328",
+  "https://www.linkedin.com/company/north-east-family-office",
+  "https://www.nefo.com"
+ ],
+ "discovery": null
+}

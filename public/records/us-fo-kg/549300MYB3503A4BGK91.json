@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "549300MYB3503A4BGK91",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300MYB3503A4BGK91",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300MYB3503A4BGK91",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "WILSHIRE PRIVATE MARKETS FAMILY OFFICE FUND III, L.P.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://wilshire.com/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2017-01-13",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O REGISTERED AGENT SOLUTIONS, INC., 838 WALKER ROAD, SUITE 21-2, DOVER, US-DE, 19904, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "SEC EDGAR (company filings)",
+   "register_id": "RA000665",
+   "id": {
+    "value": "0001807659",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://wilshire.com/",
+  "source_url": "https://wilshire.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-01-13",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-08-01",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-06-15",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[SEC EDGAR (company filings)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://wilshire.com/"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.sec.gov/edgar/searchedgar/companysearch"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=wilshire%20markets&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/549300MYB3503A4BGK91",
+  "https://wilshire.com/"
+ ],
+ "discovery": null
+}

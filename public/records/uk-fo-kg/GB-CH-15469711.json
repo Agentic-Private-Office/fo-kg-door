@@ -1,0 +1,253 @@
+{
+ "record": "Family Office Record",
+ "id": "GB-CH-15469711",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "FERNDALE FAMILY OFFICE LIMITED",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2024-02-06",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "71-75 Shelton Street, Covent Garden, London, United Kingdom, WC2H 9JQ",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Private limited Company",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "15469711",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "15469711",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "MESSENGER, David",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "BRITTEN, Richard Charles",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "ELWOOD, Michael",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "JACK, James Bret",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "David Messenger",
+    "source_url": "https://ferndalefamily.co.uk/about/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Managing Director as the subject's own page says"
+   },
+   "role": "Managing Director"
+  },
+  {
+   "name": {
+    "value": "Richard Britten",
+    "source_url": "https://ferndalefamily.co.uk/about/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Director as the subject's own page says"
+   },
+   "role": "Director"
+  },
+  {
+   "name": {
+    "value": "Mike Elwood",
+    "source_url": "https://ferndalefamily.co.uk/about/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Finance & Investment as the subject's own page says"
+   },
+   "role": "Finance & Investment"
+  },
+  {
+   "name": {
+    "value": "Nigel West",
+    "source_url": "https://ferndalefamily.co.uk/about/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Development Director as the subject's own page says"
+   },
+   "role": "Development Director"
+  },
+  {
+   "name": {
+    "value": "Professor M. Khaled",
+    "source_url": "https://ferndalefamily.co.uk/about/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Healthcare as the subject's own page says"
+   },
+   "role": "Healthcare"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://ferndalefamily.co.uk/",
+  "source_url": "https://ferndalefamily.co.uk/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-02-06",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/15469711",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=GB&filter[fulltext]=FERNDALE FAMILY OFFICE LIMITED"
+  },
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=FERNDALE%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "answered 403",
+   "tried": "https://ferndalefamily.co.uk/",
+   "answer": 403
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/15469711"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/15469711"
+  }
+ ],
+ "sources": [
+  "https://ferndalefamily.co.uk/",
+  "https://find-and-update.company-information.service.gov.uk/company/15469711",
+  "https://find-and-update.company-information.service.gov.uk/company/15469711/officers",
+  "https://find-and-update.company-information.service.gov.uk/search/companies?q=family+office"
+ ],
+ "discovery": null
+}

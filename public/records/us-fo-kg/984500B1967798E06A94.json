@@ -1,0 +1,204 @@
+{
+ "record": "Family Office Record",
+ "id": "984500B1967798E06A94",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500B1967798E06A94",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500B1967798E06A94",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "HOLDUN FAMILY OFFICE, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "jurisdiction": {
+   "value": "US-FL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "555 WASHINGTON AVE, MIAMI BEACH, US-FL, 33139, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8N21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Florida Division of Corporations (Sunbiz)",
+   "register_id": "RA000603",
+   "id": {
+    "value": "L19000006757",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "158123",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/158123"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/158123",
+   "status": {
+    "value": "INACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "sec_number": {
+    "value": "72549",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "CGI MERCHANT PARTNERS, LLC",
+   "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  }
+ ],
+ "events": [
+  {
+   "date": "2019-07-05",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-07-05",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-02-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Florida Division of Corporations (Sunbiz)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.retirementplanning.net/retirement-planners/florida/miami/holdun-family-office-llc/2011939",
+    "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l19000006757-9c6ce417-eb72-42e2-a873-2b3cf9ac5947&directionType=Initial&inquirytype=EntityName&listNameOrder=HOLDTHIS+M130000007820&searchNameOrder=HOLDUNFAMILYOFFICE+L190000067570&searchTerm=Hold+This%2C+LLC"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+    "https://adviserinfo.sec.gov/firm/summary/158123"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=holdun&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/984500B1967798E06A94",
+  "https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l19000006757-9c6ce417-eb72-42e2-a873-2b3cf9ac5947&directionType=Initial&inquirytype=EntityName&listNameOrder=HOLDTHIS+M130000007820&searchNameOrder=HOLDUNFAMILYOFFICE+L190000067570&searchTerm=Hold+This%2C+LLC",
+  "https://www.retirementplanning.net/retirement-planners/florida/miami/holdun-family-office-llc/2011939"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,203 @@
+{
+ "record": "Family Office Record",
+ "id": "549300T5H5ZC85385544",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300T5H5ZC85385544",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300T5H5ZC85385544",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "JL CAPITAL FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on ACRA — Accounting and Corporate Regulatory Authority"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2019-10-07",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "8 EU TONG SEN STREET #12-99 THE CENTRAL, SINGAPORE, 059818, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "25 CLAYMORE ROAD #13-02 THE CLAYMORE 229543",
+     "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "201727100N",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_478f45a9c541cbe679ca55d1cd2b970b/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "MAINWELL PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2017-09-22",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-10-07",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-10-07",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-09-23",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-05",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.jlfo.com.sg/about/",
+    "https://www.linkedin.com/company/jl-family-office"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_478f45a9c541cbe679ca55d1cd2b970b/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300T5H5ZC85385544",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+  "https://www.jlfo.com.sg/about/",
+  "https://www.linkedin.com/company/jl-family-office"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,202 @@
+{
+ "record": "Family Office Record",
+ "id": "391200P71JS1YDESON49",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200P71JS1YDESON49",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200P71JS1YDESON49",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "SHINY SPARKLE FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on ACRA — Accounting and Corporate Regulatory Authority"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-09-18",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "10 Collyer Quay 10-01 Ocean Financial Centre, Singapore, 049315, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on ACRA — Accounting and Corporate Regulatory Authority (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000669",
+   "register_id": "RA000669",
+   "id": {
+    "value": "202541973H",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202541973H",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.gov.sg/datasets/d_df7d2d661c0c11a7c367c9ee4bf896c1/view"
+   },
+   "url": "https://data.gov.sg/datasets/d_df7d2d661c0c11a7c367c9ee4bf896c1/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-09-18",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-09-19",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-30",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-30",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-30",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://sg.ltddir.com/companies/shiny-sparkle-family-office-pte-ltd/",
+    "https://www.linkedin.com/company/family-office-sg"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_df7d2d661c0c11a7c367c9ee4bf896c1/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/391200P71JS1YDESON49",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_df7d2d661c0c11a7c367c9ee4bf896c1&q=family%20office&limit=500",
+  "https://sg.ltddir.com/companies/shiny-sparkle-family-office-pte-ltd/",
+  "https://www.linkedin.com/company/family-office-sg"
+ ],
+ "discovery": null
+}

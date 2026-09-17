@@ -1,0 +1,138 @@
+{
+ "record": "Family Office Record",
+ "id": "SG-UEN-202209235E",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "TREEHOUSE FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2022-03-17",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "30 CECIL STREET #18-02/03 PRUDENTIAL TOWER 049712",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Local Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Live Company",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202209235E",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.gov.sg/datasets/d_72f37e5c5d192951ddc5513c2b134482/view"
+   },
+   "url": "https://data.gov.sg/datasets/d_72f37e5c5d192951ddc5513c2b134482/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://treehousecapital.sg",
+  "source_url": "https://treehousecapital.sg",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-03-17",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=SG&filter[fulltext]=TREEHOUSE FAMILY OFFICE PTE. LTD."
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://treehousecapital.sg"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_72f37e5c5d192951ddc5513c2b134482/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500"
+  }
+ ],
+ "sources": [
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_72f37e5c5d192951ddc5513c2b134482&q=family%20office&limit=500",
+  "https://treehousecapital.sg"
+ ],
+ "discovery": null
+}

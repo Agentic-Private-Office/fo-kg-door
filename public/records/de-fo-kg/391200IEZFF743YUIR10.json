@@ -1,0 +1,176 @@
+{
+ "record": "Family Office Record",
+ "id": "391200IEZFF743YUIR10",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200IEZFF743YUIR10",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200IEZFF743YUIR10",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Rödl Family Office GmbH &Co. KG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2002-12-09",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Weinbergstr. 26, Rückersdorf, DE-BY, 90607, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8Z6G",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000311",
+   "register_id": "RA000311",
+   "id": {
+    "value": "HRA 12925",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.roedl.de",
+  "source_url": "http://www.roedl.de",
+  "read_by": "gpt-4.1",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gpt-4.1 on the page it cites"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2002-12-09",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-10-18",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-10-18",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-12-10",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=R%C3%B6dl+Family+Office+GmbH+%26Co.+KG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000311]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10"
+  }
+ ],
+ "sources": [
+  "http://www.roedl.de",
+  "https://api.gleif.org/api/v1/lei-records/391200IEZFF743YUIR10",
+  "https://www.northdata.com/R%C3%B6dl%20Family%20Office%20Verwaltungs%20GmbH,%20R%C3%BCckersdorf/Amtsgericht%20N%C3%BCrnberg%20HRB%2021130",
+  "https://www.roedl.com/en/family-offices-private-clients-and-foundations/family-offices/"
+ ],
+ "discovery": null
+}

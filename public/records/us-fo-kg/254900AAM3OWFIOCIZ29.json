@@ -1,0 +1,263 @@
+{
+ "record": "Family Office Record",
+ "id": "254900AAM3OWFIOCIZ29",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900AAM3OWFIOCIZ29",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900AAM3OWFIOCIZ29",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Conscientia Family Office, LLC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=conscientia&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "jurisdiction": {
+   "value": "US-FL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://conscientiafo.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2019-08-27",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O Brandileone, Cecilia, 699 Woodcrest Rd, Key Biscayne, US-FL, 33149, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8N21",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://api.adviserinfo.sec.gov/search/firm?query=conscientia&hl=false&nrows=10&start=0&wt=json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on SEC Investment Adviser Public Disclosure (IAPD)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Florida Division of Corporations (Sunbiz)",
+   "register_id": "RA000603",
+   "id": {
+    "value": "L19000219108",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://search.sunbiz.org/Inquiry/CorporationSearch/ByName",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "SEC Investment Adviser Public Disclosure (IAPD)",
+   "register_id": null,
+   "id": {
+    "value": "307727",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=conscientia&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://adviserinfo.sec.gov/firm/summary/307727"
+   },
+   "url": "https://adviserinfo.sec.gov/firm/summary/307727",
+   "status": {
+    "value": "ACTIVE",
+    "source_url": "https://api.adviserinfo.sec.gov/search/firm?query=conscientia&hl=false&nrows=10&start=0&wt=json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Cecilia Helena Brandileone",
+    "source_url": "https://conscientiafo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Jose Renato Brandileone",
+    "source_url": "https://conscientiafo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Andres Miranda",
+    "source_url": "https://www.conscientiafo.com/team.html",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Chief Compliance Officer as the subject's own page says"
+   },
+   "role": "Chief Compliance Officer"
+  },
+  {
+   "name": {
+    "value": "Cecília Brandileone",
+    "source_url": "https://www.conscientiafo.com/team.html",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CEO and Investment Advisor as the subject's own page says"
+   },
+   "role": "CEO and Investment Advisor"
+  },
+  {
+   "name": {
+    "value": "John R. Roësset",
+    "source_url": "https://www.conscientiafo.com/team.html",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Financial Advisor as the subject's own page says"
+   },
+   "role": "Financial Advisor"
+  },
+  {
+   "name": {
+    "value": "Roberta Peres",
+    "source_url": "https://www.conscientiafo.com/team.html",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Administrative Manager as the subject's own page says"
+   },
+   "role": "Administrative Manager"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://conscientiafo.com/",
+  "source_url": "https://conscientiafo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2019-08-27",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-01-30",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-30",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Florida Division of Corporations (Sunbiz)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=conscientia&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/254900AAM3OWFIOCIZ29",
+  "https://conscientiafo.com/",
+  "https://www.conscientiafo.com/"
+ ],
+ "discovery": null
+}

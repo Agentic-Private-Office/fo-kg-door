@@ -1,0 +1,313 @@
+{
+ "node": "ae-fo-kg",
+ "country": "AE",
+ "jurisdiction": "United Arab Emirates",
+ "host": "https://ae.fo-kg.ai",
+ "door": "https://ae.fo-kg.ai/mcp",
+ "host_long": "https://ae-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://ae-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "254900J6EWCEFTPVS743",
+   "lei": "254900J6EWCEFTPVS743",
+   "legal_name": "Kuvi Family Office Ltd",
+   "aliases": [
+    "KUVI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "10820"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/254900J6EWCEFTPVS743.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900LKNXDBHPPZHY18",
+   "lei": "254900LKNXDBHPPZHY18",
+   "legal_name": "Kassam Family Office Management Limited",
+   "aliases": [
+    "Kassam Family Office Management"
+   ],
+   "register_ids": [
+    "10158"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/254900LKNXDBHPPZHY18.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900PGPRTKQEU9WK84",
+   "lei": "529900PGPRTKQEU9WK84",
+   "legal_name": "M3A FAMILY OFFICE LTD",
+   "aliases": [
+    "EPMG Ltd."
+   ],
+   "register_ids": [
+    "IBC/04/16/12702"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Al Hamra Industrial Zone",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://m3afamilyoffice.com",
+   "fields": {
+    "total": 21,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/529900PGPRTKQEU9WK84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450039E6BZ952ADV68",
+   "lei": "98450039E6BZ952ADV68",
+   "legal_name": "شركة سحام العائلية المحدودة",
+   "aliases": [
+    "SAHAM FAMILY OFFICE LIMITED"
+   ],
+   "register_ids": [
+    "CL8001"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "دبي",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://saham.com/en/",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/98450039E6BZ952ADV68.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845008F0N14755AE942",
+   "lei": "9845008F0N14755AE942",
+   "legal_name": "مكتب عائلة فيديس المحدودة",
+   "aliases": [
+    "Phides Family Office Ltd"
+   ],
+   "register_ids": [
+    "2160000000000009763"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/9845008F0N14755AE942.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500A2C4F1I13F7089",
+   "lei": "984500A2C4F1I13F7089",
+   "legal_name": "ايرون ويلث مانجرز ملتي فاملي اوفس ش.م.ح",
+   "aliases": [
+    "Iron Wealth Managers Multi Family Office FZCO"
+   ],
+   "register_ids": [
+    "22200000000000L2627"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://ironwealth.africa",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/984500A2C4F1I13F7089.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500F965E8F252A861",
+   "lei": "984500F965E8F252A861",
+   "legal_name": "Oakfield Investment Group Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "10523"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.theoakfieldgroup.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/984500F965E8F252A861.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500FEF3DD1AEPBC66",
+   "lei": "984500FEF3DD1AEPBC66",
+   "legal_name": "Amolok Single Family Office Limited",
+   "aliases": [
+    "أمولوك مكتب العائلة الواحدة المحدودة",
+    "Amolok Single Family Office"
+   ],
+   "register_ids": [
+    "2170000000000010761"
+   ],
+   "jurisdiction": "United Arab Emirates",
+   "city": "Dubai",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ae-fo-kg/984500FEF3DD1AEPBC66.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 126,
+  "sourced": 113,
+  "filled": 9,
+  "confirmed": 4,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 38,
+  "events": 32,
+  "registrations": 8,
+  "principals": 6,
+  "with_lei": 8,
+  "with_website": 4,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 1
+ },
+ "sources": [
+  {
+   "name": "www.theoakfieldgroup.com — subject website",
+   "url": "https://www.theoakfieldgroup.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "ADGM public registers — RA000660",
+   "subjects": 4
+  },
+  {
+   "register": "ADGM public registers — RA000752",
+   "subjects": 3
+  },
+  {
+   "register": "ADGM public registers — RA000753",
+   "subjects": 1
+  },
+  {
+   "register": "DIFC public register",
+   "subjects": 8
+  }
+ ],
+ "reads": 1,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/ae-fo-kg/<source>/2026-09-14/"
+ }
+}

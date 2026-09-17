@@ -1,0 +1,1647 @@
+{
+ "node": "ca-fo-kg",
+ "country": "CA",
+ "jurisdiction": "Canada",
+ "host": "https://ca.fo-kg.ai",
+ "door": "https://ca.fo-kg.ai/mcp",
+ "host_long": "https://ca-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://ca-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office",
+ "records": [
+  {
+   "id": "2549006ASHWVMWDFX174",
+   "lei": "2549006ASHWVMWDFX174",
+   "legal_name": "First Affiliated Family Office Group Inc.",
+   "aliases": [],
+   "register_ids": [
+    "825027-8",
+    "8250278"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Collingwood",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.firstaffiliated.ca/",
+   "fields": {
+    "total": 25,
+    "sourced": 17,
+    "filled": 1,
+    "confirmed": 7,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 7,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/2549006ASHWVMWDFX174.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900ARTD3ROCG3JQ60",
+   "lei": "254900ARTD3ROCG3JQ60",
+   "legal_name": "RUKEN FAMILY OFFICE CORPORATION",
+   "aliases": [],
+   "register_ids": [
+    "1000773597",
+    "2024/0568"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://rukencapital.com",
+   "fields": {
+    "total": 20,
+    "sourced": 17,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/254900ARTD3ROCG3JQ60.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900S9YI4QYJ1ZVP52",
+   "lei": "254900S9YI4QYJ1ZVP52",
+   "legal_name": "LOGAN FAMILY OFFICE INC.",
+   "aliases": [],
+   "register_ids": [
+    "2027274451"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Edmonton",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/254900S9YI4QYJ1ZVP52.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900WN0M5OLKZTM395",
+   "lei": "254900WN0M5OLKZTM395",
+   "legal_name": "Granite Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1178213717",
+    "1456052-3",
+    "14560523"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montreal",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.granitemfo.com/",
+   "fields": {
+    "total": 24,
+    "sourced": 20,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 6,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/254900WN0M5OLKZTM395.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "54930086GRWZZFK96X93",
+   "lei": "54930086GRWZZFK96X93",
+   "legal_name": "OUR FAMILY OFFICE INC.",
+   "aliases": [],
+   "register_ids": [
+    "2447396"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://ourfamilyoffice.ca/",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/54930086GRWZZFK96X93.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300DQYUKFXT15U425",
+   "lei": "549300DQYUKFXT15U425",
+   "legal_name": "1832 Family Office Bond Fund",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/549300DQYUKFXT15U425.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300QT3SIH27BVDV72",
+   "lei": "549300QT3SIH27BVDV72",
+   "legal_name": "NORTHWOOD FAMILY OFFICE LTD.",
+   "aliases": [
+    "NORTHWOOD PRIVATE COUNSEL INC.",
+    "Northwood Family Office"
+   ],
+   "register_ids": [
+    "1000163314"
+   ],
+   "jurisdiction": "Canada",
+   "city": "TORONTO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.northwoodfamilyoffice.com",
+   "fields": {
+    "total": 33,
+    "sourced": 27,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 11,
+   "registrations": 1,
+   "associations": 4,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/549300QT3SIH27BVDV72.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945004ILJII32XFGQ34",
+   "lei": "8945004ILJII32XFGQ34",
+   "legal_name": "Robinson Sauder Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "BC1000522"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Vancouver",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/8945004ILJII32XFGQ34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945009D74VK2I6QGM79",
+   "lei": "8945009D74VK2I6QGM79",
+   "legal_name": "West Oak Family Office Corporate Investment Pool",
+   "aliases": [],
+   "register_ids": [
+    "000107493"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/8945009D74VK2I6QGM79.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500XP5FQ6RMFZW715",
+   "lei": "894500XP5FQ6RMFZW715",
+   "legal_name": "Werklund Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "2020855884",
+    "305521"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Calgary",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.werklund.com",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/894500XP5FQ6RMFZW715.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450061A51D02AH0441",
+   "lei": "98450061A51D02AH0441",
+   "legal_name": "Samara Bureau multi-familial Inc.",
+   "aliases": [
+    "12248310 Canada Inc.",
+    "Samara Multi-Family Office Inc."
+   ],
+   "register_ids": [
+    "1224831-0",
+    "12248310"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montréal",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://samara.ca/en/",
+   "fields": {
+    "total": 34,
+    "sourced": 23,
+    "filled": 5,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 1,
+   "events": 7,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/98450061A51D02AH0441.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500684OWB067B6177",
+   "lei": "984500684OWB067B6177",
+   "legal_name": "Sigma2 Bureau Familial Inc.",
+   "aliases": [
+    "Sigma2 Family Office Inc."
+   ],
+   "register_ids": [
+    "1178289873"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Westmount",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.sigma2fo.com",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/984500684OWB067B6177.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500D1CC96B85F6F54",
+   "lei": "984500D1CC96B85F6F54",
+   "legal_name": "Access Family Office Corp.",
+   "aliases": [],
+   "register_ids": [
+    "1304313-4",
+    "13043134"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Ancaster",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://accessfo.com/",
+   "fields": {
+    "total": 27,
+    "sourced": 19,
+    "filled": 1,
+    "confirmed": 7,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 1,
+   "events": 7,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/984500D1CC96B85F6F54.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-6867693",
+   "lei": null,
+   "legal_name": "Middleton Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "686769-3",
+    "6867693"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "http://www.middletonfamilyoffice.com",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-6867693.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-9744614",
+   "lei": null,
+   "legal_name": "Richardson Wealth Private Family Office Limited",
+   "aliases": [
+    "Patrimoine Richardson – Bureau privé de gestion de patrimoine Limitée"
+   ],
+   "register_ids": [
+    "974461-4",
+    "9744614"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://rwprivatefamilyoffice.com",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-9744614.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16989837",
+   "lei": null,
+   "legal_name": "Yingke Canada Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1698983-7",
+    "16989837"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Markham",
+   "entity_status": "Active Annual filings overdue",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16989837.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-7999739",
+   "lei": null,
+   "legal_name": "YOUR PRIVATE CFO FAMILY OFFICE INC.",
+   "aliases": [],
+   "register_ids": [
+    "799973-9",
+    "7999739"
+   ],
+   "jurisdiction": "Canada",
+   "city": "OTTAWA",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://yourprivatecfo.com",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-7999739.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-14290569",
+   "lei": null,
+   "legal_name": "Touchstone Advisory Group & Family Offices Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "1429056-9",
+    "14290569"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active Annual filings overdue",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-14290569.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16695604",
+   "lei": null,
+   "legal_name": "Marquis Family Office Corp.",
+   "aliases": [
+    "Bureau de Gestion Familial Marquis Corp."
+   ],
+   "register_ids": [
+    "1669560-4",
+    "16695604"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montréal",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16695604.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-6200524",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE LTD.",
+   "aliases": [],
+   "register_ids": [
+    "620052-4",
+    "6200524"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Calgary",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "http://www.thefamilyoffice.ca",
+   "fields": {
+    "total": 18,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-6200524.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16407200",
+   "lei": null,
+   "legal_name": "Demianenko Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1640720-0",
+    "16407200"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16407200.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-9669744",
+   "lei": null,
+   "legal_name": "HOLDUN FAMILY OFFICE CANADA INC.",
+   "aliases": [],
+   "register_ids": [
+    "966974-4",
+    "9669744"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.holdun.com",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-9669744.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-11780212",
+   "lei": null,
+   "legal_name": "LEVCO FAMILY OFFICE CORP.",
+   "aliases": [],
+   "register_ids": [
+    "1178021-2",
+    "11780212"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Edmonton",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-11780212.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-15251796",
+   "lei": null,
+   "legal_name": "Copper Beech Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1525179-6",
+    "15251796"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://copperbeech.com/about/",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-15251796.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16721770",
+   "lei": null,
+   "legal_name": "Ross Family Offices Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1672177-0",
+    "16721770"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Vancouver",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16721770.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17575041",
+   "lei": null,
+   "legal_name": "Astoria family office services Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1757504-1",
+    "17575041"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montréal",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17575041.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-4344006",
+   "lei": null,
+   "legal_name": "HOLDUN FAMILY OFFICE INC.",
+   "aliases": [],
+   "register_ids": [
+    "434400-6",
+    "4344006"
+   ],
+   "jurisdiction": "Canada",
+   "city": "montreal",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-4344006.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-14459741",
+   "lei": null,
+   "legal_name": "Pinpoint Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "1445974-1",
+    "14459741"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Hammonds Plains",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-14459741.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-15486823",
+   "lei": null,
+   "legal_name": "Vitruvian Family Office Holdings Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1548682-3",
+    "15486823"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-15486823.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16482104",
+   "lei": null,
+   "legal_name": "SegDam Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1648210-4",
+    "16482104"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Leduc",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16482104.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16393705",
+   "lei": null,
+   "legal_name": "PriVan Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1639370-5",
+    "16393705",
+    "A0134165"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Vancouver",
+   "entity_status": "Active Annual filings overdue",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 21,
+    "sourced": 18,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 2,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16393705.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16594531",
+   "lei": null,
+   "legal_name": "Boreal Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1659453-1",
+    "16594531"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.borealfo.com",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16594531.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17394683",
+   "lei": null,
+   "legal_name": "Activ8 Family Office (CANADA) Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1739468-3",
+    "17394683"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Waterloo",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17394683.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-10534587",
+   "lei": null,
+   "legal_name": "The First Mandarin Family Office Group Corporation",
+   "aliases": [],
+   "register_ids": [
+    "1053458-7",
+    "10534587"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Markham",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-10534587.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-12507111",
+   "lei": null,
+   "legal_name": "West Oak Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "1250711-1",
+    "12507111"
+   ],
+   "jurisdiction": "Canada",
+   "city": "CALGARY",
+   "entity_status": "Active Annual filings overdue",
+   "structure": "multi-family",
+   "website": "https://advisor.wellington-altus.ca/westoakfamilyoffice/",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-12507111.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-10976709",
+   "lei": null,
+   "legal_name": "THE CANADIAN FAMILY OFFICE NETWORK LTD.",
+   "aliases": [],
+   "register_ids": [
+    "1097670-9",
+    "10976709"
+   ],
+   "jurisdiction": "Canada",
+   "city": "London",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-10976709.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17007868",
+   "lei": null,
+   "legal_name": "Century Golden Eagle Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1700786-8",
+    "17007868"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Markham",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17007868.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-13764796",
+   "lei": null,
+   "legal_name": "Eclipx Family Office Inc.",
+   "aliases": [
+    "Bureau Familial Eclipx Inc."
+   ],
+   "register_ids": [
+    "1376479-6",
+    "13764796"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montréal",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 20,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-13764796.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17567821",
+   "lei": null,
+   "legal_name": "H&H Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1756782-1",
+    "17567821"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Markham",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17567821.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17921896",
+   "lei": null,
+   "legal_name": "PARKER FAMILY OFFICE INC.",
+   "aliases": [],
+   "register_ids": [
+    "1792189-6",
+    "17921896"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Montréal",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17921896.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-12002302",
+   "lei": null,
+   "legal_name": "McKenzie Madden Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1200230-2",
+    "12002302",
+    "A0115138"
+   ],
+   "jurisdiction": "Canada",
+   "city": "North Vancouver",
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://mckmfamilyoffice.com/",
+   "fields": {
+    "total": 30,
+    "sourced": 21,
+    "filled": 4,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 4,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-12002302.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-8848050",
+   "lei": null,
+   "legal_name": "Pangea Private Family Offices Inc.",
+   "aliases": [],
+   "register_ids": [
+    "884805-0",
+    "8848050"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active Annual filings overdue",
+   "structure": "multi-family",
+   "website": "http://pangeafamilyoffices.com",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-8848050.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-11386344",
+   "lei": null,
+   "legal_name": "Hudson Integrated Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1138634-4",
+    "11386344"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-11386344.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-15798230",
+   "lei": null,
+   "legal_name": "Ithaca Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1579823-0",
+    "15798230"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-15798230.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-17432712",
+   "lei": null,
+   "legal_name": "Henghwa Global Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "1743271-2",
+    "17432712"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Markham",
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-17432712.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "CA-CC-16397221",
+   "lei": null,
+   "legal_name": "Our Family Office Insurance Inc.",
+   "aliases": [],
+   "register_ids": [
+    "1639722-1",
+    "16397221"
+   ],
+   "jurisdiction": "Canada",
+   "city": "Toronto",
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://ourfamilyoffice.ca/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/ca-fo-kg/CA-CC-16397221.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 846,
+  "sourced": 637,
+  "filled": 38,
+  "confirmed": 169,
+  "conflict": 2,
+  "unverified": 0,
+  "gaps": 162,
+  "events": 158,
+  "registrations": 87,
+  "principals": 86,
+  "with_lei": 13,
+  "with_website": 20,
+  "association_listings": 4,
+  "association_records": 1,
+  "sources": 28
+ },
+ "sources": [
+  {
+   "name": "accessfo.com — subject website",
+   "url": "https://accessfo.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "advisor.wellington-altus.ca — subject website",
+   "url": "https://advisor.wellington-altus.ca/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "SEC IAPD — Investment Adviser Public Disclosure (search API)",
+   "url": "https://api.adviserinfo.sec.gov/",
+   "role": "fill and confirm",
+   "reads": 46,
+   "answered_200": 46
+  },
+  {
+   "name": "copperbeech.com — subject website",
+   "url": "https://copperbeech.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Corporations Canada — open data, active CBCA corporations (CSV)",
+   "url": "https://d4bf66bykfyaf.cloudfront.net/",
+   "role": "fill and confirm",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Corporations Canada — federal corporation pages",
+   "url": "https://ised-isde.canada.ca/",
+   "role": "fill and confirm",
+   "reads": 4,
+   "answered_200": 4
+  },
+  {
+   "name": "mckmfamilyoffice.com — subject website",
+   "url": "https://mckmfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "OrgBook BC — BC Registries",
+   "url": "https://orgbook.gov.bc.ca/",
+   "role": "fill and confirm",
+   "reads": 4,
+   "answered_200": 4
+  },
+  {
+   "name": "ourfamilyoffice.ca — subject website",
+   "url": "https://ourfamilyoffice.ca/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "pangeafamilyoffices.com — subject website",
+   "url": "https://pangeafamilyoffices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "rwprivatefamilyoffice.com — subject website",
+   "url": "https://rwprivatefamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "samara.ca — subject website",
+   "url": "https://samara.ca/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Ontario Business Registry",
+   "url": "https://www.appmybizaccount.gov.on.ca/",
+   "role": "refuses machines — gap",
+   "reads": 3,
+   "answered_200": 2
+  },
+  {
+   "name": "www.borealfo.com — subject website",
+   "url": "https://www.borealfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.firstaffiliated.ca — subject website",
+   "url": "https://www.firstaffiliated.ca/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.granitemfo.com — subject website",
+   "url": "https://www.granitemfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.holdun.com — subject website",
+   "url": "https://www.holdun.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.middletonfamilyoffice.com — subject website",
+   "url": "https://www.middletonfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.northwoodfamilyoffice.com — subject website",
+   "url": "https://www.northwoodfamilyoffice.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "Ontario Securities Commission — orders, rulings and decisions",
+   "url": "https://www.osc.ca/",
+   "role": "fill and confirm",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Registraire des entreprises (Québec)",
+   "url": "https://www.registreentreprises.gouv.qc.ca/",
+   "role": "refuses machines — gap",
+   "reads": 2,
+   "answered_200": 0
+  },
+  {
+   "name": "SEC EDGAR",
+   "url": "https://www.sec.gov/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.sigma2fo.com — subject website",
+   "url": "https://www.sigma2fo.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.thefamilyoffice.ca — subject website",
+   "url": "https://www.thefamilyoffice.ca/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://www.uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 3,
+   "answered_200": 3
+  },
+  {
+   "name": "www.werklund.com — subject website",
+   "url": "https://www.werklund.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "yourprivatecfo.com — subject website",
+   "url": "https://yourprivatecfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "Corporate Registry (Province of Alberta)",
+   "subjects": 2
+  },
+  {
+   "register": "Corporate Registry (Province of Ontario)",
+   "subjects": 3
+  },
+  {
+   "register": "Registraire des entreprises (Québec)",
+   "subjects": 2
+  },
+  {
+   "register": "SEDAR (System for Electronic Document Analysis and Retrieval)",
+   "subjects": 1
+  },
+  {
+   "register": "website",
+   "subjects": 4
+  }
+ ],
+ "reads": 90,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/ca-fo-kg/<source>/2026-09-14/"
+ }
+}

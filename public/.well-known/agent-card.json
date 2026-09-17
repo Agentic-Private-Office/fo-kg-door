@@ -1,0 +1,685 @@
+{
+  "protocolVersion": "0.3.0",
+  "kind": "agent-card",
+  "name": "Family Office Knowledge Graph",
+  "description": "One record per family office, drawn from the public record: the GLEIF spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Read-only, session-free, typed errors. Nodes: United Arab Emirates (ae-fo-kg), Australia (au-fo-kg), Canada (ca-fo-kg), Switzerland (ch-fo-kg), Germany (de-fo-kg), Denmark (dk-fo-kg), Spain (es-fo-kg), France (fr-fo-kg), Italy (it-fo-kg), Luxembourg (lu-fo-kg), Netherlands (nl-fo-kg), Norway (no-fo-kg), Rest of world (row-fo-kg), Singapore (sg-fo-kg), United Kingdom (uk-fo-kg), United States (us-fo-kg).",
+  "url": "https://mcp.fo-kg.ai/mcp",
+  "version": "0.19.10",
+  "documentationUrl": "https://familyofficeknowledgegraph.ai/llms.txt",
+  "iconUrl": "https://familyofficeknowledgegraph.ai/icon-512.png",
+  "provider": {
+    "organization": "Agentic KG Holdings",
+    "url": "https://agent-kg.ai"
+  },
+  "operator": {
+    "name": "Agentic KG Holdings",
+    "principal": "Matthew Keddy",
+    "url": "https://agent-kg.ai",
+    "surface": "https://familyofficeknowledgegraph.ai",
+    "contact": "mailto:mk@agent-kg.ai",
+    "keyring": "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+    "kid": "mk-office-2026-09"
+  },
+  "contact": "mailto:mk@agent-kg.ai",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "securitySchemes": {
+    "none": {
+      "type": "noAuth",
+      "description": "every read, the MCP doors and the records need no authentication"
+    },
+    "office": {
+      "type": "oauth2",
+      "flows": {
+        "clientCredentials": {
+          "tokenUrl": "https://agent-kg.ai/oauth/token",
+          "scopes": {
+            "office:read": "read the licensed index"
+          }
+        }
+      },
+      "description": "office-issued EdDSA tokens (kid mk-office-2026-09) for /licensed/index"
+    },
+    "x402": {
+      "type": "http",
+      "scheme": "x402",
+      "description": "GET /api: $0.01 USDC on Base mainnet (x402 v2) buys the signed index with a receipt"
+    }
+  },
+  "security": [
+    {
+      "none": []
+    }
+  ],
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/markdown"
+  ],
+  "supportedInterfaces": [
+    {
+      "url": "https://mcp.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "apex door — index, forwards to the node door"
+    },
+    {
+      "url": "https://ae.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door ae-fo-kg — serves the records"
+    },
+    {
+      "url": "https://au.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door au-fo-kg — serves the records"
+    },
+    {
+      "url": "https://ca.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door ca-fo-kg — serves the records"
+    },
+    {
+      "url": "https://ch.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door ch-fo-kg — serves the records"
+    },
+    {
+      "url": "https://de.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door de-fo-kg — serves the records"
+    },
+    {
+      "url": "https://dk.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door dk-fo-kg — serves the records"
+    },
+    {
+      "url": "https://es.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door es-fo-kg — serves the records"
+    },
+    {
+      "url": "https://fr.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door fr-fo-kg — serves the records"
+    },
+    {
+      "url": "https://it.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door it-fo-kg — serves the records"
+    },
+    {
+      "url": "https://lu.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door lu-fo-kg — serves the records"
+    },
+    {
+      "url": "https://nl.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door nl-fo-kg — serves the records"
+    },
+    {
+      "url": "https://no.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door no-fo-kg — serves the records"
+    },
+    {
+      "url": "https://row.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door row-fo-kg — serves the records"
+    },
+    {
+      "url": "https://sg.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door sg-fo-kg — serves the records"
+    },
+    {
+      "url": "https://uk.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door uk-fo-kg — serves the records"
+    },
+    {
+      "url": "https://us.fo-kg.ai/mcp",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "streamable-http",
+      "protocolVersion": "2025-06-18",
+      "description": "node door us-fo-kg — serves the records"
+    },
+    {
+      "url": "https://familyofficeknowledgegraph.ai/",
+      "protocolBinding": "HTTP+JSON",
+      "transport": "HTTP+JSON",
+      "protocolVersion": "1.0",
+      "description": "the surface, its Markdown twin, /resolve/{identifier} and the records"
+    }
+  ],
+  "skills": [
+    {
+      "id": "resolve_family_office",
+      "name": "Resolve family office",
+      "description": "Resolve an identifier (LEI, legal name, alias or register id) to the family-office records that carry it, with the node that serves each.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call resolve_family_office"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "lei": {
+                  "type": "string"
+                },
+                "legal_name": {
+                  "type": "string"
+                },
+                "node": {
+                  "type": "string"
+                },
+                "record": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "matches"
+        ]
+      }
+    },
+    {
+      "id": "get_record",
+      "name": "Get record",
+      "description": "The Family Office Record for one identifier: identity, registrations, lei, principals, sectors, website, aliases, events, gaps — every field with value, source_url, read_by, read and state; optionally a named version.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call get_record"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          },
+          "version": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "record": {
+            "type": "object",
+            "properties": {
+              "lei": {
+                "type": "object",
+                "properties": {
+                  "value": {},
+                  "source_url": {
+                    "type": "string"
+                  },
+                  "read_by": {
+                    "type": "string"
+                  },
+                  "read": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string",
+                    "enum": [
+                      "sourced",
+                      "filled",
+                      "confirmed",
+                      "conflict",
+                      "unverified"
+                    ]
+                  }
+                },
+                "required": [
+                  "value",
+                  "source_url",
+                  "read_by",
+                  "state"
+                ]
+              },
+              "identity": {
+                "type": "object"
+              },
+              "registrations": {
+                "type": "array"
+              },
+              "principals": {
+                "type": "array"
+              },
+              "aliases": {
+                "type": "array"
+              },
+              "events": {
+                "type": "array"
+              },
+              "gaps": {
+                "type": "array"
+              }
+            }
+          }
+        },
+        "required": [
+          "record"
+        ]
+      }
+    },
+    {
+      "id": "list_events_since",
+      "name": "List events since",
+      "description": "Dated, URL'd events on one record, oldest first, optionally since a date, paged by cursor.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call list_events_since"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          },
+          "since": {
+            "type": "string",
+            "format": "date"
+          },
+          "cursor": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 200
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "lei": {
+            "type": "string"
+          },
+          "events": {
+            "type": "array"
+          },
+          "next_cursor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "lei",
+          "events"
+        ]
+      }
+    },
+    {
+      "id": "list_aliases",
+      "name": "List aliases",
+      "description": "Every name the record carries for one identifier, each with its source.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call list_aliases"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "identifier": {
+            "type": "string",
+            "description": "LEI, legal name, alias or register id"
+          }
+        },
+        "required": [
+          "identifier"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "lei": {
+            "type": "string"
+          },
+          "legal_name": {
+            "type": "object",
+            "properties": {
+              "value": {},
+              "source_url": {
+                "type": "string"
+              },
+              "read_by": {
+                "type": "string"
+              },
+              "read": {
+                "type": "string"
+              },
+              "state": {
+                "type": "string",
+                "enum": [
+                  "sourced",
+                  "filled",
+                  "confirmed",
+                  "conflict",
+                  "unverified"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "source_url",
+              "read_by",
+              "state"
+            ]
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "value": {},
+                "source_url": {
+                  "type": "string"
+                },
+                "read_by": {
+                  "type": "string"
+                },
+                "read": {
+                  "type": "string"
+                },
+                "state": {
+                  "type": "string",
+                  "enum": [
+                    "sourced",
+                    "filled",
+                    "confirmed",
+                    "conflict",
+                    "unverified"
+                  ]
+                }
+              },
+              "required": [
+                "value",
+                "source_url",
+                "read_by",
+                "state"
+              ]
+            }
+          }
+        },
+        "required": [
+          "lei",
+          "aliases"
+        ]
+      }
+    },
+    {
+      "id": "list_nodes",
+      "name": "List nodes",
+      "description": "The graph's nodes with record counts read from each node's index, the node door and its as-of.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call list_nodes"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {}
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "nodes": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "nodes"
+        ]
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ae-fo-kg",
+      "jurisdiction": "United Arab Emirates",
+      "door": "https://ae.fo-kg.ai/mcp",
+      "index": "https://ae.fo-kg.ai/records/ae-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "au-fo-kg",
+      "jurisdiction": "Australia",
+      "door": "https://au.fo-kg.ai/mcp",
+      "index": "https://au.fo-kg.ai/records/au-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "ca-fo-kg",
+      "jurisdiction": "Canada",
+      "door": "https://ca.fo-kg.ai/mcp",
+      "index": "https://ca.fo-kg.ai/records/ca-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "ch-fo-kg",
+      "jurisdiction": "Switzerland",
+      "door": "https://ch.fo-kg.ai/mcp",
+      "index": "https://ch.fo-kg.ai/records/ch-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "de-fo-kg",
+      "jurisdiction": "Germany",
+      "door": "https://de.fo-kg.ai/mcp",
+      "index": "https://de.fo-kg.ai/records/de-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "dk-fo-kg",
+      "jurisdiction": "Denmark",
+      "door": "https://dk.fo-kg.ai/mcp",
+      "index": "https://dk.fo-kg.ai/records/dk-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "es-fo-kg",
+      "jurisdiction": "Spain",
+      "door": "https://es.fo-kg.ai/mcp",
+      "index": "https://es.fo-kg.ai/records/es-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "fr-fo-kg",
+      "jurisdiction": "France",
+      "door": "https://fr.fo-kg.ai/mcp",
+      "index": "https://fr.fo-kg.ai/records/fr-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "it-fo-kg",
+      "jurisdiction": "Italy",
+      "door": "https://it.fo-kg.ai/mcp",
+      "index": "https://it.fo-kg.ai/records/it-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "lu-fo-kg",
+      "jurisdiction": "Luxembourg",
+      "door": "https://lu.fo-kg.ai/mcp",
+      "index": "https://lu.fo-kg.ai/records/lu-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "nl-fo-kg",
+      "jurisdiction": "Netherlands",
+      "door": "https://nl.fo-kg.ai/mcp",
+      "index": "https://nl.fo-kg.ai/records/nl-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "no-fo-kg",
+      "jurisdiction": "Norway",
+      "door": "https://no.fo-kg.ai/mcp",
+      "index": "https://no.fo-kg.ai/records/no-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "row-fo-kg",
+      "jurisdiction": "Rest of world",
+      "door": "https://row.fo-kg.ai/mcp",
+      "index": "https://row.fo-kg.ai/records/row-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "sg-fo-kg",
+      "jurisdiction": "Singapore",
+      "door": "https://sg.fo-kg.ai/mcp",
+      "index": "https://sg.fo-kg.ai/records/sg-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "uk-fo-kg",
+      "jurisdiction": "United Kingdom",
+      "door": "https://uk.fo-kg.ai/mcp",
+      "index": "https://uk.fo-kg.ai/records/uk-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    },
+    {
+      "id": "us-fo-kg",
+      "jurisdiction": "United States",
+      "door": "https://us.fo-kg.ai/mcp",
+      "index": "https://us.fo-kg.ai/records/us-fo-kg/index.json",
+      "as_of": "2026-09-14"
+    }
+  ],
+  "x402": {
+    "route": "https://familyofficeknowledgegraph.ai/api",
+    "page": "https://familyofficeknowledgegraph.ai/x402",
+    "jwks": "https://familyofficeknowledgegraph.ai/x402/jwks.json",
+    "kid": "fo-kg-x402-2026-09",
+    "network": "eip155:8453",
+    "price_usdc": "0.01"
+  },
+  "source": "public-record",
+  "supportsAuthenticatedExtendedCard": false
+}

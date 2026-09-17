@@ -1,0 +1,198 @@
+{
+ "record": "Family Office Record",
+ "id": "254900ZVTNFNEQPVH113",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900ZVTNFNEQPVH113",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900ZVTNFNEQPVH113",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Montfort Family Office Sàrl",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2017-02-20",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Rue du Rhone 65, Geneva, 1204, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "Rue Rodolphe-Toepffer, 8, 1206",
+     "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "3EKS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-372.698.808",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-372.698.808",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-02-20",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-06-06",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-05-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-09-16",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-04-16",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.moneyhouse.ch/en/company/montfort-family-office-sarl-12578717691",
+    "https://www.moneyhouse.ch/en/company/montfort-family-office-sarl-12578717691"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-372.698.808"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900ZVTNFNEQPVH113",
+  "https://www.moneyhouse.ch/en/company/montfort-family-office-sarl-12578717691",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1295509.json"
+ ],
+ "discovery": null
+}

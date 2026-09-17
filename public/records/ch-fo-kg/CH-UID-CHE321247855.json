@@ -1,0 +1,162 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE321247855",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Alma Family Office Sàrl",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.almafamilyoffice.ch/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "cited by Sonar as the page that names the entity"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Chemin de Sous-Cherre, 16c, 1245",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "GmbH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-321.247.855",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-321.247.855"
+   },
+   "url": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-321.247.855",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Nicolas Imhoof",
+    "source_url": "https://www.almafamilyoffice.ch/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Patrick Laurent Piras",
+    "source_url": "https://www.almafamilyoffice.ch/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.almafamilyoffice.ch/",
+  "source_url": "https://www.almafamilyoffice.ch/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-01-13",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=Alma Family Office Sàrl"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "answered 429",
+   "tried": "https://www.almafamilyoffice.ch/",
+   "answer": 429
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json"
+  }
+ ],
+ "sources": [
+  "https://www.almafamilyoffice.ch/",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1178272.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

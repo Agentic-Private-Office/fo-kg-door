@@ -1,0 +1,250 @@
+{
+ "record": "Family Office Record",
+ "id": "NO-ORG-931724967",
+ "version": "2026-09-14.3",
+ "node": "no-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://no.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "NORDIC FAMILY OFFICE AS",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "NO",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Norway"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://nordicfamilyoffice.no",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2023-06-16",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "Munkerekkveien 67B, 3128, NØTTERØY, Norge",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Aksjeselskap",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "registered",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null,
+  "industry_code": {
+   "value": "85.597",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Annen undervisning ellers",
+   "basis": "industry code as Brønnøysundregistrene — Enhetsregisteret records it"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret",
+   "register_id": "RA000472",
+   "id": {
+    "value": "931724967",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/931724967"
+   },
+   "url": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/931724967",
+   "status": {
+    "value": "registered",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret — roles",
+   "register_id": null,
+   "id": {
+    "value": "931724967",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Maria Øverli Jansson",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Mette Ballari",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Linda Henriette Moen Storholm",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Angoline Dagny Berge Tobias",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Annicken Thrane-Steen",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Angoline Berge Tobias",
+    "source_url": "https://nordicfamilyoffice.no",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Linda Storholm",
+    "source_url": "https://nordicfamilyoffice.no",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Karoline Dons",
+    "source_url": "https://nordicfamilyoffice.no/om-oss/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Prosjektleder Neste steg as the subject's own page says"
+   },
+   "role": "Prosjektleder Neste steg"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://nordicfamilyoffice.no",
+  "source_url": "https://nordicfamilyoffice.no",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2023-06-16",
+   "event": "founded — Enhetsregisteret",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-07-17",
+   "event": "registered in the Enhetsregisteret",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=NO&filter[fulltext]=NORDIC FAMILY OFFICE AS"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.brreg.no/enhetsregisteret/api/enheter/931724967"
+  }
+ ],
+ "sources": [
+  "https://data.brreg.no/enhetsregisteret/api/enheter/931724967",
+  "https://data.brreg.no/enhetsregisteret/api/enheter/931724967/roller",
+  "https://data.brreg.no/enhetsregisteret/api/enheter?navn=family%20office&size=100&page=0",
+  "https://nordicfamilyoffice.no"
+ ],
+ "discovery": null
+}

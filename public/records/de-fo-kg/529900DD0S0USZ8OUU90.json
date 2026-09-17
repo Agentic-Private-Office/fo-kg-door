@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "529900DD0S0USZ8OUU90",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900DD0S0USZ8OUU90",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900DD0S0USZ8OUU90",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Goldberg Family Office GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2020-10-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Eichenstraße 1, Leiblfing, DE-BY, 94339, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000350",
+   "register_id": "RA000350",
+   "id": {
+    "value": "HRB 12994",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Goldberg Family Office UG (haftungsbeschränkt)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "de"
+  }
+ ],
+ "events": [
+  {
+   "date": "2020-10-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-10-05",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-11",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-05",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Goldberg+Family+Office+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000350]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.de/Goldberg%20Family%20Office%20GmbH,%20Leiblfing/Amtsgericht%20Straubing%20HRB%2012994",
+    "https://www.northdata.com/Goldberg%20Family%20Office%20GmbH,%20Leiblfing/Amtsgericht%20Straubing%20HRB%2012994",
+    "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4794287?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900DD0S0USZ8OUU90",
+  "https://www.northdata.com/Goldberg%20Family%20Office%20GmbH,%20Leiblfing/Amtsgericht%20Straubing%20HRB%2012994",
+  "https://www.northdata.de/Goldberg%20Family%20Office%20GmbH,%20Leiblfing/Amtsgericht%20Straubing%20HRB%2012994",
+  "https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/4794287?utm_source=openai"
+ ],
+ "discovery": null
+}

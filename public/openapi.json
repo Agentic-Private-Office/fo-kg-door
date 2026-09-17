@@ -1,0 +1,368 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Family Office Knowledge Graph — the doors",
+    "version": "0.19.10",
+    "description": "Family Office Knowledge Graph. Operator: Agentic KG Holdings. Public record, read-only; MCP doors (apex + node); one paid call (x402); one licensed route (office OAuth).",
+    "contact": {
+      "name": "Agentic KG Holdings",
+      "email": "mk@agent-kg.ai",
+      "url": "https://familyofficeknowledgegraph.ai/#contact"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://familyofficeknowledgegraph.ai"
+    },
+    {
+      "url": "https://mcp.fo-kg.ai",
+      "description": "apex door"
+    },
+    {
+      "url": "https://ae.fo-kg.ai",
+      "description": "node door ae-fo-kg"
+    },
+    {
+      "url": "https://au.fo-kg.ai",
+      "description": "node door au-fo-kg"
+    },
+    {
+      "url": "https://ca.fo-kg.ai",
+      "description": "node door ca-fo-kg"
+    },
+    {
+      "url": "https://ch.fo-kg.ai",
+      "description": "node door ch-fo-kg"
+    },
+    {
+      "url": "https://de.fo-kg.ai",
+      "description": "node door de-fo-kg"
+    },
+    {
+      "url": "https://dk.fo-kg.ai",
+      "description": "node door dk-fo-kg"
+    },
+    {
+      "url": "https://es.fo-kg.ai",
+      "description": "node door es-fo-kg"
+    },
+    {
+      "url": "https://fr.fo-kg.ai",
+      "description": "node door fr-fo-kg"
+    },
+    {
+      "url": "https://it.fo-kg.ai",
+      "description": "node door it-fo-kg"
+    },
+    {
+      "url": "https://lu.fo-kg.ai",
+      "description": "node door lu-fo-kg"
+    },
+    {
+      "url": "https://nl.fo-kg.ai",
+      "description": "node door nl-fo-kg"
+    },
+    {
+      "url": "https://no.fo-kg.ai",
+      "description": "node door no-fo-kg"
+    },
+    {
+      "url": "https://row.fo-kg.ai",
+      "description": "node door row-fo-kg"
+    },
+    {
+      "url": "https://sg.fo-kg.ai",
+      "description": "node door sg-fo-kg"
+    },
+    {
+      "url": "https://uk.fo-kg.ai",
+      "description": "node door uk-fo-kg"
+    },
+    {
+      "url": "https://us.fo-kg.ai",
+      "description": "node door us-fo-kg"
+    }
+  ],
+  "paths": {
+    "/mcp": {
+      "post": {
+        "operationId": "mcp",
+        "summary": "MCP door (streamable-http, JSON-RPC 2.0): initialize, tools/list, tools/call — resolve_family_office, get_record, list_events_since, list_aliases, list_nodes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "JSON-RPC response"
+          }
+        }
+      },
+      "get": {
+        "operationId": "mcpInfo",
+        "summary": "Door description",
+        "responses": {
+          "200": {
+            "description": "door"
+          }
+        }
+      }
+    },
+    "/resolve/{identifier}": {
+      "get": {
+        "operationId": "resolve",
+        "summary": "Resolve an identifier to records over HTTP",
+        "parameters": [
+          {
+            "name": "identifier",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "LEI, legal name, alias or register id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "matches"
+          },
+          "404": {
+            "description": "not found (typed)"
+          }
+        }
+      }
+    },
+    "/records/nodes.json": {
+      "get": {
+        "operationId": "nodes",
+        "summary": "The nodes",
+        "responses": {
+          "200": {
+            "description": "nodes"
+          }
+        }
+      }
+    },
+    "/records/{node}/index.json": {
+      "get": {
+        "operationId": "nodeIndex",
+        "summary": "A node's index (records, totals, sources)",
+        "parameters": [
+          {
+            "name": "node",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "index"
+          },
+          "404": {
+            "description": "unknown node"
+          }
+        }
+      }
+    },
+    "/records/{node}/{lei}.json": {
+      "get": {
+        "operationId": "record",
+        "summary": "A Family Office Record",
+        "parameters": [
+          {
+            "name": "node",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lei",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[A-Z0-9]{20}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "record"
+          },
+          "404": {
+            "description": "unknown record"
+          }
+        }
+      }
+    },
+    "/facts.json": {
+      "get": {
+        "operationId": "facts",
+        "summary": "Facts of record (live counts, paid-calls line)",
+        "responses": {
+          "200": {
+            "description": "facts"
+          }
+        }
+      }
+    },
+    "/api": {
+      "get": {
+        "operationId": "paidCall",
+        "summary": "Paid call (x402 v2): 402 offer without payment; { receipt, statement, data } with PAYMENT-SIGNATURE — the graph index of record, signed",
+        "parameters": [
+          {
+            "name": "PAYMENT-SIGNATURE",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "402": {
+            "description": "x402 v2 PaymentRequired (body + PAYMENT-REQUIRED header)"
+          },
+          "200": {
+            "description": "settled: receipt, statement (EdDSA JWT), data",
+            "headers": {
+              "PAYMENT-RESPONSE": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "X-X402-Receipt": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/x402/receipt/{nonce}": {
+      "get": {
+        "operationId": "receipt",
+        "summary": "Resolve a receipt, forever",
+        "parameters": [
+          {
+            "name": "nonce",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{32}$"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "the receipt"
+          },
+          "404": {
+            "description": "unknown nonce"
+          }
+        }
+      }
+    },
+    "/x402/jwks.json": {
+      "get": {
+        "operationId": "x402Jwks",
+        "summary": "Receipt signing key, kid fo-kg-x402-2026-09",
+        "responses": {
+          "200": {
+            "description": "JWKS"
+          }
+        }
+      }
+    },
+    "/licensed/index": {
+      "get": {
+        "operationId": "licensedIndex",
+        "summary": "The graph index signed to a registered agent (office OAuth, scope office:read)",
+        "security": [
+          {
+            "office": [
+              "office:read"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "{ licensed_to, statement, data }"
+          },
+          "401": {
+            "description": "Bearer required"
+          }
+        }
+      }
+    },
+    "/health.json": {
+      "get": {
+        "operationId": "health",
+        "summary": "Status",
+        "responses": {
+          "200": {
+            "description": "ok"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "office": {
+        "type": "oauth2",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "https://agent-kg.ai/oauth/token",
+            "scopes": {
+              "office:read": "read the licensed index"
+            }
+          }
+        }
+      }
+    }
+  },
+  "x-office": {
+    "operator": "Agentic KG Holdings",
+    "principal": "Matthew Keddy",
+    "office": "https://agent-kg.ai",
+    "keyring": "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+    "kid": "mk-office-2026-09",
+    "x402_kid": "fo-kg-x402-2026-09",
+    "agent_card": "https://agent.fo-kg.ai/.well-known/agent-card.json",
+    "apex_door": "https://mcp.fo-kg.ai/mcp",
+    "node_doors": [
+      "https://ae.fo-kg.ai/mcp",
+      "https://au.fo-kg.ai/mcp",
+      "https://ca.fo-kg.ai/mcp",
+      "https://ch.fo-kg.ai/mcp",
+      "https://de.fo-kg.ai/mcp",
+      "https://dk.fo-kg.ai/mcp",
+      "https://es.fo-kg.ai/mcp",
+      "https://fr.fo-kg.ai/mcp",
+      "https://it.fo-kg.ai/mcp",
+      "https://lu.fo-kg.ai/mcp",
+      "https://nl.fo-kg.ai/mcp",
+      "https://no.fo-kg.ai/mcp",
+      "https://row.fo-kg.ai/mcp",
+      "https://sg.fo-kg.ai/mcp",
+      "https://uk.fo-kg.ai/mcp",
+      "https://us.fo-kg.ai/mcp"
+    ]
+  }
+}

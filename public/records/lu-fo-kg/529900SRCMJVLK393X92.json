@@ -1,0 +1,181 @@
+{
+ "record": "Family Office Record",
+ "id": "529900SRCMJVLK393X92",
+ "version": "2026-09-14.2",
+ "node": "lu-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://lu.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900SRCMJVLK393X92",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900SRCMJVLK393X92",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "GBVC Family Office SPF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "lb"
+  },
+  "jurisdiction": {
+   "value": "LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Luxembourg"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2019-06-27",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "3 Moartplaz, Wasserbillig, LU-GR, 6635, LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DVXS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Luxembourg Business Registers (RCS)",
+   "register_id": "RA000432",
+   "id": {
+    "value": "B235490",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.lbr.lu/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2019-06-27",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-10-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-09",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-20",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CSSF — search entities]",
+   "reason": "the CSSF search-entities application has no machine read the rail could reach; not read this wave",
+   "tried": "https://edesk.apps.cssf.lu/search-entities/search?lng=en&keyword=family%20office",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "registrations[Luxembourg Business Registers (RCS)]",
+   "reason": "LBR extracts need a registered account — never attempted (HITL); the RCS number is as GLEIF records it",
+   "tried": "https://www.lbr.lu/",
+   "answer": "account (extracts); maintenance page"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.com/GBVC%20Family%20Office%20SPF%20S%C3%A0rl%20SPF,%20Wasserbillig/B235490",
+    "https://www.northdata.com/GBVC%20Family%20Office%20SPF,%20Wasserbillig/B235490",
+    "https://lei-luxembourg.lu/informations-detaillees/46442252/529900SRCMJVLK393X92/gbvc-family-office-spf/?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.lbr.lu/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900SRCMJVLK393X92",
+  "https://lei-luxembourg.lu/informations-detaillees/46442252/529900SRCMJVLK393X92/gbvc-family-office-spf/?utm_source=openai",
+  "https://www.northdata.com/GBVC%20Family%20Office%20SPF%20S%C3%A0rl%20SPF,%20Wasserbillig/B235490",
+  "https://www.northdata.com/GBVC%20Family%20Office%20SPF,%20Wasserbillig/B235490"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,180 @@
+{
+ "record": "Family Office Record",
+ "id": "894500J3SM6ON4JVCM63",
+ "version": "2026-09-14.2",
+ "node": "lu-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://lu.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500J3SM6ON4JVCM63",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500J3SM6ON4JVCM63",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "A.R.S FAMILY OFFICE S.A.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "fr"
+  },
+  "jurisdiction": {
+   "value": "LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Luxembourg"
+  },
+  "structure": null,
+  "formation": {
+   "value": "1999-01-12",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "25, BoheyL, Doncols, L-9647, LU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5GGB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Luxembourg Business Registers (RCS)",
+   "register_id": "RA000432",
+   "id": {
+    "value": "B107341",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.lbr.lu/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "1999-01-12",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-23",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-10",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-23",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CSSF — search entities]",
+   "reason": "the CSSF search-entities application has no machine read the rail could reach; not read this wave",
+   "tried": "https://edesk.apps.cssf.lu/search-entities/search?lng=en&keyword=family%20office",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "registrations[Luxembourg Business Registers (RCS)]",
+   "reason": "LBR extracts need a registered account — never attempted (HITL); the RCS number is as GLEIF records it",
+   "tried": "https://www.lbr.lu/",
+   "answer": "account (extracts); maintenance page"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.com/A%C2%B7R%C2%B7S%20Family%20Office%20SA,%20Doncols/B107341",
+    "https://lei.bloomberg.com/leis/view/894500J3SM6ON4JVCM63",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.lbr.lu/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500J3SM6ON4JVCM63",
+  "https://lei.bloomberg.com/leis/view/894500J3SM6ON4JVCM63",
+  "https://www.northdata.com/A%C2%B7R%C2%B7S%20Family%20Office%20SA,%20Doncols/B107341"
+ ],
+ "discovery": null
+}

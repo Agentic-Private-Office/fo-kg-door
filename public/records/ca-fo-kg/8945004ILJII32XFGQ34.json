@@ -1,0 +1,209 @@
+{
+ "record": "Family Office Record",
+ "id": "8945004ILJII32XFGQ34",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "8945004ILJII32XFGQ34",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/8945004ILJII32XFGQ34",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Robinson Sauder Family Office Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporate Registry (Province of British Columbia)"
+  },
+  "jurisdiction": {
+   "value": "CA-BC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2014-04-25",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Corporate Registry (Province of British Columbia)",
+   "second_source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1200 Waterfront Centre, 200 Burrard St., P.O. Box 48600, Vancouver, V7X 1T2, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "YG5M",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Corporate Registry (Province of British Columbia)",
+   "register_id": "RA000074",
+   "id": {
+    "value": "BC1000522",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://orgbook.gov.bc.ca/entity/BC1000522",
+   "status": {
+    "value": "ACT",
+    "source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "807289038",
+    "source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "entity_type": {
+    "value": "BC",
+    "source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "home_jurisdiction": {
+    "value": "BC",
+    "source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2014-04-25",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2014-04-25",
+   "event": "registered — OrgBook BC",
+   "source_url": "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-02",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-19",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-02",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.preqin.com/data/profile/investor/robinson-sauder-family-office/246739",
+    "https://lei.bloomberg.com/leis/view/8945004ILJII32XFGQ34"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://orgbook.gov.bc.ca/entity/BC1000522"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/8945004ILJII32XFGQ34",
+  "https://lei.bloomberg.com/leis/view/8945004ILJII32XFGQ34",
+  "https://orgbook.gov.bc.ca/api/v4/search/topic?q=BC1000522",
+  "https://www.preqin.com/data/profile/investor/robinson-sauder-family-office/246739"
+ ],
+ "discovery": null
+}

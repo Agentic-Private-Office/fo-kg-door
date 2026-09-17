@@ -1,0 +1,197 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-913415915",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "GRONER FAMILY OFFICE GMBH",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://groener-family.de/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, grok-4.6, mistral-medium-latest"
+  },
+  "formation": {
+   "value": "2021-01-01",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "BINGER STRASSE 40 14197 BERLIN ALLEMAGNE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "3220",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "913415915",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/913415915"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/913415915",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Christoph Gröner",
+    "source_url": "https://groener-family.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Frank Gröner",
+    "source_url": "https://groener-family.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Jean-Paul Albert",
+    "source_url": "https://groener-family.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Authorized signatory Location manager Berlin as the subject's own page says"
+   },
+   "role": "Authorized signatory Location manager Berlin"
+  },
+  {
+   "name": {
+    "value": "Björn Bauer-Birkelbach",
+    "source_url": "https://groener-family.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Authorized signatory Managing Director Groners Hostels Ltd. as the subject's own page says"
+   },
+   "role": "Authorized signatory Managing Director Groners Hostels Ltd."
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://groener-family.de/",
+  "source_url": "https://groener-family.de/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, grok-4.6, mistral-medium-latest"
+ },
+ "aliases": [
+  {
+   "value": "GRONER FAMILY OFFICE GMBH",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2021-01-01",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=GRONER FAMILY OFFICE GMBH"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=913415915"
+  }
+ ],
+ "sources": [
+  "https://groener-family.de/",
+  "https://groener-family.de/en/imprint/?utm_source=openai",
+  "https://recherche-entreprises.api.gouv.fr/search?q=913415915",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=7"
+ ],
+ "discovery": null
+}

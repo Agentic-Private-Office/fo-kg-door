@@ -1,0 +1,262 @@
+{
+ "record": "Family Office Record",
+ "id": "3912006MPWJDI2TVJD06",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "3912006MPWJDI2TVJD06",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/3912006MPWJDI2TVJD06",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "TRESONO Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.tresono.de/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+  },
+  "formation": {
+   "value": "2011-01-23",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Konrad-Adenauer-Ufer 21, Köln, 50668, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "6QQB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000280",
+   "register_id": "RA000280",
+   "id": {
+    "value": "HRB 71421",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Marc Ernesti",
+    "source_url": "https://www.tresono.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Rainer Girmes",
+    "source_url": "https://www.tresono.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Stephan Knichel",
+    "source_url": "https://www.tresono.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Lars Hennenberg",
+    "source_url": "https://www.tresono.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "RA Rainer Girmes",
+    "source_url": "https://www.tresono.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorsitzender des Aufsichtsrats as the subject's own page says"
+   },
+   "role": "Vorsitzender des Aufsichtsrats"
+  },
+  {
+   "name": {
+    "value": "Ferdinand-Alexander Leisten",
+    "source_url": "https://www.tresono.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Aufsichtsrat as the subject's own page says"
+   },
+   "role": "Aufsichtsrat"
+  },
+  {
+   "name": {
+    "value": "Julian Schlüßel",
+    "source_url": "https://www.tresono.de/insights/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Senior Consultant Family Office as the subject's own page says"
+   },
+   "role": "Senior Consultant Family Office"
+  },
+  {
+   "name": {
+    "value": "Angela Müller‑Valkyser",
+    "source_url": "https://www.tresono.de/tresono-family/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Senior Advisory Partner as the subject's own page says"
+   },
+   "role": "Senior Advisory Partner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.tresono.de/",
+  "source_url": "https://www.tresono.de/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2011-01-23",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-06-01",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-07",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-01",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=TRESONO+Family+Office+AG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000280]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/3912006MPWJDI2TVJD06",
+  "https://www.tresono.de/"
+ ],
+ "discovery": null
+}

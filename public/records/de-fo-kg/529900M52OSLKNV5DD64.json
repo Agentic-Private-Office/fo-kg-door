@@ -1,0 +1,273 @@
+{
+ "record": "Family Office Record",
+ "id": "529900M52OSLKNV5DD64",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900M52OSLKNV5DD64",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900M52OSLKNV5DD64",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "DN&A Family Office GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://dnanda.de/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, grok-4.6"
+  },
+  "formation": {
+   "value": "2022-09-14",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Königsstraße 25, Münster, DE-NW, 48143, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000305",
+   "register_id": "RA000305",
+   "id": {
+    "value": "HRB 20608",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Thomas Fürst",
+    "source_url": "https://dnanda.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Claus Hofschulte",
+    "source_url": "https://dnanda.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Thomas Schreyer",
+    "source_url": "https://dnanda.de/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Andrea Tauchnitz",
+    "source_url": "https://dnanda.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Assistenz der Geschäftsleitung as the subject's own page says"
+   },
+   "role": "Assistenz der Geschäftsleitung"
+  },
+  {
+   "name": {
+    "value": "Felix Wottke",
+    "source_url": "https://dnanda.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Mandantenbetreuung as the subject's own page says"
+   },
+   "role": "Mandantenbetreuung"
+  },
+  {
+   "name": {
+    "value": "Franziska Fürst",
+    "source_url": "https://dnanda.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Organisationsentwicklung as the subject's own page says"
+   },
+   "role": "Organisationsentwicklung"
+  },
+  {
+   "name": {
+    "value": "Matthias Trenkler",
+    "source_url": "https://dnanda.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Portfoliomanager as the subject's own page says"
+   },
+   "role": "Portfoliomanager"
+  },
+  {
+   "name": {
+    "value": "Prof. Dr. Maximilian A. Werkmüller",
+    "source_url": "https://dnanda.de/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Beirat as the subject's own page says"
+   },
+   "role": "Beirat"
+  },
+  {
+   "name": {
+    "value": "Prof. Dr. Bernd Rolfes",
+    "source_url": "https://dnanda.de/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Beirat as the subject's own page says"
+   },
+   "role": "Beirat"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dnanda.de/",
+  "source_url": "https://dnanda.de/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-09-14",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-22",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-20",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=DN%26A+Family+Office+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000305]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900M52OSLKNV5DD64",
+  "https://dnanda.de/"
+ ],
+ "discovery": null
+}

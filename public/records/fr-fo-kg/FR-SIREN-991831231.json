@@ -1,0 +1,169 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-991831231",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "LB FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "http://lb-familyoffice.com/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "read by Grok on the page it opened",
+   "conflict_with": [
+    {
+     "value": "single-family",
+     "source_url": "http://lb-familyoffice.com/",
+     "read_by": "gpt-4.1"
+    }
+   ]
+  },
+  "formation": {
+   "value": "2025-09-01",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "90 AVENUE DU MARECHAL FOCH 33500 LIBOURNE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5499",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "991831231",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/991831231"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/991831231",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "LORANE BEAU",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://lb-familyoffice.com/",
+  "source_url": "http://lb-familyoffice.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6, mistral-medium-latest"
+ },
+ "aliases": [
+  {
+   "value": "LB FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-09-01",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=LB FAMILY OFFICE"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=991831231"
+  }
+ ],
+ "sources": [
+  "http://lb-familyoffice.com/",
+  "https://recherche-entreprises.api.gouv.fr/search?q=991831231",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=5"
+ ],
+ "discovery": null
+}

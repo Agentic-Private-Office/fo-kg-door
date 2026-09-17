@@ -1,0 +1,394 @@
+{
+ "record": "Family Office Record",
+ "id": "549300QT3SIH27BVDV72",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300QT3SIH27BVDV72",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300QT3SIH27BVDV72",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "associations": [
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "faculty",
+   "listing": {
+    "value": "Northwood Family Office",
+    "source_url": "https://uhnwinstitute.org/faculty",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2026-01-01",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Northwood Family Office",
+    "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-10-23",
+    "basis": "named on the The UHNW Institute page as listed"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Northwood Family Office",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-08-28",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  },
+  {
+   "body": "The UHNW Institute",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Northwood Family Office",
+    "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2025-12-11",
+    "basis": "named on the The UHNW Institute page as speaker"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "NORTHWOOD FAMILY OFFICE LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "CA-ON",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1829948/000115752322000048/a52560702ex99_1.htm",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "as the filing states"
+  },
+  "formation": {
+   "value": "2016-12-31",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "130 King Street West, TORONTO, CA-ON, M5X 1C8, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "O90R",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Corporate Registry (Province of Ontario)",
+   "register_id": "RA000079",
+   "id": {
+    "value": "1000163314",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.ontario.ca/page/ontario-business-registry",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Frederick Thomas McCullough",
+    "source_url": "https://www.northwoodfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "David Scott Hayman",
+    "source_url": "https://www.northwoodfamilyoffice.com",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Tom McCullough",
+    "source_url": "https://www.northwoodfamilyoffice.com/about/our-history",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Founder & Chairman as the subject's own page says"
+   },
+   "role": "Founder & Chairman"
+  },
+  {
+   "name": {
+    "value": "Eric Weir",
+    "source_url": "https://www.northwoodfamilyoffice.com/our-team/eric-weir",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "President & CEO as the subject's own page says"
+   },
+   "role": "President & CEO"
+  },
+  {
+   "name": {
+    "value": "Scott Hayman",
+    "source_url": "https://www.northwoodfamilyoffice.com/about/our-history",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Co-founder, Vice-Chairman as the subject's own page says"
+   },
+   "role": "Co-founder, Vice-Chairman"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.northwoodfamilyoffice.com",
+  "source_url": "https://www.northwoodfamilyoffice.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "NORTHWOOD PRIVATE COUNSEL INC.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "Northwood Family Office",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "name as the The UHNW Institute page lists it"
+  }
+ ],
+ "events": [
+  {
+   "date": "2016-12-31",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-08-23",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-01-11",
+   "event": "CI Financial to Acquire Northwood Family Office, Canada’s Leading Multi-Family Office",
+   "source_url": "https://www.sec.gov/Archives/edgar/data/1829948/000115752322000048/a52560702ex99_1.htm",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-08-28",
+   "event": "named on The UHNW Institute page (speakers; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium/",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-23",
+   "event": "named on The UHNW Institute page (speakers; listed)",
+   "source_url": "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-11",
+   "event": "named on The UHNW Institute page (cited; speaker)",
+   "source_url": "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-01",
+   "event": "named on The UHNW Institute page (faculty; listed)",
+   "source_url": "https://uhnwinstitute.org/faculty",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-05-28",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-14",
+   "event": "website https://www.northwoodfamilyoffice.com/ redirects to https://corient.com/us/en",
+   "source_url": "https://www.northwoodfamilyoffice.com/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-14",
+   "event": "website https://www.northwoodfamilyoffice.com redirects to https://corient.com/us/en",
+   "source_url": "https://www.northwoodfamilyoffice.com",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-24",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Corporate Registry (Province of Ontario)]",
+   "reason": "the public search refuses machine reads",
+   "tried": "https://www.appmybizaccount.gov.on.ca/onbis/master/entry.pub?applicationCode=onbis-master&businessType=Master&businessName=NORTHWOOD%20FAMILY%20OFFICE%20LTD.",
+   "answer": 200
+  },
+  {
+   "field": "website",
+   "reason": "the site now redirects to https://corient.com/us/en",
+   "tried": "https://www.northwoodfamilyoffice.com/"
+  },
+  {
+   "field": "website",
+   "reason": "the site now redirects to https://corient.com/us/en",
+   "tried": "https://www.northwoodfamilyoffice.com"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300QT3SIH27BVDV72",
+  "https://uhnwinstitute.org/faculty",
+  "https://www.linkedin.com/company/northwood-family-office",
+  "https://www.northwoodfamilyoffice.com",
+  "https://www.northwoodfamilyoffice.com/",
+  "https://www.sec.gov/Archives/edgar/data/1829948/000115752322000048/a52560702ex99_1.htm",
+  "https://www.uhnwinstitute.org/2025-symposium-recap-the-firm-of-the-future-living-in-the-real-world-the-toolkit-in-action/",
+  "https://www.uhnwinstitute.org/2025-symposium/",
+  "https://www.uhnwinstitute.org/the-uhnw-institutes-2025-symposium-meet-the-speakers/"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/northwood-family-office",
+   "x": null,
+   "website_named": "https://northwoodfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/northwood-family-office",
+   "x": null,
+   "website_named": "https://www.northwoodfamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/northwood-family-office",
+   "x": null,
+   "website_named": "https://www.northwoodfamilyoffice.com/"
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "record": "Family Office Record",
+ "id": "529900TYFSDMPVF9XM25",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900TYFSDMPVF9XM25",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900TYFSDMPVF9XM25",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Honestus Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "de",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.honestus.ch",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2009-12-16",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Gewerbestrasse 11, Cham, CH-ZG, 6330, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Zefix — Zentraler Firmenindex (Swiss commercial register) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "MVII",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000549",
+   "register_id": "RA000549",
+   "id": {
+    "value": "CHE-115.293.917",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-115.293.917",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://zg.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-115.293.917"
+   },
+   "url": "https://zg.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-115.293.917",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Michal Pechr",
+    "source_url": "https://www.honestus.ch",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Marika Pechr",
+    "source_url": "https://www.honestus.ch/honestusfamilyoffice",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Meet our Team as the subject's own page says"
+   },
+   "role": "Meet our Team"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.honestus.ch",
+  "source_url": "https://www.honestus.ch",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2009-12-16",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-18",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-02-10",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-12",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900TYFSDMPVF9XM25",
+  "https://www.honestus.ch",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/965859.json"
+ ],
+ "discovery": null
+}

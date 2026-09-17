@@ -1,0 +1,279 @@
+{
+ "graph": "Family Office Knowledge Graph",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "apex": {
+  "door": "https://mcp.fo-kg.ai/mcp",
+  "agent_card": "https://agent.fo-kg.ai/.well-known/agent-card.json",
+  "door_long": "https://mcp.familyofficeknowledgegraph.ai/mcp",
+  "agent_card_long": "https://agent.familyofficeknowledgegraph.ai/.well-known/agent-card.json",
+  "holds": "index only; records are served by the node door"
+ },
+ "nodes": [
+  {
+   "id": "ae-fo-kg",
+   "country": "AE",
+   "jurisdiction": "United Arab Emirates",
+   "host": "https://ae.fo-kg.ai",
+   "door": "https://ae.fo-kg.ai/mcp",
+   "host_long": "https://ae-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://ae-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://ae.fo-kg.ai/records/ae-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 8
+  },
+  {
+   "id": "au-fo-kg",
+   "country": "AU",
+   "jurisdiction": "Australia",
+   "host": "https://au.fo-kg.ai",
+   "door": "https://au.fo-kg.ai/mcp",
+   "host_long": "https://au-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://au-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://au.fo-kg.ai/records/au-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "ABN Lookup — Australian Business Register",
+    "ASIC registers — open data (data.gov.au)"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 24
+  },
+  {
+   "id": "ca-fo-kg",
+   "country": "CA",
+   "jurisdiction": "Canada",
+   "host": "https://ca.fo-kg.ai",
+   "door": "https://ca.fo-kg.ai/mcp",
+   "host_long": "https://ca-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://ca-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://ca.fo-kg.ai/records/ca-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "SEC IAPD — Investment Adviser Public Disclosure (search API)",
+    "Corporations Canada — open data, active CBCA corporations (CSV)",
+    "Corporations Canada — federal corporation pages",
+    "OrgBook BC — BC Registries",
+    "Ontario Securities Commission — orders, rulings and decisions",
+    "SEC EDGAR"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 46
+  },
+  {
+   "id": "ch-fo-kg",
+   "country": "CH",
+   "jurisdiction": "Switzerland",
+   "host": "https://ch.fo-kg.ai",
+   "door": "https://ch.fo-kg.ai/mcp",
+   "host_long": "https://ch-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://ch-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://ch.fo-kg.ai/records/ch-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "Zefix — Swiss central business name index (public REST)"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 314
+  },
+  {
+   "id": "de-fo-kg",
+   "country": "DE",
+   "jurisdiction": "Germany",
+   "host": "https://de.fo-kg.ai",
+   "door": "https://de.fo-kg.ai/mcp",
+   "host_long": "https://de-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://de-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://de.fo-kg.ai/records/de-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 182
+  },
+  {
+   "id": "dk-fo-kg",
+   "country": "DK",
+   "jurisdiction": "Denmark",
+   "host": "https://dk.fo-kg.ai",
+   "door": "https://dk.fo-kg.ai/mcp",
+   "host_long": "https://dk-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://dk-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://dk.fo-kg.ai/records/dk-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 16
+  },
+  {
+   "id": "es-fo-kg",
+   "country": "ES",
+   "jurisdiction": "Spain",
+   "host": "https://es.fo-kg.ai",
+   "door": "https://es.fo-kg.ai/mcp",
+   "host_long": "https://es-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://es-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://es.fo-kg.ai/records/es-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 39
+  },
+  {
+   "id": "fr-fo-kg",
+   "country": "FR",
+   "jurisdiction": "France",
+   "host": "https://fr.fo-kg.ai",
+   "door": "https://fr.fo-kg.ai/mcp",
+   "host_long": "https://fr-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://fr-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://fr.fo-kg.ai/records/fr-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "INSEE Sirene open data — recherche-entreprises API"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 196
+  },
+  {
+   "id": "it-fo-kg",
+   "country": "IT",
+   "jurisdiction": "Italy",
+   "host": "https://it.fo-kg.ai",
+   "door": "https://it.fo-kg.ai/mcp",
+   "host_long": "https://it-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://it-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://it.fo-kg.ai/records/it-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 12
+  },
+  {
+   "id": "lu-fo-kg",
+   "country": "LU",
+   "jurisdiction": "Luxembourg",
+   "host": "https://lu.fo-kg.ai",
+   "door": "https://lu.fo-kg.ai/mcp",
+   "host_long": "https://lu-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://lu-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://lu.fo-kg.ai/records/lu-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 14
+  },
+  {
+   "id": "nl-fo-kg",
+   "country": "NL",
+   "jurisdiction": "Netherlands",
+   "host": "https://nl.fo-kg.ai",
+   "door": "https://nl.fo-kg.ai/mcp",
+   "host_long": "https://nl-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://nl-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://nl.fo-kg.ai/records/nl-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "AFM — registers (CSV export)"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 9
+  },
+  {
+   "id": "no-fo-kg",
+   "country": "NO",
+   "jurisdiction": "Norway",
+   "host": "https://no.fo-kg.ai",
+   "door": "https://no.fo-kg.ai/mcp",
+   "host_long": "https://no-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://no-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://no.fo-kg.ai/records/no-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "Brønnøysundregistrene — Enhetsregisteret (open data API)",
+    "Finanstilsynet — Virksomhetsregisteret (licence lists)"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.3",
+   "records": 12
+  },
+  {
+   "id": "row-fo-kg",
+   "country": "ZZ",
+   "jurisdiction": "Rest of world",
+   "host": "https://row.fo-kg.ai",
+   "door": "https://row.fo-kg.ai/mcp",
+   "host_long": "https://row-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://row-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://row.fo-kg.ai/records/row-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 176
+  },
+  {
+   "id": "sg-fo-kg",
+   "country": "SG",
+   "jurisdiction": "Singapore",
+   "host": "https://sg.fo-kg.ai",
+   "door": "https://sg.fo-kg.ai/mcp",
+   "host_long": "https://sg-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://sg-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://sg.fo-kg.ai/records/sg-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "MAS Financial Institutions Directory"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 580
+  },
+  {
+   "id": "uk-fo-kg",
+   "country": "GB",
+   "jurisdiction": "United Kingdom",
+   "host": "https://uk.fo-kg.ai",
+   "door": "https://uk.fo-kg.ai/mcp",
+   "host_long": "https://uk-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://uk-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://uk.fo-kg.ai/records/uk-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "Companies House — company and officers pages"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 204
+  },
+  {
+   "id": "us-fo-kg",
+   "country": "US",
+   "jurisdiction": "United States",
+   "host": "https://us.fo-kg.ai",
+   "door": "https://us.fo-kg.ai/mcp",
+   "host_long": "https://us-fo-kg.familyofficeknowledgegraph.ai",
+   "door_long": "https://us-fo-kg.familyofficeknowledgegraph.ai/mcp",
+   "index": "https://us.fo-kg.ai/records/us-fo-kg/index.json",
+   "spine": "GLEIF",
+   "registers": [
+    "SEC IAPD — Investment Adviser Public Disclosure (search API)"
+   ],
+   "as_of": "2026-09-14",
+   "version": "2026-09-14.2",
+   "records": 113
+  }
+ ]
+}

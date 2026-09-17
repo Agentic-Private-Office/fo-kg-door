@@ -1,0 +1,180 @@
+{
+ "record": "Family Office Record",
+ "id": "894500CDFKPA0RLTV742",
+ "version": "2026-09-14.2",
+ "node": "dk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://dk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500CDFKPA0RLTV742",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500CDFKPA0RLTV742",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "PROSPECT Family Office ApS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "da"
+  },
+  "jurisdiction": {
+   "value": "DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Denmark"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2021-06-07",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Prins Valdemars Alle 4, 3. 1., ALLERØD, 3450, DK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "H8VP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "register_id": "RA000170",
+   "id": {
+    "value": "42607681",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://datacvr.virk.dk/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2021-06-07",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-08-31",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-18",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-08-31",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)]",
+   "reason": "CVR answers a challenge page to machines and the open distribution needs a credentialled agreement — never attempted (HITL)",
+   "tried": "https://datacvr.virk.dk/soegeresultater?fritekst=PROSPECT%20Family%20Office%20ApS",
+   "answer": "challenge page; distribution needs credentials"
+  },
+  {
+   "field": "registrations[Finanstilsynet — Virksomhedsregister]",
+   "reason": "the register's search endpoint answered 404 to every machine read tried; not read this wave",
+   "tried": "https://virksomhedsregister.finanstilsynet.dk/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.proff.dk/firma/prospect-family-office-aps/aller%C3%B8d/holdingselskaper/0PD8API06Y4",
+    "https://www.peter-gustafson.com/about",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://datacvr.virk.dk/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500CDFKPA0RLTV742",
+  "https://www.peter-gustafson.com/about",
+  "https://www.proff.dk/firma/prospect-family-office-aps/aller%C3%B8d/holdingselskaper/0PD8API06Y4"
+ ],
+ "discovery": null
+}

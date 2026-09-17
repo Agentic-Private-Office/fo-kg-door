@@ -1,0 +1,208 @@
+{
+ "record": "Family Office Record",
+ "id": "894500AQXFD3DB5I8D84",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "894500AQXFD3DB5I8D84",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/894500AQXFD3DB5I8D84",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900F6BNUR3RJ2WH29"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Family Office Schweiz GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "de",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2021-09-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Schmittenweg 1, Unterstammheim, 8476, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Zefix — Zentraler Firmenindex (Swiss commercial register) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "3EKS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000549",
+   "register_id": "RA000549",
+   "id": {
+    "value": "CHE-265.870.562",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-265.870.562",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-265.870.562"
+   },
+   "url": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-265.870.562",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2021-09-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-02-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-10",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-03",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.moneyhouse.ch/de/company/family-office-schweiz-gmbh-2547701271",
+    "https://www.moneyhouse.ch/en/company/family-office-schweiz-gmbh-2547701271"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-265.870.562"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/894500AQXFD3DB5I8D84",
+  "https://www.moneyhouse.ch/de/company/family-office-schweiz-gmbh-2547701271",
+  "https://www.moneyhouse.ch/en/company/family-office-schweiz-gmbh-2547701271",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1504170.json"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,180 @@
+{
+ "record": "Family Office Record",
+ "id": "81560077E3EB04AF2252",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "81560077E3EB04AF2252",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/81560077E3EB04AF2252",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "KAYAK FAMILY OFFICE S.R.L.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2022-05-05",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "VIA FRANCESCO SFORZA, 14, MILANO, IT-MI, 20122, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "OV32",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "12401090969",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-05-05",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-10-04",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-10",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-10-04",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.ufficiocamerale.it/4466/kayak-family-office-srl",
+    "https://bebeez.it/wp-content/uploads/2024/01/KFO-comunicato-Autovie-Venete.pdf",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.registroimprese.it/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/81560077E3EB04AF2252",
+  "https://bebeez.it/wp-content/uploads/2024/01/KFO-comunicato-Autovie-Venete.pdf",
+  "https://www.ufficiocamerale.it/4466/kayak-family-office-srl"
+ ],
+ "discovery": null
+}

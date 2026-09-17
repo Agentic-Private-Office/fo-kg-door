@@ -1,0 +1,155 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-800189805",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "GIOVANNI LEONE DE MAGISTRIS (ITEA-TEE FAMILY OFFICE IT SERVICES INFOGERANCE D'OFFICE FAMILIAL)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2014-01-06",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "705 ROUTE DES TATTES 74140 SAINT-CERGUES",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "1000",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "800189805",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/800189805"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/800189805",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "GIOVANNI ULYSSE ALFONSO PIERRE LEONE DE MAGISTRIS (LEONE DE MAGISTRIS)",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2014-01-06",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=GIOVANNI LEONE DE MAGISTRIS (ITEA-TEE FAMILY OFFICE IT SERVICES INFOGERANCE D'OFFICE FAMILIAL)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.pappers.fr/entreprise/leone-de-magistris-giovanni-800189805",
+    "https://www.societe.com/societe/monsieur-giovanni-leone-de-magistris-800189805.html",
+    "https://www.pappers.fr/entreprise/leone-de-magistris-giovanni-800189805?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=800189805"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=800189805"
+  }
+ ],
+ "sources": [
+  "https://recherche-entreprises.api.gouv.fr/search?q=800189805",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=22",
+  "https://www.pappers.fr/entreprise/leone-de-magistris-giovanni-800189805",
+  "https://www.pappers.fr/entreprise/leone-de-magistris-giovanni-800189805?utm_source=openai",
+  "https://www.societe.com/societe/monsieur-giovanni-leone-de-magistris-800189805.html"
+ ],
+ "discovery": null
+}

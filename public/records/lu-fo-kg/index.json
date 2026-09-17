@@ -1,0 +1,491 @@
+{
+ "node": "lu-fo-kg",
+ "country": "LU",
+ "jurisdiction": "Luxembourg",
+ "host": "https://lu.fo-kg.ai",
+ "door": "https://lu.fo-kg.ai/mcp",
+ "host_long": "https://lu-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://lu-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "222100AA4JC6BSIK1252",
+   "lei": "222100AA4JC6BSIK1252",
+   "legal_name": "BLU FAMILY OFFICE SECURITISATION PLATFORM",
+   "aliases": [],
+   "register_ids": [
+    "B232156"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "CAPELLEN",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/222100AA4JC6BSIK1252.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299003XOE2A8N7UOI86",
+   "lei": "5299003XOE2A8N7UOI86",
+   "legal_name": "Family Office Fund II",
+   "aliases": [
+    "framas-Treuhand - Family Office Fund II"
+   ],
+   "register_ids": [
+    "O00007938_00000002"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Grevenmacher",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.axxion.lu",
+   "fields": {
+    "total": 15,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/5299003XOE2A8N7UOI86.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299007NEYNJXW51DS63",
+   "lei": "5299007NEYNJXW51DS63",
+   "legal_name": "FORUM Family Office Value Fund",
+   "aliases": [],
+   "register_ids": [
+    "O00007901"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Grevenmacher",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.forumgruppe.de/en/value-investing/ffov",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/5299007NEYNJXW51DS63.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900QTH8Y0ULTMNM25",
+   "lei": "529900QTH8Y0ULTMNM25",
+   "legal_name": "Forum Spezial",
+   "aliases": [
+    "FORUM Family Office Value Fund - Forum Spezial"
+   ],
+   "register_ids": [
+    "O00007901_00000001"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Grevenmacher",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.forumgruppe.de/",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/529900QTH8Y0ULTMNM25.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900SRCMJVLK393X92",
+   "lei": "529900SRCMJVLK393X92",
+   "legal_name": "GBVC Family Office SPF",
+   "aliases": [],
+   "register_ids": [
+    "B235490"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Wasserbillig",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/529900SRCMJVLK393X92.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900T75ICGHZ7SIE96",
+   "lei": "529900T75ICGHZ7SIE96",
+   "legal_name": "FINEXT Family Office and Endowment Fund",
+   "aliases": [],
+   "register_ids": [
+    "O00008065_00000001"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "LUXEMBOURG",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/529900T75ICGHZ7SIE96.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900TZZZM0NRU2CB03",
+   "lei": "529900TZZZM0NRU2CB03",
+   "legal_name": "Family Office Fund I",
+   "aliases": [
+    "framas-Treuhand - Family Office Fund I"
+   ],
+   "register_ids": [
+    "O00007938_00000001"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Grevenmacher",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.framas-treuhand.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/529900TZZZM0NRU2CB03.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493002BXRCXKSTT1I41",
+   "lei": "5493002BXRCXKSTT1I41",
+   "legal_name": "Verona Multi Family Office S.A.",
+   "aliases": [
+    "Verona International S.A."
+   ],
+   "register_ids": [
+    "B208361"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Luxembourg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.verona.fi",
+   "fields": {
+    "total": 17,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/5493002BXRCXKSTT1I41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300A6Q70IC01YUK61",
+   "lei": "549300A6Q70IC01YUK61",
+   "legal_name": "Arche Family Office",
+   "aliases": [],
+   "register_ids": [
+    "B172736"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Luxembourg",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.arche-associates.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/549300A6Q70IC01YUK61.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945001NQSPNNII2DM88",
+   "lei": "8945001NQSPNNII2DM88",
+   "legal_name": "Libertas Family Office S.à r.l., SPF",
+   "aliases": [],
+   "register_ids": [
+    "B288716"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Hosingen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/8945001NQSPNNII2DM88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500J3SM6ON4JVCM63",
+   "lei": "894500J3SM6ON4JVCM63",
+   "legal_name": "A.R.S FAMILY OFFICE S.A.",
+   "aliases": [],
+   "register_ids": [
+    "B107341"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Doncols",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/894500J3SM6ON4JVCM63.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500048EFAP5614D48",
+   "lei": "984500048EFAP5614D48",
+   "legal_name": "My Family Office",
+   "aliases": [],
+   "register_ids": [
+    "B131564"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "LUXEMBOURG",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://myfamilyoffice.lu/",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/984500048EFAP5614D48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B6785DCN68FB63",
+   "lei": "984500B6785DCN68FB63",
+   "legal_name": "Denoo Family Office S.à r.l., SPF",
+   "aliases": [],
+   "register_ids": [
+    "B249301"
+   ],
+   "jurisdiction": "Luxembourg",
+   "city": "Luxembourg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.denoo.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/lu-fo-kg/984500B6785DCN68FB63.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-ceb-family-office",
+   "lei": null,
+   "legal_name": "CEB Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Luxembourg",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/lu-fo-kg/AS-ceb-family-office.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 192,
+  "sourced": 174,
+  "filled": 12,
+  "confirmed": 6,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 72,
+  "events": 51,
+  "registrations": 13,
+  "principals": 6,
+  "with_lei": 13,
+  "with_website": 8,
+  "association_listings": 1,
+  "association_records": 1,
+  "sources": 4
+ },
+ "sources": [
+  {
+   "name": "www.axxion.lu — subject website",
+   "url": "https://www.axxion.lu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.denoo.com — subject website",
+   "url": "https://www.denoo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.forumgruppe.de — subject website",
+   "url": "https://www.forumgruppe.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Swiss family-office association (SFOA / Verband) — published member/directory page",
+   "url": "https://www.sfoa.ch/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "CSSF — search entities",
+   "subjects": 13
+  },
+  {
+   "register": "Luxembourg Business Registers (RCS)",
+   "subjects": 13
+  }
+ ],
+ "reads": 4,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/lu-fo-kg/<source>/2026-09-14/"
+ }
+}

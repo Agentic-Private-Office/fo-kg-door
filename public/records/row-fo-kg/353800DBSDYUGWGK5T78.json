@@ -1,0 +1,170 @@
+{
+ "record": "Family Office Record",
+ "id": "353800DBSDYUGWGK5T78",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "353800DBSDYUGWGK5T78",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/353800DBSDYUGWGK5T78",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "353800279ADEFGKNTV65"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ＭＯＨＩＮＡNＩ　ＦＡＭＩＬＹ　ＯＦＦＩＣＥ株式会社",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "ja"
+  },
+  "jurisdiction": {
+   "value": "JP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Japan"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2023-04-30",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "篠原本町三丁目6番11号101, 兵庫県 神戸市灘区, 657-0067, JP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "T417",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000412",
+   "register_id": "RA000412",
+   "id": {
+    "value": "1400-01-130039",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "MOHINANI FAMILY OFFICE Co., Ltd.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2023-04-30",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-04-04",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-17",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/353800DBSDYUGWGK5T78"
+ ],
+ "discovery": null
+}

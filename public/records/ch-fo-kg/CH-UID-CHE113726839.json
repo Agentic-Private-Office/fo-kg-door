@@ -1,0 +1,158 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE113726839",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "VECO MULTI FAMILY OFFICE SA in liquidazione",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "the registered legal name says so"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Via Lavizzari, 4, 6900",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Aktiengesellschaft",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "IN_AUFLOESUNG",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-113.726.839",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-113.726.839"
+   },
+   "url": "https://ti.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-113.726.839",
+   "status": {
+    "value": "IN_AUFLOESUNG",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Stefano Vignanelli",
+    "source_url": "https://www.vecogroup.ch/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.vecogroup.ch/",
+  "source_url": "https://www.vecogroup.ch/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-09-04",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-14",
+   "event": "website https://www.vecogroup.ch/ redirects to https://vecogroup.ch/",
+   "source_url": "https://www.vecogroup.ch/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=VECO MULTI FAMILY OFFICE SA in liquidazione"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "the site now redirects to https://vecogroup.ch/",
+   "tried": "https://www.vecogroup.ch/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json"
+  }
+ ],
+ "sources": [
+  "https://www.vecogroup.ch/",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/878341.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

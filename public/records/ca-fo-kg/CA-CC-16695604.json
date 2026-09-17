@@ -1,0 +1,222 @@
+{
+ "record": "Family Office Record",
+ "id": "CA-CC-16695604",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Marquis Family Office Corp.",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporations Canada"
+  },
+  "jurisdiction": {
+   "value": "CA",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-01-25",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "incorporation date on Corporations Canada"
+  },
+  "registered_office": {
+   "value": "1623 Rue Le Caron Montréal QC H4E 1K1 Canada",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Corporations Canada (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "Active",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Corporations Canada"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "1669560-4",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "status": {
+    "value": "Active",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "722409620RC0001",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "16695604",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+   },
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2",
+   "status": {
+    "value": "Active",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "722409620",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Valérie Marquis",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  },
+  {
+   "name": {
+    "value": "Garim Bang",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Bureau de Gestion Familial Marquis Corp.",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-01-25",
+   "event": "incorporated — Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026",
+   "event": "last annual filing (year) — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-06",
+   "event": "last annual meeting — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CA&filter[fulltext]=Marquis Family Office Corp."
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://marquisfamilyoffice.fr/le-cabinet/",
+    "https://opengovca.com/corporation/16695604"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng"
+  }
+ ],
+ "sources": [
+  "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+  "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=16695604&lang=eng",
+  "https://marquisfamilyoffice.fr/le-cabinet/",
+  "https://opengovca.com/corporation/16695604"
+ ],
+ "discovery": null
+}

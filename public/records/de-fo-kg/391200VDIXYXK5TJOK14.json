@@ -1,0 +1,232 @@
+{
+ "record": "Family Office Record",
+ "id": "391200VDIXYXK5TJOK14",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200VDIXYXK5TJOK14",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200VDIXYXK5TJOK14",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Dr. Giesen Family Office GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://dgfo.group/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1"
+  },
+  "formation": {
+   "value": "2019-03-04",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Bredeneyer Str. 131, Essen, DE-NW, 45133, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000239",
+   "register_id": "RA000239",
+   "id": {
+    "value": "HRB 29849",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Dr. Sven Anderle",
+    "source_url": "https://dgfo.group/team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Geschäftsführung as the subject's own page says"
+   },
+   "role": "Geschäftsführung"
+  },
+  {
+   "name": {
+    "value": "Moritz A. Anderle",
+    "source_url": "https://dgfo.group/team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Geschäftsführung as the subject's own page says"
+   },
+   "role": "Geschäftsführung"
+  },
+  {
+   "name": {
+    "value": "Stefanie Giesen-Anderle",
+    "source_url": "https://dgfo.group/team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Geschäftsführung as the subject's own page says"
+   },
+   "role": "Geschäftsführung"
+  },
+  {
+   "name": {
+    "value": "Kyra M. Anderle",
+    "source_url": "https://dgfo.group/team/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Digital Assets as the subject's own page says"
+   },
+   "role": "Digital Assets"
+  },
+  {
+   "name": {
+    "value": "Dr. Günter Giesen",
+    "source_url": "https://dgfo.group/legal-notice/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Represented by as the subject's own page says"
+   },
+   "role": "Represented by"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dgfo.group/",
+  "source_url": "https://dgfo.group/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2019-03-04",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-26",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-09-26",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Dr.+Giesen+Family+Office+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000239]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14"
+  }
+ ],
+ "sources": [
+  "http://www.dgfo.group",
+  "https://api.gleif.org/api/v1/lei-records/391200VDIXYXK5TJOK14",
+  "https://dgfo.group",
+  "https://dgfo.group/",
+  "https://dgfo.group/en/home/"
+ ],
+ "discovery": null
+}

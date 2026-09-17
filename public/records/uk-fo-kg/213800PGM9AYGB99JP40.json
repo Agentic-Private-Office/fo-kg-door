@@ -1,0 +1,398 @@
+{
+ "record": "Family Office Record",
+ "id": "213800PGM9AYGB99JP40",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "213800PGM9AYGB99JP40",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/213800PGM9AYGB99JP40",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "TY DANJUMA FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://www.tyd-fo.co.uk/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2009-06-15",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Companies House",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1ST FLOOR, TWO FURLONGS, ESHER, GB-SRY, KT10 9AA, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Companies House (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "06934623",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "06934623",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "DANJUMA, Gloria Amina",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "DANJUMA, Theophilus Yakubu",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "FOSTER, Simon Miles",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "GENTLES, Hannatu Kizeya",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "PURI, Ibrahim Ajimasu",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "BROBY, Daniel Pontoppidan",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "DEDIEU, Geoffroy",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "HUSAIN, Tariq Charles Anthony",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "SHEWARAM, Dipankar",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "ZORTO, Manasseh Obadiah",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "PETERSHILL SECRETARIES LIMITED",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "JOINT SECRETARIAL SERVICES LTD",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Theophilus Yakubu Danjuma",
+    "source_url": "https://www.tyd-fo.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Simon Foster",
+    "source_url": "https://www.tyd-fo.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Hannatu Gentles",
+    "source_url": "https://www.tyd-fo.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Tracey Elizabeth Bridget Hartley",
+    "source_url": "https://www.tyd-fo.co.uk/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Theophilus Danjuma",
+    "source_url": "https://www.tyd-fo.co.uk/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Our Principle as the subject's own page says"
+   },
+   "role": "Our Principle"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.tyd-fo.co.uk/",
+  "source_url": "https://www.tyd-fo.co.uk/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2009-06-15",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2009-06-15",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/06934623",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-16",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-13",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=TY%20DANJUMA%20FAMILY%20OFFICE%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/213800PGM9AYGB99JP40",
+  "https://find-and-update.company-information.service.gov.uk/company/06934623",
+  "https://find-and-update.company-information.service.gov.uk/company/06934623/officers",
+  "https://www.tyd-fo.co.uk/"
+ ],
+ "discovery": null
+}

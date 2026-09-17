@@ -1,0 +1,169 @@
+{
+ "record": "Family Office Record",
+ "id": "254900XVVKKO19DJ3728",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900XVVKKO19DJ3728",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900XVVKKO19DJ3728",
+  "registration_status": "ISSUED",
+  "corroboration": "ENTITY_SUPPLIED_ONLY",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Julius Baer Family Office & Trust Limited ATO The New Wasa Fund",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "fr"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2009-12-16",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Bahnhofstrasse 36, Zurich, CH-ZH, 8001, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "FJG4",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.juliusbaer.com/ch/en/",
+  "source_url": "https://www.juliusbaer.com/ch/en/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "cited by Sonar as the page that names the entity"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2009-12-16",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-05-14",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-16",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-05-14",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations",
+   "reason": "GLEIF records no registration authority for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728"
+  },
+  {
+   "field": "registrations[Zefix — Zentraler Firmenindex (Swiss commercial register)]",
+   "reason": "Zefix search returned no firm under this exact name",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json",
+   "answer": "no firm of this name"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "answered 403",
+   "tried": "https://www.juliusbaer.com/ch/en/",
+   "answer": 403
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900XVVKKO19DJ3728",
+  "https://www.juliusbaer.com/ch/en/"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,150 @@
+{
+ "record": "Family Office Record",
+ "id": "25490089ZE5VF1AHK794",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "25490089ZE5VF1AHK794",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/25490089ZE5VF1AHK794",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "TreasureFormula Family Office Unipessoal, Lda",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "pt"
+  },
+  "jurisdiction": {
+   "value": "PT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Portugal"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "Street Bartolomeu Dias 87, Caxias, PT-11, 2760-038, PT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "VF4C",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000487",
+   "register_id": "RA000487",
+   "id": {
+    "value": "513059849",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-01-18",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-02-18",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-03-12",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/25490089ZE5VF1AHK794"
+ ],
+ "discovery": null
+}

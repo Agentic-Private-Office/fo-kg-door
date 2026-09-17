@@ -1,0 +1,251 @@
+{
+ "record": "Family Office Record",
+ "id": "9695001IEGBDE5Q6L052",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9695001IEGBDE5Q6L052",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9695001IEGBDE5Q6L052",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "969500Q2MA9VBQ8BG884"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "GOSSET GRAINVILLE FAMILY OFFICE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on INSEE — Sirene (registre national des entreprises)"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://sagis-am.com/",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gemini-3.6-flash on the page it cites"
+  },
+  "formation": {
+   "value": "2005-08-31",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "basis": "GLEIF creation date as written",
+   "conflict_with": [
+    {
+     "value": "2005-09-01",
+     "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "registered_office": {
+   "value": "72 AVENUE VICTOR HUGO, PARIS, 75016, FR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on INSEE — Sirene (registre national des entreprises) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "V9QP",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on INSEE — Sirene (registre national des entreprises)"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "484375993",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/484375993",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "ARNAUD GOSSET-GRAINVILLE",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  },
+  {
+   "name": {
+    "value": "MAYLIS GOSSET-GRAINVILLE",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  },
+  {
+   "name": {
+    "value": "Mériadec Portier",
+    "source_url": "https://sagis-am.com/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Directeur Général as the subject's own page says"
+   },
+   "role": "Directeur Général"
+  },
+  {
+   "name": {
+    "value": "Anouk Grenouilleau",
+    "source_url": "https://sagis-am.com/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Directeur du Family office as the subject's own page says"
+   },
+   "role": "Directeur du Family office"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://sagis-am.com/",
+  "source_url": "https://sagis-am.com/",
+  "read_by": "gemini-3.6-flash",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gemini-3.6-flash on the page it cites"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2005-08-31",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2005-09-01",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-11-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-01",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9695001IEGBDE5Q6L052",
+  "https://entreprises.lefigaro.fr/gosset-grainville-family-office-75/entreprise-484375993",
+  "https://recherche-entreprises.api.gouv.fr/search?q=484375993",
+  "https://sagis-am.com/",
+  "https://www.pappers.fr/entreprise/gosset-grainville-family-office-484375993"
+ ],
+ "discovery": null
+}

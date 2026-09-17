@@ -1,0 +1,6585 @@
+{
+ "node": "fr-fo-kg",
+ "country": "FR",
+ "jurisdiction": "France",
+ "host": "https://fr.fo-kg.ai",
+ "door": "https://fr.fo-kg.ai/mcp",
+ "host_long": "https://fr-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://fr-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "549300OJT12J6XGVTE65",
+   "lei": "549300OJT12J6XGVTE65",
+   "legal_name": "FAMILY OFFICES",
+   "aliases": [
+    "FLEXAM TANGIBLE ASSET INCOME FUND II - FAMILY OFFICES"
+   ],
+   "register_ids": [],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.pacemfamily.com",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/549300OJT12J6XGVTE65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945000783YB7QHDO543",
+   "lei": "8945000783YB7QHDO543",
+   "legal_name": "FRIENDS & FAMILY OFFICE",
+   "aliases": [
+    "FRIENDS & FAMILY OFFICE (FRIENDS & FAMILY OFFICE) (FFO)",
+    "FFO"
+   ],
+   "register_ids": [
+    "983279670"
+   ],
+   "jurisdiction": "France",
+   "city": "Paris",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://familleoffice.fr/",
+   "fields": {
+    "total": 23,
+    "sourced": 14,
+    "filled": 4,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/8945000783YB7QHDO543.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945005C5AFCWDSEIF53",
+   "lei": "8945005C5AFCWDSEIF53",
+   "legal_name": "ARBORESCENCE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "993368653"
+   ],
+   "jurisdiction": "France",
+   "city": "Paris",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.arborescence-fo.fr/",
+   "fields": {
+    "total": 18,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/8945005C5AFCWDSEIF53.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500B0GW350OO7SL77",
+   "lei": "894500B0GW350OO7SL77",
+   "legal_name": "BWS FAMILY OFFICE",
+   "aliases": [
+    "BWS FAMILY OFFICE (BWS)"
+   ],
+   "register_ids": [
+    "981198708"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/894500B0GW350OO7SL77.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500M0CC0Z3HLWMT45",
+   "lei": "894500M0CC0Z3HLWMT45",
+   "legal_name": "LA RECTORIE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "978315927"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/894500M0CC0Z3HLWMT45.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695001DAXBWNQ1FKE84",
+   "lei": "9695001DAXBWNQ1FKE84",
+   "legal_name": "IVESTA FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "821786332"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://ivesta-fo.com/",
+   "fields": {
+    "total": 25,
+    "sourced": 14,
+    "filled": 4,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695001DAXBWNQ1FKE84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695001IEGBDE5Q6L052",
+   "lei": "9695001IEGBDE5Q6L052",
+   "legal_name": "GOSSET GRAINVILLE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "484375993"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://sagis-am.com/",
+   "fields": {
+    "total": 21,
+    "sourced": 12,
+    "filled": 4,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695001IEGBDE5Q6L052.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "96950021BS3SXZ4TD280",
+   "lei": "96950021BS3SXZ4TD280",
+   "legal_name": "MARS 31",
+   "aliases": [
+    "MARS 31 MNM CAPITAL ELIO REAL ESTATE MEN2A FAMILY OFFICE",
+    "MARS 31 (MARS 31 MNM CAPITAL ELIO REAL ESTATE MEN2A FAMILY OFFICE)"
+   ],
+   "register_ids": [
+    "814556148"
+   ],
+   "jurisdiction": "France",
+   "city": "PEROLS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/96950021BS3SXZ4TD280.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "96950025O3C6V2DPGO06",
+   "lei": "96950025O3C6V2DPGO06",
+   "legal_name": "APERTIO",
+   "aliases": [
+    "OIKOS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "922095021",
+    "894062660"
+   ],
+   "jurisdiction": "France",
+   "city": "CHAMPAGNE-AU-MONT-D'OR",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://apertio-fo.com",
+   "fields": {
+    "total": 25,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 4,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/96950025O3C6V2DPGO06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695002TPM2TV6ZVSN12",
+   "lei": "9695002TPM2TV6ZVSN12",
+   "legal_name": "GM FAMILY OFFICE HOLDING",
+   "aliases": [
+    "GM HOLDING"
+   ],
+   "register_ids": [
+    "518386263"
+   ],
+   "jurisdiction": "France",
+   "city": "LEGE-CAP-FERRET",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695002TPM2TV6ZVSN12.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695004PHQS4M2WR6M10",
+   "lei": "9695004PHQS4M2WR6M10",
+   "legal_name": "BFO BY COME",
+   "aliases": [
+    "BARNES FAMILY OFFICE BY COME",
+    "BFO BY COME (BARNES FAMILY OFFICE BY COME)"
+   ],
+   "register_ids": [
+    "980782833"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.barnes-international.com/en/agencies-offices/barnes-family-office_1268/",
+   "fields": {
+    "total": 23,
+    "sourced": 16,
+    "filled": 2,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695004PHQS4M2WR6M10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695007AST6VC51GYP71",
+   "lei": "9695007AST6VC51GYP71",
+   "legal_name": "INVIDIA FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "881118434"
+   ],
+   "jurisdiction": "France",
+   "city": "BORDEAUX",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://invidia-office.fr/",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695007AST6VC51GYP71.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695007IB55CS2PTCY77",
+   "lei": "9695007IB55CS2PTCY77",
+   "legal_name": "NB FAMILY OFFICE",
+   "aliases": [
+    "NB FAMILY OFFICE (NB FAMILY OFFICE)"
+   ],
+   "register_ids": [
+    "919692558"
+   ],
+   "jurisdiction": "France",
+   "city": "PAU",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695007IB55CS2PTCY77.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695008ZXP45QF773419",
+   "lei": "9695008ZXP45QF773419",
+   "legal_name": "VYP FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "822743894"
+   ],
+   "jurisdiction": "France",
+   "city": "MOISSY-CRAMAYEL",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.vyp.fr",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695008ZXP45QF773419.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695009BG1BPAKLDAU92",
+   "lei": "9695009BG1BPAKLDAU92",
+   "legal_name": "MILLESIME FAMILY OFFICE - EN ABREGE MFO",
+   "aliases": [
+    "MILLESIME PATRIMOINE",
+    "MILLESIME PATRIMOINE",
+    "MILLESIME FAMILY OFFICE - EN ABREGE MFO (MILLESIME PATRIMOINE)"
+   ],
+   "register_ids": [
+    "478831050"
+   ],
+   "jurisdiction": "France",
+   "city": "LYON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.mfo.agency",
+   "fields": {
+    "total": 23,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 5,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695009BG1BPAKLDAU92.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9695009Y4OY72T2FCQ32",
+   "lei": "9695009Y4OY72T2FCQ32",
+   "legal_name": "MB FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "890203532"
+   ],
+   "jurisdiction": "France",
+   "city": "CANNES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.mbfamilyoffice.fr/",
+   "fields": {
+    "total": 22,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9695009Y4OY72T2FCQ32.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500C2IN4G1R6A4108",
+   "lei": "969500C2IN4G1R6A4108",
+   "legal_name": "BEE FAMILY OFFICE",
+   "aliases": [
+    "BEE FAMILY OFFICE (BFO)",
+    "BFO"
+   ],
+   "register_ids": [
+    "419218391"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.bee-family-office.com",
+   "fields": {
+    "total": 24,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500C2IN4G1R6A4108.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500D19QLYTJ74WB60",
+   "lei": "969500D19QLYTJ74WB60",
+   "legal_name": "FAMILY OFFICE BY PCG",
+   "aliases": [],
+   "register_ids": [
+    "813733573"
+   ],
+   "jurisdiction": "France",
+   "city": "LEVALLOIS-PERRET",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.pcginvest.com/family-office/",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500D19QLYTJ74WB60.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500EJD02QNXZFE147",
+   "lei": "969500EJD02QNXZFE147",
+   "legal_name": "DWT FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "828978296"
+   ],
+   "jurisdiction": "France",
+   "city": "NEUILLY-SUR-SEINE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.dwtfo.fr/",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500EJD02QNXZFE147.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500FGF35OL025GT67",
+   "lei": "969500FGF35OL025GT67",
+   "legal_name": "ADN FAMILY OFFICE",
+   "aliases": [
+    "BBC INVEST"
+   ],
+   "register_ids": [
+    "952145001"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://adnfamilyoffice.fr/",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500FGF35OL025GT67.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500G70YEJC07HWL17",
+   "lei": "969500G70YEJC07HWL17",
+   "legal_name": "CITADELLE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "920516077"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.citadelle-fo.com/",
+   "fields": {
+    "total": 22,
+    "sourced": 11,
+    "filled": 4,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500G70YEJC07HWL17.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500HJZQ414XO4TW55",
+   "lei": "969500HJZQ414XO4TW55",
+   "legal_name": "LYNQ PRIVATE OFFICE",
+   "aliases": [
+    "SUPER CAPITAL FAMILY OFFICE",
+    "LYNQ PRIVATE OFFICE (LYNQ)",
+    "LYNQ"
+   ],
+   "register_ids": [
+    "983107731"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://lynqprivateoffice.com/",
+   "fields": {
+    "total": 21,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500HJZQ414XO4TW55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500IJM28L21BCZO57",
+   "lei": "969500IJM28L21BCZO57",
+   "legal_name": "ETZ FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "978029858"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.etz-fo.com/",
+   "fields": {
+    "total": 22,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 5,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500IJM28L21BCZO57.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500KM4Z27RC5B4O27",
+   "lei": "969500KM4Z27RC5B4O27",
+   "legal_name": "BM FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "807648951"
+   ],
+   "jurisdiction": "France",
+   "city": "VILLE-D'AVRAY",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.bmfamilyoffice.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500KM4Z27RC5B4O27.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500LC8BX5PRNRKU37",
+   "lei": "969500LC8BX5PRNRKU37",
+   "legal_name": "HOME FAMILY OFFICE",
+   "aliases": [
+    "DELTA B FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "909298101"
+   ],
+   "jurisdiction": "France",
+   "city": "MONTPELLIER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://delta-b-groupe.fr/",
+   "fields": {
+    "total": 23,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 6,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500LC8BX5PRNRKU37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500LWZMH0ABK9KC85",
+   "lei": "969500LWZMH0ABK9KC85",
+   "legal_name": "FAMILY OFFICE LL",
+   "aliases": [],
+   "register_ids": [
+    "949195234"
+   ],
+   "jurisdiction": "France",
+   "city": "ILLKIRCH-GRAFFENSTADEN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500LWZMH0ABK9KC85.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500MYWQPTMVS74J50",
+   "lei": "969500MYWQPTMVS74J50",
+   "legal_name": "BIRDIE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "904459567"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500MYWQPTMVS74J50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500NPBEW9Z22FPG74",
+   "lei": "969500NPBEW9Z22FPG74",
+   "legal_name": "VMP",
+   "aliases": [
+    "ELAE ; ELAE CAPITAL ; ELAE GESTION PRIVEE ; ELAE CORPORATE ; ELAE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "408171130",
+    "789807450"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.vmp-capital.fr/",
+   "fields": {
+    "total": 25,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 3,
+    "conflict": 3,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500NPBEW9Z22FPG74.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500O2N088QIG0GP10",
+   "lei": "969500O2N088QIG0GP10",
+   "legal_name": "PATER FAMILIAS",
+   "aliases": [
+    "\"PATER FAMILIAS - FAMILY OFFICE\""
+   ],
+   "register_ids": [
+    "791301559",
+    "833842610"
+   ],
+   "jurisdiction": "France",
+   "city": "NEUILLY-SUR-SEINE",
+   "entity_status": "INACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.paterfamilias.eu/",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500O2N088QIG0GP10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500PHYQCM1XDAAF28",
+   "lei": "969500PHYQCM1XDAAF28",
+   "legal_name": "ASTRA FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "952987568"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINTE-FOY-LES-LYON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.astra-family-office.fr/",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500PHYQCM1XDAAF28.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500Q3JEBDG90D2E65",
+   "lei": "969500Q3JEBDG90D2E65",
+   "legal_name": "CG FAMILY OFFICE",
+   "aliases": [
+    "CG FAMILY OFFICE (CG FO)",
+    "CG FO"
+   ],
+   "register_ids": [
+    "908185614"
+   ],
+   "jurisdiction": "France",
+   "city": "VALBONNE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.groupe-cg-patrimoine.fr/",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 5,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500Q3JEBDG90D2E65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500S673TR7Y4T0336",
+   "lei": "969500S673TR7Y4T0336",
+   "legal_name": "VESTA HOLDING",
+   "aliases": [
+    "DUFFORT PRESTIGE ; DUFFORT IMMOBILIER ; DUFFORT FAMILY OFFICE ; DUFFORT MOTORS",
+    "GROUPE DUFFORT",
+    "HOLDING DUFFORT INVEST. & EVENT",
+    "VESTA HOLDING (DUFFORT PRESTIGE ; DUFFORT IMMOBILIER ; DUFFORT FAMILY OFFICE ; DUFFORT MOTORS)"
+   ],
+   "register_ids": [
+    "531527935"
+   ],
+   "jurisdiction": "France",
+   "city": "GARCHES",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.vestafund.fr",
+   "fields": {
+    "total": 22,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500S673TR7Y4T0336.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500TG6U1AHZMHTZ84",
+   "lei": "969500TG6U1AHZMHTZ84",
+   "legal_name": "OCTAVE FAMILY OFFICE",
+   "aliases": [
+    "OCTAVE FAMILY OFFICE (OCTAVE FAMILY OFFICE)"
+   ],
+   "register_ids": [
+    "840470553"
+   ],
+   "jurisdiction": "France",
+   "city": "EGUILLES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.octave-fo.com/",
+   "fields": {
+    "total": 26,
+    "sourced": 12,
+    "filled": 7,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500TG6U1AHZMHTZ84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500TMNZW4A7BQS621",
+   "lei": "969500TMNZW4A7BQS621",
+   "legal_name": "MONTSEGUR FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "483657920"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.montsegur.com/",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500TMNZW4A7BQS621.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500TNKLISYME25N30",
+   "lei": "969500TNKLISYME25N30",
+   "legal_name": "MEESHAERT FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "451347215"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS 8",
+   "entity_status": "INACTIVE",
+   "structure": "multi-family",
+   "website": "https://family-office.meeschaert.com/",
+   "fields": {
+    "total": 25,
+    "sourced": 19,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 6,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500TNKLISYME25N30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500U4955W8FXK4306",
+   "lei": "969500U4955W8FXK4306",
+   "legal_name": "BLACKPEARL FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "940332513"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://blackpearlparis.com/",
+   "fields": {
+    "total": 20,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500U4955W8FXK4306.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500U5VOXQUIDFKF80",
+   "lei": "969500U5VOXQUIDFKF80",
+   "legal_name": "COHAESIA FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "524236460"
+   ],
+   "jurisdiction": "France",
+   "city": "BOULOGNE-BILLANCOURT",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.cohaesia.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500U5VOXQUIDFKF80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500U9SP7VRCAEKY87",
+   "lei": "969500U9SP7VRCAEKY87",
+   "legal_name": "NEO FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "949309215"
+   ],
+   "jurisdiction": "France",
+   "city": "STRASBOURG",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500U9SP7VRCAEKY87.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500W6INSBP63Z5923",
+   "lei": "969500W6INSBP63Z5923",
+   "legal_name": "AGAMI FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "494416266"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://agami.com/",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500W6INSBP63Z5923.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500X5QRAUIA9C2K08",
+   "lei": "969500X5QRAUIA9C2K08",
+   "legal_name": "ASSOCIATION FRANCAISE DU FAMILY OFFICE-AFFO",
+   "aliases": [],
+   "register_ids": [
+    "788626984"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.affo.fr",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 3,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500X5QRAUIA9C2K08.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500XERX6W4D9QXC25",
+   "lei": "969500XERX6W4D9QXC25",
+   "legal_name": "LA FINANCIERE DE PARIS",
+   "aliases": [
+    "COLISEE GESTION PRIVEE - COLISEE FAMILY OFFICE - FAMILY OFFICE DU COLISEE",
+    "LA FINANCIERE DE PARIS (COLISEE GESTION PRIVEE - COLISEE FAMILY OFFICE - FAMILY OFFICE DU COLISEE)"
+   ],
+   "register_ids": [
+    "520213307"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.coliseefo.com",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 6,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500XERX6W4D9QXC25.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500YAOW4N74407O34",
+   "lei": "969500YAOW4N74407O34",
+   "legal_name": "ELEAUR FAMILY OFFICE FRANCE",
+   "aliases": [],
+   "register_ids": [
+    "510099724"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 6,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500YAOW4N74407O34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500YKH6WXGLGSRQ54",
+   "lei": "969500YKH6WXGLGSRQ54",
+   "legal_name": "U2 FAMILY OFFICE",
+   "aliases": [
+    "U2 FAMILY OFFICE (U2FO)",
+    "U2FO"
+   ],
+   "register_ids": [
+    "879475861"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://annuaire-entreprises.data.gouv.fr/entreprise/879475861",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500YKH6WXGLGSRQ54.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "969500ZX1TDZEM77IN61",
+   "lei": "969500ZX1TDZEM77IN61",
+   "legal_name": "VAULT FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "938111473"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.vault.family/",
+   "fields": {
+    "total": 23,
+    "sourced": 12,
+    "filled": 4,
+    "confirmed": 5,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/969500ZX1TDZEM77IN61.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845005B5HF3E57B5077",
+   "lei": "9845005B5HF3E57B5077",
+   "legal_name": "COME, LE FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "821960739"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://comemaisonfinanciere.com/",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/9845005B5HF3E57B5077.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450087BLB8A6855984",
+   "lei": "98450087BLB8A6855984",
+   "legal_name": "MYWAY FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "985381250"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.myway-fo.fr/",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 7,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/98450087BLB8A6855984.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-935393751",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE",
+   "aliases": [
+    "FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "935393751"
+   ],
+   "jurisdiction": "France",
+   "city": "LA CIOTAT",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://sumatra.fr/",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 6,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-935393751.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-891960965",
+   "lei": null,
+   "legal_name": "LUZE FAMILY OFFICE",
+   "aliases": [
+    "LUZE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "891960965"
+   ],
+   "jurisdiction": "France",
+   "city": "NEUILLY-SUR-SEINE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.luzefamilyoffice.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-891960965.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-895114684",
+   "lei": null,
+   "legal_name": "BEELONG FAMILY OFFICE",
+   "aliases": [
+    "BEELONG FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "895114684"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://beelongfamily.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-895114684.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-850606393",
+   "lei": null,
+   "legal_name": "ALEXANE FAMILY OFFICE",
+   "aliases": [
+    "ALEXANE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "850606393"
+   ],
+   "jurisdiction": "France",
+   "city": "PAVILLY",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-850606393.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-850608134",
+   "lei": null,
+   "legal_name": "JADE FAMILY OFFICE",
+   "aliases": [
+    "JADE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "850608134"
+   ],
+   "jurisdiction": "France",
+   "city": "PAVILLY",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-850608134.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-842439291",
+   "lei": null,
+   "legal_name": "MY FAMILY OFFICER",
+   "aliases": [
+    "MY FAMILY OFFICER"
+   ],
+   "register_ids": [
+    "842439291"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "http://myfamilyofficer.fr",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-842439291.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-538695297",
+   "lei": null,
+   "legal_name": "ALSACE FAMILY OFFICE",
+   "aliases": [
+    "ALSACE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "538695297"
+   ],
+   "jurisdiction": "France",
+   "city": "SELESTAT",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.alsace-family-office.fr/",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-538695297.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-929564797",
+   "lei": null,
+   "legal_name": "JHP FAMILY OFFICE",
+   "aliases": [
+    "JHP FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "929564797"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-PIERRE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-929564797.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-928069673",
+   "lei": null,
+   "legal_name": "C&T FAMILY OFFICE (CTFO)",
+   "aliases": [
+    "C&T FAMILY OFFICE",
+    "CTFO"
+   ],
+   "register_ids": [
+    "928069673"
+   ],
+   "jurisdiction": "France",
+   "city": "AIX-EN-PROVENCE",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://www.familyandoffice.fr/",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-928069673.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-993601194",
+   "lei": null,
+   "legal_name": "ES FAMILY OFFICE",
+   "aliases": [
+    "ES FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "993601194"
+   ],
+   "jurisdiction": "France",
+   "city": "LAVELANET",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-993601194.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-834980864",
+   "lei": null,
+   "legal_name": "L&D FAMILY OFFICE (L&D FAMILY OFFICE)",
+   "aliases": [
+    "L&D FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "834980864"
+   ],
+   "jurisdiction": "France",
+   "city": "AIX-EN-PROVENCE",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "http://www.ld-familyoffice.fr",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-834980864.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-811402981",
+   "lei": null,
+   "legal_name": "FRENCH ALPS FAMILY OFFICE",
+   "aliases": [
+    "FRENCH ALPS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "811402981"
+   ],
+   "jurisdiction": "France",
+   "city": "SALINS-FONTAINE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.frenchfamilyoffice.fr/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-811402981.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-477626170",
+   "lei": null,
+   "legal_name": "RIVIERA FAMILY OFFICE",
+   "aliases": [
+    "RIVIERA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "477626170"
+   ],
+   "jurisdiction": "France",
+   "city": "VALBONNE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "http://www.rivierafamilyoffice.info",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-477626170.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-482742418",
+   "lei": null,
+   "legal_name": "XELIS FAMILY OFFICE",
+   "aliases": [
+    "XELIS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "482742418"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.xelisfamilyoffice.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 11,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-482742418.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-487770034",
+   "lei": null,
+   "legal_name": "GOWEN FAMILY OFFICE SA",
+   "aliases": [
+    "GOWEN FAMILY OFFICE SA"
+   ],
+   "register_ids": [
+    "487770034"
+   ],
+   "jurisdiction": "France",
+   "city": null,
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.gowen.ch",
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 4,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-487770034.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-103212536",
+   "lei": null,
+   "legal_name": "BDS FAMILY OFFICE",
+   "aliases": [
+    "BDS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "103212536"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.bds-et-associes.fr",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-103212536.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-101614766",
+   "lei": null,
+   "legal_name": "HOANG FAMILY OFFICE",
+   "aliases": [
+    "HOANG FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "101614766"
+   ],
+   "jurisdiction": "France",
+   "city": "ANTIBES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-101614766.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-101781235",
+   "lei": null,
+   "legal_name": "DIANE FAMILY OFFICE (DIANE FAMILY OFFICE)",
+   "aliases": [
+    "DIANE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "101781235"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-101781235.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-102834660",
+   "lei": null,
+   "legal_name": "JS FAMILY OFFICE",
+   "aliases": [
+    "JS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "102834660"
+   ],
+   "jurisdiction": "France",
+   "city": "SEIGNOSSE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-102834660.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-107706277",
+   "lei": null,
+   "legal_name": "SMHF FAMILY OFFICE",
+   "aliases": [
+    "SMHF FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "107706277"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-MAUR-DES-FOSSES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-107706277.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-108181629",
+   "lei": null,
+   "legal_name": "LE DOME - FAMILY OFFICE",
+   "aliases": [
+    "LE DOME - FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "108181629"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 20,
+    "sourced": 20,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-108181629.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-101029619",
+   "lei": null,
+   "legal_name": "VILLEDIEU FAMILY OFFICE",
+   "aliases": [
+    "VILLEDIEU FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "101029619"
+   ],
+   "jurisdiction": "France",
+   "city": "CHERBOURG-EN-COTENTIN",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-101029619.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-103845053",
+   "lei": null,
+   "legal_name": "SLP FAMILY OFFICE",
+   "aliases": [
+    "SLP FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "103845053"
+   ],
+   "jurisdiction": "France",
+   "city": "DECINES-CHARPIEU",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-103845053.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-104025606",
+   "lei": null,
+   "legal_name": "ETOILE FAMILY OFFICE (ETOILE FAMILY OFFICE)",
+   "aliases": [
+    "ETOILE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "104025606"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://etoile-familyoffice.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-104025606.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-104453550",
+   "lei": null,
+   "legal_name": "BLACKWELL FAMILY OFFICE",
+   "aliases": [
+    "BLACKWELL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "104453550"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "http://blackwellfamilyoffice.com",
+   "fields": {
+    "total": 18,
+    "sourced": 12,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-104453550.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-105639827",
+   "lei": null,
+   "legal_name": "REVE FAMILY OFFICE",
+   "aliases": [
+    "REVE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "105639827"
+   ],
+   "jurisdiction": "France",
+   "city": "NIEPPE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-105639827.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-798600136",
+   "lei": null,
+   "legal_name": "BIOJOUT FAMILY OFFICE (BIOJOUT FAMILY OFFICE)",
+   "aliases": [
+    "BIOJOUT FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "798600136"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-798600136.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-794060202",
+   "lei": null,
+   "legal_name": "KAWIAK FAMILY OFFICE",
+   "aliases": [
+    "KAWIAK FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "794060202"
+   ],
+   "jurisdiction": "France",
+   "city": "MOUTIERS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-794060202.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-534068358",
+   "lei": null,
+   "legal_name": "C.SERVAN FAMILY OFFICE",
+   "aliases": [
+    "C.SERVAN FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "534068358"
+   ],
+   "jurisdiction": "France",
+   "city": "DAX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-534068358.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-890074677",
+   "lei": null,
+   "legal_name": "ALLIANCE FAMILY OFFICE",
+   "aliases": [
+    "ALLIANCE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "890074677"
+   ],
+   "jurisdiction": "France",
+   "city": "BOUGUENAIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-890074677.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-891162075",
+   "lei": null,
+   "legal_name": "BABIAN FAMILY OFFICE",
+   "aliases": [
+    "BABIAN FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "891162075"
+   ],
+   "jurisdiction": "France",
+   "city": "LE BOUSCAT",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-891162075.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-805376290",
+   "lei": null,
+   "legal_name": "OU SAGA FAMILY OFFICE",
+   "aliases": [
+    "OU SAGA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "805376290"
+   ],
+   "jurisdiction": "France",
+   "city": null,
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://familleoffice.fr/",
+   "fields": {
+    "total": 11,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-805376290.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-899015093",
+   "lei": null,
+   "legal_name": "ALBEX FAMILY OFFICE",
+   "aliases": [
+    "ALBEX FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "899015093"
+   ],
+   "jurisdiction": "France",
+   "city": "BOURGES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-899015093.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-899126999",
+   "lei": null,
+   "legal_name": "DONG FAMILY OFFICE (ORIEN PATRIMOINE)",
+   "aliases": [
+    "DONG FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "899126999"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://orienpatrimoine.com/en/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-899126999.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-907613749",
+   "lei": null,
+   "legal_name": "GRONER FAMILY OFFICE",
+   "aliases": [
+    "GRONER FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "907613749"
+   ],
+   "jurisdiction": "France",
+   "city": "RAMATUELLE",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://groener-family.fr",
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-907613749.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-832684666",
+   "lei": null,
+   "legal_name": "MUNDO FAMILY OFFICE",
+   "aliases": [
+    "MUNDO FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "832684666"
+   ],
+   "jurisdiction": "France",
+   "city": "ARGENTEUIL",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/mundo-family-office",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-832684666.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-828025874",
+   "lei": null,
+   "legal_name": "MARQUIS FAMILY OFFICE (MARQUIS FAMILY OFFICE)",
+   "aliases": [
+    "MARQUIS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "828025874"
+   ],
+   "jurisdiction": "France",
+   "city": "CESSON-SEVIGNE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://marquisfamilyoffice.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-828025874.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-940507478",
+   "lei": null,
+   "legal_name": "CHEVRONS FAMILY OFFICE",
+   "aliases": [
+    "CHEVRONS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "940507478"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS 09",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-940507478.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-933417495",
+   "lei": null,
+   "legal_name": "ACL FAMILY OFFICE",
+   "aliases": [
+    "ACL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "933417495"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://acl-ic.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-933417495.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-444493852",
+   "lei": null,
+   "legal_name": "CONSEIL ET FAMILY OFFICE",
+   "aliases": [
+    "CONSEIL ET FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "444493852"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-444493852.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-537373847",
+   "lei": null,
+   "legal_name": "D&CIE FAMILY OFFICE",
+   "aliases": [
+    "D&CIE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "537373847"
+   ],
+   "jurisdiction": "France",
+   "city": "TOULOUSE",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://dandcfo.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-537373847.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-842267767",
+   "lei": null,
+   "legal_name": "PIMCO FAMILY OFFICE",
+   "aliases": [
+    "PIMCO FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "842267767"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-842267767.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-842860512",
+   "lei": null,
+   "legal_name": "EXCLUSIVE FAMILY OFFICE (EXCLUSIVE FAMILY OFFICE)",
+   "aliases": [
+    "EXCLUSIVE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "842860512"
+   ],
+   "jurisdiction": "France",
+   "city": "LAMBERSART",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-842860512.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-844428938",
+   "lei": null,
+   "legal_name": "WELYS FAMILY OFFICE",
+   "aliases": [
+    "WELYS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "844428938"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-GREGOIRE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.cpigroupe.com/welys-family-office.php",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-844428938.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-844575787",
+   "lei": null,
+   "legal_name": "OW FAMILY OFFICE",
+   "aliases": [
+    "OW FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "844575787"
+   ],
+   "jurisdiction": "France",
+   "city": "VAILHAUQUES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-844575787.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-837869510",
+   "lei": null,
+   "legal_name": "INDUSTRIA FAMILY OFFICE",
+   "aliases": [
+    "INDUSTRIA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "837869510"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 19,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-837869510.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-921417556",
+   "lei": null,
+   "legal_name": "HOLISTIK FAMILY OFFICE (HOLISTIK FAMILY OFFICE)",
+   "aliases": [
+    "HOLISTIK FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "921417556"
+   ],
+   "jurisdiction": "France",
+   "city": "BOIS-GUILLAUME",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "http://holistik-patrimoine.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-921417556.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-912517117",
+   "lei": null,
+   "legal_name": "ERBE FAMILY OFFICE",
+   "aliases": [
+    "ERBE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "912517117"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-912517117.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-930561832",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE DU CHATEAU",
+   "aliases": [
+    "FAMILY OFFICE DU CHATEAU"
+   ],
+   "register_ids": [
+    "930561832"
+   ],
+   "jurisdiction": "France",
+   "city": "SERRES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-930561832.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-953294600",
+   "lei": null,
+   "legal_name": "CARLARA FAMILY OFFICE",
+   "aliases": [
+    "CARLARA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "953294600"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-953294600.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-981618754",
+   "lei": null,
+   "legal_name": "INEST FAMILY OFFICE",
+   "aliases": [
+    "INEST FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "981618754"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.inest-family-office.fr/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-981618754.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-982287443",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE ALEIN",
+   "aliases": [
+    "FAMILY OFFICE ALEIN"
+   ],
+   "register_ids": [
+    "982287443"
+   ],
+   "jurisdiction": "France",
+   "city": "BROUALAN",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-982287443.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-940848567",
+   "lei": null,
+   "legal_name": "DENIS FAMILY OFFICE",
+   "aliases": [
+    "DENIS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "940848567"
+   ],
+   "jurisdiction": "France",
+   "city": "ENTRAIGUES-SUR-LA-SORGUE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-940848567.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-941008567",
+   "lei": null,
+   "legal_name": "INITIAL FAMILY OFFICE",
+   "aliases": [
+    "INITIAL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "941008567"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://initialfo.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-941008567.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-990514622",
+   "lei": null,
+   "legal_name": "FRIGARA FAMILY OFFICE (RIVE SUD INVESTISSEMENTS)",
+   "aliases": [
+    "FRIGARA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "990514622"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.frigara-familyoffice.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-990514622.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-990717787",
+   "lei": null,
+   "legal_name": "HAYON FAMILY OFFICE",
+   "aliases": [
+    "HAYON FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "990717787"
+   ],
+   "jurisdiction": "France",
+   "city": "MONTMORENCY",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-990717787.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-990870669",
+   "lei": null,
+   "legal_name": "PLUME FAMILY OFFICE",
+   "aliases": [
+    "PLUME FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "990870669"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-PRIEST-EN-JAREZ",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-990870669.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-991157306",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE VIVIEN",
+   "aliases": [
+    "FAMILY OFFICE VIVIEN"
+   ],
+   "register_ids": [
+    "991157306"
+   ],
+   "jurisdiction": "France",
+   "city": "MERIGNAC",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-991157306.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-991303736",
+   "lei": null,
+   "legal_name": "AKKA FAMILY OFFICE",
+   "aliases": [
+    "AKKA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "991303736"
+   ],
+   "jurisdiction": "France",
+   "city": "ERDEVEN",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-991303736.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-944931203",
+   "lei": null,
+   "legal_name": "CRISTAL FAMILY OFFICE SA",
+   "aliases": [
+    "CRISTAL FAMILY OFFICE SA"
+   ],
+   "register_ids": [
+    "944931203"
+   ],
+   "jurisdiction": "France",
+   "city": null,
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-944931203.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-999511421",
+   "lei": null,
+   "legal_name": "A&L FAMILY OFFICE",
+   "aliases": [
+    "A&L FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "999511421"
+   ],
+   "jurisdiction": "France",
+   "city": "RIBERAC",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-999511421.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-100660075",
+   "lei": null,
+   "legal_name": "GP FAMILY OFFICE",
+   "aliases": [
+    "GP FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "100660075"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.gp-familyoffice.fr/",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-100660075.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-101332740",
+   "lei": null,
+   "legal_name": "PARTNERS FAMILY OFFICE",
+   "aliases": [
+    "PARTNERS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "101332740"
+   ],
+   "jurisdiction": "France",
+   "city": "BEAUSOLEIL",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-101332740.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-104833827",
+   "lei": null,
+   "legal_name": "ASSI FAMILY OFFICE",
+   "aliases": [
+    "ASSI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "104833827"
+   ],
+   "jurisdiction": "France",
+   "city": "DRAVEIL",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-104833827.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-107878605",
+   "lei": null,
+   "legal_name": "MOUYA FAMILY OFFICE",
+   "aliases": [
+    "MOUYA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "107878605"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-107878605.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-102172079",
+   "lei": null,
+   "legal_name": "SGL FAMILY OFFICE",
+   "aliases": [
+    "SGL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "102172079"
+   ],
+   "jurisdiction": "France",
+   "city": "ANNECY",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.segelgroup.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-102172079.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-105129993",
+   "lei": null,
+   "legal_name": "ALMG FAMILY OFFICE",
+   "aliases": [
+    "ALMG FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "105129993"
+   ],
+   "jurisdiction": "France",
+   "city": "BEUVRY",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-105129993.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-105609259",
+   "lei": null,
+   "legal_name": "CANONNE FAMILY OFFICE",
+   "aliases": [
+    "CANONNE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "105609259"
+   ],
+   "jurisdiction": "France",
+   "city": "PUTEAUX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-105609259.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-808580831",
+   "lei": null,
+   "legal_name": "MICHEL FAMILY OFFICE",
+   "aliases": [
+    "MICHEL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "808580831"
+   ],
+   "jurisdiction": "France",
+   "city": "CLAIRA",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-808580831.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-809376270",
+   "lei": null,
+   "legal_name": "NAVAS FAMILY OFFICE",
+   "aliases": [
+    "NAVAS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "809376270"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.navasgestion.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-809376270.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-798634242",
+   "lei": null,
+   "legal_name": "ALCYONE FAMILY OFFICE (ALCYONE FAMILY OFFICE)",
+   "aliases": [
+    "ALCYONE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "798634242"
+   ],
+   "jurisdiction": "France",
+   "city": "LONGEVILLE-LES-METZ",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://alcyone-family.com",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-798634242.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-935286955",
+   "lei": null,
+   "legal_name": "VANDEVOORDE FAMILY OFFICE",
+   "aliases": [
+    "VANDEVOORDE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "935286955"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-MAUR-DES-FOSSES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-935286955.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-937918894",
+   "lei": null,
+   "legal_name": "BELL FAMILY OFFICE",
+   "aliases": [
+    "BELL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "937918894"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-MANDE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-937918894.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-934647074",
+   "lei": null,
+   "legal_name": "UMAMI FAMILY OFFICE",
+   "aliases": [
+    "UMAMI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "934647074"
+   ],
+   "jurisdiction": "France",
+   "city": "MAISONS-LAFFITTE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.umami-fo.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-934647074.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-994765717",
+   "lei": null,
+   "legal_name": "LA REALE - FAMILY OFFICE (LRFO)",
+   "aliases": [
+    "LA REALE - FAMILY OFFICE",
+    "LRFO"
+   ],
+   "register_ids": [
+    "994765717"
+   ],
+   "jurisdiction": "France",
+   "city": "MARSEILLE",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://www.pappers.fr/entreprise/lrfo-la-reale-family-office-994765717",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-994765717.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-981094105",
+   "lei": null,
+   "legal_name": "COLBERT FAMILY OFFICE",
+   "aliases": [
+    "COLBERT FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "981094105"
+   ],
+   "jurisdiction": "France",
+   "city": "NANTES",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.colbertfamilyoffice.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-981094105.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-981523848",
+   "lei": null,
+   "legal_name": "BOURRET FAMILY OFFICE",
+   "aliases": [
+    "BOURRET FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "981523848"
+   ],
+   "jurisdiction": "France",
+   "city": "CALUIRE-ET-CUIRE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-981523848.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-988560918",
+   "lei": null,
+   "legal_name": "ATLANTE FAMILY OFFICE (ATLANTE FO)",
+   "aliases": [
+    "ATLANTE FAMILY OFFICE",
+    "ATLANTE FO"
+   ],
+   "register_ids": [
+    "988560918"
+   ],
+   "jurisdiction": "France",
+   "city": "BORDEAUX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-988560918.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-988658605",
+   "lei": null,
+   "legal_name": "VZAVAGLIA FAMILY OFFICE",
+   "aliases": [
+    "VZAVAGLIA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "988658605"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-JEAN-LE-VIEUX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-988658605.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-928077189",
+   "lei": null,
+   "legal_name": "PLT FAMILY OFFICE",
+   "aliases": [
+    "PLT FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "928077189"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.plt-family-office.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-928077189.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-928976737",
+   "lei": null,
+   "legal_name": "FLEUR FAMILY OFFICE (SERIANCE PATRIMOINE)",
+   "aliases": [
+    "FLEUR FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "928976737"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.fleurbouvier.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-928976737.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-999408818",
+   "lei": null,
+   "legal_name": "HERITAGE FAMILY OFFICE",
+   "aliases": [
+    "HERITAGE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "999408818"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.heritage-fo.fr/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-999408818.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-492849740",
+   "lei": null,
+   "legal_name": "NOEL FAMILY OFFICE (NOEL FAMILY OFFICE)",
+   "aliases": [
+    "NOEL FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "492849740"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-492849740.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-494467939",
+   "lei": null,
+   "legal_name": "ACTIVE FAMILY OFFICE (AFO)",
+   "aliases": [
+    "ACTIVE FAMILY OFFICE",
+    "AFO"
+   ],
+   "register_ids": [
+    "494467939"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-494467939.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-522455005",
+   "lei": null,
+   "legal_name": "LA FONTAINE FAMILY OFFICE",
+   "aliases": [
+    "LA FONTAINE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "522455005"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.lffo.eu",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-522455005.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-519971196",
+   "lei": null,
+   "legal_name": "CONCILIUM FAMILY OFFICE",
+   "aliases": [
+    "CONCILIUM FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "519971196"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-519971196.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-532258852",
+   "lei": null,
+   "legal_name": "PEMBROKE FAMILY OFFICE (PFO)",
+   "aliases": [
+    "PEMBROKE FAMILY OFFICE",
+    "PFO"
+   ],
+   "register_ids": [
+    "532258852"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.pembrokefamilyoffice.fr/",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-532258852.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-951923937",
+   "lei": null,
+   "legal_name": "FTA FAMILY OFFICE",
+   "aliases": [
+    "FTA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "951923937"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-GERMAIN-LEMBRON",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-951923937.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-994481638",
+   "lei": null,
+   "legal_name": "APISTONE FAMILY OFFICE",
+   "aliases": [
+    "APISTONE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "994481638"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-994481638.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-913585774",
+   "lei": null,
+   "legal_name": "HOTTINGUER FAMILY OFFICE (HOTTINGUER FAMILY OFFICE)",
+   "aliases": [
+    "HOTTINGUER FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "913585774"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.banque-hottinguer.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-913585774.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-991831231",
+   "lei": null,
+   "legal_name": "LB FAMILY OFFICE",
+   "aliases": [
+    "LB FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "991831231"
+   ],
+   "jurisdiction": "France",
+   "city": "LIBOURNE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "http://lb-familyoffice.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-991831231.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-822745154",
+   "lei": null,
+   "legal_name": "BOLLE FAMILY OFFICE",
+   "aliases": [
+    "BOLLE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "822745154"
+   ],
+   "jurisdiction": "France",
+   "city": "OYONNAX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-822745154.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-825336761",
+   "lei": null,
+   "legal_name": "LORENTE FAMILY OFFICE",
+   "aliases": [
+    "LORENTE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "825336761"
+   ],
+   "jurisdiction": "France",
+   "city": "PLAIMPIED-GIVAUDINS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-825336761.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-844835967",
+   "lei": null,
+   "legal_name": "ALTRIDE FAMILY OFFICE (ALTRIDE)",
+   "aliases": [
+    "ALTRIDE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "844835967"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.altride.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-844835967.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-841739816",
+   "lei": null,
+   "legal_name": "SERENE FAMILY OFFICE (SFO)",
+   "aliases": [
+    "SERENE FAMILY OFFICE",
+    "SFO"
+   ],
+   "register_ids": [
+    "841739816"
+   ],
+   "jurisdiction": "France",
+   "city": "BOULOGNE-BILLANCOURT",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://serene-office.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-841739816.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-822310249",
+   "lei": null,
+   "legal_name": "MIDAS FAMILY OFFICE",
+   "aliases": [
+    "MIDAS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "822310249"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.midas-wealth-management.com",
+   "fields": {
+    "total": 20,
+    "sourced": 11,
+    "filled": 8,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-822310249.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-537632341",
+   "lei": null,
+   "legal_name": "VENDOME FAMILY OFFICE",
+   "aliases": [
+    "VENDOME FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "537632341"
+   ],
+   "jurisdiction": "France",
+   "city": "LEVALLOIS-PERRET",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-537632341.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-901910331",
+   "lei": null,
+   "legal_name": "EXCELLENCE FAMILY OFFICE",
+   "aliases": [
+    "EXCELLENCE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "901910331"
+   ],
+   "jurisdiction": "France",
+   "city": "PUTEAUX",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-901910331.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-900412883",
+   "lei": null,
+   "legal_name": "PACEM FAMILY OFFICE (PARIS OFFICE PROJECT)",
+   "aliases": [
+    "PACEM FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "900412883"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://pacemfamily.com",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-900412883.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-883494114",
+   "lei": null,
+   "legal_name": "YOUR FAMILY OFFICE",
+   "aliases": [
+    "YOUR FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "883494114"
+   ],
+   "jurisdiction": "France",
+   "city": "LYON",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-883494114.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-952722460",
+   "lei": null,
+   "legal_name": "OSTARA FAMILY OFFICE",
+   "aliases": [
+    "OSTARA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "952722460"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://ostara-fo.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-952722460.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-942857913",
+   "lei": null,
+   "legal_name": "PLANIFIQUE FAMILY OFFICE",
+   "aliases": [
+    "PLANIFIQUE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "942857913"
+   ],
+   "jurisdiction": "France",
+   "city": "ARCHAMPS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-942857913.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-940552458",
+   "lei": null,
+   "legal_name": "LYNX FAMILY OFFICE",
+   "aliases": [
+    "LYNX FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "940552458"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-940552458.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-940828452",
+   "lei": null,
+   "legal_name": "LE FAMILY OFFICE BORDELAIS",
+   "aliases": [
+    "LE FAMILY OFFICE BORDELAIS"
+   ],
+   "register_ids": [
+    "940828452"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-940828452.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-919504316",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE",
+   "aliases": [
+    "THE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "919504316"
+   ],
+   "jurisdiction": "France",
+   "city": "SURESNES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-919504316.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-881384044",
+   "lei": null,
+   "legal_name": "CITYREK FAMILY OFFICE",
+   "aliases": [
+    "CITYREK FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "881384044"
+   ],
+   "jurisdiction": "France",
+   "city": "TOULOUSE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-881384044.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-903341873",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE & FRIENDS",
+   "aliases": [
+    "FAMILY OFFICE & FRIENDS"
+   ],
+   "register_ids": [
+    "903341873"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://familleoffice.fr/",
+   "fields": {
+    "total": 19,
+    "sourced": 15,
+    "filled": 4,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-903341873.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-903995579",
+   "lei": null,
+   "legal_name": "IKER FAMILY OFFICE (IKER FAMILY OFFICE)",
+   "aliases": [
+    "IKER FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "903995579"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-JACQUES-DE-LA-LANDE",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.iker-fo.fr/",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-903995579.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-924361017",
+   "lei": null,
+   "legal_name": "PADILLA FAMILY OFFICE",
+   "aliases": [
+    "PADILLA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "924361017"
+   ],
+   "jurisdiction": "France",
+   "city": "AMNEVILLE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-924361017.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-930030093",
+   "lei": null,
+   "legal_name": "LECOQ FAMILY OFFICE",
+   "aliases": [
+    "LECOQ FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "930030093"
+   ],
+   "jurisdiction": "France",
+   "city": "BOIS-LE-ROI",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-930030093.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-930295365",
+   "lei": null,
+   "legal_name": "HAIDOUS FAMILY OFFICE",
+   "aliases": [
+    "HAIDOUS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "930295365"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-ETIENNE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-930295365.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-105552376",
+   "lei": null,
+   "legal_name": "LUMEN PRIVATE FAMILY OFFICE",
+   "aliases": [
+    "LUMEN PRIVATE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "105552376"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-105552376.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-849948633",
+   "lei": null,
+   "legal_name": "LUBIN'S FAMILY OFFICE 1",
+   "aliases": [
+    "LUBIN'S FAMILY OFFICE 1"
+   ],
+   "register_ids": [
+    "849948633"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-849948633.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-913415915",
+   "lei": null,
+   "legal_name": "GRONER FAMILY OFFICE GMBH",
+   "aliases": [
+    "GRONER FAMILY OFFICE GMBH"
+   ],
+   "register_ids": [
+    "913415915"
+   ],
+   "jurisdiction": "France",
+   "city": null,
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://groener-family.de/",
+   "fields": {
+    "total": 16,
+    "sourced": 10,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-913415915.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-880044755",
+   "lei": null,
+   "legal_name": "MOBILIS FAMILY OFFICE HOLDIN",
+   "aliases": [
+    "MOBILIS FAMILY OFFICE HOLDIN"
+   ],
+   "register_ids": [
+    "880044755"
+   ],
+   "jurisdiction": "France",
+   "city": "ROUBAIX",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.mobilis-gestion.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-880044755.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-829057132",
+   "lei": null,
+   "legal_name": "T.A WEALTH MANAGEMENT & FAMILY OFFICE",
+   "aliases": [
+    "T.A WEALTH MANAGEMENT & FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "829057132"
+   ],
+   "jurisdiction": "France",
+   "city": "NEUILLY-SUR-SEINE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-829057132.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-933442634",
+   "lei": null,
+   "legal_name": "STUDER FAMILY OFFICE AG",
+   "aliases": [
+    "STUDER FAMILY OFFICE AG"
+   ],
+   "register_ids": [
+    "933442634"
+   ],
+   "jurisdiction": "France",
+   "city": null,
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.studerfamilyoffice.com",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-933442634.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-520949231",
+   "lei": null,
+   "legal_name": "LANCAR KENIGSWALD FAMILY OFFICE",
+   "aliases": [
+    "LANCAR KENIGSWALD FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "520949231"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-MANDE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-520949231.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-930058854",
+   "lei": null,
+   "legal_name": "BATSELA MULTI FAMILY OFFICE (BATSELA MFO)",
+   "aliases": [
+    "BATSELA MULTI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "930058854"
+   ],
+   "jurisdiction": "France",
+   "city": "BEGLES",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.bhgroup.eu",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-930058854.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-949113450",
+   "lei": null,
+   "legal_name": "FINAIX BUSINESS FAMILY OFFICE",
+   "aliases": [
+    "FINAIX BUSINESS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "949113450"
+   ],
+   "jurisdiction": "France",
+   "city": "AIX-EN-PROVENCE",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://finaix.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-949113450.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-991810508",
+   "lei": null,
+   "legal_name": "COME FAMILY OFFICE BRETAGNE",
+   "aliases": [
+    "COME FAMILY OFFICE BRETAGNE"
+   ],
+   "register_ids": [
+    "991810508"
+   ],
+   "jurisdiction": "France",
+   "city": "LORIENT",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://comemaisonfinanciere.com",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-991810508.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-982761249",
+   "lei": null,
+   "legal_name": "MUA MULTI FAMILY OFFICE",
+   "aliases": [
+    "MUA MULTI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "982761249"
+   ],
+   "jurisdiction": "France",
+   "city": "NICE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.mua-group.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-982761249.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-925216509",
+   "lei": null,
+   "legal_name": "CONCIERGERIE - AIMABLE FAMILY OFFICE",
+   "aliases": [
+    "CONCIERGERIE - AIMABLE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "925216509"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-DIDIER",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://conciergerieaimable.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-925216509.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-992380782",
+   "lei": null,
+   "legal_name": "NFO - NANTHIAT FAMILY OFFICE (NANTHIAT CONSULTING)",
+   "aliases": [
+    "NFO - NANTHIAT FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "992380782"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-992380782.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-994857191",
+   "lei": null,
+   "legal_name": "PEMBRIDGE FAMILY OFFICE SAS",
+   "aliases": [
+    "PEMBRIDGE FAMILY OFFICE SAS"
+   ],
+   "register_ids": [
+    "994857191"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-994857191.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-978502813",
+   "lei": null,
+   "legal_name": "SEMPER FEDELIS FAMILY OFFICE",
+   "aliases": [
+    "SEMPER FEDELIS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "978502813"
+   ],
+   "jurisdiction": "France",
+   "city": "MOUGINS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-978502813.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-847891868",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE BUSINESS SERVICES (FOBS) (FOBS)",
+   "aliases": [
+    "FAMILY OFFICE BUSINESS SERVICES",
+    "FOBS"
+   ],
+   "register_ids": [
+    "847891868"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.fobs-family-office.fr/",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-847891868.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-818284614",
+   "lei": null,
+   "legal_name": "ALCYONE FAMILY OFFICE OUEST",
+   "aliases": [
+    "ALCYONE FAMILY OFFICE OUEST"
+   ],
+   "register_ids": [
+    "818284614"
+   ],
+   "jurisdiction": "France",
+   "city": "LONGEVILLE-LES-METZ",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://alcyone-family.com",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-818284614.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-901209957",
+   "lei": null,
+   "legal_name": "MORGAN & CIE. FAMILY OFFICE (MORGAN & CIE F.O)",
+   "aliases": [
+    "MORGAN & CIE. FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "901209957"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.morgan-cie.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-901209957.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-907994735",
+   "lei": null,
+   "legal_name": "LGN INVEST FAMILY OFFICE (LIFAO) (LIFAO)",
+   "aliases": [
+    "LGN INVEST FAMILY OFFICE",
+    "LIFAO"
+   ],
+   "register_ids": [
+    "907994735"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-907994735.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-847847613",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE BUSINESS SERVICES COURTAGE (FOBS COURTAGE) (FOBS COURTAGE)",
+   "aliases": [
+    "FAMILY OFFICE BUSINESS SERVICES COURTAGE",
+    "FOBS COURTAGE"
+   ],
+   "register_ids": [
+    "847847613"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.fobs-family-office.fr/",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-847847613.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-948630223",
+   "lei": null,
+   "legal_name": "FRONT ROW CAPITAL &FAMILY OFFICE",
+   "aliases": [
+    "FRONT ROW CAPITAL &FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "948630223"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": "https://www.tothefrontrow.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-948630223.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-302527536",
+   "lei": null,
+   "legal_name": "QUIVEST FAMILY OFFICE (BGS)",
+   "aliases": [
+    "QUIVEST FAMILY OFFICE",
+    "BGS"
+   ],
+   "register_ids": [
+    "302527536"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-302527536.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-537378622",
+   "lei": null,
+   "legal_name": "MACKOSSAUD FAMILY OFFICE",
+   "aliases": [
+    "MACKOSSAUD FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "537378622"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-537378622.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-993938851",
+   "lei": null,
+   "legal_name": "ARENA FAMILY OFFICE",
+   "aliases": [
+    "ARENA FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "993938851"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-993938851.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-912268141",
+   "lei": null,
+   "legal_name": "GENEA MULTI FAMILY OFFICE",
+   "aliases": [
+    "GENEA MULTI FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "912268141"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-912268141.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-529676124",
+   "lei": null,
+   "legal_name": "FISCALITE-FAMILY OFFICE- FINANCE PUBLIQUES (FPO)",
+   "aliases": [
+    "FISCALITE-FAMILY OFFICE- FINANCE PUBLIQUES",
+    "FPO"
+   ],
+   "register_ids": [
+    "529676124"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-529676124.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-877937003",
+   "lei": null,
+   "legal_name": "ACL INITIATIVE CONSEIL (ACL FAMILY OFFICE) (ACL)",
+   "aliases": [
+    "ACL INITIATIVE CONSEIL",
+    "ACL"
+   ],
+   "register_ids": [
+    "877937003"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://acl-ic.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-877937003.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-423841642",
+   "lei": null,
+   "legal_name": "CHATEAUX PRODUCTIONS (C&C FAMILY OFFICE)",
+   "aliases": [
+    "CHATEAUX PRODUCTIONS"
+   ],
+   "register_ids": [
+    "423841642"
+   ],
+   "jurisdiction": "France",
+   "city": "ORMESSON-SUR-MARNE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.patrimoinesprives.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-423841642.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-850299868",
+   "lei": null,
+   "legal_name": "GNB (FAMILY OFFICE)",
+   "aliases": [
+    "GNB"
+   ],
+   "register_ids": [
+    "850299868"
+   ],
+   "jurisdiction": "France",
+   "city": "PLOUER-SUR-RANCE",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-850299868.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-909840118",
+   "lei": null,
+   "legal_name": "IDM CONSEILS INDEPENDANTS (IDM FAMILY OFFICE)",
+   "aliases": [
+    "IDM CONSEILS INDEPENDANTS"
+   ],
+   "register_ids": [
+    "909840118"
+   ],
+   "jurisdiction": "France",
+   "city": "MULSANNE",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.idmconseils.fr/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-909840118.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-105460257",
+   "lei": null,
+   "legal_name": "NICOLAS KRETZ (KRETZ FAMILY OFFICE)",
+   "aliases": [],
+   "register_ids": [
+    "105460257"
+   ],
+   "jurisdiction": "France",
+   "city": "TRUCHTERSHEIM",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-105460257.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-910985308",
+   "lei": null,
+   "legal_name": "BIG SUR FINANCE (MONTAIGNE FAMILY OFFICE)",
+   "aliases": [
+    "BIG SUR FINANCE"
+   ],
+   "register_ids": [
+    "910985308"
+   ],
+   "jurisdiction": "France",
+   "city": "LE BOUSCAT",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-910985308.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-511481897",
+   "lei": null,
+   "legal_name": "SERGE BUJNIAK (SB FAMILY OFFICE)",
+   "aliases": [],
+   "register_ids": [
+    "511481897"
+   ],
+   "jurisdiction": "France",
+   "city": "CANNES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-511481897.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-509704854",
+   "lei": null,
+   "legal_name": "CATHERINE SCHLENIUS (SHAMROCK FAMILY OFFICE)",
+   "aliases": [],
+   "register_ids": [
+    "509704854"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://www.shamrockfamilyoffice.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-509704854.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-940040892",
+   "lei": null,
+   "legal_name": "RIKTH DUTTA (RIKTH DUTTA FAMILY OFFICE)",
+   "aliases": [],
+   "register_ids": [
+    "940040892"
+   ],
+   "jurisdiction": "France",
+   "city": "REIMS",
+   "entity_status": "active",
+   "structure": "single-family",
+   "website": "https://rikthduttafamilyoffice.eu",
+   "fields": {
+    "total": 12,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-940040892.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-538572710",
+   "lei": null,
+   "legal_name": "SIMON PATRIMOINE CONSEIL (FINANCIERE D3 GLOBAL FAMILY OFFICE) (SCP)",
+   "aliases": [
+    "SIMON PATRIMOINE CONSEIL",
+    "SCP"
+   ],
+   "register_ids": [
+    "538572710"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://financiered3.com",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-538572710.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-788531432",
+   "lei": null,
+   "legal_name": "SYDEL (SYDEL GESTION PRIVEE / SYDEL FAMILY OFFICE)",
+   "aliases": [
+    "SYDEL"
+   ],
+   "register_ids": [
+    "788531432"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": "multi-family",
+   "website": "https://www.sydeloffice.com",
+   "fields": {
+    "total": 18,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-788531432.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-800189805",
+   "lei": null,
+   "legal_name": "GIOVANNI LEONE DE MAGISTRIS (ITEA-TEE FAMILY OFFICE IT SERVICES INFOGERANCE D'OFFICE FAMILIAL)",
+   "aliases": [],
+   "register_ids": [
+    "800189805"
+   ],
+   "jurisdiction": "France",
+   "city": "SAINT-CERGUES",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-800189805.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "FR-SIREN-833131311",
+   "lei": null,
+   "legal_name": "SOCIETE CIVILE DE GESTION DE PATRIMOINE FAMILIAL - UNAM WEALTH (SCGP UNAM WEALTH)",
+   "aliases": [
+    "SOCIETE CIVILE DE GESTION DE PATRIMOINE FAMILIAL - UNAM WEALTH",
+    "SCGP UNAM WEALTH"
+   ],
+   "register_ids": [
+    "833131311"
+   ],
+   "jurisdiction": "France",
+   "city": "PARIS",
+   "entity_status": "active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/fr-fo-kg/FR-SIREN-833131311.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 2893,
+  "sourced": 2320,
+  "filled": 199,
+  "confirmed": 309,
+  "conflict": 65,
+  "unverified": 0,
+  "gaps": 969,
+  "events": 382,
+  "registrations": 198,
+  "principals": 460,
+  "with_lei": 46,
+  "with_website": 104,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 69
+ },
+ "sources": [
+  {
+   "name": "acl-ic.com — subject website",
+   "url": "https://acl-ic.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "adnfamilyoffice.fr — subject website",
+   "url": "https://adnfamilyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "agami.com — subject website",
+   "url": "https://agami.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "alcyone-family.com — subject website",
+   "url": "https://alcyone-family.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "annuaire-entreprises.data.gouv.fr — subject website",
+   "url": "https://annuaire-entreprises.data.gouv.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "apertio-fo.com — subject website",
+   "url": "https://apertio-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "blackpearlparis.com — subject website",
+   "url": "https://blackpearlparis.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "blackwellfamilyoffice.com — subject website",
+   "url": "https://blackwellfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "comemaisonfinanciere.com — subject website",
+   "url": "https://comemaisonfinanciere.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "conciergerieaimable.fr — subject website",
+   "url": "https://conciergerieaimable.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dandcfo.com — subject website",
+   "url": "https://dandcfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "delta-b-groupe.fr — subject website",
+   "url": "https://delta-b-groupe.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "etoile-familyoffice.fr — subject website",
+   "url": "https://etoile-familyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "family-office.meeschaert.com — subject website",
+   "url": "https://family-office.meeschaert.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "finaix.fr — subject website",
+   "url": "https://finaix.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "groener-family.de — subject website",
+   "url": "https://groener-family.de/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "groener-family.fr — subject website",
+   "url": "https://groener-family.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "holistik-patrimoine.com — subject website",
+   "url": "https://holistik-patrimoine.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "initialfo.com — subject website",
+   "url": "https://initialfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "invidia-office.fr — subject website",
+   "url": "https://invidia-office.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ivesta-fo.com — subject website",
+   "url": "https://ivesta-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "lb-familyoffice.com — subject website",
+   "url": "https://lb-familyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "lynqprivateoffice.com — subject website",
+   "url": "https://lynqprivateoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "myfamilyofficer.fr — subject website",
+   "url": "https://myfamilyofficer.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "orienpatrimoine.com — subject website",
+   "url": "https://orienpatrimoine.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ostara-fo.com — subject website",
+   "url": "https://ostara-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "pacemfamily.com — subject website",
+   "url": "https://pacemfamily.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "INSEE Sirene open data — recherche-entreprises API",
+   "url": "https://recherche-entreprises.api.gouv.fr/",
+   "role": "fill and confirm",
+   "reads": 32,
+   "answered_200": 32
+  },
+  {
+   "name": "rikthduttafamilyoffice.eu — subject website",
+   "url": "https://rikthduttafamilyoffice.eu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.alsace-family-office.fr — subject website",
+   "url": "https://www.alsace-family-office.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.altride.fr — subject website",
+   "url": "https://www.altride.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.astra-family-office.fr — subject website",
+   "url": "https://www.astra-family-office.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.bee-family-office.com — subject website",
+   "url": "https://www.bee-family-office.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.bmfamilyoffice.com — subject website",
+   "url": "https://www.bmfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.citadelle-fo.com — subject website",
+   "url": "https://www.citadelle-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.colbertfamilyoffice.com — subject website",
+   "url": "https://www.colbertfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.cpigroupe.com — subject website",
+   "url": "https://www.cpigroupe.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.etz-fo.com — subject website",
+   "url": "https://www.etz-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.familyandoffice.fr — subject website",
+   "url": "https://www.familyandoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.fleurbouvier.com — subject website",
+   "url": "https://www.fleurbouvier.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.fobs-family-office.fr — subject website",
+   "url": "https://www.fobs-family-office.fr/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.frenchfamilyoffice.fr — subject website",
+   "url": "https://www.frenchfamilyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.frigara-familyoffice.com — subject website",
+   "url": "https://www.frigara-familyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.gowen.ch — subject website",
+   "url": "https://www.gowen.ch/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.gp-familyoffice.fr — subject website",
+   "url": "https://www.gp-familyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.idmconseils.fr — subject website",
+   "url": "https://www.idmconseils.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.iker-fo.fr — subject website",
+   "url": "https://www.iker-fo.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.lffo.eu — subject website",
+   "url": "https://www.lffo.eu/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.luzefamilyoffice.com — subject website",
+   "url": "https://www.luzefamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.mbfamilyoffice.fr — subject website",
+   "url": "https://www.mbfamilyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.mfo.agency — subject website",
+   "url": "https://www.mfo.agency/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.midas-wealth-management.com — subject website",
+   "url": "https://www.midas-wealth-management.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.montsegur.com — subject website",
+   "url": "https://www.montsegur.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.mua-group.com — subject website",
+   "url": "https://www.mua-group.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.myway-fo.fr — subject website",
+   "url": "https://www.myway-fo.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.navasgestion.com — subject website",
+   "url": "https://www.navasgestion.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.octave-fo.com — subject website",
+   "url": "https://www.octave-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.pappers.fr — subject website",
+   "url": "https://www.pappers.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.patrimoinesprives.com — subject website",
+   "url": "https://www.patrimoinesprives.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.pcginvest.com — subject website",
+   "url": "https://www.pcginvest.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.pembrokefamilyoffice.fr — subject website",
+   "url": "https://www.pembrokefamilyoffice.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.plt-family-office.com — subject website",
+   "url": "https://www.plt-family-office.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.shamrockfamilyoffice.com — subject website",
+   "url": "https://www.shamrockfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.studerfamilyoffice.com — subject website",
+   "url": "https://www.studerfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.umami-fo.com — subject website",
+   "url": "https://www.umami-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.vault.family — subject website",
+   "url": "https://www.vault.family/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.vmp-capital.fr — subject website",
+   "url": "https://www.vmp-capital.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.vyp.fr — subject website",
+   "url": "https://www.vyp.fr/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.xelisfamilyoffice.com — subject website",
+   "url": "https://www.xelisfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "AMF GECO register",
+   "subjects": 196
+  },
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "subjects": 1
+  },
+  {
+   "register": "ORIAS register",
+   "subjects": 196
+  },
+  {
+   "register": "website",
+   "subjects": 9
+  }
+ ],
+ "reads": 102,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/fr-fo-kg/<source>/2026-09-14/"
+ }
+}

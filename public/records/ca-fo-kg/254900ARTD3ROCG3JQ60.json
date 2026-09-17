@@ -1,0 +1,216 @@
+{
+ "record": "Family Office Record",
+ "id": "254900ARTD3ROCG3JQ60",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900ARTD3ROCG3JQ60",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900ARTD3ROCG3JQ60",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "RUKEN FAMILY OFFICE CORPORATION",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "CA-ON",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "label": "Canada",
+   "second_source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "jurisdiction as the document states"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://rukencapital.com",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2024-01-23",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "140 Yonge Street, Suite 200, Toronto, CA-ON, M5C 1X6, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "O90R",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Corporate Registry (Province of Ontario)",
+   "register_id": "RA000079",
+   "id": {
+    "value": "1000773597",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.ontario.ca/page/ontario-business-registry",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Ontario Securities Commission — orders, rulings and decisions",
+   "register_id": null,
+   "id": {
+    "value": "2024/0568",
+    "source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+   "status": {
+    "value": "ruling under s. 38 of the Commodity Futures Act (Ontario)",
+    "source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "registration_note": {
+    "value": "not registered under the securities, commodity futures or derivatives legislation of any province or territory of Canada in any capacity (as the ruling states)",
+    "source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Abdalla Ruken",
+    "source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "owner as disclosed on Ontario Securities Commission — orders, rulings and decisions"
+   },
+   "role": "owner"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://rukencapital.com",
+  "source_url": "https://rukencapital.com",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by Grok on the page it opened"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-01-23",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-02-16",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-11-25",
+   "event": "OSC ruling, s. 38 CFA",
+   "source_url": "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-16",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Corporate Registry (Province of Ontario)]",
+   "reason": "the public search refuses machine reads",
+   "tried": "https://www.appmybizaccount.gov.on.ca/onbis/master/entry.pub?applicationCode=onbis-master&businessType=Master&businessName=RUKEN%20FAMILY%20OFFICE%20CORPORATION",
+   "answer": 403
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900ARTD3ROCG3JQ60",
+  "https://rukencapital.com",
+  "https://www.osc.ca/en/securities-law/orders-rulings-decisions/ruken-family-office-corporation-s-38-cfa"
+ ],
+ "discovery": null
+}

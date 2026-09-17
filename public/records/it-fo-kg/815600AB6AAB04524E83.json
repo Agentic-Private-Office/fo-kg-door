@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "815600AB6AAB04524E83",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "815600AB6AAB04524E83",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/815600AB6AAB04524E83",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "MF FAMILY OFFICE S.S.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2017-06-25",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "VIALE ALESSANDRO VOLTA, 101, FIRENZE, IT-FI, 50131, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2XXH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "94269750488",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-06-25",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-08-25",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-07-04",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-08-25",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.lei-lookup.com/record/815600AB6AAB04524E83/",
+    "https://www.lei-lookup.com/record/815600AB6AAB04524E83/",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.registroimprese.it/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/815600AB6AAB04524E83",
+  "https://www.lei-lookup.com/record/815600AB6AAB04524E83/"
+ ],
+ "discovery": null
+}

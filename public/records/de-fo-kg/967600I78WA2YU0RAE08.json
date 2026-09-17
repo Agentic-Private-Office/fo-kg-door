@@ -1,0 +1,167 @@
+{
+ "record": "Family Office Record",
+ "id": "967600I78WA2YU0RAE08",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "967600I78WA2YU0RAE08",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/967600I78WA2YU0RAE08",
+  "registration_status": "ISSUED",
+  "corroboration": "ENTITY_SUPPLIED_ONLY",
+  "managing_lou": "52990034RLKT0WSOAM90"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Kurtz Family Office GbR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2016-07-29",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Frankenstr. 2, Kreuzwertheim, DE-BY, 97892, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "FR3V",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2016-07-29",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-12-20",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-06",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-05",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations",
+   "reason": "GLEIF records no registration authority for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08"
+  },
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Kurtz+Family+Office+GbR&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA999999]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://lei.report/LEI/967600I78WA2YU0RAE08/",
+    "https://deutschelei.de/detaillierte-informationen/35940289/391200U19HVSA6OLMQ81/kurt-family-office-gmbh/",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/967600I78WA2YU0RAE08",
+  "https://deutschelei.de/detaillierte-informationen/35940289/391200U19HVSA6OLMQ81/kurt-family-office-gmbh/",
+  "https://lei.report/LEI/967600I78WA2YU0RAE08/"
+ ],
+ "discovery": null
+}

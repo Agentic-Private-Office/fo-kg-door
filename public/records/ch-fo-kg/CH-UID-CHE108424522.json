@@ -1,0 +1,206 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE108424522",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "BFO FAMILY OFFICE AG",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://bfoag.ch",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Hagenholzstrasse, 81a, 8050",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Aktiengesellschaft",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-108.424.522",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-108.424.522"
+   },
+   "url": "https://zh.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-108.424.522",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Markus Blechner",
+    "source_url": "https://bfoag.ch",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Dr. Rico Baumgartner",
+    "source_url": "https://bfoag.ch/en/team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CEO & Owner as the subject's own page says"
+   },
+   "role": "CEO & Owner"
+  },
+  {
+   "name": {
+    "value": "Bindu Saxena",
+    "source_url": "https://bfoag.ch/en/team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Attorney at Law, Family Officer as the subject's own page says"
+   },
+   "role": "Attorney at Law, Family Officer"
+  },
+  {
+   "name": {
+    "value": "Tuck Seng Low",
+    "source_url": "https://bfoag.ch/en/team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Corporate Financier as the subject's own page says"
+   },
+   "role": "Corporate Financier"
+  },
+  {
+   "name": {
+    "value": "Christina Buddemeier",
+    "source_url": "https://bfoag.ch/en/team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Immobilienverwaltung, Executive Assistant as the subject's own page says"
+   },
+   "role": "Immobilienverwaltung, Executive Assistant"
+  },
+  {
+   "name": {
+    "value": "Brigitta Müller",
+    "source_url": "https://bfoag.ch/en/team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Book keeping as the subject's own page says"
+   },
+   "role": "Book keeping"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://bfoag.ch",
+  "source_url": "https://bfoag.ch",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2024-04-19",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=BFO FAMILY OFFICE AG"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://bfoag.ch"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json"
+  }
+ ],
+ "sources": [
+  "https://bfoag.ch",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/374858.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

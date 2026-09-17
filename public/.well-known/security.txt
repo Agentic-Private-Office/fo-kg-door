@@ -1,0 +1,5 @@
+Contact: mailto:mk@agent-kg.ai
+Expires: 2027-09-13T00:00:00.000Z
+Canonical: https://familyofficeknowledgegraph.ai/.well-known/security.txt
+Preferred-Languages: en
+Policy: https://familyofficeknowledgegraph.ai/security

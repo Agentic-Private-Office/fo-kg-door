@@ -1,0 +1,173 @@
+{
+ "record": "Family Office Record",
+ "id": "54930008GV1MVGMUVL23",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": {
+  "value": "54930008GV1MVGMUVL23",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/54930008GV1MVGMUVL23",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "PINNACLE FAMILY OFFICE INVESTMENTS, L.P.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "US-TX",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2009-12-02",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C/O BARRY M. KITT, 5910 NORTH CENTRAL EXPRESSWAY, SUITE 1475, DALLAS, US-TX, 75206, US",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "FE1L",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Texas Secretary of State — SOSDirect (account required)",
+   "register_id": "RA000637",
+   "id": {
+    "value": "0801200391",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://direct.sos.state.tx.us/acct/acct-login.asp",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2009-12-02",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-22",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-11",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-22",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Texas Secretary of State — SOSDirect (account required)]",
+   "reason": "state register page not read at scale in this wave; the id is as GLEIF records it",
+   "tried": "https://www.gleif.org/en/about-lei/code-lists/gleif-registration-authorities-list",
+   "answer": "not read this wave"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://lei.bloomberg.com/leis/view/54930008GV1MVGMUVL23",
+    "https://opencorporates.com/companies/us_tx/0801200391"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://direct.sos.state.tx.us/acct/acct-login.asp"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23"
+  }
+ ],
+ "sources": [
+  "https://api.adviserinfo.sec.gov/search/firm?query=pinnacle&hl=false&nrows=10&start=0&wt=json",
+  "https://api.gleif.org/api/v1/lei-records/54930008GV1MVGMUVL23",
+  "https://lei.bloomberg.com/leis/view/54930008GV1MVGMUVL23",
+  "https://opencorporates.com/companies/us_tx/0801200391"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "resolve_family_office",
+      "type": "skill-md",
+      "description": "Resolve an identifier (LEI, legal name, alias or register id) to the family-office records that carry it, with the node that serves each.",
+      "url": "/.well-known/agent-skills/resolve_family_office/SKILL.md",
+      "digest": "sha256:6c0bd086506b8d28c29f747fdfad28187eb4239ea895894db316b6a48472204d"
+    },
+    {
+      "name": "get_record",
+      "type": "skill-md",
+      "description": "The Family Office Record for one identifier: identity, registrations, lei, principals, sectors, website, aliases, events, gaps — every field with value, source_url, read_by, read and state; optionally a named version.",
+      "url": "/.well-known/agent-skills/get_record/SKILL.md",
+      "digest": "sha256:4f9c0c5f6fe929caed25f7e0215e9d67210683a6c8a8cf84cb8b0b68fc1b30ae"
+    },
+    {
+      "name": "list_events_since",
+      "type": "skill-md",
+      "description": "Dated, URL'd events on one record, oldest first, optionally since a date, paged by cursor.",
+      "url": "/.well-known/agent-skills/list_events_since/SKILL.md",
+      "digest": "sha256:5ca400fe86d87d563ed47314126d75d4b902598849b5cbcc5600a4e1735902f5"
+    },
+    {
+      "name": "list_aliases",
+      "type": "skill-md",
+      "description": "Every name the record carries for one identifier, each with its source.",
+      "url": "/.well-known/agent-skills/list_aliases/SKILL.md",
+      "digest": "sha256:cddea00dcaa169c8adb0e616c7fba53d5170588edcf94c1c9358efb9a8986712"
+    },
+    {
+      "name": "list_nodes",
+      "type": "skill-md",
+      "description": "The graph's nodes with record counts read from each node's index, the node door and its as-of.",
+      "url": "/.well-known/agent-skills/list_nodes/SKILL.md",
+      "digest": "sha256:00ad8450eb21be87ef978edd30637e62ad5be854d5ff2ed0e4b4aa06d53a9a3d"
+    }
+  ]
+}

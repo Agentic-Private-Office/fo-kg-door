@@ -1,0 +1,184 @@
+{
+ "record": "Family Office Record",
+ "id": "724500L0BQHYTY7K5N14",
+ "version": "2026-09-14.2",
+ "node": "nl-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://nl.fo-kg.ai/mcp",
+ "lei": {
+  "value": "724500L0BQHYTY7K5N14",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/724500L0BQHYTY7K5N14",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "724500A93Z8V1MJK5349"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "De Pater Family Office B.V.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "nl"
+  },
+  "jurisdiction": {
+   "value": "NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Netherlands"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-12-18",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Snerrewindsweg 5, Oene, 8167LM, NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "54M6",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "KVK — Handelsregister (Kamer van Koophandel)",
+   "register_id": "RA000463",
+   "id": {
+    "value": "99247461",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.kvk.nl/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "AFM registers",
+   "register_id": null,
+   "id": null,
+   "url": "https://www.afm.nl/en/sector/registers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-12-18",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-11",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-11",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-09-11",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[KVK — Handelsregister (Kamer van Koophandel)]",
+   "reason": "KVK public search renders client-side and extracts are paid — never attempted (HITL)",
+   "tried": "https://www.kvk.nl/zoeken/?source=all&q=De%20Pater%20Family%20Office%20B.V.",
+   "answer": "client-side search; extracts paid"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://companyinfo.nl/organisatieprofiel/activiteiten-van-financiele-holdings/stichting-administratiekantoor-branches-de-pater-oene-99250683-992506830000",
+    "https://www.linkedin.com/company/pater-familias",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.kvk.nl/",
+    "https://www.afm.nl/en/sector/registers"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/724500L0BQHYTY7K5N14",
+  "https://companyinfo.nl/organisatieprofiel/activiteiten-van-financiele-holdings/stichting-administratiekantoor-branches-de-pater-oene-99250683-992506830000",
+  "https://www.afm.nl/en/sector/registers",
+  "https://www.linkedin.com/company/pater-familias"
+ ],
+ "discovery": null
+}

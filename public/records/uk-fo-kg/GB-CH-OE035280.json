@@ -1,0 +1,162 @@
+{
+ "record": "Family Office Record",
+ "id": "GB-CH-OE035280",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "DE GROOT FAMILY OFFICE B.V.",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://dgfo.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "GB",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": null,
+  "entity_status": {
+   "value": "Registered",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "OE035280",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+   "status": {
+    "value": "Registered",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "OE035280",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/OE035280/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/OE035280/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "J.A.G. (Han) de Groot",
+    "source_url": "https://dgfo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "drs. J.A.G (Han) de Groot",
+    "source_url": "https://dgfo.com/our-roots/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "founded by as the subject's own page says"
+   },
+   "role": "founded by"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dgfo.com/",
+  "source_url": "https://dgfo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=GB&filter[fulltext]=DE GROOT FAMILY OFFICE B.V."
+  },
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=DE%20GROOT%20FAMILY%20OFFICE%20B.V.&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://dgfo.com/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/OE035280"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://find-and-update.company-information.service.gov.uk/company/OE035280"
+  }
+ ],
+ "sources": [
+  "https://dgfo.com/",
+  "https://find-and-update.company-information.service.gov.uk/company/OE035280",
+  "https://find-and-update.company-information.service.gov.uk/company/OE035280/officers",
+  "https://find-and-update.company-information.service.gov.uk/search/companies?q=family+office"
+ ],
+ "discovery": null
+}

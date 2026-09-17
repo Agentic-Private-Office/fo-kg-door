@@ -1,0 +1,188 @@
+{
+ "record": "Family Office Record",
+ "id": "9845008F0N14755AE942",
+ "version": "2026-09-14.2",
+ "node": "ae-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ae.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9845008F0N14755AE942",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9845008F0N14755AE942",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "مكتب عائلة فيديس المحدودة",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "ar"
+  },
+  "jurisdiction": {
+   "value": "AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Arab Emirates"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-01-10",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Unit GD - Level 15 - Office 63A, Level 15, Gate District Gate Building, Dubai International Financial Centre, Dubai, AE-DU, AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000752",
+   "register_id": "RA000752",
+   "id": {
+    "value": "2160000000000009763",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Phides Family Office Ltd",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "TRADING_OR_OPERATING_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-01-10",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-02-25",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-03",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-25",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[DIFC public register]",
+   "reason": "the DIFC public register answered a security checkpoint page to machines",
+   "tried": "https://www.difc.ae/public-register",
+   "answer": "security checkpoint (429)"
+  },
+  {
+   "field": "registrations[ADGM public registers — RA000752]",
+   "reason": "no machine-readable search was found on the ADGM public-registers pages; the register id is as GLEIF records it",
+   "tried": "https://www.adgm.com/public-registers",
+   "answer": "no machine read"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://veddis.com/",
+    "https://www.fidesfo.com/about",
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9845008F0N14755AE942",
+  "https://veddis.com/",
+  "https://www.fidesfo.com/about"
+ ],
+ "discovery": null
+}

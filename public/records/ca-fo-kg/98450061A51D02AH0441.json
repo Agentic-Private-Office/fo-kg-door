@@ -1,0 +1,361 @@
+{
+ "record": "Family Office Record",
+ "id": "98450061A51D02AH0441",
+ "version": "2026-09-14.2",
+ "node": "ca-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ca.fo-kg.ai/mcp",
+ "lei": {
+  "value": "98450061A51D02AH0441",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/98450061A51D02AH0441",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Samara Bureau multi-familial Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "fr",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Corporations Canada"
+  },
+  "jurisdiction": {
+   "value": "CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Canada"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "the site says multi-family office",
+   "second_source_url": "https://samara.ca/en/",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "formation": {
+   "value": "2020-08-06",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Corporations Canada",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1 Carré Westmount, Suite 1600, Montréal, CA-QC, H3Z 2P9, CA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Corporations Canada (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "UDLA",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Corporations Canada"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "1224831-0",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+   "status": {
+    "value": "Active",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "719642332RC0001",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  },
+  {
+   "register": "Corporations Canada",
+   "register_id": "RA000072",
+   "id": {
+    "value": "12248310",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2"
+   },
+   "url": "https://open.canada.ca/data/en/dataset/0032ce54-c5dd-4b66-99a0-320a7b5e99f2",
+   "status": {
+    "value": "Active",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14",
+   "business_number": {
+    "value": "719642332",
+    "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   }
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Michaël Grondin",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  },
+  {
+   "name": {
+    "value": "Jean-François Courville",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  },
+  {
+   "name": {
+    "value": "René Fournier",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  },
+  {
+   "name": {
+    "value": "Sylvain Brosseau",
+    "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "director as disclosed on Corporations Canada"
+   },
+   "role": "director"
+  },
+  {
+   "name": {
+    "value": "Catherine Janson",
+    "source_url": "https://samara.ca/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Chief Investment Officer as the subject's own page says"
+   },
+   "role": "Chief Investment Officer"
+  },
+  {
+   "name": {
+    "value": "Annie Boivin",
+    "source_url": "https://samara.ca/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Head of Tax and Estate Planning as the subject's own page says"
+   },
+   "role": "Head of Tax and Estate Planning"
+  },
+  {
+   "name": {
+    "value": "Martin Fredette",
+    "source_url": "https://samara.ca/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Head of Accounting Services as the subject's own page says"
+   },
+   "role": "Head of Accounting Services"
+  },
+  {
+   "name": {
+    "value": "Vincent Fitzbay",
+    "source_url": "https://samara.ca/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Operations Manager as the subject's own page says"
+   },
+   "role": "Operations Manager"
+  },
+  {
+   "name": {
+    "value": "Maxim Saint-Amant Lamy",
+    "source_url": "https://samara.ca/en/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Chief Compliance Officer as the subject's own page says"
+   },
+   "role": "Chief Compliance Officer"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://samara.ca/en/",
+  "source_url": "https://samara.ca/en/",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "basis": "the page names 'Samara Bureau multi-familial Inc.'"
+ },
+ "aliases": [
+  {
+   "value": "12248310 Canada Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  },
+  {
+   "value": "Samara Multi-Family Office Inc.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2020-08-06",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-08-06",
+   "event": "incorporated — Canada Business Corporations Act",
+   "source_url": "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-02-10",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-12-12",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026",
+   "event": "last annual filing (year) — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-24",
+   "event": "last annual meeting — Corporations Canada open data",
+   "source_url": "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-10",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/98450061A51D02AH0441",
+  "https://d4bf66bykfyaf.cloudfront.net/corporations-active-cbca-en.csv",
+  "https://ised-isde.canada.ca/cc/lgcy/fdrlCrpDtls.html?corpId=12248310&lang=eng",
+  "https://samara.ca/",
+  "https://samara.ca/en/"
+ ],
+ "discovery": null
+}

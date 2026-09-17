@@ -1,0 +1,171 @@
+{
+ "record": "Family Office Record",
+ "id": "815600D025401AC6C512",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "815600D025401AC6C512",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/815600D025401AC6C512",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ALETTI MONTANO & CO. FAMILY OFFICE S.R.L.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "http://www.alettimontano.it",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "VIA SALVINI, 31, VARESE, IT-VA, 21100, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "OV32",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "12903610157",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "http://www.alettimontano.it",
+  "source_url": "http://www.alettimontano.it",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2014-05-19",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-05-19",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-03-17",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.registroimprese.it/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512"
+  }
+ ],
+ "sources": [
+  "http://www.alettimontano.it",
+  "https://am.kompass.com/ru/c/aletti-montano-co-family-office-s-r-l/it7633310/",
+  "https://api.gleif.org/api/v1/lei-records/815600D025401AC6C512"
+ ],
+ "discovery": null
+}

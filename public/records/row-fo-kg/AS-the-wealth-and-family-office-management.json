@@ -1,0 +1,109 @@
+{
+ "record": "Family Office Record",
+ "id": "AS-the-wealth-and-family-office-management",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": null,
+ "associations": [
+  {
+   "body": "Opal Group — Family Office & Private Wealth Management Forum",
+   "body_kind": "conference",
+   "page_kind": "sponsors",
+   "listing": {
+    "value": "The Wealth and Family Office Management Group",
+    "source_url": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2026-08-25",
+    "basis": "named on the Opal Group — Family Office & Private Wealth Management Forum page as speaker"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "The Wealth and Family Office Management Group",
+   "source_url": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "ZZ",
+   "source_url": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Rest of world"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": null,
+  "legal_form": null,
+  "entity_status": null,
+  "category": null
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-08-25",
+   "event": "named on the Opal Group — Family Office & Private Wealth Management Forum page (sponsors; speaker)",
+   "source_url": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=ZZ&filter[fulltext]=The Wealth and Family Office Management Group"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": "no search read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+  },
+  {
+   "field": "registrations",
+   "reason": "not on any register read under this name; the association or conference page is the only source (ORDER-006)",
+   "tried": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+  }
+ ],
+ "sources": [
+  "https://opalgroup.net/finance/family-office-private-wealth-legacy-summit-2026/"
+ ],
+ "discovery": null
+}

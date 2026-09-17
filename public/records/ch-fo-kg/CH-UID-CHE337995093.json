@@ -1,0 +1,139 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE337995093",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "HB Henri Berchtold & Co Family Office SCM",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "rue Kitty-Ponse, 4, 1205",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Kommanditaktiengesellschaft",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-337.995.093",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-337.995.093"
+   },
+   "url": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-337.995.093",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-09-30",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=HB Henri Berchtold & Co Family Office SCM"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.moneyhouse.ch/en/company/hb-henri-berchtold-co-family-office-scm-11900605001",
+    "https://www.moneyhouse.ch/en/company/hb-henri-berchtold-co-family-office-scm-11900605001"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-337.995.093"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json"
+  }
+ ],
+ "sources": [
+  "https://www.moneyhouse.ch/en/company/hb-henri-berchtold-co-family-office-scm-11900605001",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1290047.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,143 @@
+{
+ "record": "Family Office Record",
+ "id": "AS-viscogliosi-brothers-family-office",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "associations": [
+  {
+   "body": "iGlobal Forum — family office summits",
+   "body_kind": "conference",
+   "page_kind": "speakers",
+   "listing": {
+    "value": "Viscogliosi Brothers Family Office",
+    "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Keynote",
+    "place": "New York",
+    "page_date": "2026-01-01",
+    "basis": "named on the iGlobal Forum — family office summits page as Keynote"
+   }
+  },
+  {
+   "body": "iGlobal Forum — family office summits",
+   "body_kind": "conference",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Viscogliosi Brothers Family Office",
+    "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "speaker",
+    "page_date": "2026-09-28",
+    "basis": "named on the iGlobal Forum — family office summits page as speaker"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "Viscogliosi Brothers Family Office",
+   "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": null,
+  "legal_form": null,
+  "entity_status": null,
+  "category": null
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-01-01",
+   "event": "named on the iGlobal Forum — family office summits page (speakers; Keynote)",
+   "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers",
+   "read_by": "gpt-4.1",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-09-28",
+   "event": "named on the iGlobal Forum — family office summits page (cited; speaker)",
+   "source_url": "https://conference.iglobalforum.com/independent-sponsors-conference",
+   "read_by": "gpt-4.1",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=Viscogliosi Brothers Family Office"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.linkedin.com/company/viscogliosi-bros-llc"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers"
+  },
+  {
+   "field": "registrations",
+   "reason": "not on any register read under this name; the association or conference page is the only source (ORDER-006)",
+   "tried": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://conference.iglobalforum.com/independent-sponsors-conference/speakers"
+  }
+ ],
+ "sources": [
+  "https://conference.iglobalforum.com/independent-sponsors-conference",
+  "https://conference.iglobalforum.com/independent-sponsors-conference/speakers",
+  "https://www.linkedin.com/company/viscogliosi-bros-llc"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/viscogliosi-bros-llc",
+   "x": null,
+   "website_named": "https://www.vbllc.com/"
+  }
+ ]
+}

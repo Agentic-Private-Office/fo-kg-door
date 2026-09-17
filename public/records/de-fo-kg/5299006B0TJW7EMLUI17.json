@@ -1,0 +1,169 @@
+{
+ "record": "Family Office Record",
+ "id": "5299006B0TJW7EMLUI17",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "5299006B0TJW7EMLUI17",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/5299006B0TJW7EMLUI17",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Peter Family Office Berlin Gewerbe GmbH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de-DE"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "Isaak-Loewi-Str. 11, Fürth, DE-BY, 90763, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "2HBR",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000247",
+   "register_id": "RA000247",
+   "id": {
+    "value": "HRB 16192",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-09-03",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-03",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=Peter+Family+Office+Berlin+Gewerbe+GmbH&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000247]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.northdata.de/Peter+Family+Office+Berlin+Gewerbe+GmbH,+F%C3%BCrth/HRB+16192",
+    "https://www.info-clipper.com/en/company/germany/peter-family-office-berlin-gewerbe-gmbh.ded574s5y.html",
+    "https://lei.bloomberg.com/leis/view/5299006B0TJW7EMLUI17?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/5299006B0TJW7EMLUI17",
+  "https://lei.bloomberg.com/leis/view/5299006B0TJW7EMLUI17?utm_source=openai",
+  "https://www.info-clipper.com/en/company/germany/peter-family-office-berlin-gewerbe-gmbh.ded574s5y.html",
+  "https://www.northdata.de/Peter+Family+Office+Berlin+Gewerbe+GmbH,+F%C3%BCrth/HRB+16192"
+ ],
+ "discovery": null
+}

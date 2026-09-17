@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Family Office Knowledge Graph</title>
+<meta name="description" content="Family Office Knowledge Graph — one record per family office, drawn from the public record: the GLEIF spine and the national registers that fill and confirm it. Every field carries its source, its reader, its date and its state. Operated by Agentic KG Holdings." />
+<meta property="og:title" content="Family Office Knowledge Graph" />
+<meta property="og:description" content="One record per family office, from the public record. Every field with source_url, read_by and state. First node: Canada, ca-fo-kg. Operated by Agentic KG Holdings." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://familyofficeknowledgegraph.ai/" />
+<meta property="og:image" content="https://familyofficeknowledgegraph.ai/icon-1024.png" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="1024" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://familyofficeknowledgegraph.ai/icon-1024.png" />
+<meta name="theme-color" content="#000000" />
+<link rel="canonical" href="https://familyofficeknowledgegraph.ai/" />
+<link rel="icon" href="/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+<link rel="alternate" type="application/json" href="https://agent.familyofficeknowledgegraph.ai/.well-known/agent-card.json" title="Family Office Knowledge Graph Agent Card" />
+<link rel="alternate" type="application/json" href="/records/nodes.json" title="Nodes" />
+<link rel="stylesheet" href="/styles.css" />
+<script src="/webmcp.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Paid call — the Family Office Knowledge Graph index of record","description":"GET https://familyofficeknowledgegraph.ai/api: x402 v2, scheme exact, $0.01 USDC on Base mainnet, answered with the graph index of record as a signed statement and an EdDSA-signed receipt.","url":"https://familyofficeknowledgegraph.ai/x402","brand":{"@type":"Organization","name":"Agentic KG Holdings","url":"https://agent-kg.ai/"},"offers":{"@type":"Offer","url":"https://familyofficeknowledgegraph.ai/api","price":"0.01","priceCurrency":"USD","availability":"https://schema.org/InStock","acceptedPaymentMethod":"x402 (USDC on Base, eip155:8453)"}}</script>
+</head>
+<body>
+
+<nav class="topnav" aria-label="Primary">
+  <div class="nav-inner">
+    <a href="/" class="brand" aria-label="Family Office Knowledge Graph — home">
+      <img src="/akgh-icon-64.png" alt="" class="brand-signet" width="28" height="28" />
+      <span class="brand-mark">Family Office Knowledge Graph</span>
+    </a>
+    <div class="nav-links">
+      <a href="https://agent-kg.ai/" rel="noopener" class="nav-operator">Agentic KG Holdings</a>
+      <a href="#record">§1 The record</a>
+      <a href="#nodes">§3 Nodes</a>
+      <a href="#door">§4 The door</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="status-dot" aria-hidden="true"></span>
+      AGENTIC KG HOLDINGS  ·  PUBLIC RECORD  ·  AS OF {{as_of}}
+    </div>
+    <h1 class="hero-h1">Family Office Knowledge Graph</h1>
+    <p class="entity-line"><img src="/akgh-icon-64.png" alt="" class="entity-mark" width="64" height="64" /><a href="https://agent-kg.ai/" rel="noopener">Agentic KG Holdings</a></p>
+    <p class="hero-p">One record per family office, drawn from the public record: the Global Legal Entity Identifier Foundation (GLEIF) spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Nothing is inferred and nothing is typed.</p>
+    <p class="hero-p">Operated by Agentic KG Holdings, the Agentic Private Office of Matthew Keddy, and published as a surface, an Agent-to-Agent (A2A) party, a Model Context Protocol (MCP) door and an x402 counterparty. Nodes on the wire: {{nodes.list}}.</p>
+    <div class="hero-stat-row">
+      <div class="hero-stat">
+        <div class="hero-stat-num">{{counts.records}}</div>
+        <div class="hero-stat-label">RECORDS · {{counts.nodes}} NODE(S) · READ FROM THE INDEX AT REQUEST TIME</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num small">{{counts.fields}} fields  ·  {{counts.confirmed}} confirmed  ·  {{counts.sourced}} sourced  ·  {{counts.gaps}} declared gaps</div>
+        <div class="hero-stat-label">FIELD STATES</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section id="record" class="section section-dark">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§01  ·  THE RECORD</div>
+    <h2 class="sec-h2">The record</h2>
+    <div class="sec-prose"><p>A Family Office Record (FOR) is one subject, every field sourced. The field is { value, source_url, read_by, read, state } — and where a second independent public source agrees, second_source_url and second_read_by. The record carries:</p></div>
+    <ul class="line-list" style="margin:20px 0 24px">
+      <li>identity — legal name, jurisdiction, structure (single / multi-family / embedded / virtual), formation, registered office</li>
+      <li>registrations — each public register the office appears on: register, id, url, status, read</li>
+      <li>lei — the Legal Entity Identifier, the spine</li>
+      <li>principals — as disclosed on the register, no more</li>
+      <li>sectors — as disclosed</li>
+      <li>website · aliases (sourced) · events (dated, URL'd) · gaps (declared, with reason)</li>
+    </ul>
+    <div class="sec-prose"><p>A field without a URL does not exist. Hearsay, directories that aggregate without citing, and model memory are not sources. Search is a way to find a source page, not a source. Records are confirmed, not signed: the office's signing has not shipped on this record.</p></div>
+  </div>
+</section>
+
+<section id="states" class="section">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§02  ·  STATES</div>
+    <h2 class="sec-h2">States</h2>
+    <ul class="line-list">
+      <li>sourced — one public source, read and dated</li>
+      <li>filled — completed by an engine from a source and not yet confirmed</li>
+      <li>confirmed — two independent public sources agree</li>
+      <li>conflict — sources disagree; both kept, none chosen</li>
+      <li>unverified — a constructed pointer, marked as such</li>
+    </ul>
+    <div class="sec-prose" style="margin-top:20px"><p>Three passes: harvest (enumerate subjects from the spine register), fill (complete fields from source pages), confirm (a second source per field). Each node's as-of is its sweep start; nodes need not share a calendar date.</p></div>
+  </div>
+</section>
+
+<section id="nodes" class="section section-dark">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§03  ·  NODES</div>
+    <h2 class="sec-h2">Nodes</h2>
+    <div class="table-wrap">
+      <table class="rec-table">
+        <thead><tr><th>Node</th><th>Jurisdiction</th><th>As of</th><th>Records</th><th>Door</th><th>Spine</th></tr></thead>
+        <tbody>
+{{nodes.rows}}
+        </tbody>
+      </table>
+    </div>
+    <div class="sec-prose" style="margin-top:20px"><p>A node with no records is pending, not a number. Every count on this page is read from <a href="/records/nodes.json">/records/nodes.json</a> and each node's index at request time.</p></div>
+  </div>
+</section>
+
+<section id="door" class="section">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§04  ·  THE DOOR</div>
+    <h2 class="sec-h2">The door</h2>
+    <div class="sec-prose"><p>A Model Context Protocol (MCP) server plus an Agent-to-Agent (A2A) Agent Card: public, read-only, session-free, no authentication for reads, typed errors, real 404s. The apex door holds the index and forwards; the node door serves the record; nothing is stored at the apex. Five tools, the same names on every office graph:</p></div>
+    <ul class="line-list" style="margin:20px 0 24px">
+      <li>resolve_family_office(identifier) — LEI, legal name, alias or register id to the records that carry it, with the node that serves each</li>
+      <li>get_record(identifier, version?) — the Family Office Record, every field with value, source_url, read_by and state</li>
+      <li>list_events_since(identifier, since?, cursor?, limit?) — dated, URL'd events, oldest first, paged</li>
+      <li>list_aliases(identifier) — every name the record carries, each with its source</li>
+      <li>list_nodes() — the nodes, with record counts read from each node's index</li>
+    </ul>
+    <ul class="line-list">
+      <li>Apex door — <a href="https://mcp.fo-kg.ai/mcp">https://mcp.fo-kg.ai/mcp</a> · card <a href="/.well-known/mcp.json">/.well-known/mcp.json</a></li>
+      <li>Node doors — <a href="https://ca.fo-kg.ai/mcp">https://ca.fo-kg.ai/mcp</a> … <a href="https://row.fo-kg.ai/mcp">https://row.fo-kg.ai/mcp</a>, one per node in §03; the node slug (ca-fo-kg) is unchanged on every record, index and card</li>
+      <li>Agent Card — <a href="https://agent.fo-kg.ai/.well-known/agent-card.json">https://agent.fo-kg.ai/.well-known/agent-card.json</a></li>
+      <li>Long names keep answering — mcp.familyofficeknowledgegraph.ai/mcp · &lt;node&gt;.familyofficeknowledgegraph.ai/mcp · agent.familyofficeknowledgegraph.ai; the short root is the door of record</li>
+      <li>Over HTTP — <a href="/resolve/Samara">/resolve/{identifier}</a> · records at <a href="/records/nodes.json">/records/nodes.json</a></li>
+      <li>Paid call — <a href="/api">/api</a> (x402 v2, $0.01 USDC, Base mainnet) returns the graph index of record as a signed statement with a receipt · <a href="/x402">/x402</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="radar" class="section section-dark">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§07  ·  RADAR</div>
+    <h2 class="sec-h2">RADAR</h2>
+    <div class="sec-prose"><p>The graph's numbers, read live from the node indexes and <a href="/facts.json">facts.json</a>:</p></div>
+    <div class="proof-grid" style="margin-top:24px">
+      <div class="proof-card"><div class="proof-num">{{counts.records}}</div><div class="proof-label">RECORDS</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.nodes}}</div><div class="proof-label">NODES</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.fields}}</div><div class="proof-label">FIELDS, EACH WITH A SOURCE URL</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.confirmed}}</div><div class="proof-label">CONFIRMED · TWO SOURCES AGREE</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.registrations}}</div><div class="proof-label">REGISTER ENTRIES</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.events}}</div><div class="proof-label">DATED EVENTS</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.gaps}}</div><div class="proof-label">DECLARED GAPS</div></div>
+      <div class="proof-card"><div class="proof-num">{{counts.jurisdictions}}</div><div class="proof-label">JURISDICTIONS · COUNTRIES ON THE RECORD</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="kit" class="section">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§08  ·  MACHINE KIT</div>
+    <h2 class="sec-h2">Machine kit</h2>
+    <div class="sec-prose">
+      <p>The graph is addressable by machines at well-known paths: Agent Card, keyring, llms.txt, facts.json, ai-catalog.json, robots.txt, sitemap.xml, security.txt, mcp.json, skills.json, and the signal headers on every response — X-Office-Version, X-Office-Operator, X-Office-Node, X-Office-As-Of, X-Office-Source, X-Office-Keyring, X-Office-Contact, X-Office-X402. Reads are open. The paid door is priced, not gated. One licensed route, /licensed/index, answers to a token from the office's authorization server at <a href="https://agent-kg.ai/auth.md">agent-kg.ai</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section id="operator" class="section section-dark">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">§09  ·  OPERATOR</div>
+    <h2 class="sec-h2">Operator</h2>
+    <ul class="line-list">
+      <li>Agentic KG Holdings — <a href="https://agent-kg.ai" rel="noopener">https://agent-kg.ai</a> · the Agentic Private Office of Matthew Keddy</li>
+      <li>Family Office Knowledge Graph — familyofficeknowledgegraph.ai · held, through the office</li>
+      <li>Surface {{surface_version}} · first node ca-fo-kg · as of {{as_of}}</li>
+      <li>Doors — <a href="https://mcp.fo-kg.ai/mcp">mcp.fo-kg.ai/mcp</a> · <a href="https://agent.fo-kg.ai/.well-known/agent-card.json">agent.fo-kg.ai</a> · &lt;node&gt;.fo-kg.ai/mcp · the record is served only through the door</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="sec-inner">
+    <div class="sec-eyebrow">CONTACT</div>
+    <h2 class="sec-h2">Contact Us</h2>
+    <form class="contact-form" action="https://formspree.io/f/xrpgnoob" method="POST" toolname="fo_kg_contact" tooldescription="Send a message to Agentic KG Holdings about the Family Office Knowledge Graph through its contact form of record; a person reads it. Fields: email, message.">
+      <input type="hidden" name="site" value="familyofficeknowledgegraph.ai" />
+      <input type="hidden" name="_next" value="https://familyofficeknowledgegraph.ai/" />
+      <div class="form-row">
+        <label for="email">EMAIL</label>
+        <input id="email" type="email" name="email" required autocomplete="email" toolparamdescription="Reply-to email address" />
+      </div>
+      <div class="form-row">
+        <label for="message">MESSAGE</label>
+        <textarea id="message" name="message" required toolparamdescription="The message"></textarea>
+      </div>
+      <button type="submit" class="form-submit">SEND</button>
+    </form>
+    <p class="contact-direct">The agents that built this read their own mail: <a href="mailto:allooloo@hey.com">allooloo@hey.com</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-bottom">
+    <span class="entity-line entity-line-footer">© 2026 <img src="/akgh-icon-64.png" alt="" class="entity-mark" width="64" height="64" /><a href="https://agent-kg.ai/" rel="noopener">Agentic KG Holdings</a></span>
+    <span class="footer-sep">·</span>
+    <span>Family Office Knowledge Graph</span>
+    <span class="footer-sep">·</span>
+    <span>familyofficeknowledgegraph.ai</span>
+    <span class="footer-sep">·</span>
+    <span>Surface {{surface_version}} · as of {{as_of}}</span>
+    <span class="footer-sep">·</span>
+    <a href="https://mcp.fo-kg.ai/mcp">Door</a>
+    <span class="footer-sep">·</span>
+    <a href="https://agent.fo-kg.ai/.well-known/agent-card.json">Agent Card</a>
+    <span class="footer-sep">·</span>
+    <a href="/.well-known/jwks.json">Keyring</a>
+    <span class="footer-sep">·</span>
+    <a href="https://agent-kg.ai/x402">x402</a>
+    <span class="footer-sep">·</span>
+    <a href="/llms.txt">llms.txt</a>
+    <span class="footer-sep">·</span>
+    <a href="/status">Status</a>
+    <span class="footer-sep">·</span>
+    <a href="/terms">Terms of Use</a>
+    <span class="footer-sep">·</span>
+    <a href="/privacy">Privacy</a>
+    <span class="footer-sep">·</span>
+    <a href="/security">Report a Security Issue</a>
+    <span class="footer-sep">·</span>
+    <a href="/no-cookies">No cookies</a>
+    <span class="footer-sep">·</span>
+    <a href="https://www.linkedin.com/in/matthew-keddy-0670828a/" rel="me noopener" target="_blank">LinkedIn</a>
+    <span class="footer-sep">·</span>
+    <a href="https://kyp-model.ai" rel="noopener" target="_blank">CEO Letter</a>
+  </div>
+</footer>
+
+</body>
+</html>

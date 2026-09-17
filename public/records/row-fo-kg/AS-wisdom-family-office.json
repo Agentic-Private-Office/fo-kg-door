@@ -1,0 +1,191 @@
+{
+ "record": "Family Office Record",
+ "id": "AS-wisdom-family-office",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": null,
+ "associations": [
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "members",
+   "listing": {
+    "value": "Wisdom Family Office",
+    "source_url": "https://www.foahk.org/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as listed"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Wisdom Family Office",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+    "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "board member",
+    "place": "null",
+    "page_date": "2022-09-15",
+    "basis": "named on the Family Office Association Hong Kong page as board member"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Wisdom Family Office",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Board member",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as Board member"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "Wisdom Family Office",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "ZZ",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Rest of world"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": null,
+  "legal_form": null,
+  "entity_status": null,
+  "category": null
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2022-09-15",
+   "event": "named on the Family Office Association Hong Kong page (cited; board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+   "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (members; listed)",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (cited; Board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=ZZ&filter[fulltext]=Wisdom Family Office"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://sg.linkedin.com/company/wisdomfamilyoffice",
+    "https://sg.linkedin.com/company/wisdomfamilyoffice",
+    "https://www.linkedin.com/company/wisdomfamilyoffice",
+    "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://www.foahk.org/"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://www.foahk.org/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.foahk.org/"
+  },
+  {
+   "field": "registrations",
+   "reason": "not on any register read under this name; the association or conference page is the only source (ORDER-006)",
+   "tried": "https://www.foahk.org/"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.foahk.org/"
+  }
+ ],
+ "sources": [
+  "https://sg.linkedin.com/company/wisdomfamilyoffice",
+  "https://www.foahk.org/",
+  "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+  "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+  "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+  "https://www.linkedin.com/company/wisdomfamilyoffice"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/wisdomfamilyoffice",
+   "x": null,
+   "website_named": "https://wisdom-financial.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://sg.linkedin.com/company/wisdomfamilyoffice",
+   "x": null,
+   "website_named": "https://wisdom-financial.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/wisdomfamilyoffice",
+   "x": null,
+   "website_named": "https://wisdom-financial.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://wisdom-financial.com/"
+  }
+ ]
+}

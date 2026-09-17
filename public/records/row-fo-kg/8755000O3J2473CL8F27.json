@@ -1,0 +1,307 @@
+{
+ "record": "Family Office Record",
+ "id": "8755000O3J2473CL8F27",
+ "version": "2026-09-14.2",
+ "node": "row-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://row.fo-kg.ai/mcp",
+ "scope": "rest-of-world node: GLEIF-only record — every field sourced from the GLEIF spine, nothing confirmed; no register module for this jurisdiction yet (CEO design ruling 2026-09-13)",
+ "lei": {
+  "value": "8755000O3J2473CL8F27",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/8755000O3J2473CL8F27",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "52990034RLKT0WSOAM90"
+ },
+ "associations": [
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "members",
+   "listing": {
+    "value": "Topaz Family Office Limited",
+    "source_url": "https://www.foahk.org/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as listed"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Topaz Family Office Limited",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+    "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "board member",
+    "place": "Hong Kong",
+    "page_date": "2022-09-15",
+    "basis": "named on the Family Office Association Hong Kong page as board member"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Topaz Family Office Limited",
+    "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+    "read_by": "gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "Board member",
+    "page_date": "2025-01-13",
+    "basis": "named on the Family Office Association Hong Kong page as Board member"
+   }
+  },
+  {
+   "body": "Family Office Association Hong Kong",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "Topaz Family Office Limited",
+    "source_url": "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "family office whose founder is a FOAHK founding executive",
+    "place": "Hong Kong, China",
+    "page_date": "2020-11-20",
+    "basis": "named on the Family Office Association Hong Kong page as family office whose founder is a FOAHK founding executive"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "Topaz Family Office Limited",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "HK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Hong Kong"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-10-10",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Rooms 2709-12, 27/F, Wing On Centre, 111 Connaught Road Central, Central, HK",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "254M",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000388",
+   "register_id": "RA000388",
+   "id": {
+    "value": "62156435",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2013-10-10",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-11-20",
+   "event": "named on the Family Office Association Hong Kong page (cited; family office whose founder is a FOAHK founding executive)",
+   "source_url": "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-15",
+   "event": "named on the Family Office Association Hong Kong page (cited; board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+   "read_by": "sonar-pro, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-04-19",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (members; listed)",
+   "source_url": "https://www.foahk.org/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-01-13",
+   "event": "named on the Family Office Association Hong Kong page (cited; Board member)",
+   "source_url": "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+   "read_by": "gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-20",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.foahk.org/",
+    "https://hk.linkedin.com/company/topaz-financial-group-limited",
+    "https://hk.linkedin.com/company/topaz-financial-group-limited",
+    "https://www.linkedin.com/company/topaz-financial-group-limited",
+    "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+    "https://www.foahk.org/news/five-family-office-execs-start-hong-kong-association"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/8755000O3J2473CL8F27",
+  "https://hk.linkedin.com/company/topaz-financial-group-limited",
+  "https://www.foahk.org/",
+  "https://www.foahk.org/news/family-office-association-hong-kong-appoints-third-term-leadership-team",
+  "https://www.foahk.org/news/family-office-association-hong-kong-elected-new-chair-5",
+  "https://www.foahk.org/news/five-family-office-execs-start-hong-kong-association",
+  "https://www.foahk.org/news/hk-execs-officials-push-for-fo-industry-development",
+  "https://www.linkedin.com/company/topaz-financial-group-limited"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://hk.linkedin.com/company/topaz-financial-group-limited",
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://hk.linkedin.com/company/topaz-financial-group-limited",
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/topaz-financial-group-limited",
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://www.topaz.hk/"
+  }
+ ]
+}

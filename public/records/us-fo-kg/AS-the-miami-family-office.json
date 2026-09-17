@@ -1,0 +1,192 @@
+{
+ "record": "Family Office Record",
+ "id": "AS-the-miami-family-office",
+ "version": "2026-09-14.2",
+ "node": "us-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://us.fo-kg.ai/mcp",
+ "lei": null,
+ "associations": [
+  {
+   "body": "Family Office Club",
+   "body_kind": "association",
+   "page_kind": "cited",
+   "listing": {
+    "value": "The Miami Family Office",
+    "source_url": "https://familyoffices.com/about-us/",
+    "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "role": "listed",
+    "place": "Miami",
+    "page_date": "2026-12-17",
+    "basis": "named on the Family Office Club page as listed"
+   }
+  }
+ ],
+ "identity": {
+  "legal_name": {
+   "value": "The Miami Family Office",
+   "source_url": "https://familyoffices.com/about-us/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "US",
+   "source_url": "https://familyoffices.com/about-us/",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United States"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": null,
+  "legal_form": null,
+  "entity_status": null,
+  "category": null
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-12-17",
+   "event": "named on the Family Office Club page (cited; listed)",
+   "source_url": "https://familyoffices.com/about-us/",
+   "read_by": "fo-kg-harvest/0.2, gpt-4.1, gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=US&filter[fulltext]=The Miami Family Office"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://familyoffices.com/member-directory",
+    "https://familyoffices.com/speakers",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://www.linkedin.com/company/the-miami-family-office",
+    "https://familyoffices.com/"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://familyoffices.com/about-us/"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://familyoffices.com/about-us/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://familyoffices.com/about-us/"
+  },
+  {
+   "field": "registrations",
+   "reason": "not on any register read under this name; the association or conference page is the only source (ORDER-006)",
+   "tried": "https://familyoffices.com/about-us/"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://familyoffices.com/about-us/"
+  }
+ ],
+ "sources": [
+  "https://familyoffices.com/",
+  "https://familyoffices.com/about-us/",
+  "https://familyoffices.com/member-directory",
+  "https://familyoffices.com/speakers",
+  "https://www.linkedin.com/company/the-miami-family-office"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://www.linkedin.com/company/the-miami-family-office",
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com/"
+  },
+  {
+   "read_by": "grok-4.6",
+   "linkedin": null,
+   "x": null,
+   "website_named": "https://themiamifamilyoffice.com"
+  }
+ ]
+}

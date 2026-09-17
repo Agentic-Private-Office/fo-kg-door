@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "984500A2C4F1I13F7089",
+ "version": "2026-09-14.2",
+ "node": "ae-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ae.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500A2C4F1I13F7089",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500A2C4F1I13F7089",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "ايرون ويلث مانجرز ملتي فاملي اوفس ش.م.ح",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "ar"
+  },
+  "jurisdiction": {
+   "value": "AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Arab Emirates"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://ironwealth.africa",
+   "read_by": "gemini-3.6-flash",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by gemini-3.6-flash on the page it cites"
+  },
+  "formation": {
+   "value": "2023-02-28",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "CVT-FLR05-05.06, Dubai, AE-DU, AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000752",
+   "register_id": "RA000752",
+   "id": {
+    "value": "22200000000000L2627",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://ironwealth.africa",
+  "source_url": "https://ironwealth.africa",
+  "read_by": "gemini-3.6-flash",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by gemini-3.6-flash on the page it cites"
+ },
+ "aliases": [
+  {
+   "value": "Iron Wealth Managers Multi Family Office FZCO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "ALTERNATIVE_LANGUAGE_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2023-02-28",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-03-02",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-08",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-08",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[DIFC public register]",
+   "reason": "the DIFC public register answered a security checkpoint page to machines",
+   "tried": "https://www.difc.ae/public-register",
+   "answer": "security checkpoint (429)"
+  },
+  {
+   "field": "registrations[ADGM public registers — RA000752]",
+   "reason": "no machine-readable search was found on the ADGM public-registers pages; the register id is as GLEIF records it",
+   "tried": "https://www.adgm.com/public-registers",
+   "answer": "no machine read"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089"
+  }
+ ],
+ "sources": [
+  "https://ae.linkedin.com/company/iron-wealth?utm_source=openai",
+  "https://api.gleif.org/api/v1/lei-records/984500A2C4F1I13F7089",
+  "https://ironwealth.africa",
+  "https://ironwealth.africa/",
+  "https://www.linkedin.com/company/ironwood-family-partners"
+ ],
+ "discovery": null
+}

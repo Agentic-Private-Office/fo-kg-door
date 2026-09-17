@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "529900B7LNS6G7LTWM48",
+ "version": "2026-09-14.2",
+ "node": "es-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://es.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900B7LNS6G7LTWM48",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900B7LNS6G7LTWM48",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "HIDRO DESARROLLOS FAMILY OFFICE SL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "es"
+  },
+  "jurisdiction": {
+   "value": "ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Spain"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2019-01-28",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Calle de Almagro 30, Madrid, ES-MD, 28010, ES",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "DP3Q",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000780",
+   "register_id": "RA000780",
+   "id": {
+    "value": "B88299433",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2019-01-28",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-10-27",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-10-13",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-10-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CNMV — registros oficiales]",
+   "reason": "the CNMV entity search returns its results through a form postback the rail does not drive; not read this wave",
+   "tried": "https://www.cnmv.es/portal/Consultas/BusquedaPorEntidad?nombre=HIDRO%20DESARROLLOS%20FAMILY%20OFFICE%20SL",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Registro Mercantil (Spain)]",
+   "reason": "Registro Mercantil extracts are paid — never attempted (HITL)",
+   "tried": "https://www.registradores.org/",
+   "answer": "paid"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://cincodias.elpais.com/directorio-empresas/empresa/8278278/hidro-desarrollos-family-office",
+    "https://www.datoscif.es/empresa/hidro-desarrollos-family-office-sl",
+    "https://cincodias.elpais.com/directorio-empresas/empresa/8278278/hidro-desarrollos-family-office?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900B7LNS6G7LTWM48",
+  "https://cincodias.elpais.com/directorio-empresas/empresa/8278278/hidro-desarrollos-family-office",
+  "https://cincodias.elpais.com/directorio-empresas/empresa/8278278/hidro-desarrollos-family-office?utm_source=openai",
+  "https://www.datoscif.es/empresa/hidro-desarrollos-family-office-sl"
+ ],
+ "discovery": null
+}

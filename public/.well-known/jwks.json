@@ -1,0 +1,20 @@
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "vbzPBHvUK2iNSaUCcVhzTw26zJQbYxdDLIrHXZfoiJI",
+      "kid": "mk-office-2026-09",
+      "use": "sig",
+      "alg": "EdDSA"
+    },
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "bZae65zm88j57Adf49dnLmCGJ9Z4DpqUSPXq9jkEy5k",
+      "kid": "padel-2026-09",
+      "use": "sig",
+      "alg": "EdDSA"
+    }
+  ]
+}

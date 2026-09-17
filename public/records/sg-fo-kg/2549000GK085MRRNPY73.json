@@ -1,0 +1,202 @@
+{
+ "record": "Family Office Record",
+ "id": "2549000GK085MRRNPY73",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "2549000GK085MRRNPY73",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/2549000GK085MRRNPY73",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "JAR WEALTH MANAGEMENT PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on ACRA — Accounting and Corporate Regulatory Authority"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://jarcapital.swiss/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2021-07-27",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "1 George Street, #16-01, Singapore, SG-01, 049145, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on ACRA — Accounting and Corporate Regulatory Authority (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202126007D",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_478f45a9c541cbe679ca55d1cd2b970b/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://jarcapital.swiss/",
+  "source_url": "https://jarcapital.swiss/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by Grok on the page it opened"
+ },
+ "aliases": [
+  {
+   "value": "KOMODO FAMILY OFFICE PTE. LTD.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2021-07-27",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-07-27",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-04-27",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-27",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://data.gov.sg/datasets/d_478f45a9c541cbe679ca55d1cd2b970b/view"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/2549000GK085MRRNPY73",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_478f45a9c541cbe679ca55d1cd2b970b&q=family%20office&limit=500",
+  "https://jarcapital.swiss/",
+  "https://www.prnewswire.com/apac/news-releases/jar-wealth-management-pte-ltd-the-singapore-arm-of-jar-capital-accelerates-expansion-into-high-growth-asian-markets-with-strategic-acquisition-of-lyra-capital-pte-ltd-302507257.html"
+ ],
+ "discovery": null
+}

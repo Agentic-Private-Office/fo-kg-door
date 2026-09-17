@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.familyofficeknowledgegraph/fo-kg",
+  "title": "Family Office Knowledge Graph",
+  "description": "Family Office Knowledge Graph: read-only MCP door over the public record. Agentic KG Holdings.",
+  "version": "0.19.12",
+  "websiteUrl": "https://familyofficeknowledgegraph.ai",
+  "repository": {
+    "url": "https://github.com/Agentic-Private-Office/fo-kg-door",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.familyofficeknowledgegraph.ai/mcp"
+    }
+  ]
+}

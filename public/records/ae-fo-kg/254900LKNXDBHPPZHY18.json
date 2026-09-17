@@ -1,0 +1,189 @@
+{
+ "record": "Family Office Record",
+ "id": "254900LKNXDBHPPZHY18",
+ "version": "2026-09-14.2",
+ "node": "ae-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ae.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900LKNXDBHPPZHY18",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900LKNXDBHPPZHY18",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Kassam Family Office Management Limited",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "AE-DU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Arab Emirates"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-03-25",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C105 Level 1, C110A Level 1, C110B Level 1, Burj Daman, Dubai International Financial Centre, Dubai, AE-DU, AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000660",
+   "register_id": "RA000660",
+   "id": {
+    "value": "10158",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "Kassam Family Office Management",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "TRADING_OR_OPERATING_NAME",
+   "language": "en"
+  }
+ ],
+ "events": [
+  {
+   "date": "2025-03-25",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-02",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-02",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-02-02",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[DIFC public register]",
+   "reason": "the DIFC public register answered a security checkpoint page to machines",
+   "tried": "https://www.difc.ae/public-register",
+   "answer": "security checkpoint (429)"
+  },
+  {
+   "field": "registrations[ADGM public registers — RA000660]",
+   "reason": "no machine-readable search was found on the ADGM public-registers pages; the register id is as GLEIF records it",
+   "tried": "https://www.adgm.com/public-registers",
+   "answer": "no machine read"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.swfinstitute.org/profile/67188c1a867b400347ae66b8",
+    "https://lei.bloomberg.com/leis/view/254900LKNXDBHPPZHY18",
+    "https://lei.bloomberg.com/leis/view/254900LKNXDBHPPZHY18?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900LKNXDBHPPZHY18",
+  "https://lei.bloomberg.com/leis/view/254900LKNXDBHPPZHY18",
+  "https://lei.bloomberg.com/leis/view/254900LKNXDBHPPZHY18?utm_source=openai",
+  "https://www.swfinstitute.org/profile/67188c1a867b400347ae66b8"
+ ],
+ "discovery": null
+}

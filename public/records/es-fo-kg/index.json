@@ -1,0 +1,1268 @@
+{
+ "node": "es-fo-kg",
+ "country": "ES",
+ "jurisdiction": "Spain",
+ "host": "https://es.fo-kg.ai",
+ "door": "https://es.fo-kg.ai/mcp",
+ "host_long": "https://es-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://es-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "529900B7LNS6G7LTWM48",
+   "lei": "529900B7LNS6G7LTWM48",
+   "legal_name": "HIDRO DESARROLLOS FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "B88299433"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/529900B7LNS6G7LTWM48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945007DLMJK85QV7B48",
+   "lei": "8945007DLMJK85QV7B48",
+   "legal_name": "JOPA FAMILY OFFICE SOCIEDAD LIMITADA",
+   "aliases": [],
+   "register_ids": [
+    "B95267738"
+   ],
+   "jurisdiction": "Spain",
+   "city": "MUNGIA",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.jopafamily.es",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/8945007DLMJK85QV7B48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500EZYZUNZC7PMC04",
+   "lei": "894500EZYZUNZC7PMC04",
+   "legal_name": "CARAL FAMILY OFFICE, SOCIEDAD LIMITADA",
+   "aliases": [
+    "CARAL PROPERTY MANAGEMENT, SL"
+   ],
+   "register_ids": [
+    "1000176455570"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Valencia",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/894500EZYZUNZC7PMC04.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500Y3S0W4EUSJ1X65",
+   "lei": "894500Y3S0W4EUSJ1X65",
+   "legal_name": "FAMILY OFFICE SOCIEDAD LIMITADA.",
+   "aliases": [],
+   "register_ids": [
+    "B85639417"
+   ],
+   "jurisdiction": "Spain",
+   "city": "MADRID",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.familyofficec.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/894500Y3S0W4EUSJ1X65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "95980004V5TPE4C3NR43",
+   "lei": "95980004V5TPE4C3NR43",
+   "legal_name": "ALTAIR FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000231441856"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Santa Cruz de Tenerife",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/95980004V5TPE4C3NR43.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9598000TPBCSA0NVCS43",
+   "lei": "9598000TPBCSA0NVCS43",
+   "legal_name": "SABAIL FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000239511975"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Gijón",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.sabailfamilyoffice.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/9598000TPBCSA0NVCS43.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "95980020140005205197",
+   "lei": "95980020140005205197",
+   "legal_name": "ADVISORY FAMILY OFFICE SERVICES, SL",
+   "aliases": [],
+   "register_ids": [
+    "tomo 36418 folio 0040 hoja 288393"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "NULL",
+   "structure": null,
+   "website": "http://www.summapatrimonia.com",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/95980020140005205197.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9598002LBY9GCV3TKF48",
+   "lei": "9598002LBY9GCV3TKF48",
+   "legal_name": "ALL IRON FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000071288768"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Bilbao",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://alliron.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/9598002LBY9GCV3TKF48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9598004307UCCPDQLR65",
+   "lei": "9598004307UCCPDQLR65",
+   "legal_name": "JUAREZ & ASOCIADOS-FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000273427145"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/9598004307UCCPDQLR65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "95980045BUQ99QAAYG57",
+   "lei": "95980045BUQ99QAAYG57",
+   "legal_name": "PIVET SPAIN FAMILY OFFICE S.L. (SOCIEDAD UNIPERSONAL)",
+   "aliases": [],
+   "register_ids": [
+    "1000372286778"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/95980045BUQ99QAAYG57.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9598008Z39AR87PK3624",
+   "lei": "9598008Z39AR87PK3624",
+   "legal_name": "VALIAINVEST FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000285719566"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.grupovaliaasesores.com",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/9598008Z39AR87PK3624.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800940556JUUYUH47",
+   "lei": "959800940556JUUYUH47",
+   "legal_name": "STROME FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000299973284"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800940556JUUYUH47.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800A9131LKY7R0633",
+   "lei": "959800A9131LKY7R0633",
+   "legal_name": "LA TAHONERA FAMILY OFFICE SCR S.A.",
+   "aliases": [],
+   "register_ids": [
+    "SCR-700"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Guareña",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800A9131LKY7R0633.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800AQAHE5H1R8X815",
+   "lei": "959800AQAHE5H1R8X815",
+   "legal_name": "GESTION INTEGRAL DE FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000271567255"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800AQAHE5H1R8X815.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800B78FNVVA899H64",
+   "lei": "959800B78FNVVA899H64",
+   "legal_name": "BROWN AND PETERSON PARTNERS FAMILY OFFICE SERVICES SL",
+   "aliases": [],
+   "register_ids": [
+    "1000288571789"
+   ],
+   "jurisdiction": "Spain",
+   "city": "MADRID",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://brownpetersonmfo.com",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800B78FNVVA899H64.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800CLHZFHQUSCYD48",
+   "lei": "959800CLHZFHQUSCYD48",
+   "legal_name": "KOROSTI FAMILY OFFICE SCR SA",
+   "aliases": [],
+   "register_ids": [
+    "1000176577991"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Valencia",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800CLHZFHQUSCYD48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800DSJB0S9TW6BR70",
+   "lei": "959800DSJB0S9TW6BR70",
+   "legal_name": "DLD GLOBAL FAMILY OFFICE SL",
+   "aliases": [
+    "ARTIA INNOVACION Y SOSTENIBILIDAD SL"
+   ],
+   "register_ids": [
+    "1000287066783"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800DSJB0S9TW6BR70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800EYDEL1UJ5FWH83",
+   "lei": "959800EYDEL1UJ5FWH83",
+   "legal_name": "FINBAL MULTI-FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000085207962"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Palma de Mallorca",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.finbal.es",
+   "fields": {
+    "total": 15,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800EYDEL1UJ5FWH83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800F3NFTH8SHVCE52",
+   "lei": "959800F3NFTH8SHVCE52",
+   "legal_name": "FAMILY OFFICE CONSULTING SL",
+   "aliases": [],
+   "register_ids": [
+    "1000269804981"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Pozuelo de Alarcón",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://familyofficec.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800F3NFTH8SHVCE52.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800G8WMBSQ7W9SS72",
+   "lei": "959800G8WMBSQ7W9SS72",
+   "legal_name": "CLUSTER FAMILY OFFICE S.L.",
+   "aliases": [],
+   "register_ids": [
+    "1000360624137"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://clusterfamilyoffice.com",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800G8WMBSQ7W9SS72.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800M8AXAKPES59694",
+   "lei": "959800M8AXAKPES59694",
+   "legal_name": "NAPA CORPORATE FAMILY OFFICE, S.L",
+   "aliases": [],
+   "register_ids": [
+    "1000035938253"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Sevilla",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800M8AXAKPES59694.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800MP3J1RGMH1D174",
+   "lei": "959800MP3J1RGMH1D174",
+   "legal_name": "LEMON TREE FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000307407147"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.lemontree.capital/",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800MP3J1RGMH1D174.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800N7HH1UTEDYNA53",
+   "lei": "959800N7HH1UTEDYNA53",
+   "legal_name": "FAMILY OFFICE JAPYN SL",
+   "aliases": [],
+   "register_ids": [
+    "1000314298062"
+   ],
+   "jurisdiction": "Spain",
+   "city": "San Sebastián de los Reyes",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800N7HH1UTEDYNA53.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800PM4VQZ09QAAN25",
+   "lei": "959800PM4VQZ09QAAN25",
+   "legal_name": "RODRIGUEZ PELAEZ FAMILY OFFICE GESTION SL",
+   "aliases": [],
+   "register_ids": [
+    "1000235470567"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Tineo",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800PM4VQZ09QAAN25.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800QA2VJBGJ6R6W29",
+   "lei": "959800QA2VJBGJ6R6W29",
+   "legal_name": "MOLI VELL FAMILY OFFICE S.L. (SOCIEDAD UNIPERSONAL)",
+   "aliases": [],
+   "register_ids": [
+    "1000368004870"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800QA2VJBGJ6R6W29.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800SS3EZHZH4SLW59",
+   "lei": "959800SS3EZHZH4SLW59",
+   "legal_name": "CASTELLANOS FAMILY OFFICE SOCIEDAD LIMITADA",
+   "aliases": [],
+   "register_ids": [
+    "1000461608759"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Villanueva de Gállego",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800SS3EZHZH4SLW59.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800T90NF8PVRYYG10",
+   "lei": "959800T90NF8PVRYYG10",
+   "legal_name": "2001 FAMILY OFFICE S.L",
+   "aliases": [
+    "2001 INTERNATIONAL FRANCHISING SOCIEDAD LIMITADA"
+   ],
+   "register_ids": [
+    "1000181314027"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Sevilla",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800T90NF8PVRYYG10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800TR9EGFF5QJW270",
+   "lei": "959800TR9EGFF5QJW270",
+   "legal_name": "ANCHOR FAMILY OFFICE SERVICES S.L.",
+   "aliases": [
+    "LONG-ONLY INVESTMENT S.L."
+   ],
+   "register_ids": [
+    "1000357864274"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://anchoreafi.com/family-office",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800TR9EGFF5QJW270.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800TY4J0M4QQNBH38",
+   "lei": "959800TY4J0M4QQNBH38",
+   "legal_name": "ROMEROADREU FAMILY OFFICE SOCIEDAD LIMITADA",
+   "aliases": [],
+   "register_ids": [
+    "1000036484777"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Sevilla",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800TY4J0M4QQNBH38.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800UPMZ6PEQPRC647",
+   "lei": "959800UPMZ6PEQPRC647",
+   "legal_name": "ESCOTET FAMILY OFFICE, S.L.",
+   "aliases": [],
+   "register_ids": [
+    "1000305655053"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800UPMZ6PEQPRC647.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800UVKJP99ENDEH62",
+   "lei": "959800UVKJP99ENDEH62",
+   "legal_name": "AURA FAMILY OFFICE S.L.",
+   "aliases": [
+    "NORELDA S.L."
+   ],
+   "register_ids": [
+    "1000345476165"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.aurafamilyoffice.es",
+   "fields": {
+    "total": 16,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 5,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800UVKJP99ENDEH62.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800V9F6FVT7REE534",
+   "lei": "959800V9F6FVT7REE534",
+   "legal_name": "VALOR ABSOLUTO FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000278967898"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800V9F6FVT7REE534.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800WAFU2TQQG50L65",
+   "lei": "959800WAFU2TQQG50L65",
+   "legal_name": "SAINT THOMAS MORE FAMILY OFFICE SL",
+   "aliases": [
+    "T. MORO LTPE SL"
+   ],
+   "register_ids": [
+    "1000031617334"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Marbella",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800WAFU2TQQG50L65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800WVYCCA27JZG813",
+   "lei": "959800WVYCCA27JZG813",
+   "legal_name": "BERNAT FAMILY OFFICE S.L.",
+   "aliases": [],
+   "register_ids": [
+    "1000354274880"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Barcelona",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://bernatfo.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800WVYCCA27JZG813.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800X46BYT86G0S146",
+   "lei": "959800X46BYT86G0S146",
+   "legal_name": "MAGISTER FAMILY OFFICE SOCIEDAD LIMITADA",
+   "aliases": [],
+   "register_ids": [
+    "1000166387167"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Valencia",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800X46BYT86G0S146.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800XRAXYF58UP1323",
+   "lei": "959800XRAXYF58UP1323",
+   "legal_name": "FAMILY OFFICE SOLUTIONS S.L",
+   "aliases": [],
+   "register_ids": [
+    "1000269032156"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Madrid",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800XRAXYF58UP1323.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800XWNZ459Z6NB675",
+   "lei": "959800XWNZ459Z6NB675",
+   "legal_name": "JIMNALA FAMILY OFFICE, S. L.",
+   "aliases": [],
+   "register_ids": [
+    "1000445546469"
+   ],
+   "jurisdiction": "Spain",
+   "city": "Pozuelo de Alarcón",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800XWNZ459Z6NB675.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "959800ZDY7Q6QZMC0D66",
+   "lei": "959800ZDY7Q6QZMC0D66",
+   "legal_name": "CUPO FAMILY OFFICE SL",
+   "aliases": [],
+   "register_ids": [
+    "1000040497251"
+   ],
+   "jurisdiction": "Spain",
+   "city": "San Juan de Aznalfarache",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/959800ZDY7Q6QZMC0D66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450011FAAD666F4C29",
+   "lei": "98450011FAAD666F4C29",
+   "legal_name": "SMART FAMILY OFFICE SPAIN S.L.",
+   "aliases": [],
+   "register_ids": [
+    "B-616895-8"
+   ],
+   "jurisdiction": "Spain",
+   "city": "VILADECANS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/es-fo-kg/98450011FAAD666F4C29.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 545,
+  "sourced": 505,
+  "filled": 28,
+  "confirmed": 12,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 216,
+  "events": 152,
+  "registrations": 39,
+  "principals": 17,
+  "with_lei": 39,
+  "with_website": 14,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 10
+ },
+ "sources": [
+  {
+   "name": "alliron.com — subject website",
+   "url": "https://alliron.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "anchoreafi.com — subject website",
+   "url": "https://anchoreafi.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "bernatfo.com — subject website",
+   "url": "https://bernatfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "brownpetersonmfo.com — subject website",
+   "url": "https://brownpetersonmfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "clusterfamilyoffice.com — subject website",
+   "url": "https://clusterfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "familyofficec.com — subject website",
+   "url": "https://familyofficec.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.aurafamilyoffice.es — subject website",
+   "url": "https://www.aurafamilyoffice.es/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.jopafamily.es — subject website",
+   "url": "https://www.jopafamily.es/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.lemontree.capital — subject website",
+   "url": "https://www.lemontree.capital/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.sabailfamilyoffice.com — subject website",
+   "url": "https://www.sabailfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  }
+ ],
+ "refused": [
+  {
+   "register": "CNMV — registros oficiales",
+   "subjects": 39
+  },
+  {
+   "register": "Registro Mercantil (Spain)",
+   "subjects": 39
+  },
+  {
+   "register": "website",
+   "subjects": 5
+  }
+ ],
+ "reads": 10,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/es-fo-kg/<source>/2026-09-14/"
+ }
+}

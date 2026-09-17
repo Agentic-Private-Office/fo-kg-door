@@ -1,0 +1,206 @@
+{
+ "record": "Family Office Record",
+ "id": "81560057F6E208E94936",
+ "version": "2026-09-14.2",
+ "node": "it-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://it.fo-kg.ai/mcp",
+ "lei": {
+  "value": "81560057F6E208E94936",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/81560057F6E208E94936",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "815600EAD78C57FCE690"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "81 SOCIETA' DI CONSULENZA FINANZIARIA FAMILY OFFICE SRL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "it-IT"
+  },
+  "jurisdiction": {
+   "value": "IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Italy"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.81scf.com/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2006-09-17",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "CONTRA' SAN FAUSTINO, 17, VICENZA, IT-VI, 36100, IT",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "OV32",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Registro Imprese (Italian business register)",
+   "register_id": "RA000407",
+   "id": {
+    "value": "03341580243",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.registroimprese.it/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Andrea Dal Bellin Peruffo",
+    "source_url": "https://www.81scf.com/i-fondatori/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Presidente del Consiglio di Amministrazione, con delega e responsabilità dell'area consulenza as the subject's own page says"
+   },
+   "role": "Presidente del Consiglio di Amministrazione, con delega e responsabilità dell'area consulenza"
+  },
+  {
+   "name": {
+    "value": "Matteo Cavalcante",
+    "source_url": "https://www.81scf.com/i-fondatori/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Consigliere di Amministrazione con delega all'area commerciale, finanza e controllo as the subject's own page says"
+   },
+   "role": "Consigliere di Amministrazione con delega all'area commerciale, finanza e controllo"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.81scf.com/",
+  "source_url": "https://www.81scf.com/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash"
+ },
+ "aliases": [
+  {
+   "value": "81 SOCIETA' DI CONSULENZA FINANZIARIA FAMILY OFFICE SPA IN FORMA ABBREVIATA \"81 SCF SPA\"",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "it-IT"
+  }
+ ],
+ "events": [
+  {
+   "date": "2006-09-17",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-26",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-14",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-27",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[CONSOB — albi ed elenchi]",
+   "reason": "the CONSOB public site answers a captcha page to machines; the registers were not read this wave",
+   "tried": "https://www.consob.it/web/area-pubblica/intermediari",
+   "answer": "captcha (Radware)"
+  },
+  {
+   "field": "registrations[Registro Imprese (Italian business register)]",
+   "reason": "the Registro Imprese search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.registroimprese.it/",
+   "answer": "login"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/81560057F6E208E94936",
+  "https://www.81scf.com/"
+ ],
+ "discovery": null
+}

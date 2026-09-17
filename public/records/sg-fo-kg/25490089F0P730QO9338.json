@@ -1,0 +1,234 @@
+{
+ "record": "Family Office Record",
+ "id": "25490089F0P730QO9338",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "25490089F0P730QO9338",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/25490089F0P730QO9338",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Rheingold Family Office Pte. Ltd.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://eservices.mas.gov.sg/fid/institution/detail/243326-RHEINGOLD-FAMILY-OFFICE-PTE-LTD",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on MAS Financial Institutions Directory"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://rheingoldfo.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2020-05-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "8 Marina Boulevard, #11, Marina Bay Financial Centre, Singapore, SG-01, 018981, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "50 RAFFLES PLACE #30-19 SINGAPORE LAND TOWER 048623",
+     "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "202013909E",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_2b8c54b2a490d2fa36b925289e5d9572/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "MAS Financial Institutions Directory",
+   "register_id": null,
+   "id": {
+    "value": "243326",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/243326-RHEINGOLD-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://eservices.mas.gov.sg/fid/institution/detail/243326-RHEINGOLD-FAMILY-OFFICE-PTE-LTD",
+   "status": {
+    "value": "Exempt Financial Adviser",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/243326-RHEINGOLD-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Yolanda Dai",
+    "source_url": "https://rheingoldfo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Sylvia Lim",
+    "source_url": "https://rheingoldfo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://rheingoldfo.com/",
+  "source_url": "https://rheingoldfo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-05-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-05-19",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2021-09-13",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-09-13",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-02-20",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/25490089F0P730QO9338",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_2b8c54b2a490d2fa36b925289e5d9572&q=family%20office&limit=500",
+  "https://eservices.mas.gov.sg/fid/institution/detail/243326-RHEINGOLD-FAMILY-OFFICE-PTE-LTD",
+  "https://rheingoldfo.com/"
+ ],
+ "discovery": null
+}

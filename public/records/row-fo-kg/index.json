@@ -1,0 +1,5242 @@
+{
+ "node": "row-fo-kg",
+ "country": "ZZ",
+ "jurisdiction": "Rest of world",
+ "host": "https://row.fo-kg.ai",
+ "door": "https://row.fo-kg.ai/mcp",
+ "host_long": "https://row-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://row-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "2138009DMPYRPVFH1M63",
+   "lei": "2138009DMPYRPVFH1M63",
+   "legal_name": "ENTHUSIASM FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "137171C"
+   ],
+   "jurisdiction": "Isle of Man",
+   "city": "DOUGLAS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/2138009DMPYRPVFH1M63.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800BCT8Y4BLLALA30",
+   "lei": "213800BCT8Y4BLLALA30",
+   "legal_name": "FU SHOU FAMILY OFFICE LIMITED",
+   "aliases": [
+    "BROOKSIDE HOLDINGS LIMITED"
+   ],
+   "register_ids": [
+    "1546789"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "CENTRAL",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800BCT8Y4BLLALA30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800GJKG8R7799HS62",
+   "lei": "213800GJKG8R7799HS62",
+   "legal_name": "BAY CAPITAL FAMILY OFFICE PARTNERS",
+   "aliases": [],
+   "register_ids": [
+    "2023/986928/07"
+   ],
+   "jurisdiction": "South Africa",
+   "city": "CAPE TOWN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800GJKG8R7799HS62.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800GLYBFYP488LX90",
+   "lei": "213800GLYBFYP488LX90",
+   "legal_name": "CROWN OCEAN CAPITAL (FAMILY OFFICE) LTD",
+   "aliases": [],
+   "register_ids": [
+    "ΗΕ 421209"
+   ],
+   "jurisdiction": "Cyprus",
+   "city": "LARNACA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800GLYBFYP488LX90.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800IMAMZODIU6S158",
+   "lei": "213800IMAMZODIU6S158",
+   "legal_name": "TURLOV FAMILY OFFICE SECURITIES",
+   "aliases": [],
+   "register_ids": [
+    "2022/274852/07"
+   ],
+   "jurisdiction": "South Africa",
+   "city": "CAPE TOWN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800IMAMZODIU6S158.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800N9HNZT75G6I589",
+   "lei": "213800N9HNZT75G6I589",
+   "legal_name": "WILTON-NEVES FAMILY OFFICE PRIVATE TRUST COMPANY LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "016174V"
+   ],
+   "jurisdiction": "Isle of Man",
+   "city": "DOUGLAS",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800N9HNZT75G6I589.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800OG1BFC3LAFDT41",
+   "lei": "213800OG1BFC3LAFDT41",
+   "legal_name": "KLESCH FAMILY OFFICE PCC",
+   "aliases": [],
+   "register_ids": [
+    "100955"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST. HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800OG1BFC3LAFDT41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800RXL9NXSQSL1K66",
+   "lei": "213800RXL9NXSQSL1K66",
+   "legal_name": "CRESTBRIDGE FAMILY OFFICE SERVICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "112930"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800RXL9NXSQSL1K66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800SMAT4T7HPJET34",
+   "lei": "213800SMAT4T7HPJET34",
+   "legal_name": "WATSON FAMILY OFFICE LP",
+   "aliases": [],
+   "register_ids": [
+    "4360"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST. HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800SMAT4T7HPJET34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800ULIXBK6O14WO83",
+   "lei": "213800ULIXBK6O14WO83",
+   "legal_name": "PETRICHOR JOINT FAMILY OFFICE PCC LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "020506V"
+   ],
+   "jurisdiction": "Isle of Man",
+   "city": "DOUGLAS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800ULIXBK6O14WO83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800UY18C67U565L89",
+   "lei": "213800UY18C67U565L89",
+   "legal_name": "Sylex Family office of Delvaux",
+   "aliases": [],
+   "register_ids": [
+    "0881373177"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "Waterloo",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800UY18C67U565L89.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800YSPBEZ6NNW6Z50",
+   "lei": "213800YSPBEZ6NNW6Z50",
+   "legal_name": "MANECKSHAW FAMILY OFFICE LP",
+   "aliases": [],
+   "register_ids": [
+    "3290"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST. HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/213800YSPBEZ6NNW6Z50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "233000833SF5IOXN4D37",
+   "lei": "233000833SF5IOXN4D37",
+   "legal_name": "Katona Family Office Zártkörűen Működő Részvénytársaság",
+   "aliases": [],
+   "register_ids": [
+    "01-10-049483"
+   ],
+   "jurisdiction": "Hungary",
+   "city": "Budapest",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/233000833SF5IOXN4D37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2549005CZ10TUAIDVX50",
+   "lei": "2549005CZ10TUAIDVX50",
+   "legal_name": "NH FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "C 108340"
+   ],
+   "jurisdiction": "Malta",
+   "city": "SLIEMA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/2549005CZ10TUAIDVX50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900694GXUB77DWY43",
+   "lei": "254900694GXUB77DWY43",
+   "legal_name": "華捷環球資本有限公司",
+   "aliases": [
+    "Hiep Phu Global Family Office Limited",
+    "Sincere Innovation and Technology Investment Company Limited"
+   ],
+   "register_ids": [
+    "74771718"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "Hong Kong",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900694GXUB77DWY43.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "25490089ZE5VF1AHK794",
+   "lei": "25490089ZE5VF1AHK794",
+   "legal_name": "TreasureFormula Family Office Unipessoal, Lda",
+   "aliases": [],
+   "register_ids": [
+    "513059849"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "Caxias",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/25490089ZE5VF1AHK794.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900A0HGGG6DHUV055",
+   "lei": "254900A0HGGG6DHUV055",
+   "legal_name": "XI Capital Μονοπρόσωπη Ανώνυμη Εταιρεία Ειδικού Σκοπού Διαχείρισης Οικογενειακής Περιουσίας",
+   "aliases": [
+    "XI Capital Single Purpose Private Limited Family Office",
+    "XI Capital Single-member Public Limited Company For The Specific Purpose of Family Asset Management"
+   ],
+   "register_ids": [
+    "195126401000"
+   ],
+   "jurisdiction": "Greece",
+   "city": "Athens",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900A0HGGG6DHUV055.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900B2R5EH5YH6VV31",
+   "lei": "254900B2R5EH5YH6VV31",
+   "legal_name": "Kamu Family Office Oy",
+   "aliases": [],
+   "register_ids": [
+    "3586976-9"
+   ],
+   "jurisdiction": "Finland",
+   "city": "HELSINKI",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900B2R5EH5YH6VV31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900B7AF7L17T7PD94",
+   "lei": "254900B7AF7L17T7PD94",
+   "legal_name": "AlAbdulrazzaq Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "HO-405654"
+   ],
+   "jurisdiction": "Cayman Islands",
+   "city": "Camana Bay",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900B7AF7L17T7PD94.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900C8RF8JJW7YRR06",
+   "lei": "254900C8RF8JJW7YRR06",
+   "legal_name": "Vision Capital Ltd",
+   "aliases": [
+    "Vision Family Offices"
+   ],
+   "register_ids": [
+    "C215024"
+   ],
+   "jurisdiction": "Mauritius",
+   "city": "Port Louis",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900C8RF8JJW7YRR06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900DHVB2Z6PD2C749",
+   "lei": "254900DHVB2Z6PD2C749",
+   "legal_name": "SIWIEC FAMILY OFFICE FUNDACJA RODZINNA W ORGANIZACJI",
+   "aliases": [],
+   "register_ids": [
+    "541742168"
+   ],
+   "jurisdiction": "Poland",
+   "city": "Warszawa",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900DHVB2Z6PD2C749.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900EMPNJSB6556112",
+   "lei": "254900EMPNJSB6556112",
+   "legal_name": "Pivot Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "1931058"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "Road Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900EMPNJSB6556112.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900FMZOZ0IATVJE34",
+   "lei": "254900FMZOZ0IATVJE34",
+   "legal_name": "BTG PACTUAL GESTÃO E CONSULTORIA DE INVESTIMENTOS LTDA",
+   "aliases": [
+    "Julius Baer Family Office Brasil Gestão De Patrimônio Ltda.",
+    "JULIUS BAER BRASIL GESTAO DE PATRIMONIO E CONSULTORIA DE VALORES MOBILIARIOS LTDA"
+   ],
+   "register_ids": [
+    "12.695.840/0001-03"
+   ],
+   "jurisdiction": "Brazil",
+   "city": "SAO PAULO",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900FMZOZ0IATVJE34.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900FTULB876W30U56",
+   "lei": "254900FTULB876W30U56",
+   "legal_name": "VAVAS, FAMILY OFFICE, LDA",
+   "aliases": [
+    "Future Proof - Investimentos e Consultoria, Lda"
+   ],
+   "register_ids": [
+    "510493610"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "Porto",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900FTULB876W30U56.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900HU42555UYJYV17",
+   "lei": "254900HU42555UYJYV17",
+   "legal_name": "THE LARIS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "2019715"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "ROAD TOWN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900HU42555UYJYV17.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900JATU42HHH27O31",
+   "lei": "254900JATU42HHH27O31",
+   "legal_name": "Jake P. Noch Family Office, LLC",
+   "aliases": [],
+   "register_ids": [
+    "L 22108"
+   ],
+   "jurisdiction": "Saint Kitts and Nevis",
+   "city": "Charlestown",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900JATU42HHH27O31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900LB7M21DN17LL98",
+   "lei": "254900LB7M21DN17LL98",
+   "legal_name": "PRIVATE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "2083147"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "Road Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900LB7M21DN17LL98.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900LS2G9DZTF09485",
+   "lei": "254900LS2G9DZTF09485",
+   "legal_name": "Beugg Family Office LLC",
+   "aliases": [],
+   "register_ids": [
+    "496917"
+   ],
+   "jurisdiction": "Puerto Rico",
+   "city": "San Juan",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900LS2G9DZTF09485.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900O6TOF1AWD4K718",
+   "lei": "254900O6TOF1AWD4K718",
+   "legal_name": "Monte Carlo Multi Family Office Consultoria Ltda",
+   "aliases": [
+    "Monte Carlo Multi Family Office",
+    "Monte Carlo MFO"
+   ],
+   "register_ids": [
+    "63.435.769/0001-52"
+   ],
+   "jurisdiction": "Brazil",
+   "city": "SAO PAULO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900O6TOF1AWD4K718.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900OFHEJ4Z1S49D92",
+   "lei": "254900OFHEJ4Z1S49D92",
+   "legal_name": "Forstefinance - Empresa de Investimento, Unipessoal Lda",
+   "aliases": [
+    "REAP - Family Office Lda"
+   ],
+   "register_ids": [
+    "509968783"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "Lisbon",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900OFHEJ4Z1S49D92.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900P20ES348CTP022",
+   "lei": "254900P20ES348CTP022",
+   "legal_name": "OÜ SAGA Family Office",
+   "aliases": [],
+   "register_ids": [
+    "12385360"
+   ],
+   "jurisdiction": "Estonia",
+   "city": "Tallinn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900P20ES348CTP022.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900P3048LTMEGI115",
+   "lei": "254900P3048LTMEGI115",
+   "legal_name": "Kliwla Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.503.933-9"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "Vaduz",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900P3048LTMEGI115.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900PMED4GR1HX9Q71",
+   "lei": "254900PMED4GR1HX9Q71",
+   "legal_name": "LCS-CP Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "303227"
+   ],
+   "jurisdiction": "Cayman Islands",
+   "city": "George Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900PMED4GR1HX9Q71.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900RKJE5V04IZ2332",
+   "lei": "254900RKJE5V04IZ2332",
+   "legal_name": "Tiner Family Office Services Limited",
+   "aliases": [],
+   "register_ids": [
+    "ΗΕ 151998"
+   ],
+   "jurisdiction": "Cyprus",
+   "city": "Nicosia",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900RKJE5V04IZ2332.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900SINBNMYFVS2W22",
+   "lei": "254900SINBNMYFVS2W22",
+   "legal_name": "הימלאיה פמילי אופיס ייעוץ בע\"מ",
+   "aliases": [
+    "HIMALAYA FAMILY OFFICE ADVISING LTD"
+   ],
+   "register_ids": [
+    "514206887"
+   ],
+   "jurisdiction": "Israel",
+   "city": "רמת החייל",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900SINBNMYFVS2W22.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900UIQVN5MJDN2608",
+   "lei": "254900UIQVN5MJDN2608",
+   "legal_name": "MEMG FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "AAF-7620"
+   ],
+   "jurisdiction": "India",
+   "city": "BANGALORE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900UIQVN5MJDN2608.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900UQZNE460GUEC60",
+   "lei": "254900UQZNE460GUEC60",
+   "legal_name": "Oceancrest Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "77594729"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "Hong Kong",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900UQZNE460GUEC60.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900VK3S0DXCSMMD70",
+   "lei": "254900VK3S0DXCSMMD70",
+   "legal_name": "Thrive Family Office",
+   "aliases": [
+    "Thrive Family Office (Pty) Ltd"
+   ],
+   "register_ids": [
+    "2023/636979/07"
+   ],
+   "jurisdiction": "South Africa",
+   "city": "Johannesburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900VK3S0DXCSMMD70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900XMYK935DHJJW66",
+   "lei": "254900XMYK935DHJJW66",
+   "legal_name": "RFO INVEST - SIC DE CAPITAL DE RISCO FECHADA, S.A.",
+   "aliases": [
+    "L&G RODRIGUES FAMILY OFFICE, LDA"
+   ],
+   "register_ids": [
+    "518148882"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "Porto",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/254900XMYK935DHJJW66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2594008A2827J87XUG48",
+   "lei": "2594008A2827J87XUG48",
+   "legal_name": "GW FAMILY OFFICE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+   "aliases": [],
+   "register_ids": [
+    "0000757883"
+   ],
+   "jurisdiction": "Poland",
+   "city": "Warszawa",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/2594008A2827J87XUG48.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "31570024Q7WWGU6AKN85",
+   "lei": "31570024Q7WWGU6AKN85",
+   "legal_name": "Family Office Invest, osoba rizikového kapitálu, s.r.o.",
+   "aliases": [
+    "Family Office Invest s.r.o."
+   ],
+   "register_ids": [
+    "10688382"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Vinohrady, Praha 2",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/31570024Q7WWGU6AKN85.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3157003ES8B4T0I59888",
+   "lei": "3157003ES8B4T0I59888",
+   "legal_name": "Family Office bratrů Strnadových, soukromý svěřenský fond",
+   "aliases": [],
+   "register_ids": [
+    "22360077"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Praha",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/3157003ES8B4T0I59888.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "315700782EJ34RIYBP12",
+   "lei": "315700782EJ34RIYBP12",
+   "legal_name": "Libensky Family Office a.s.",
+   "aliases": [],
+   "register_ids": [
+    "04921640"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Olomouc",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/315700782EJ34RIYBP12.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "315700G0NKJT2A1SVD07",
+   "lei": "315700G0NKJT2A1SVD07",
+   "legal_name": "Family Office Junghänel s.r.o.",
+   "aliases": [],
+   "register_ids": [
+    "05901448"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Praha 1",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/315700G0NKJT2A1SVD07.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "315700GB8BJOKA05SD88",
+   "lei": "315700GB8BJOKA05SD88",
+   "legal_name": "ONE FAMILY OFFICE PROJECT 1 s.r.o.",
+   "aliases": [],
+   "register_ids": [
+    "19885067"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Praha",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/315700GB8BJOKA05SD88.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "315700X9U4GBNUZ2HT70",
+   "lei": "315700X9U4GBNUZ2HT70",
+   "legal_name": "LP Family Office s.r.o.",
+   "aliases": [],
+   "register_ids": [
+    "23307846"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Praha",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/315700X9U4GBNUZ2HT70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "315700YGSBDDD0XSXJ64",
+   "lei": "315700YGSBDDD0XSXJ64",
+   "legal_name": "Family Office Partners s.r.o.",
+   "aliases": [],
+   "register_ids": [
+    "09942050"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Praha",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/315700YGSBDDD0XSXJ64.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3358002LPB3XMARGFG70",
+   "lei": "3358002LPB3XMARGFG70",
+   "legal_name": "MN SANGHVI FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "ACB-4574"
+   ],
+   "jurisdiction": "India",
+   "city": "AHMEDABAD",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/3358002LPB3XMARGFG70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "335800LKFF6WZARKJQ02",
+   "lei": "335800LKFF6WZARKJQ02",
+   "legal_name": "CHEBS FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "ABB-8360"
+   ],
+   "jurisdiction": "India",
+   "city": "HYDERABAD",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/335800LKFF6WZARKJQ02.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "335800O1GLEYTVHNMM37",
+   "lei": "335800O1GLEYTVHNMM37",
+   "legal_name": "YATHARTH FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "UDYAM-UP-28-0219057"
+   ],
+   "jurisdiction": "India",
+   "city": "NOIDA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/335800O1GLEYTVHNMM37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "335800O3TADIAMDZ1702",
+   "lei": "335800O3TADIAMDZ1702",
+   "legal_name": "CTL TRUSTEESHIP LIMITED",
+   "aliases": [
+    "CATALYST FAMILY OFFICE AND CORPORATE ADVISER PRIVATE LIMITED"
+   ],
+   "register_ids": [
+    "U66190PN2024PLC237102"
+   ],
+   "jurisdiction": "India",
+   "city": "PUNE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/335800O3TADIAMDZ1702.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "335800RIJK8MYZMDME23",
+   "lei": "335800RIJK8MYZMDME23",
+   "legal_name": "SPARK PWM PRIVATE LIMITED",
+   "aliases": [
+    "SPARK FAMILY OFFICE AND INVESTMENT ADVISORS (INDIA) PRIVATE LIMITED"
+   ],
+   "register_ids": [
+    "U93000TN2012PTC086696"
+   ],
+   "jurisdiction": "India",
+   "city": "CHENNAI",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/335800RIJK8MYZMDME23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "353800DBSDYUGWGK5T78",
+   "lei": "353800DBSDYUGWGK5T78",
+   "legal_name": "ＭＯＨＩＮＡNＩ　ＦＡＭＩＬＹ　ＯＦＦＩＣＥ株式会社",
+   "aliases": [
+    "MOHINANI FAMILY OFFICE Co., Ltd."
+   ],
+   "register_ids": [
+    "1400-01-130039"
+   ],
+   "jurisdiction": "Japan",
+   "city": "兵庫県 神戸市灘区",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/353800DBSDYUGWGK5T78.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200495XB7WT98J872",
+   "lei": "391200495XB7WT98J872",
+   "legal_name": "Laura Family Offices GmbH",
+   "aliases": [],
+   "register_ids": [
+    "566011w"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Klosterneuburg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/391200495XB7WT98J872.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200E0SIPC45UDG644",
+   "lei": "391200E0SIPC45UDG644",
+   "legal_name": "RICH FOREVER FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "75960015"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "Tsim Sha Tsui",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/391200E0SIPC45UDG644.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "391200QI2K9084I3F408",
+   "lei": "391200QI2K9084I3F408",
+   "legal_name": "Yan Yun Family Office (HK) Limited",
+   "aliases": [],
+   "register_ids": [
+    "72189684"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "TSIM SHA TSUI, KLN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/391200QI2K9084I3F408.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5299006WX6FOEB57VZ65",
+   "lei": "5299006WX6FOEB57VZ65",
+   "legal_name": "FIL Bros. Family Office GmbH & Co KG",
+   "aliases": [],
+   "register_ids": [
+    "552779k"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Kitzbühel",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5299006WX6FOEB57VZ65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900ER3G7OS0WBMJ46",
+   "lei": "529900ER3G7OS0WBMJ46",
+   "legal_name": "1231 Family Office Inc.",
+   "aliases": [],
+   "register_ids": [
+    "254256"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "Road Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900ER3G7OS0WBMJ46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900GJS9C0CIR67C24",
+   "lei": "529900GJS9C0CIR67C24",
+   "legal_name": "Léman Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.589.710-9"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "Vaduz",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900GJS9C0CIR67C24.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900KLJXTHN7J81Y28",
+   "lei": "529900KLJXTHN7J81Y28",
+   "legal_name": "ASAMER Family Office ONE GmbH",
+   "aliases": [
+    "Kurt Asamer Beteiligungs- und Management GmbH"
+   ],
+   "register_ids": [
+    "261084y"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Altmünster",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900KLJXTHN7J81Y28.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900KP87NAJ4NGZJ65",
+   "lei": "529900KP87NAJ4NGZJ65",
+   "legal_name": "BP Family Office Fund",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Liechtenstein",
+   "city": "Gamprin-Bendern",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900KP87NAJ4NGZJ65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900RFH98SL1ZFBE62",
+   "lei": "529900RFH98SL1ZFBE62",
+   "legal_name": "Values & Guidance GmbH",
+   "aliases": [
+    "Values & Guidance Family Office GmbH"
+   ],
+   "register_ids": [
+    "237278p"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Wien",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900RFH98SL1ZFBE62.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900RGQLBT35H26438",
+   "lei": "529900RGQLBT35H26438",
+   "legal_name": "BUREAU WOSCHEK FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "0472.155.913"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "HENRI-CHAPELLE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900RGQLBT35H26438.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900VLKNANR0RUEV84",
+   "lei": "529900VLKNANR0RUEV84",
+   "legal_name": "אופל פמילי אופיס בע\"מ",
+   "aliases": [
+    "OPAL FAMILY OFFICE LTD"
+   ],
+   "register_ids": [
+    "515325926"
+   ],
+   "jurisdiction": "Israel",
+   "city": "NESS TZIONA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900VLKNANR0RUEV84.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "529900XE7FE2VF8JBM06",
+   "lei": "529900XE7FE2VF8JBM06",
+   "legal_name": "Utiply Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "536106t"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Wien",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/529900XE7FE2VF8JBM06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "54930004DN5O7WE76G03",
+   "lei": "54930004DN5O7WE76G03",
+   "legal_name": "BELASKO JERSEY LIMITED AS TRUSTEE OF THE MISS ROPER'S TRUST",
+   "aliases": [
+    "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE MISS ROPER'S TRUST"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/54930004DN5O7WE76G03.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493000K5QGNW4KW0841",
+   "lei": "5493000K5QGNW4KW0841",
+   "legal_name": "BKS FAMILY TRUSTEES LIMITED AND BELASKO JERSEY LIMITED AS TRUSTEES OF THE J P THACKRAY 1989 SETTLEMENT NO 2",
+   "aliases": [
+    "BKS FAMILY TRUSTEES LIMITED AND BKS FAMILY OFFICE LIMITED AS TRUSTEES OF THE J P THACKRAY 1989 SETTLEMENT NO 2"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493000K5QGNW4KW0841.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493000MNCMF2KH8AS80",
+   "lei": "5493000MNCMF2KH8AS80",
+   "legal_name": "JAMES ALPHA FAMILY OFFICE CAYMAN FUND LTD.",
+   "aliases": [],
+   "register_ids": [
+    "DM-322846"
+   ],
+   "jurisdiction": "Cayman Islands",
+   "city": "George Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493000MNCMF2KH8AS80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493003V6IOXVMWU3N69",
+   "lei": "5493003V6IOXVMWU3N69",
+   "legal_name": "W. Family Office Aktiebolag",
+   "aliases": [
+    "Joakim Walde Invest AB",
+    "Garraway Investment AB"
+   ],
+   "register_ids": [
+    "556830-9107"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "TORSHÄLLA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493003V6IOXVMWU3N69.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493006NYTYC73LZSR41",
+   "lei": "5493006NYTYC73LZSR41",
+   "legal_name": "BKS FAMILY TRUSTEES LIMITED AND BELASKO JERSEY LIMITED AS TRUSTEES OF THE J P THACKRAY CHILDREN'S 1989 SETTLEMENT",
+   "aliases": [
+    "BKS FAMILY TRUSTEES LIMITED AND BKS FAMILY OFFICE LIMITED AS TRUSTEES OF THE J P THACKRAY CHILDREN'S 1989 SETTLEMENT"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493006NYTYC73LZSR41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493006VG9YA921MIS89",
+   "lei": "5493006VG9YA921MIS89",
+   "legal_name": "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE SERCIAL EMPLOYEE BENEFIT TRUST",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493006VG9YA921MIS89.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493007XGUD85X8BJ590",
+   "lei": "5493007XGUD85X8BJ590",
+   "legal_name": "AMK Family Office AB",
+   "aliases": [
+    "A.M. Karlsson i Kvicksund AB"
+   ],
+   "register_ids": [
+    "556638-5794"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Stockholm",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493007XGUD85X8BJ590.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493007ZQDN5FRF49T91",
+   "lei": "5493007ZQDN5FRF49T91",
+   "legal_name": "Volador AB",
+   "aliases": [
+    "Ekonomerna Invest Family Office AB",
+    "Ekonomerna Invest i Halmstad AB"
+   ],
+   "register_ids": [
+    "556663-2484"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Malmö",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/5493007ZQDN5FRF49T91.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300C6EZJK4NH2XV45",
+   "lei": "549300C6EZJK4NH2XV45",
+   "legal_name": "DL Family Office (HK) Limited",
+   "aliases": [],
+   "register_ids": [
+    "1957049"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "Wong Chuk Hang, Southern District",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300C6EZJK4NH2XV45.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300CF8MRBA011TX67",
+   "lei": "549300CF8MRBA011TX67",
+   "legal_name": "OBERON FAMILY OFFICE AB",
+   "aliases": [],
+   "register_ids": [
+    "5591671424"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "STOCKHOLM",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300CF8MRBA011TX67.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300D3UHWVCIVJOX50",
+   "lei": "549300D3UHWVCIVJOX50",
+   "legal_name": "MM FAMILY OFFICE, SL",
+   "aliases": [],
+   "register_ids": [
+    "19818"
+   ],
+   "jurisdiction": "Andorra",
+   "city": "ANDORRA LA VELLA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300D3UHWVCIVJOX50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300D9NV54Z9TJHQ49",
+   "lei": "549300D9NV54Z9TJHQ49",
+   "legal_name": "BKS FAMILY TRUSTEES LIMITED AND BELASKO JERSEY LIMITED AS TRUSTEES OF THE W P THACKRAY GRANDCHILDREN'S 1989 SETTLEMENT",
+   "aliases": [
+    "BKS FAMILY TRUSTEES LIMITED AND BKS FAMILY OFFICE LIMITED AS TRUSTEES OF THE W P THACKRAY GRANDCHILDREN'S 1989 SETTLEMENT"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300D9NV54Z9TJHQ49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300DHU6GNTQ8NHS37",
+   "lei": "549300DHU6GNTQ8NHS37",
+   "legal_name": "Risen Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "71150208"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "CENTRAL HONG KONG",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300DHU6GNTQ8NHS37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300DQZFIUG0SUIR80",
+   "lei": "549300DQZFIUG0SUIR80",
+   "legal_name": "BKS FAMILY OFFICE LIMITED",
+   "aliases": [
+    "B K S FAMILY OFFICE LIMITED"
+   ],
+   "register_ids": [
+    "102038"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300DQZFIUG0SUIR80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300EPU2ZA24HHEN24",
+   "lei": "549300EPU2ZA24HHEN24",
+   "legal_name": "LATSO FAMILY OFFICE AG",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.582.371-5"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "VADUZ",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300EPU2ZA24HHEN24.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300FGJUA0ZX5NHS14",
+   "lei": "549300FGJUA0ZX5NHS14",
+   "legal_name": "Fortune Virtue Family Office Holding Limited",
+   "aliases": [],
+   "register_ids": [
+    "1845719"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "ROAD TOWN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300FGJUA0ZX5NHS14.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300FN3LSBQ3KJCC55",
+   "lei": "549300FN3LSBQ3KJCC55",
+   "legal_name": "BELASKO JERSEY LIMITED AS TRUSTEE OF THE R L ORMOND DEED OF VARIATION TRUST",
+   "aliases": [
+    "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE R L ORMOND DEED OF VARIATION TRUST"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300FN3LSBQ3KJCC55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300GKAPVRN1AM5D24",
+   "lei": "549300GKAPVRN1AM5D24",
+   "legal_name": "BELASKO JERSEY LIMITED AS TRUSTEE OF THE J MUCKLOW SETTLEMENT - A FUND",
+   "aliases": [
+    "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE J MUCKLOW SETTLEMENT - A FUND"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300GKAPVRN1AM5D24.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300HH8ZCQJ30SKR62",
+   "lei": "549300HH8ZCQJ30SKR62",
+   "legal_name": "Zenith Family Office OÜ",
+   "aliases": [
+    "Zenith Capital Management OÜ"
+   ],
+   "register_ids": [
+    "12097803"
+   ],
+   "jurisdiction": "Estonia",
+   "city": "Tallinn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300HH8ZCQJ30SKR62.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300IAN713OSE8W854",
+   "lei": "549300IAN713OSE8W854",
+   "legal_name": "BELASKO JERSEY LIMITED AS TRUSTEE OF THE SUDAR TRUST",
+   "aliases": [
+    "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE SUDAR TRUST"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300IAN713OSE8W854.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300IM4357PGNCRR61",
+   "lei": "549300IM4357PGNCRR61",
+   "legal_name": "BKS FAMILY TRUSTEES LIMITED AND BKS FAMILY OFFICE LIMITED AS TRUSTEES OF THE PETER COLE SETTLEMENT",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300IM4357PGNCRR61.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300IMFOCNTKJSHM41",
+   "lei": "549300IMFOCNTKJSHM41",
+   "legal_name": "ONYX FAMILY OFFICE AG",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.508.451-9"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "TRIESEN",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300IMFOCNTKJSHM41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300K9BIEPR3BDTC50",
+   "lei": "549300K9BIEPR3BDTC50",
+   "legal_name": "THE GUARDIAN MULTI FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "5166162"
+   ],
+   "jurisdiction": "New Zealand",
+   "city": "AUCKLAND",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300K9BIEPR3BDTC50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300KULHTCGKZVUP07",
+   "lei": "549300KULHTCGKZVUP07",
+   "legal_name": "Wictor Family Office AB",
+   "aliases": [
+    "Visionsbolaget 8832 AB"
+   ],
+   "register_ids": [
+    "556984-3567"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Halmstad",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300KULHTCGKZVUP07.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300NF5A66JHYVXS26",
+   "lei": "549300NF5A66JHYVXS26",
+   "legal_name": "Hall Family Office AB",
+   "aliases": [],
+   "register_ids": [
+    "559094-5290"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Sundbyberg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300NF5A66JHYVXS26.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300O13H6NM809RD73",
+   "lei": "549300O13H6NM809RD73",
+   "legal_name": "Evida Family Office AB",
+   "aliases": [],
+   "register_ids": [
+    "559146-9852"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Malmö",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300O13H6NM809RD73.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300QFWZF1OSZTHN23",
+   "lei": "549300QFWZF1OSZTHN23",
+   "legal_name": "BKS FAMILY OFFICE LIMITED AS TRUSTEE OF THE J MUCKLOW SETTLEMENT - B FUND",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300QFWZF1OSZTHN23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300R2LHS68TUYMC58",
+   "lei": "549300R2LHS68TUYMC58",
+   "legal_name": "WESTLAND FAMILY OFFICE, S.A.",
+   "aliases": [],
+   "register_ids": [
+    "103836"
+   ],
+   "jurisdiction": "Marshall Islands",
+   "city": "MAJURO",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300R2LHS68TUYMC58.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300RB1CVJOJQ3HU46",
+   "lei": "549300RB1CVJOJQ3HU46",
+   "legal_name": "MELLOR BROOK LIMITED",
+   "aliases": [
+    "OAK WALK FAMILY OFFICE LIMITED"
+   ],
+   "register_ids": [
+    "113190"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST PETER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300RB1CVJOJQ3HU46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300RPG58YH6IZCY49",
+   "lei": "549300RPG58YH6IZCY49",
+   "legal_name": "Strandgården Family Office AB",
+   "aliases": [
+    "Fundamentet 1500 AB",
+    "Strandgården Capital Partners AB",
+    "Strandgården i Stockholm AB"
+   ],
+   "register_ids": [
+    "556951-3970"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Saltsjöbaden",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300RPG58YH6IZCY49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300TD0SKI61W6T828",
+   "lei": "549300TD0SKI61W6T828",
+   "legal_name": "FERREIRA - FAMILY OFFICE, SGPS, S.A.",
+   "aliases": [
+    "VALINSERT SGPS S A"
+   ],
+   "register_ids": [
+    "513788433"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "São João da Talha",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300TD0SKI61W6T828.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300TN4ZVSWLRZQ090",
+   "lei": "549300TN4ZVSWLRZQ090",
+   "legal_name": "FAM (MONACO) MULTI FAMILY OFFICE S.A.M",
+   "aliases": [],
+   "register_ids": [
+    "18S07912"
+   ],
+   "jurisdiction": "Monaco",
+   "city": "MONACO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300TN4ZVSWLRZQ090.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300U1KDKDP992S961",
+   "lei": "549300U1KDKDP992S961",
+   "legal_name": "BKS FAMILY TRUSTEES LIMITED AND BELASKO JERSEY LIMITED AS TRUSTEES OF THE J P THACKRAY 1989 SETTLEMENT NO 1",
+   "aliases": [
+    "THE J P THACKRAY 1989 SETTLEMENT NO 1",
+    "BKS FAMILY TRUSTEES LIMITED AND BKS FAMILY OFFICE LIMITED AS TRUSTEES OF THE J P THACKRAY 1989 SETTLEMENT NO 1"
+   ],
+   "register_ids": [],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300U1KDKDP992S961.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300UNTXNXFMTOGK70",
+   "lei": "549300UNTXNXFMTOGK70",
+   "legal_name": "Hefeng Family Office (Hong Kong) Limited",
+   "aliases": [
+    "和豐家族辦公室(香港)有限公司"
+   ],
+   "register_ids": [
+    "65926582"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "香港",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300UNTXNXFMTOGK70.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300W5BMSBA2P1VN43",
+   "lei": "549300W5BMSBA2P1VN43",
+   "legal_name": "ANTILLES FAMILY OFFICE, LLC",
+   "aliases": [],
+   "register_ids": [
+    "1-34563-1L"
+   ],
+   "jurisdiction": "U.S. Virgin Islands",
+   "city": "CHARLOTTE AMALIE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300W5BMSBA2P1VN43.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300XDAS13SQ6NWK25",
+   "lei": "549300XDAS13SQ6NWK25",
+   "legal_name": "Sönerna Carlsson Family Office AB",
+   "aliases": [
+    "Calmara Aktiebolag"
+   ],
+   "register_ids": [
+    "556405-1554"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Göteborg",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300XDAS13SQ6NWK25.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300XRTNXDFG0N1120",
+   "lei": "549300XRTNXDFG0N1120",
+   "legal_name": "NAYDENOV FAMILY OFFICE AKTIENGESELLSCHAFT",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.659.754-7"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "VADUZ",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/549300XRTNXDFG0N1120.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "635400PNLMK8Z8IUIA87",
+   "lei": "635400PNLMK8Z8IUIA87",
+   "legal_name": "BLG Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "506558"
+   ],
+   "jurisdiction": "Ireland",
+   "city": "Dublin",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/635400PNLMK8Z8IUIA87.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6367001FWYOC4L10H470",
+   "lei": "6367001FWYOC4L10H470",
+   "legal_name": "Clayport Family Office AB",
+   "aliases": [
+    "Advokatfirman Clayport AB"
+   ],
+   "register_ids": [
+    "559285-0860"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Lidingö",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/6367001FWYOC4L10H470.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488D1F45E8A957APS71",
+   "lei": "6488D1F45E8A957APS71",
+   "legal_name": "SKG FAMILY OFFICE PRIVATE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "U72100DL2010PTC356761"
+   ],
+   "jurisdiction": "India",
+   "city": "NEW DELHI",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/6488D1F45E8A957APS71.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488Y52NMF9N2N982G24",
+   "lei": "6488Y52NMF9N2N982G24",
+   "legal_name": "Chadrin Family Office AB",
+   "aliases": [],
+   "register_ids": [
+    "559568-3177"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "Åkersberga",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/6488Y52NMF9N2N982G24.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6994001GB79EBY0D1O53",
+   "lei": "6994001GB79EBY0D1O53",
+   "legal_name": "URMEL FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "0762464738"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "Sint-Martens-Latem",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/6994001GB79EBY0D1O53.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "743700HP9HB4S30M7N68",
+   "lei": "743700HP9HB4S30M7N68",
+   "legal_name": "Ristola Family Office Oy",
+   "aliases": [
+    "Just Jaakon Uunisuunnittelutoimisto Oy"
+   ],
+   "register_ids": [
+    "1930461-0"
+   ],
+   "jurisdiction": "Finland",
+   "city": "KERAVA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/743700HP9HB4S30M7N68.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "743700V4SU7SF0EDQ575",
+   "lei": "743700V4SU7SF0EDQ575",
+   "legal_name": "Virtual Family Office Oy",
+   "aliases": [],
+   "register_ids": [
+    "3221639-1"
+   ],
+   "jurisdiction": "Finland",
+   "city": "TAMPERE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/743700V4SU7SF0EDQ575.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "787200NPXBJN5Y1J2D47",
+   "lei": "787200NPXBJN5Y1J2D47",
+   "legal_name": "OPES FAMILY OFFICE S.R.L.",
+   "aliases": [],
+   "register_ids": [
+    "37249940"
+   ],
+   "jurisdiction": "Romania",
+   "city": "BUCUREȘTI, SECTORUL 1",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/787200NPXBJN5Y1J2D47.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "836800FDEK72F3EWID93",
+   "lei": "836800FDEK72F3EWID93",
+   "legal_name": "家族办公室（香港）有限公司",
+   "aliases": [
+    "FAMILY OFFICE (HK) Y LIMITED"
+   ],
+   "register_ids": [
+    "72829371"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "香港",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/836800FDEK72F3EWID93.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8755000O3J2473CL8F27",
+   "lei": "8755000O3J2473CL8F27",
+   "legal_name": "Topaz Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "62156435"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "Central",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 21,
+    "sourced": 21,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 8,
+   "registrations": 1,
+   "associations": 4,
+   "association_only": false,
+   "record": "/records/row-fo-kg/8755000O3J2473CL8F27.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8755007ZPNUWRVZOT524",
+   "lei": "8755007ZPNUWRVZOT524",
+   "legal_name": "Protect Family Office",
+   "aliases": [],
+   "register_ids": [
+    "0779384904"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "Sint-Jans-Molenbeek",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/8755007ZPNUWRVZOT524.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "875500DSFXRF8ZLBB923",
+   "lei": "875500DSFXRF8ZLBB923",
+   "legal_name": "Al Tajir Family Office Establishment",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.458.537-3"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "Vaduz",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/875500DSFXRF8ZLBB923.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "875500F2UGGG4W5OH813",
+   "lei": "875500F2UGGG4W5OH813",
+   "legal_name": "Mahrberg Alternative Investment Fund - Family Office Fund Multi Assets",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Liechtenstein",
+   "city": "Bendern",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/875500F2UGGG4W5OH813.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "875500S2CDAX4OC0SI50",
+   "lei": "875500S2CDAX4OC0SI50",
+   "legal_name": "Mahrberg Alternative Investment Fund - Family Office Fund Impact+",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Liechtenstein",
+   "city": "Bendern",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 0,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/875500S2CDAX4OC0SI50.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945001C1IZB4XF8ND62",
+   "lei": "8945001C1IZB4XF8ND62",
+   "legal_name": "Nexum Family Office kft",
+   "aliases": [],
+   "register_ids": [
+    "01-09-455637"
+   ],
+   "jurisdiction": "Hungary",
+   "city": "Budapest",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/8945001C1IZB4XF8ND62.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945001MTC3HW5KZG296",
+   "lei": "8945001MTC3HW5KZG296",
+   "legal_name": "AOi - Family Office, Lda",
+   "aliases": [],
+   "register_ids": [
+    "513956972"
+   ],
+   "jurisdiction": "Portugal",
+   "city": "Porto",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/8945001MTC3HW5KZG296.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945003MV5VSTSGG3847",
+   "lei": "8945003MV5VSTSGG3847",
+   "legal_name": "Yalavarthi family office LLP",
+   "aliases": [],
+   "register_ids": [
+    "ABZ-0014"
+   ],
+   "jurisdiction": "India",
+   "city": "Hyderabad",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/8945003MV5VSTSGG3847.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500C7QSKV83YC8K41",
+   "lei": "894500C7QSKV83YC8K41",
+   "legal_name": "DALMIA FAMILY OFFICE TRUST",
+   "aliases": [],
+   "register_ids": [
+    "07AAATM5438Q2ZZ"
+   ],
+   "jurisdiction": "India",
+   "city": "New Delhi",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/894500C7QSKV83YC8K41.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500KZJFX1MR4IOD02",
+   "lei": "894500KZJFX1MR4IOD02",
+   "legal_name": "Gauntlet Holdings Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "PVT-GYUQRMK2"
+   ],
+   "jurisdiction": "Kenya",
+   "city": "G.P.O NAIROBI",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/894500KZJFX1MR4IOD02.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500PER8VVJ5VQTL26",
+   "lei": "894500PER8VVJ5VQTL26",
+   "legal_name": "PNA FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "ACA-6740"
+   ],
+   "jurisdiction": "India",
+   "city": "Mumbai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/894500PER8VVJ5VQTL26.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500QH35F1NVHN6424",
+   "lei": "894500QH35F1NVHN6424",
+   "legal_name": "Куантум Фемили-Офис",
+   "aliases": [
+    "Quantum Family-Office LLC"
+   ],
+   "register_ids": [
+    "207337851"
+   ],
+   "jurisdiction": "Bulgaria",
+   "city": "София",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/894500QH35F1NVHN6424.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500ZYLWIVE8XY1A46",
+   "lei": "894500ZYLWIVE8XY1A46",
+   "legal_name": "Protego Multi Family Office Private Limited",
+   "aliases": [],
+   "register_ids": [
+    "U74999MH2019PTC330710"
+   ],
+   "jurisdiction": "India",
+   "city": "Mumbai",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/894500ZYLWIVE8XY1A46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "967600ADKY7LZQZQIS15",
+   "lei": "967600ADKY7LZQZQIS15",
+   "legal_name": "Günter Bauknecht Family Office Trust reg. in Liquidation",
+   "aliases": [
+    "Günter Bauknecht Family Office Trust reg."
+   ],
+   "register_ids": [
+    "FL-0002.417.910-0"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "Vaduz",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/967600ADKY7LZQZQIS15.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500115DF373664686",
+   "lei": "984500115DF373664686",
+   "legal_name": "FoF Family Office Invest I Sverige AB",
+   "aliases": [],
+   "register_ids": [
+    "556585-7983"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "GÖTEBORG",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500115DF373664686.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845001458551E2D6B56",
+   "lei": "9845001458551E2D6B56",
+   "legal_name": "Goldenstein Family Office AG",
+   "aliases": [],
+   "register_ids": [
+    "FL-0002.664.924-3"
+   ],
+   "jurisdiction": "Liechtenstein",
+   "city": "Schaan",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845001458551E2D6B56.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845002C98JF75CD0502",
+   "lei": "9845002C98JF75CD0502",
+   "legal_name": "Weilburg Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "522514d"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Baden",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845002C98JF75CD0502.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845003DBB6F6E8E7E30",
+   "lei": "9845003DBB6F6E8E7E30",
+   "legal_name": "Hedon Family Office",
+   "aliases": [
+    "Hedon FO ou HFO",
+    "UMANI"
+   ],
+   "register_ids": [
+    "0480.127.234"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "Bruxelles",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845003DBB6F6E8E7E30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845003FPRF8BK575F06",
+   "lei": "9845003FPRF8BK575F06",
+   "legal_name": "Uggla Family Office Ltd.",
+   "aliases": [],
+   "register_ids": [
+    "77155"
+   ],
+   "jurisdiction": "Guernsey",
+   "city": "St Peter Port",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845003FPRF8BK575F06.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450052CF7002D74F37",
+   "lei": "98450052CF7002D74F37",
+   "legal_name": "Santo Amaro Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "2216095"
+   ],
+   "jurisdiction": "British Virgin Islands",
+   "city": "Road Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/98450052CF7002D74F37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845006789881E76F345",
+   "lei": "9845006789881E76F345",
+   "legal_name": "ASAMER Family Office TWO GmbH",
+   "aliases": [],
+   "register_ids": [
+    "411449y"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Kitzbühel",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845006789881E76F345.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450071C72DB8E3FA89",
+   "lei": "98450071C72DB8E3FA89",
+   "legal_name": "Nilsson Family Office AB",
+   "aliases": [],
+   "register_ids": [
+    "559268-4293"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "HELSINGBORG",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/98450071C72DB8E3FA89.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450074F7AAQF56EB46",
+   "lei": "98450074F7AAQF56EB46",
+   "legal_name": "FIGTREE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "43872"
+   ],
+   "jurisdiction": "Barbados",
+   "city": "ST.JAMES",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/98450074F7AAQF56EB46.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845007BFAC905449B81",
+   "lei": "9845007BFAC905449B81",
+   "legal_name": "NUVO AARTIZEN FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "AAM-9377"
+   ],
+   "jurisdiction": "India",
+   "city": "Mumbai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845007BFAC905449B81.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "98450095B3FE49901554",
+   "lei": "98450095B3FE49901554",
+   "legal_name": "JALAN FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "ACE-6283"
+   ],
+   "jurisdiction": "India",
+   "city": "GIRIDH",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/98450095B3FE49901554.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845009C364R1E2AFE31",
+   "lei": "9845009C364R1E2AFE31",
+   "legal_name": "RAINTREE FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "AAJ-4795"
+   ],
+   "jurisdiction": "India",
+   "city": "Mumbai",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/9845009C364R1E2AFE31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500A00YF84C2F9994",
+   "lei": "984500A00YF84C2F9994",
+   "legal_name": "Iridium Family Office GmbH",
+   "aliases": [],
+   "register_ids": [
+    "486502w"
+   ],
+   "jurisdiction": "Austria",
+   "city": "Wien",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500A00YF84C2F9994.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500A3DCP7C80U3B33",
+   "lei": "984500A3DCP7C80U3B33",
+   "legal_name": "Forsebäck Family Office AB",
+   "aliases": [],
+   "register_ids": [
+    "556749-4231"
+   ],
+   "jurisdiction": "Sweden",
+   "city": "SKÖVDE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500A3DCP7C80U3B33.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500A647F5BAD74845",
+   "lei": "984500A647F5BAD74845",
+   "legal_name": "CREDENCE FAMILY OFFICE PRIVATE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "U74900KA2020PTC131383"
+   ],
+   "jurisdiction": "India",
+   "city": "Bangalore",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500A647F5BAD74845.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B3C485FAFB9A55",
+   "lei": "984500B3C485FAFB9A55",
+   "legal_name": "Wolfpack Family Office OÜ",
+   "aliases": [],
+   "register_ids": [
+    "16524604"
+   ],
+   "jurisdiction": "Estonia",
+   "city": "Haabneeme",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500B3C485FAFB9A55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B46670A7E41429",
+   "lei": "984500B46670A7E41429",
+   "legal_name": "Chumster Family Office OÜ",
+   "aliases": [],
+   "register_ids": [
+    "17462265"
+   ],
+   "jurisdiction": "Estonia",
+   "city": "Tallinn",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500B46670A7E41429.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500C68D3EFA1MDC77",
+   "lei": "984500C68D3EFA1MDC77",
+   "legal_name": "Oakfield Family Office (Mauritius) Foundation",
+   "aliases": [],
+   "register_ids": [
+    "FD973"
+   ],
+   "jurisdiction": "Mauritius",
+   "city": "Ebene",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500C68D3EFA1MDC77.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500CID0F9AF124080",
+   "lei": "984500CID0F9AF124080",
+   "legal_name": "НАЙДЕНОВ ФАМИЛИ ОФИС",
+   "aliases": [
+    "NAYDENOV FAMILY OFFICE Ltd."
+   ],
+   "register_ids": [
+    "208595420"
+   ],
+   "jurisdiction": "Bulgaria",
+   "city": "Sofia",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500CID0F9AF124080.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DA03D361B2C759",
+   "lei": "984500DA03D361B2C759",
+   "legal_name": "THE THAYAN FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "119392"
+   ],
+   "jurisdiction": "Jersey",
+   "city": "ST HELIER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500DA03D361B2C759.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DD22B4877R5389",
+   "lei": "984500DD22B4877R5389",
+   "legal_name": "Livermore Family Office Services Limited",
+   "aliases": [
+    "利弗莫爾證券家族財富管理有限公司"
+   ],
+   "register_ids": [
+    "70332508"
+   ],
+   "jurisdiction": "Hong Kong",
+   "city": "KOWLOON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500DD22B4877R5389.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DD4D8601393B44",
+   "lei": "984500DD4D8601393B44",
+   "legal_name": "Investhy Family Office osoba rizikového kapitálu, s.r.o.",
+   "aliases": [],
+   "register_ids": [
+    "21910979"
+   ],
+   "jurisdiction": "Czechia",
+   "city": "Moravská Ostrava",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500DD4D8601393B44.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DE0814A3E6B713",
+   "lei": "984500DE0814A3E6B713",
+   "legal_name": "Family Office Sombreffe",
+   "aliases": [],
+   "register_ids": [
+    "0696699035"
+   ],
+   "jurisdiction": "Belgium",
+   "city": "Jemeppe-sur-Sambre",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500DE0814A3E6B713.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500E2J1BEF8E99825",
+   "lei": "984500E2J1BEF8E99825",
+   "legal_name": "CEFAI FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "C 29826"
+   ],
+   "jurisdiction": "Malta",
+   "city": "VALLETTA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500E2J1BEF8E99825.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500E870001D83B844",
+   "lei": "984500E870001D83B844",
+   "legal_name": "S&F Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "99366"
+   ],
+   "jurisdiction": "Marshall Islands",
+   "city": "Ajeltake Island",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500E870001D83B844.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500E9D9R0F0563B53",
+   "lei": "984500E9D9R0F0563B53",
+   "legal_name": "ASHIKA GLOBAL FAMILY OFFICE SERVICES PRIVATE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "U66190WB2018PTC227019"
+   ],
+   "jurisdiction": "India",
+   "city": "KOLKATA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500E9D9R0F0563B53.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500F8967D9E8C1174",
+   "lei": "984500F8967D9E8C1174",
+   "legal_name": "Tengen Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "1423800"
+   ],
+   "jurisdiction": "Nigeria",
+   "city": "IKOYI",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500F8967D9E8C1174.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500FDB54DF5C4EF81",
+   "lei": "984500FDB54DF5C4EF81",
+   "legal_name": "EMMAR FAMILY OFFICES LLP",
+   "aliases": [],
+   "register_ids": [
+    "AAO-6343"
+   ],
+   "jurisdiction": "India",
+   "city": "Bangalore",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500FDB54DF5C4EF81.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500QXE1JK0B1D0366",
+   "lei": "984500QXE1JK0B1D0366",
+   "legal_name": "GOZOVSKY FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "ΗΕ 493945"
+   ],
+   "jurisdiction": "Cyprus",
+   "city": "Λεμεσός",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/984500QXE1JK0B1D0366.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "ZDSAIR2N73W3XVYUZ504",
+   "lei": "ZDSAIR2N73W3XVYUZ504",
+   "legal_name": "QVT Family Office Fund LP",
+   "aliases": [
+    "QVT Fund V LP"
+   ],
+   "register_ids": [
+    "OG-55513"
+   ],
+   "jurisdiction": "Cayman Islands",
+   "city": "George Town",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/row-fo-kg/ZDSAIR2N73W3XVYUZ504.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-sagar-family-office",
+   "lei": null,
+   "legal_name": "Sagar Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-sagar-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-pitcairn-family-office",
+   "lei": null,
+   "legal_name": "Pitcairn Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-pitcairn-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-clayton-family-office",
+   "lei": null,
+   "legal_name": "Clayton Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-clayton-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-crain-family-office",
+   "lei": null,
+   "legal_name": "Crain Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-crain-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-schwab-advisor-family-office",
+   "lei": null,
+   "legal_name": "Schwab Advisor Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-schwab-advisor-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-teresa-leigh-home-family-office",
+   "lei": null,
+   "legal_name": "Teresa Leigh Home + Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 6,
+    "sourced": 6,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 2,
+   "registrations": 0,
+   "associations": 2,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-teresa-leigh-home-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-synovus-family-office",
+   "lei": null,
+   "legal_name": "Synovus Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 8,
+    "sourced": 8,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 0,
+   "associations": 3,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-synovus-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-geller-family-office-services",
+   "lei": null,
+   "legal_name": "Geller Family Office Services",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-geller-family-office-services.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-wilson-family-office",
+   "lei": null,
+   "legal_name": "Wilson family office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-wilson-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-wisdom-family-office",
+   "lei": null,
+   "legal_name": "Wisdom Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 8,
+    "sourced": 8,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 0,
+   "associations": 3,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-wisdom-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-topaz-family-office-services",
+   "lei": null,
+   "legal_name": "Topaz Family Office Services Limited",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 6,
+    "sourced": 6,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 2,
+   "registrations": 0,
+   "associations": 2,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-topaz-family-office-services.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-al-gihaz-family-office",
+   "lei": null,
+   "legal_name": "Al Gihaz Holding/Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-al-gihaz-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-zhou-family-office",
+   "lei": null,
+   "legal_name": "Zhou Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-zhou-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-longrun-family-office",
+   "lei": null,
+   "legal_name": "Longrun Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Hong Kong",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-longrun-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-hilton-family-office",
+   "lei": null,
+   "legal_name": "Hilton Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-hilton-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-verda-family-office",
+   "lei": null,
+   "legal_name": "Verda Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-verda-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-the-witter-family-office",
+   "lei": null,
+   "legal_name": "The Witter Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-the-witter-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-the-wealth-and-family-office-management",
+   "lei": null,
+   "legal_name": "The Wealth and Family Office Management Group",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-the-wealth-and-family-office-management.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-the-abernathy-ii-family-office",
+   "lei": null,
+   "legal_name": "The Abernathy Group II Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-the-abernathy-ii-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-lazard-family-office-partners",
+   "lei": null,
+   "legal_name": "Lazard Family Office Partners",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-lazard-family-office-partners.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-schneider-family-office",
+   "lei": null,
+   "legal_name": "Schneider Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "Rest of world",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/row-fo-kg/AS-schneider-family-office.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 2143,
+  "sourced": 2143,
+  "filled": 0,
+  "confirmed": 0,
+  "conflict": 0,
+  "unverified": 0,
+  "gaps": 788,
+  "events": 640,
+  "registrations": 141,
+  "principals": 0,
+  "with_lei": 155,
+  "with_website": 0,
+  "association_listings": 31,
+  "association_records": 22,
+  "sources": 9
+ },
+ "sources": [
+  {
+   "name": "conference.iglobalforum.com — subject website",
+   "url": "https://conference.iglobalforum.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Family Office Networks — conferences — published speaker/sponsor page",
+   "url": "https://familyofficenetworks.com/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Family Office Club — published member/directory page",
+   "url": "https://familyoffices.com/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Opal Group — Family Office & Private Wealth Management Forum — published speaker/sponsor page",
+   "url": "https://opalgroup.net/",
+   "role": "association source",
+   "reads": 3,
+   "answered_200": 3
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "Family Office Exchange (FOX) — published member/directory page",
+   "url": "https://www.familyoffice.com/",
+   "role": "association source",
+   "reads": 4,
+   "answered_200": 4
+  },
+  {
+   "name": "Family Office Association Hong Kong — published member/directory page",
+   "url": "https://www.foahk.org/",
+   "role": "association source",
+   "reads": 5,
+   "answered_200": 5
+  },
+  {
+   "name": "Swiss family-office association (SFOA / Verband) — published member/directory page",
+   "url": "https://www.sfoa.ch/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://www.uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 2,
+   "answered_200": 2
+  }
+ ],
+ "refused": [],
+ "reads": 20,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/row-fo-kg/<source>/2026-09-14/"
+ },
+ "scope": "rest-of-world node: GLEIF-only records for every jurisdiction without a register module — every field sourced from the GLEIF spine, nothing confirmed, no register read; refreshed on the same cadence as the nodes (CEO design ruling 2026-09-13)"
+}

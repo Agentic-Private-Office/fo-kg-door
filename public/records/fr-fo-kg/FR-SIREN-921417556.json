@@ -1,0 +1,193 @@
+{
+ "record": "Family Office Record",
+ "id": "FR-SIREN-921417556",
+ "version": "2026-09-14.2",
+ "node": "fr-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://fr.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "HOLISTIK FAMILY OFFICE (HOLISTIK FAMILY OFFICE)",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "FR",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "France"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://holistik-patrimoine.com/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash"
+  },
+  "formation": {
+   "value": "2022-10-07",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "160 RUE DE LA REPUBLIQUE 76230 BOIS-GUILLAUME",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "5710",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "active",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "INSEE — Sirene (registre national des entreprises)",
+   "register_id": "RA000189",
+   "id": {
+    "value": "921417556",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://annuaire-entreprises.data.gouv.fr/entreprise/921417556"
+   },
+   "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/921417556",
+   "status": {
+    "value": "active",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "BENOIT CLAUDE JACQUES VIOLETTE",
+    "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "dirigeant as the Sirene register discloses as disclosed on INSEE — Sirene (registre national des entreprises)"
+   },
+   "role": "dirigeant as the Sirene register discloses"
+  },
+  {
+   "name": {
+    "value": "Benoît VIOLETTE",
+    "source_url": "https://holistik-patrimoine.com/a-propos/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Gérant Holistik Patrimoine / Family Officer as the subject's own page says"
+   },
+   "role": "Gérant Holistik Patrimoine / Family Officer"
+  },
+  {
+   "name": {
+    "value": "Adèle VIOLETTE",
+    "source_url": "https://holistik-patrimoine.com/a-propos/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Co-gérante Holistik Patrimoine as the subject's own page says"
+   },
+   "role": "Co-gérante Holistik Patrimoine"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://holistik-patrimoine.com/",
+  "source_url": "http://holistik-patrimoine.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, grok-4.6"
+ },
+ "aliases": [
+  {
+   "value": "HOLISTIK FAMILY OFFICE",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "register name, second form"
+  }
+ ],
+ "events": [
+  {
+   "date": "2022-10-07",
+   "event": "created — Sirene",
+   "source_url": "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=FR&filter[fulltext]=HOLISTIK FAMILY OFFICE (HOLISTIK FAMILY OFFICE)"
+  },
+  {
+   "field": "registrations[AMF GECO register]",
+   "reason": "the GECO public search is an ASP.NET form the rail does not drive; not read this wave",
+   "tried": "https://geco.amf-france.org/bio/rech_part.aspx",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[ORIAS register]",
+   "reason": "the register search sits behind a login — never attempted (HITL)",
+   "tried": "https://www.orias.fr/",
+   "answer": "login"
+  },
+  {
+   "field": "website",
+   "reason": "answered 403",
+   "tried": "http://holistik-patrimoine.com/",
+   "answer": 403
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://recherche-entreprises.api.gouv.fr/search?q=921417556"
+  }
+ ],
+ "sources": [
+  "http://holistik-patrimoine.com/",
+  "https://entreprises.lefigaro.fr/holistik-family-office-76/entreprise-921417556?utm_source=openai",
+  "https://holistik-patrimoine.com/",
+  "https://recherche-entreprises.api.gouv.fr/search?q=921417556",
+  "https://recherche-entreprises.api.gouv.fr/search?q=family%20office&per_page=25&page=3"
+ ],
+ "discovery": null
+}

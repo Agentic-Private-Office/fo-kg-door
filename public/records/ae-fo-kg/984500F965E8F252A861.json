@@ -1,0 +1,175 @@
+{
+ "record": "Family Office Record",
+ "id": "984500F965E8F252A861",
+ "version": "2026-09-14.2",
+ "node": "ae-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ae.fo-kg.ai/mcp",
+ "lei": {
+  "value": "984500F965E8F252A861",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/984500F965E8F252A861",
+  "registration_status": "ISSUED",
+  "corroboration": "PARTIALLY_CORROBORATED",
+  "managing_lou": "529900T8BM49AURSDO55"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Oakfield Investment Group Family Office Limited",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "AE-DU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Arab Emirates"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-05-20",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "C402, Level 4 Burj Daman, Dubai International Financial Center, Dubai, AE-DU, AE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "70EO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000660",
+   "register_id": "RA000660",
+   "id": {
+    "value": "10523",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://www.theoakfieldgroup.com/",
+  "source_url": "https://www.theoakfieldgroup.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-05-20",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-21",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-21",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-21",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[DIFC public register]",
+   "reason": "the DIFC public register answered a security checkpoint page to machines",
+   "tried": "https://www.difc.ae/public-register",
+   "answer": "security checkpoint (429)"
+  },
+  {
+   "field": "registrations[ADGM public registers — RA000660]",
+   "reason": "no machine-readable search was found on the ADGM public-registers pages; the register id is as GLEIF records it",
+   "tried": "https://www.adgm.com/public-registers",
+   "answer": "no machine read"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/984500F965E8F252A861",
+  "https://www.theoakfieldgroup.com/"
+ ],
+ "discovery": null
+}

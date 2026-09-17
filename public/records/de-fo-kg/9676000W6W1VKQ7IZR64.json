@@ -1,0 +1,275 @@
+{
+ "record": "Family Office Record",
+ "id": "9676000W6W1VKQ7IZR64",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "9676000W6W1VKQ7IZR64",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/9676000W6W1VKQ7IZR64",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "52990034RLKT0WSOAM90"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "von Plettenberg, Conradt & Cie. Family Office AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.vpc-familyoffice.de/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1"
+  },
+  "formation": {
+   "value": "2020-02-06",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Königsallee 96, Düsseldorf, DE-NW, 40212, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "6QQB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000234",
+   "register_id": "RA000234",
+   "id": {
+    "value": "HRB 91215",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Frank R. Conradt",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Olaf Krings",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Daniel Oyen",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Friedrich-Christian Frhr. von Plettenberg",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Frank Rüdiger Conradt",
+    "source_url": "https://www.vpc-familyoffice.de/ueber-uns/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Olaf Erich Krings",
+    "source_url": "https://www.vpc-familyoffice.de/datenschutz",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Daniel Christoph Oyen",
+    "source_url": "https://www.vpc-familyoffice.de/datenschutz",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vorstand as the subject's own page says"
+   },
+   "role": "Vorstand"
+  },
+  {
+   "name": {
+    "value": "Dr. Daniel von Borries",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Aufsichtsrat as the subject's own page says"
+   },
+   "role": "Aufsichtsrat"
+  },
+  {
+   "name": {
+    "value": "Felicitas von Kyaw",
+    "source_url": "https://www.vpc-familyoffice.de/impressum/",
+    "read_by": "gemini-3.6-flash",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Aufsichtsrat as the subject's own page says"
+   },
+   "role": "Aufsichtsrat"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.vpc-familyoffice.de/",
+  "source_url": "https://www.vpc-familyoffice.de/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-11-29",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-02-06",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-11-03",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-12-02",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=von+Plettenberg%2C+Conradt+%26+Cie.+Family+Office+AG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000234]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/9676000W6W1VKQ7IZR64",
+  "https://vuv.de/vermoegensverwalter/von-plettenberg-conradt-cie-family-office-gmbh-duesseldorf/",
+  "https://www.vpc-familyoffice.de",
+  "https://www.vpc-familyoffice.de/"
+ ],
+ "discovery": null
+}

@@ -1,0 +1,204 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE486225262",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Private Wealth & Family Office - Swiss Certified",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": null,
+  "registered_office": {
+   "value": "Avenue Dumas, 37, 1206",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Verein",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-486.225.262",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-486.225.262"
+   },
+   "url": "http://app2.ge.ch/ecohrcinternet/extract?lang=FR&companyOfsUid=CHE-486.225.262",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Ayoob Rawat",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Governing Body (President) as the subject's own page says"
+   },
+   "role": "Governing Body (President)"
+  },
+  {
+   "name": {
+    "value": "Laurent Elkrief",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Governing Body (Treasurer) as the subject's own page says"
+   },
+   "role": "Governing Body (Treasurer)"
+  },
+  {
+   "name": {
+    "value": "Dan Dobry",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Vice-President as the subject's own page says"
+   },
+   "role": "Vice-President"
+  },
+  {
+   "name": {
+    "value": "Willfrid Malassagne",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "General Manager Europe as the subject's own page says"
+   },
+   "role": "General Manager Europe"
+  },
+  {
+   "name": {
+    "value": "Kabir Rawat",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Business Development as the subject's own page says"
+   },
+   "role": "Business Development"
+  },
+  {
+   "name": {
+    "value": "Jerome Begey",
+    "source_url": "https://www.pwfo.org/meet-the-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Governing Body (Association Secretary) as the subject's own page says"
+   },
+   "role": "Governing Body (Association Secretary)"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.pwfo.org",
+  "source_url": "https://www.pwfo.org",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2021-02-23",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=Private Wealth & Family Office - Swiss Certified"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.pwfo.org"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json"
+  }
+ ],
+ "sources": [
+  "https://www.pwfo.org",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/1474776.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}

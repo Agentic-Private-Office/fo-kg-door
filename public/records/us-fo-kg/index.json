@@ -1,0 +1,4161 @@
+{
+ "node": "us-fo-kg",
+ "country": "US",
+ "jurisdiction": "United States",
+ "host": "https://us.fo-kg.ai",
+ "door": "https://us.fo-kg.ai/mcp",
+ "host_long": "https://us-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://us-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office",
+ "records": [
+  {
+   "id": "213800NZ9YFU4C58OP14",
+   "lei": "213800NZ9YFU4C58OP14",
+   "legal_name": "AHLUWALIA FAMILY OFFICE LLC",
+   "aliases": [
+    "LOOKING GLASS FUND"
+   ],
+   "register_ids": [
+    "5287022"
+   ],
+   "jurisdiction": "United States",
+   "city": "LEWES",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/213800NZ9YFU4C58OP14.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2549003AIFM9GCRSOW36",
+   "lei": "2549003AIFM9GCRSOW36",
+   "legal_name": "GRAND FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "2026-001961382",
+    "342516",
+    "342516"
+   ],
+   "jurisdiction": "United States",
+   "city": "CHEYENNE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/2549003AIFM9GCRSOW36.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "25490096LKDEOYNZMA66",
+   "lei": "25490096LKDEOYNZMA66",
+   "legal_name": "Adonai Global Family Office, LLC",
+   "aliases": [],
+   "register_ids": [
+    "2022-001149328"
+   ],
+   "jurisdiction": "United States",
+   "city": "CHEYENNE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.adgfo.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/25490096LKDEOYNZMA66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900AAM3OWFIOCIZ29",
+   "lei": "254900AAM3OWFIOCIZ29",
+   "legal_name": "Conscientia Family Office, LLC",
+   "aliases": [],
+   "register_ids": [
+    "L19000219108",
+    "307727"
+   ],
+   "jurisdiction": "United States",
+   "city": "Key Biscayne",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://conscientiafo.com/",
+   "fields": {
+    "total": 23,
+    "sourced": 13,
+    "filled": 6,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900AAM3OWFIOCIZ29.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900B2FYIMG7VB9V45",
+   "lei": "254900B2FYIMG7VB9V45",
+   "legal_name": "RJ FAMILY OFFICE, LLC",
+   "aliases": [],
+   "register_ids": [
+    "3512412938"
+   ],
+   "jurisdiction": "United States",
+   "city": "Oklahoma",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900B2FYIMG7VB9V45.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900D62L4GCZOJI565",
+   "lei": "254900D62L4GCZOJI565",
+   "legal_name": "SIGMA FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "10134372"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.sigmallc.com/family-office",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900D62L4GCZOJI565.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900E83OKKY234QI17",
+   "lei": "254900E83OKKY234QI17",
+   "legal_name": "SEI Global Services, Inc.",
+   "aliases": [
+    "SEI FAMILY OFFICE SERVICES, LLC"
+   ],
+   "register_ids": [
+    "3383328"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.seic.com",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900E83OKKY234QI17.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900HG2SAZXDFE8X80",
+   "lei": "254900HG2SAZXDFE8X80",
+   "legal_name": "Hedgeye Brightside Family Office ETF",
+   "aliases": [],
+   "register_ids": [
+    "S000101742"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.hedgeyeam.com",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900HG2SAZXDFE8X80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900LXOZWXQJT7RH66",
+   "lei": "254900LXOZWXQJT7RH66",
+   "legal_name": "GRECO INVESTMENT MANAGEMENT LLC",
+   "aliases": [
+    "GSI FAMILY OFFICE LLC"
+   ],
+   "register_ids": [
+    "6202715"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900LXOZWXQJT7RH66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900RKTTMID9HNIN96",
+   "lei": "254900RKTTMID9HNIN96",
+   "legal_name": "LG FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "5468941"
+   ],
+   "jurisdiction": "United States",
+   "city": "Wilmington",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900RKTTMID9HNIN96.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900W8Y4B13BQL3394",
+   "lei": "254900W8Y4B13BQL3394",
+   "legal_name": "High Country Family Office, LLC",
+   "aliases": [],
+   "register_ids": [
+    "001438775"
+   ],
+   "jurisdiction": "United States",
+   "city": "KNOXVILLE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900W8Y4B13BQL3394.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900WTHEMR437WME09",
+   "lei": "254900WTHEMR437WME09",
+   "legal_name": "ARROWROOT FAMILY OFFICE, LLC",
+   "aliases": [
+    "VITREOUS PARTNERS, LLC"
+   ],
+   "register_ids": [
+    "201310310195",
+    "168744",
+    "168744"
+   ],
+   "jurisdiction": "United States",
+   "city": "Los Angeles",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://arrowrootadvisors.com/",
+   "fields": {
+    "total": 23,
+    "sourced": 19,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900WTHEMR437WME09.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900YLNWEHVWKAW359",
+   "lei": "254900YLNWEHVWKAW359",
+   "legal_name": "KAIROS FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "10236936"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/254900YLNWEHVWKAW359.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "54930008GV1MVGMUVL23",
+   "lei": "54930008GV1MVGMUVL23",
+   "legal_name": "PINNACLE FAMILY OFFICE INVESTMENTS, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "0801200391"
+   ],
+   "jurisdiction": "United States",
+   "city": "DALLAS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/54930008GV1MVGMUVL23.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493003OVSMJMOFRLY57",
+   "lei": "5493003OVSMJMOFRLY57",
+   "legal_name": "DUQUESNE FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "4885858"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://duquesne.com",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/5493003OVSMJMOFRLY57.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493004N2KSDHN28H815",
+   "lei": "5493004N2KSDHN28H815",
+   "legal_name": "WILSHIRE PRIVATE MARKETS FAMILY OFFICE FUND IV, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "7453087"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/5493004N2KSDHN28H815.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493005IJ7HM3Z2Z6B66",
+   "lei": "5493005IJ7HM3Z2Z6B66",
+   "legal_name": "QVT FAMILY OFFICE ONSHORE LP",
+   "aliases": [
+    "QVT V Onshore LP"
+   ],
+   "register_ids": [
+    "5629034"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/5493005IJ7HM3Z2Z6B66.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300C3MLB25SNTM135",
+   "lei": "549300C3MLB25SNTM135",
+   "legal_name": "WILSHIRE PRIVATE MARKETS REAL ESTATE FAMILY OFFICE FUND I, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "0001581864"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300C3MLB25SNTM135.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300E4ELY9HIACTB83",
+   "lei": "549300E4ELY9HIACTB83",
+   "legal_name": "BJS FAMILY OFFICE, LLC",
+   "aliases": [],
+   "register_ids": [
+    "L07000082947"
+   ],
+   "jurisdiction": "United States",
+   "city": "BOCA RATON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300E4ELY9HIACTB83.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300EAGLZJ5J0W2G08",
+   "lei": "549300EAGLZJ5J0W2G08",
+   "legal_name": "Gard Family Office LLC",
+   "aliases": [],
+   "register_ids": [
+    "5675294"
+   ],
+   "jurisdiction": "United States",
+   "city": "Dover",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300EAGLZJ5J0W2G08.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300GYTS5E433HSG85",
+   "lei": "549300GYTS5E433HSG85",
+   "legal_name": "WILSHIRE PRIVATE MARKETS FAMILY OFFICE FUND II, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "0001634667"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300GYTS5E433HSG85.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300JSD84SRVI2GF20",
+   "lei": "549300JSD84SRVI2GF20",
+   "legal_name": "WILSHIRE PRIVATE MARKETS FAMILY OFFICE FUND I, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "0001566927"
+   ],
+   "jurisdiction": "United States",
+   "city": "SANTA MONICA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300JSD84SRVI2GF20.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300MCG2HXMYVL3J65",
+   "lei": "549300MCG2HXMYVL3J65",
+   "legal_name": "JAKE P. NOCH FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "L22000208686"
+   ],
+   "jurisdiction": "United States",
+   "city": "Tallahassee",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.jakepnoch.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300MCG2HXMYVL3J65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300MYB3503A4BGK91",
+   "lei": "549300MYB3503A4BGK91",
+   "legal_name": "WILSHIRE PRIVATE MARKETS FAMILY OFFICE FUND III, L.P.",
+   "aliases": [],
+   "register_ids": [
+    "0001807659"
+   ],
+   "jurisdiction": "United States",
+   "city": "DOVER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://wilshire.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300MYB3503A4BGK91.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300NCZFIXGH28AZ90",
+   "lei": "549300NCZFIXGH28AZ90",
+   "legal_name": "AP FAMILY OFFICE LP",
+   "aliases": [],
+   "register_ids": [
+    "6735441"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300NCZFIXGH28AZ90.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300NUO6ESSZDURI65",
+   "lei": "549300NUO6ESSZDURI65",
+   "legal_name": "SARATOGA ADVANTAGE TRUST - James Alpha Family Office Portfolio",
+   "aliases": [],
+   "register_ids": [
+    "S000049849"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": "https://www.saratogacap.com",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300NUO6ESSZDURI65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300OQZPLJ77DL4Q79",
+   "lei": "549300OQZPLJ77DL4Q79",
+   "legal_name": "INTREPID FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "5447712"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300OQZPLJ77DL4Q79.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300Q5VSG1J1MYQL30",
+   "lei": "549300Q5VSG1J1MYQL30",
+   "legal_name": "BMO FAMILY OFFICE, LLC",
+   "aliases": [
+    "Harris myCFO, LLC",
+    "CTC myCFO, LLC",
+    "BMO FAMILY OFFICE",
+    "MYCFO INVESTMENT ADVISORY SERVICES, LLC",
+    "MYCFO INVESTMENT ADVISORY SERVICES",
+    "MYCFO",
+    "HARRIS MYCFO INVESTMENT ADVISORY SERVICES LLC",
+    "CTC  | MYCFO",
+    "BMO WEALTH MANAGEMENT",
+    "BMO PRIVATE WEALTH"
+   ],
+   "register_ids": [
+    "3086034",
+    "110264",
+    "110264"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/bmowealthmanagement-us",
+   "fields": {
+    "total": 32,
+    "sourced": 29,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300Q5VSG1J1MYQL30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300SJF67OSDFU9488",
+   "lei": "549300SJF67OSDFU9488",
+   "legal_name": "FUNDAMENTAL FAMILY OFFICE ALLOCATION FUND",
+   "aliases": [
+    "FIRST FOUNDATION TOTAL RETURN FUND"
+   ],
+   "register_ids": [
+    "S000070257"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300SJF67OSDFU9488.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300WLO3C871XABX52",
+   "lei": "549300WLO3C871XABX52",
+   "legal_name": "BW Family Office, LLC",
+   "aliases": [],
+   "register_ids": [
+    "6092357"
+   ],
+   "jurisdiction": "United States",
+   "city": "Dover",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/549300WLO3C871XABX52.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500TEK4JXY4IYDP20",
+   "lei": "894500TEK4JXY4IYDP20",
+   "legal_name": "Presto Family Office LLC",
+   "aliases": [],
+   "register_ids": [
+    "21278014"
+   ],
+   "jurisdiction": "United States",
+   "city": "Roswell",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/894500TEK4JXY4IYDP20.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500411A65BGDK9963",
+   "lei": "984500411A65BGDK9963",
+   "legal_name": "SIRIUS FAMILY OFFICE LLC",
+   "aliases": [],
+   "register_ids": [
+    "7662887"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/984500411A65BGDK9963.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500B1967798E06A94",
+   "lei": "984500B1967798E06A94",
+   "legal_name": "HOLDUN FAMILY OFFICE, LLC",
+   "aliases": [
+    "CGI MERCHANT PARTNERS, LLC"
+   ],
+   "register_ids": [
+    "L19000006757",
+    "158123"
+   ],
+   "jurisdiction": "United States",
+   "city": "MIAMI BEACH",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 3,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/984500B1967798E06A94.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500E0A5BDFDF8E987",
+   "lei": "984500E0A5BDFDF8E987",
+   "legal_name": "PATHSTONE FAMILY OFFICE, LLC",
+   "aliases": [
+    "PATHSTONE",
+    "STONE TOWER FAMILY OFFICE, LLC",
+    "PATHSTONE FEDERAL STREET"
+   ],
+   "register_ids": [
+    "4730574",
+    "151736",
+    "151736"
+   ],
+   "jurisdiction": "United States",
+   "city": "WILMINGTON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.linkedin.com/company/rex-capital-advisors-llc",
+   "fields": {
+    "total": 24,
+    "sourced": 22,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 3,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/984500E0A5BDFDF8E987.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500FC746373MC0056",
+   "lei": "984500FC746373MC0056",
+   "legal_name": "PMB Quantum Family Office",
+   "aliases": [],
+   "register_ids": [
+    "2020-000940791"
+   ],
+   "jurisdiction": "United States",
+   "city": "Sheridan",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/984500FC746373MC0056.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-106079",
+   "lei": null,
+   "legal_name": "TARBOX FAMILY OFFICE, INC.",
+   "aliases": [
+    "TARBOX FAMILY OFFICE, INC.",
+    "TARBOX EQUITY INC",
+    "THE TARBOX GROUP, INC."
+   ],
+   "register_ids": [
+    "106079",
+    "106079"
+   ],
+   "jurisdiction": "United States",
+   "city": "NEWPORT BEACH",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.tarbox.com",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-106079.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-106806",
+   "lei": null,
+   "legal_name": "MATTER FAMILY OFFICE",
+   "aliases": [
+    "MATTER, LLC",
+    "MATTER FAMILY OFFICE",
+    "FINANCIAL MANAGEMENT PARTNERS",
+    "MATTER, INC.",
+    "FINANCIAL MANAGEMENT PARTNERS CORPORATION"
+   ],
+   "register_ids": [
+    "106806",
+    "106806"
+   ],
+   "jurisdiction": "United States",
+   "city": "ST LOUIS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.matterfamilyoffice.com",
+   "fields": {
+    "total": 40,
+    "sourced": 34,
+    "filled": 3,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 10,
+   "registrations": 2,
+   "associations": 10,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-106806.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-107141",
+   "lei": null,
+   "legal_name": "BOSTON FAMILY OFFICE LLC",
+   "aliases": [
+    "BOSTON FAMILY OFFICE LLC"
+   ],
+   "register_ids": [
+    "107141",
+    "107141"
+   ],
+   "jurisdiction": "United States",
+   "city": "BOSTON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.bosfam.com",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 7,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-107141.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-109869",
+   "lei": null,
+   "legal_name": "WE FAMILY OFFICES",
+   "aliases": [
+    "W.E. FAMILY OFFICES, LLC",
+    "WE FAMILY OFFICES",
+    "GENSPRING FAMILY OFFICES",
+    "TBK INVESTMENTS, INC.",
+    "GENSPRING INTERNATIONAL LLC",
+    "GENSPRING FAMILY OFFICES INTERNATIONAL LLC"
+   ],
+   "register_ids": [
+    "109869",
+    "109869"
+   ],
+   "jurisdiction": "United States",
+   "city": "CORAL GABLES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.facebook.com/wefamilyofficesofficialpage/",
+   "fields": {
+    "total": 31,
+    "sourced": 25,
+    "filled": 3,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 5,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-109869.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-122448",
+   "lei": null,
+   "legal_name": "FIFTH AVENUE FAMILY OFFICE",
+   "aliases": [
+    "FIFTH AVENUE FAMILY OFFICE LLC",
+    "FIFTH AVENUE FAMILY OFFICE",
+    "FIFTH AVENUE ADVISORS",
+    "MAGNUS CAPITAL MANAGEMENT, LLC"
+   ],
+   "register_ids": [
+    "122448",
+    "122448"
+   ],
+   "jurisdiction": "United States",
+   "city": "NAPLES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.fifthavenuefamily.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-122448.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-125101",
+   "lei": null,
+   "legal_name": "JFG FAMILY OFFICE",
+   "aliases": [
+    "JOHNSON FINANCIAL GROUP LLC",
+    "JFG FAMILY OFFICE",
+    "JFG",
+    "JOHNSON FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "125101",
+    "125101"
+   ],
+   "jurisdiction": "United States",
+   "city": "DENVER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/jfgfamilyoffice",
+   "fields": {
+    "total": 19,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 1,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-125101.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-130711",
+   "lei": null,
+   "legal_name": "SUPERIOR PLANNING WEALTH MANAGEMENT & FAMILY OFFICE",
+   "aliases": [
+    "SUPERIOR PLANNING, LLC",
+    "SUPERIOR PLANNING WEALTH MANAGEMENT & FAMILY OFFICE",
+    "SUPERIOR PLANNING, INC"
+   ],
+   "register_ids": [
+    "130711",
+    "130711"
+   ],
+   "jurisdiction": "United States",
+   "city": "SAN DIEGO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://superiorplanning.com",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-130711.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-131618",
+   "lei": null,
+   "legal_name": "SENESCHAL FAMILY OFFICE",
+   "aliases": [
+    "SENESCHAL ADVISORS, LLC",
+    "SENESCHAL FAMILY OFFICE",
+    "DUNCAN, JON MICHAEL",
+    "JON M. DUNCAN, CFP LLC",
+    "JON M. DUNCAN, CFP"
+   ],
+   "register_ids": [
+    "131618",
+    "131618"
+   ],
+   "jurisdiction": "United States",
+   "city": "TACOMA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://seneschalfamilyoffice.com",
+   "fields": {
+    "total": 21,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-131618.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-142856",
+   "lei": null,
+   "legal_name": "PIONEER FAMILY OFFICE, LLC",
+   "aliases": [
+    "PIONEER FAMILY OFFICE, LLC",
+    "TRIPLE 5 WEALTH MANAGEMENT, LLC",
+    "TRIPLE 5 WEALTH MANAGEMENT",
+    "PIONEER WEALTH MANAGEMENT"
+   ],
+   "register_ids": [
+    "142856",
+    "142856"
+   ],
+   "jurisdiction": "United States",
+   "city": "NORTH MIAMI BEACH",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.piowealth.com/pfo/",
+   "fields": {
+    "total": 22,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-142856.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-143112",
+   "lei": null,
+   "legal_name": "WELLSPRING FAMILY OFFICE",
+   "aliases": [
+    "WELLSPRING FINANCIAL ADVISORS, LLC",
+    "WELLSPRING FAMILY OFFICE",
+    "WELL SPRING FINANCIAL, LLC",
+    "WELLSPRING FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "143112",
+    "143112"
+   ],
+   "jurisdiction": "United States",
+   "city": "CLEVELAND",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.wellspringadvisorsllc.com",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-143112.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-144136",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE RESEARCH, LLC",
+   "aliases": [
+    "FAMILY OFFICE RESEARCH, LLC"
+   ],
+   "register_ids": [
+    "144136",
+    "144136"
+   ],
+   "jurisdiction": "United States",
+   "city": "BETHESDA",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "http://www.familyofficeresearch.com",
+   "fields": {
+    "total": 13,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-144136.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-144811",
+   "lei": null,
+   "legal_name": "INDEPENDENT FAMILY OFFICE, LLC",
+   "aliases": [
+    "INDEPENDENT FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "144811",
+    "144811"
+   ],
+   "jurisdiction": "United States",
+   "city": "ALBANY",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/independent-family-office-llc",
+   "fields": {
+    "total": 13,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-144811.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-150748",
+   "lei": null,
+   "legal_name": "TIMONIER",
+   "aliases": [
+    "TIMONIER FAMILY OFFICE, LTD.",
+    "TIMONIER"
+   ],
+   "register_ids": [
+    "150748",
+    "150748"
+   ],
+   "jurisdiction": "United States",
+   "city": "WINSTON SALEM",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.timonier.com",
+   "fields": {
+    "total": 15,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-150748.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-156310",
+   "lei": null,
+   "legal_name": "CHERRY CREEK FAMILY OFFICES",
+   "aliases": [
+    "CHERRY CREEK FAMILY OFFICES, LLC",
+    "CHERRY CREEK FAMILY OFFICES",
+    "TC CAPITAL MANAGEMENT, LLC"
+   ],
+   "register_ids": [
+    "156310",
+    "156310"
+   ],
+   "jurisdiction": "United States",
+   "city": "DENVER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.ccfo.com",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-156310.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-159440",
+   "lei": null,
+   "legal_name": "TFO FAMILY OFFICE PARTNERS",
+   "aliases": [
+    "TFO FAMILY OFFICE PARTNERS, LLC",
+    "TFO FAMILY OFFICE PARTNERS",
+    "TFO PHOENIX, INC.",
+    "TFO FAMILY OFFICE PARTNERS, INC."
+   ],
+   "register_ids": [
+    "159440",
+    "159440"
+   ],
+   "jurisdiction": "United States",
+   "city": "PHOENIX",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.tfopartners.com",
+   "fields": {
+    "total": 23,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-159440.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-167017",
+   "lei": null,
+   "legal_name": "COLONY FAMILY OFFICES, LLC",
+   "aliases": [
+    "COLONY FAMILY OFFICES, LLC"
+   ],
+   "register_ids": [
+    "167017",
+    "167017"
+   ],
+   "jurisdiction": "United States",
+   "city": "CHARLOTTE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.colonyfamilyoffices.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 6,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-167017.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-167174",
+   "lei": null,
+   "legal_name": "BILTMORE FAMILY OFFICE, LLC",
+   "aliases": [
+    "BILTMORE FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "167174",
+    "167174"
+   ],
+   "jurisdiction": "United States",
+   "city": "CHARLOTTE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.biltmorefamilyoffice.com",
+   "fields": {
+    "total": 18,
+    "sourced": 10,
+    "filled": 5,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-167174.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-171584",
+   "lei": null,
+   "legal_name": "RIVERGLADES FAMILY OFFICES, LLC",
+   "aliases": [
+    "RIVERGLADES FAMILY OFFICES, LLC",
+    "MARINELLI, PAUL J"
+   ],
+   "register_ids": [
+    "171584",
+    "171584"
+   ],
+   "jurisdiction": "United States",
+   "city": "NAPLES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.rivergladesfo.com",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-171584.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-266787",
+   "lei": null,
+   "legal_name": "WEALTH DIMENSIONS FAMILY OFFICE, INC",
+   "aliases": [
+    "WEALTH DIMENSIONS FAMILY OFFICE, INC"
+   ],
+   "register_ids": [
+    "266787",
+    "266787"
+   ],
+   "jurisdiction": "United States",
+   "city": "CINCINNATI",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.wealthdimensions.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 9,
+    "filled": 6,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-266787.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-281675",
+   "lei": null,
+   "legal_name": "EAGLE BAY FAMILY OFFICE",
+   "aliases": [
+    "EAGLE BAY ADVISORS LLC",
+    "EAGLE BAY FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "281675",
+    "281675"
+   ],
+   "jurisdiction": "United States",
+   "city": "NEW YORK",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.eaglebayfamilyoffice.com",
+   "fields": {
+    "total": 19,
+    "sourced": 11,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-281675.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-282261",
+   "lei": null,
+   "legal_name": "LEGACY BRIDGE PRIVATE FAMILY OFFICES",
+   "aliases": [
+    "LEGACY BRIDGE, LLC",
+    "LEGACY BRIDGE PRIVATE FAMILY OFFICES"
+   ],
+   "register_ids": [
+    "282261",
+    "282261"
+   ],
+   "jurisdiction": "United States",
+   "city": "WEST DES MOINES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/legacy-bridge-pfo/about/",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-282261.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-282750",
+   "lei": null,
+   "legal_name": "ELEMENT POINTE FAMILY OFFICE",
+   "aliases": [
+    "ELEMENT POINTE ADVISORS, LLC",
+    "ELEMENT POINTE FAMILY OFFICE",
+    "ELEMENT POINTE",
+    "ROBUST ADVISORS, LLC",
+    "ELEMENT POINTE ADVISORS"
+   ],
+   "register_ids": [
+    "282750",
+    "282750"
+   ],
+   "jurisdiction": "United States",
+   "city": "MIAMI",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://elementpointe.com",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-282750.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-285035",
+   "lei": null,
+   "legal_name": "CLASS VI FAMILY OFFICE, LLC",
+   "aliases": [
+    "CLASS VI FAMILY OFFICE, LLC",
+    "CVA FAMILY OFFICE, LLC",
+    "CLASS VI PARTNERS"
+   ],
+   "register_ids": [
+    "285035",
+    "285035"
+   ],
+   "jurisdiction": "United States",
+   "city": "DENVER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.classvipartners.com",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-285035.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-294025",
+   "lei": null,
+   "legal_name": "CUSTOS FAMILY OFFICE LLC",
+   "aliases": [
+    "CUSTOS FAMILY OFFICE LLC"
+   ],
+   "register_ids": [
+    "294025",
+    "294025"
+   ],
+   "jurisdiction": "United States",
+   "city": "AUSTIN",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.custosfo.com",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-294025.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-294879",
+   "lei": null,
+   "legal_name": "QP GLOBAL FAMILY OFFICES, LLC",
+   "aliases": [
+    "QP GLOBAL FAMILY OFFICES, LLC"
+   ],
+   "register_ids": [
+    "294879",
+    "294879"
+   ],
+   "jurisdiction": "United States",
+   "city": "GREENWICH",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/qp-global-family-offices/",
+   "fields": {
+    "total": 13,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-294879.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-298272",
+   "lei": null,
+   "legal_name": "VIRTUS FAMILY OFFICE",
+   "aliases": [
+    "VIRTUS FAMILY OFFICE, LLC",
+    "VIRTUS FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "298272",
+    "298272"
+   ],
+   "jurisdiction": "United States",
+   "city": "EL PASO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/vfo-usa",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-298272.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-298776",
+   "lei": null,
+   "legal_name": "COMPOUND FAMILY OFFICES, LLC",
+   "aliases": [
+    "COMPOUND FAMILY OFFICES, LLC"
+   ],
+   "register_ids": [
+    "298776",
+    "298776"
+   ],
+   "jurisdiction": "United States",
+   "city": "SARASOTA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.compoundfamilyoffices.com",
+   "fields": {
+    "total": 13,
+    "sourced": 9,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-298776.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-300899",
+   "lei": null,
+   "legal_name": "STOKES FAMILY OFFICE LLC",
+   "aliases": [
+    "STOKES FAMILY OFFICE LLC",
+    "STOKES INVESTMENT PARTNERS, LLC",
+    "STOKES INSTITUTIONAL"
+   ],
+   "register_ids": [
+    "300899",
+    "300899"
+   ],
+   "jurisdiction": "United States",
+   "city": "NEW ORLEANS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.stokesfamilyoffice.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-300899.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-301274",
+   "lei": null,
+   "legal_name": "COLLECTIVE FAMILY OFFICE, LLC",
+   "aliases": [
+    "COLLECTIVE FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "301274",
+    "301274"
+   ],
+   "jurisdiction": "United States",
+   "city": "YORK",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.collectivefamilyoffice.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 10,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-301274.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-301865",
+   "lei": null,
+   "legal_name": "STANDARD FAMILY OFFICE, LLC",
+   "aliases": [
+    "STANDARD FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "301865",
+    "301865"
+   ],
+   "jurisdiction": "United States",
+   "city": "SIOUX FALLS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 9,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-301865.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-301900",
+   "lei": null,
+   "legal_name": "INSCRIPTION FAMILY OFFICE, LLC",
+   "aliases": [
+    "INSCRIPTION FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "301900",
+    "301900"
+   ],
+   "jurisdiction": "United States",
+   "city": "HOUSTON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://inscriptionfamilyoffice.com",
+   "fields": {
+    "total": 13,
+    "sourced": 9,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-301900.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-305713",
+   "lei": null,
+   "legal_name": "BT FAMILY OFFICE, LLC",
+   "aliases": [
+    "BT FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "305713",
+    "305713"
+   ],
+   "jurisdiction": "United States",
+   "city": "ATLANTA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/bt-family-office-llc/",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 6,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-305713.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-307144",
+   "lei": null,
+   "legal_name": "ALLIE FAMILY OFFICE LLC",
+   "aliases": [
+    "ALLIE FAMILY OFFICE LLC",
+    "FAMILY GOVERNANCE INTERNATIONAL LLC"
+   ],
+   "register_ids": [
+    "307144",
+    "307144"
+   ],
+   "jurisdiction": "United States",
+   "city": "MIAMI",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/allié-family-office/",
+   "fields": {
+    "total": 20,
+    "sourced": 11,
+    "filled": 6,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-307144.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-307521",
+   "lei": null,
+   "legal_name": "ALPHA CAPITAL FAMILY OFFICE, LLC",
+   "aliases": [
+    "ALPHA CAPITAL FAMILY OFFICE, LLC",
+    "AC FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "307521",
+    "307521"
+   ],
+   "jurisdiction": "United States",
+   "city": "GREENWOOD VILLAGE",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://acfamilyoffice.com/",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 5,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-307521.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-310275",
+   "lei": null,
+   "legal_name": "FREEDOM FAMILY OFFICE, LLC",
+   "aliases": [
+    "FREEDOM FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "310275",
+    "310275"
+   ],
+   "jurisdiction": "United States",
+   "city": "JUPITER",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://talktofreedom.com",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-310275.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-312005",
+   "lei": null,
+   "legal_name": "CAPITOL FAMILY OFFICE, INC.",
+   "aliases": [
+    "CAPITOL FAMILY OFFICE, INC."
+   ],
+   "register_ids": [
+    "312005",
+    "312005"
+   ],
+   "jurisdiction": "United States",
+   "city": "BEAVERTON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.capitolcfo.com",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-312005.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-312154",
+   "lei": null,
+   "legal_name": "PMG FAMILY OFFICE, LLC",
+   "aliases": [
+    "PMG FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "312154",
+    "312154"
+   ],
+   "jurisdiction": "United States",
+   "city": "PLANO",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.linkedin.com/in/wfblake/",
+   "fields": {
+    "total": 17,
+    "sourced": 10,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-312154.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-315523",
+   "lei": null,
+   "legal_name": "DOUBLE EAGLE FAMILY OFFICES, LLC",
+   "aliases": [
+    "DOUBLE EAGLE FAMILY OFFICES, LLC"
+   ],
+   "register_ids": [
+    "315523",
+    "315523"
+   ],
+   "jurisdiction": "United States",
+   "city": "FORT WORTH",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.doubleeaglecapital.com",
+   "fields": {
+    "total": 16,
+    "sourced": 9,
+    "filled": 3,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-315523.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-315566",
+   "lei": null,
+   "legal_name": "WPA FAMILY OFFICE, LLC",
+   "aliases": [
+    "WPA FAMILY OFFICE, LLC",
+    "WEALTH PARTNERS ALLIANCE, FAMILY OFFICE LLC",
+    "WPA PRIVATE WEALTH MANAGEMENT",
+    "WPA FAMILY OFFICE & PRIVATE WEALTH"
+   ],
+   "register_ids": [
+    "315566",
+    "315566"
+   ],
+   "jurisdiction": "United States",
+   "city": "DALLAS",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://wpafamilyoffice.com",
+   "fields": {
+    "total": 17,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-315566.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-315653",
+   "lei": null,
+   "legal_name": "FOUNDERS FAMILY OFFICE",
+   "aliases": [
+    "ADAMO CAPITAL FAMILY OFFICE  LLC",
+    "FOUNDERS FAMILY OFFICE",
+    "ADAMO CAPITAL"
+   ],
+   "register_ids": [
+    "315653",
+    "315653"
+   ],
+   "jurisdiction": "United States",
+   "city": "MIAMI",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/adamo-capital/about/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-315653.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-316024",
+   "lei": null,
+   "legal_name": "FINANCIAL GRAVITY FAMILY OFFICE SERVICES, LLC",
+   "aliases": [
+    "FINANCIAL GRAVITY FAMILY OFFICE SERVICES, LLC",
+    "FINANCIAL GRAVITY FAMILY OFFICE SERVICES, INC."
+   ],
+   "register_ids": [
+    "316024",
+    "316024"
+   ],
+   "jurisdiction": "United States",
+   "city": "LAKEWAY",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://financialgravityfamilyofficeservices.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-316024.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-317446",
+   "lei": null,
+   "legal_name": "CALLAN FAMILY OFFICE, LLC",
+   "aliases": [
+    "CALLAN FAMILY OFFICE, LLC",
+    "AMICUS FAMILY OFFICE, LLC",
+    "WHEEL ADVISORS, LLC"
+   ],
+   "register_ids": [
+    "317446",
+    "317446"
+   ],
+   "jurisdiction": "United States",
+   "city": "RADNOR",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/callan-family-office",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 6,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-317446.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-317615",
+   "lei": null,
+   "legal_name": "FORTITUDE FAMILY OFFICE",
+   "aliases": [
+    "FORTITUDE FAMILY OFFICE, LLC",
+    "FORTITUDE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "317615",
+    "317615"
+   ],
+   "jurisdiction": "United States",
+   "city": "SCOTTSDALE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/fortitude-family-office/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-317615.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-322047",
+   "lei": null,
+   "legal_name": "DCA FAMILY OFFICE, LLC",
+   "aliases": [
+    "DCA FAMILY OFFICE, LLC",
+    "DCA PRIVATE MARKETS"
+   ],
+   "register_ids": [
+    "322047",
+    "322047"
+   ],
+   "jurisdiction": "United States",
+   "city": "ROSEVILLE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/dca-family-office",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-322047.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-323016",
+   "lei": null,
+   "legal_name": "AURELIUS FAMILY OFFICE, LLC",
+   "aliases": [
+    "AURELIUS FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "323016",
+    "323016"
+   ],
+   "jurisdiction": "United States",
+   "city": "BEDFORD",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/aurelius-family-office",
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-323016.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-323249",
+   "lei": null,
+   "legal_name": "TAYLOR FRIGON FAMILY OFFICE, LLC",
+   "aliases": [
+    "TAYLOR FRIGON FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "323249",
+    "323249"
+   ],
+   "jurisdiction": "United States",
+   "city": "SCOTTSDALE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.tffamilyoffice.com",
+   "fields": {
+    "total": 15,
+    "sourced": 9,
+    "filled": 2,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-323249.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-323305",
+   "lei": null,
+   "legal_name": "ONEASCENT FAMILY OFFICES",
+   "aliases": [
+    "ONEASCENT FAMILY OFFICE LLC",
+    "ONEASCENT FAMILY OFFICES",
+    "NEW CITY FAMILY OFFICE",
+    "ONEASCENT FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "323305",
+    "323305"
+   ],
+   "jurisdiction": "United States",
+   "city": "BIRMINGHAM",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.facebook.com/oneascent",
+   "fields": {
+    "total": 22,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-323305.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-323432",
+   "lei": null,
+   "legal_name": "HAMPSHIRE FAMILY OFFICE",
+   "aliases": [
+    "GRANITE FO, LLC",
+    "HAMPSHIRE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "323432",
+    "323432"
+   ],
+   "jurisdiction": "United States",
+   "city": "GILFORD",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.hampshirefamilyoffice.com",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-323432.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-323930",
+   "lei": null,
+   "legal_name": "HERITAGE FAMILY OFFICES, LLP",
+   "aliases": [
+    "HERITAGE FAMILY OFFICES, LLP"
+   ],
+   "register_ids": [
+    "323930",
+    "323930"
+   ],
+   "jurisdiction": "United States",
+   "city": "SCOTTSDALE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://twitter.com/heritagefollp",
+   "fields": {
+    "total": 15,
+    "sourced": 10,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-323930.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-324336",
+   "lei": null,
+   "legal_name": "LONGWALL FAMILY OFFICE",
+   "aliases": [
+    "LONGWALL INVESTMENT PARTNERS, LLC",
+    "LONGWALL FAMILY OFFICE",
+    "DKRA HOLDINGS, LLC",
+    "LONGWALL INVESTMENT PARTNERS"
+   ],
+   "register_ids": [
+    "324336",
+    "324336"
+   ],
+   "jurisdiction": "United States",
+   "city": "WESTPORT",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/longwall-family-office",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-324336.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-325089",
+   "lei": null,
+   "legal_name": "STENGER FAMILY OFFICE, LLC",
+   "aliases": [
+    "STENGER FAMILY OFFICE, LLC",
+    "PELL ADVISORS, LLC"
+   ],
+   "register_ids": [
+    "325089",
+    "325089"
+   ],
+   "jurisdiction": "United States",
+   "city": "NAPERVILLE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.facebook.com/profile.php?id=100090870387956",
+   "fields": {
+    "total": 18,
+    "sourced": 11,
+    "filled": 4,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-325089.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-326990",
+   "lei": null,
+   "legal_name": "FIDUCIARY FAMILY OFFICE, LLC",
+   "aliases": [
+    "FIDUCIARY FAMILY OFFICE, LLC",
+    "GROVE ADVISORS, LLC"
+   ],
+   "register_ids": [
+    "326990",
+    "326990"
+   ],
+   "jurisdiction": "United States",
+   "city": "BOCA RATON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://fiduciaryfo.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-326990.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-331394",
+   "lei": null,
+   "legal_name": "STORYONE FAMILY OFFICE",
+   "aliases": [
+    "STORYONE LLC",
+    "STORYONE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "331394",
+    "331394"
+   ],
+   "jurisdiction": "United States",
+   "city": "OVERLAND PARK",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.linkedin.com/company/storyone-family-office",
+   "fields": {
+    "total": 20,
+    "sourced": 11,
+    "filled": 6,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-331394.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-334002",
+   "lei": null,
+   "legal_name": "FIVE ELEVEN PARTNERS",
+   "aliases": [
+    "FIVE ELEVEN FAMILY OFFICE LLC",
+    "FIVE ELEVEN PARTNERS"
+   ],
+   "register_ids": [
+    "334002",
+    "334002"
+   ],
+   "jurisdiction": "United States",
+   "city": "GARDEN CITY",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.five11partners.com",
+   "fields": {
+    "total": 20,
+    "sourced": 11,
+    "filled": 7,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-334002.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-335128",
+   "lei": null,
+   "legal_name": "CAMBIENT FAMILY OFFICE, LLC",
+   "aliases": [
+    "CAMBIENT FAMILY OFFICE, LLC",
+    "STILLWATER, LLC"
+   ],
+   "register_ids": [
+    "335128",
+    "335128"
+   ],
+   "jurisdiction": "United States",
+   "city": "ADA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.cambient.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-335128.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-335152",
+   "lei": null,
+   "legal_name": "SESTANTE FAMILY OFFICE",
+   "aliases": [
+    "SESTANTE WEALTH MANAGEMENT, LLC",
+    "SESTANTE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "335152",
+    "335152"
+   ],
+   "jurisdiction": "United States",
+   "city": "CORONADO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.sestante.com",
+   "fields": {
+    "total": 16,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-335152.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-337412",
+   "lei": null,
+   "legal_name": "ARDEN GLOBAL FAMILY OFFICES",
+   "aliases": [
+    "ARDENWOOD ADVISORS, LLC",
+    "ARDEN GLOBAL FAMILY OFFICES",
+    "ARDEN GLOBAL FAMILY OFFICES LLC"
+   ],
+   "register_ids": [
+    "337412",
+    "337412"
+   ],
+   "jurisdiction": "United States",
+   "city": "PALO ALTO",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://x.com/ardengfo",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-337412.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-337654",
+   "lei": null,
+   "legal_name": "LEGACY ROAD FAMILY OFFICES",
+   "aliases": [
+    "LEGACY ROAD LLC",
+    "LEGACY ROAD FAMILY OFFICES"
+   ],
+   "register_ids": [
+    "337654",
+    "337654"
+   ],
+   "jurisdiction": "United States",
+   "city": "LOS ANGELES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.legacyroad.com",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-337654.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-337753",
+   "lei": null,
+   "legal_name": "ACTIV8 FAMILY OFFICE LLC",
+   "aliases": [
+    "ACTIV8 FAMILY OFFICE LLC"
+   ],
+   "register_ids": [
+    "337753",
+    "337753"
+   ],
+   "jurisdiction": "United States",
+   "city": "MCLEAN",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.activ8familyoffice.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 10,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-337753.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-338015",
+   "lei": null,
+   "legal_name": "DESTINY FAMILY OFFICE",
+   "aliases": [
+    "DESTINY FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "338015",
+    "338015"
+   ],
+   "jurisdiction": "United States",
+   "city": "TAVARES",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.destinyfamilyoffice.com",
+   "fields": {
+    "total": 19,
+    "sourced": 10,
+    "filled": 6,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-338015.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-338122",
+   "lei": null,
+   "legal_name": "XCEPTION FAMILY OFFICE",
+   "aliases": [
+    "XCEPTION ADVISORY SERVICES, LLC",
+    "XCEPTION FAMILY OFFICE",
+    "XCEPTION ADVISORY GROUP, LLC",
+    "XCEPTION ADVISORY SERVICES"
+   ],
+   "register_ids": [
+    "338122",
+    "338122"
+   ],
+   "jurisdiction": "United States",
+   "city": "ATLANTA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://xceptionfamilyoffice.com",
+   "fields": {
+    "total": 18,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-338122.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-338266",
+   "lei": null,
+   "legal_name": "ANGELES FAMILY OFFICE",
+   "aliases": [
+    "ANGELES FAMILY OFFICE, LLC",
+    "ANGELES FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "338266",
+    "338266"
+   ],
+   "jurisdiction": "United States",
+   "city": "SANTA MONICA",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.angelesinvestments.com/",
+   "fields": {
+    "total": 18,
+    "sourced": 10,
+    "filled": 4,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-338266.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-338563",
+   "lei": null,
+   "legal_name": "POINTONE FAMILY OFFICE",
+   "aliases": [
+    "POINTONE FAMILY OFFICE, LLC",
+    "POINTONE FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "338563",
+    "338563"
+   ],
+   "jurisdiction": "United States",
+   "city": "MANHATTAN BEACH",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://p1fo.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-338563.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-338839",
+   "lei": null,
+   "legal_name": "PULLIAM FAMILY OFFICE, LLC",
+   "aliases": [
+    "PULLIAM FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "338839",
+    "338839"
+   ],
+   "jurisdiction": "United States",
+   "city": "CRESTED BUTTE",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.pulliamfamilyoffice.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 9,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-338839.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-339082",
+   "lei": null,
+   "legal_name": "818 FAMILY OFFICE, LLC",
+   "aliases": [
+    "818 FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "339082",
+    "339082"
+   ],
+   "jurisdiction": "United States",
+   "city": "AUSTIN",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://818familyoffice.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 9,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-339082.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-339235",
+   "lei": null,
+   "legal_name": "PLH FAMILY OFFICE, LLC",
+   "aliases": [
+    "PLH FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "339235",
+    "339235"
+   ],
+   "jurisdiction": "United States",
+   "city": "GARDEN CITY",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 9,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-339235.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-339607",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE INVESTMENT ADVISORY LLC",
+   "aliases": [
+    "FAMILY OFFICE INVESTMENT ADVISORY LLC"
+   ],
+   "register_ids": [
+    "339607",
+    "339607"
+   ],
+   "jurisdiction": "United States",
+   "city": "SCOTTSDALE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 9,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-339607.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-340444",
+   "lei": null,
+   "legal_name": "EXCEPTIONAL WEALTH & FAMILY OFFICE",
+   "aliases": [
+    "EC VENTURES V LLC",
+    "EXCEPTIONAL WEALTH & FAMILY OFFICE"
+   ],
+   "register_ids": [
+    "340444",
+    "340444"
+   ],
+   "jurisdiction": "United States",
+   "city": "COLORADO SPRINGS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.linkedin.com/in/taraseegers",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-340444.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-340475",
+   "lei": null,
+   "legal_name": "DOW FAMILY OFFICE ADVISORY, LLC",
+   "aliases": [
+    "DOW FAMILY OFFICE ADVISORY, LLC",
+    "DOW FAMILY OFFICE ADVISORY"
+   ],
+   "register_ids": [
+    "340475",
+    "340475"
+   ],
+   "jurisdiction": "United States",
+   "city": "LAKEWOOD RANCH",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.dow.us/",
+   "fields": {
+    "total": 13,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-340475.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-332362",
+   "lei": null,
+   "legal_name": "OPEN FAMILY OFFICE (OFO) WEALTH MANAGEMENT LLC",
+   "aliases": [
+    "OPEN FAMILY OFFICE (OFO) WEALTH MANAGEMENT LLC"
+   ],
+   "register_ids": [
+    "332362",
+    "332362"
+   ],
+   "jurisdiction": "United States",
+   "city": "FREMONT",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 9,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-332362.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-337312",
+   "lei": null,
+   "legal_name": "CHARTWELL FAMILY OFFICE, LLC",
+   "aliases": [
+    "CHARTWELL FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "337312",
+    "337312"
+   ],
+   "jurisdiction": "United States",
+   "city": "PALM DESERT",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://chartwellproperties.net",
+   "fields": {
+    "total": 12,
+    "sourced": 9,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-337312.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "US-CRD-341470",
+   "lei": null,
+   "legal_name": "LMB FAMILY OFFICE, LLC",
+   "aliases": [
+    "LMB FAMILY OFFICE, LLC"
+   ],
+   "register_ids": [
+    "341470",
+    "341470"
+   ],
+   "jurisdiction": "United States",
+   "city": "DALLAS",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/us-fo-kg/US-CRD-341470.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-cymi-family-office",
+   "lei": null,
+   "legal_name": "Cymi Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-cymi-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-genlink-family-office",
+   "lei": null,
+   "legal_name": "GenLink Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-genlink-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-kf-partners-family-office",
+   "lei": null,
+   "legal_name": "KF Partners Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-kf-partners-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-the-miami-family-office",
+   "lei": null,
+   "legal_name": "The Miami Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-the-miami-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-almitas-family-office",
+   "lei": null,
+   "legal_name": "Almitas Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-almitas-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-viscogliosi-brothers-family-office",
+   "lei": null,
+   "legal_name": "Viscogliosi Brothers Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United States",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 6,
+    "sourced": 6,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 2,
+   "registrations": 0,
+   "associations": 2,
+   "association_only": true,
+   "record": "/records/us-fo-kg/AS-viscogliosi-brothers-family-office.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 1758,
+  "sourced": 1335,
+  "filled": 214,
+  "confirmed": 205,
+  "conflict": 4,
+  "unverified": 0,
+  "gaps": 462,
+  "events": 161,
+  "registrations": 189,
+  "principals": 177,
+  "with_lei": 35,
+  "with_website": 79,
+  "association_listings": 23,
+  "association_records": 9,
+  "sources": 68
+ },
+ "sources": [
+  {
+   "name": "818familyoffice.com — subject website",
+   "url": "https://818familyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "acfamilyoffice.com — subject website",
+   "url": "https://acfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "activ8familyoffice.com — subject website",
+   "url": "https://activ8familyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "adamo.capital — subject website",
+   "url": "https://adamo.capital/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "allie-intl.com — subject website",
+   "url": "https://allie-intl.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "SEC IAPD — Investment Adviser Public Disclosure (search API)",
+   "url": "https://api.adviserinfo.sec.gov/",
+   "role": "fill and confirm",
+   "reads": 107,
+   "answered_200": 107
+  },
+  {
+   "name": "aurelius.net — subject website",
+   "url": "https://aurelius.net/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "awadvisor.com — subject website",
+   "url": "https://awadvisor.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "btfamilyoffice.com — subject website",
+   "url": "https://btfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "capitolcfo.com — subject website",
+   "url": "https://capitolcfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "classvifamilyoffice.com — subject website",
+   "url": "https://classvifamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "colonyfamilyoffices.com — subject website",
+   "url": "https://colonyfamilyoffices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "conference.iglobalforum.com — subject website",
+   "url": "https://conference.iglobalforum.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "conscientiafo.com — subject website",
+   "url": "https://conscientiafo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "custosfo.com — subject website",
+   "url": "https://custosfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dcafamilyoffice.com — subject website",
+   "url": "https://dcafamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "destinyfamilyoffice.com — subject website",
+   "url": "https://destinyfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "duquesne.com — subject website",
+   "url": "https://duquesne.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "eaglebayadvisors.com — subject website",
+   "url": "https://eaglebayadvisors.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Family Office Club — published member/directory page",
+   "url": "https://familyoffices.com/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "financialgravityfamilyofficeservices.com — subject website",
+   "url": "https://financialgravityfamilyofficeservices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "fortitudefo.com — subject website",
+   "url": "https://fortitudefo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "freedomfamilyoffice.com — subject website",
+   "url": "https://freedomfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "heritagefo.com — subject website",
+   "url": "https://heritagefo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ifollc.com — subject website",
+   "url": "https://ifollc.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "inscriptionfamilyoffice.com — subject website",
+   "url": "https://inscriptionfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "jfgllc.net — subject website",
+   "url": "https://jfgllc.net/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "legacybridgepfo.com — subject website",
+   "url": "https://legacybridgepfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "oneascentfamilyoffices.com — subject website",
+   "url": "https://oneascentfamilyoffices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "pmgfamilyoffice.com — subject website",
+   "url": "https://pmgfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "rivergladesfo.com — subject website",
+   "url": "https://rivergladesfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "sestante.com — subject website",
+   "url": "https://sestante.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "stokesfamilyoffice.com — subject website",
+   "url": "https://stokesfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "story-one.com — subject website",
+   "url": "https://story-one.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "superiorplanning.com — subject website",
+   "url": "https://superiorplanning.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "tfofamilyoffice.com — subject website",
+   "url": "https://tfofamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "virtus-usa.com — subject website",
+   "url": "https://virtus-usa.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "wellspringfo.com — subject website",
+   "url": "https://wellspringfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "wilshire.com — subject website",
+   "url": "https://wilshire.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.adgfo.com — subject website",
+   "url": "https://www.adgfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.angelesinvestments.com — subject website",
+   "url": "https://www.angelesinvestments.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.arrowrootfamilyoffice.com — subject website",
+   "url": "https://www.arrowrootfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.biltmorefamilyoffice.com — subject website",
+   "url": "https://www.biltmorefamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.bosfam.com — subject website",
+   "url": "https://www.bosfam.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.cambient.com — subject website",
+   "url": "https://www.cambient.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.ccfo.com — subject website",
+   "url": "https://www.ccfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.compoundfamilyoffices.com — subject website",
+   "url": "https://www.compoundfamilyoffices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.doubleeaglecapital.com — subject website",
+   "url": "https://www.doubleeaglecapital.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.dow.us — subject website",
+   "url": "https://www.dow.us/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Family Office Exchange (FOX) — published member/directory page",
+   "url": "https://www.familyoffice.com/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.familyofficeresearch.com — subject website",
+   "url": "https://www.familyofficeresearch.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.jakepnoch.com — subject website",
+   "url": "https://www.jakepnoch.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.legacyroad.com — subject website",
+   "url": "https://www.legacyroad.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.longwallfamilyoffice.com — subject website",
+   "url": "https://www.longwallfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.matterfamilyoffice.com — subject website",
+   "url": "https://www.matterfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.pulliamfamilyoffice.com — subject website",
+   "url": "https://www.pulliamfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.seic.com — subject website",
+   "url": "https://www.seic.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "Swiss family-office association (SFOA / Verband) — published member/directory page",
+   "url": "https://www.sfoa.ch/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.sigmallc.com — subject website",
+   "url": "https://www.sigmallc.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.stengerfamilyoffice.com — subject website",
+   "url": "https://www.stengerfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.tffamilyoffice.com — subject website",
+   "url": "https://www.tffamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.timonier.com — subject website",
+   "url": "https://www.timonier.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://www.uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 9,
+   "answered_200": 9
+  },
+  {
+   "name": "www.wealthdimensions.com — subject website",
+   "url": "https://www.wealthdimensions.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.wefamilyoffices.com — subject website",
+   "url": "https://www.wefamilyoffices.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.wpafamilyoffice.com — subject website",
+   "url": "https://www.wpafamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "xceptionfamilyoffice.com — subject website",
+   "url": "https://xceptionfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  }
+ ],
+ "refused": [
+  {
+   "register": "California Secretary of State — Business Entity Records",
+   "subjects": 1
+  },
+  {
+   "register": "Delaware Division of Corporations",
+   "subjects": 16
+  },
+  {
+   "register": "Florida Division of Corporations (Sunbiz)",
+   "subjects": 4
+  },
+  {
+   "register": "Georgia Secretary of State — Corporations Division",
+   "subjects": 1
+  },
+  {
+   "register": "Oklahoma Secretary of State — business entities",
+   "subjects": 1
+  },
+  {
+   "register": "SEC EDGAR (company filings)",
+   "subjects": 7
+  },
+  {
+   "register": "Tennessee Secretary of State — business entity search",
+   "subjects": 1
+  },
+  {
+   "register": "Texas Secretary of State — SOSDirect (account required)",
+   "subjects": 1
+  },
+  {
+   "register": "Wyoming Secretary of State — business filings",
+   "subjects": 3
+  },
+  {
+   "register": "website",
+   "subjects": 2
+  }
+ ],
+ "reads": 183,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/us-fo-kg/<source>/2026-09-14/"
+ }
+}

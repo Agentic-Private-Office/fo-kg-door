@@ -1,0 +1,196 @@
+{
+ "record": "Family Office Record",
+ "id": "549300ESO2E4IT75N193",
+ "version": "2026-09-14.3",
+ "node": "no-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://no.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300ESO2E4IT75N193",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300ESO2E4IT75N193",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "549300O897ZC5H7CY412"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "PARK LANE FAMILY OFFICE AS",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "no",
+   "second_source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912892638",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Brønnøysundregistrene — Enhetsregisteret"
+  },
+  "jurisdiction": {
+   "value": "NO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Norway"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2013-12-18",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Parkveien 33B, Oslo, NO-03, 0258, NO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "YI42",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret",
+   "register_id": "RA000472",
+   "id": {
+    "value": "912 892 638",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.brreg.no/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret",
+   "register_id": "RA000472",
+   "id": {
+    "value": "912892638",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912892638",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/912892638"
+   },
+   "url": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/912892638",
+   "status": {
+    "value": "deleted",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912892638",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": {
+  "value": "https://parklanefo.com/",
+  "source_url": "https://parklanefo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2013-12-18",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-10-08",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-04-18",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-12-20",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://parklanefo.com/"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://www.brreg.no/",
+    "https://data.brreg.no/enhetsregisteret/oppslag/enheter/912892638"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300ESO2E4IT75N193",
+  "https://data.brreg.no/enhetsregisteret/api/enheter/912892638",
+  "https://parklanefo.com/"
+ ],
+ "discovery": null
+}

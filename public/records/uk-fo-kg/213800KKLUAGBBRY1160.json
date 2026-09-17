@@ -1,0 +1,413 @@
+{
+ "record": "Family Office Record",
+ "id": "213800KKLUAGBBRY1160",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "213800KKLUAGBBRY1160",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/213800KKLUAGBBRY1160",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "STANBRIDGE FAMILY OFFICE LTD",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Companies House"
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://www.stanbridgefamilyoffice.co.uk",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": {
+   "value": "2018-01-08",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on Companies House",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "85 GREAT PORTLAND STREET, LONDON, GB-LND, W1W 7LT, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "conflict_with": [
+    {
+     "value": "2 Stable Office Corhampton Lane, Corhampton, Southampton, Hampshire, England, SO32 3NB",
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "status on Companies House"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "11137710",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+   "status": {
+    "value": "Active",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "11137710",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "FORDHAM, Michael Gerard",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "FORDHAM, Samuel Alexander",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "MAXIMCHUK, Anthony Wayne",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "SHARLEY, Susan Jayne",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "TEESDALE, Douglas James Elphinstone",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "PEARCEY, Eileen",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "JONES, Stephen Michael Ivor",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "MATHER, John Stanley",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "Michael Gerard Fordham",
+    "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Samuel Alexander Fordham",
+    "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Anthony Wayne Maximchuk",
+    "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Susan Jayne Sharley",
+    "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Douglas James Elphinstone Teesdale",
+    "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Doug Teesdale",
+    "source_url": "https://www.stanbridgefamilyoffice.co.uk/our-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Director as the subject's own page says"
+   },
+   "role": "Director"
+  },
+  {
+   "name": {
+    "value": "Sam Fordham",
+    "source_url": "https://www.stanbridgefamilyoffice.co.uk/our-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Director as the subject's own page says"
+   },
+   "role": "Director"
+  },
+  {
+   "name": {
+    "value": "Susan Sharley",
+    "source_url": "https://www.stanbridgefamilyoffice.co.uk/our-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Director as the subject's own page says"
+   },
+   "role": "Director"
+  },
+  {
+   "name": {
+    "value": "Tony Maximchuk",
+    "source_url": "https://www.stanbridgefamilyoffice.co.uk/our-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Non-Executive Director as the subject's own page says"
+   },
+   "role": "Non-Executive Director"
+  },
+  {
+   "name": {
+    "value": "Michael Fordham",
+    "source_url": "https://www.stanbridgefamilyoffice.co.uk/our-team",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Non-Executive Director as the subject's own page says"
+   },
+   "role": "Non-Executive Director"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "http://www.stanbridgefamilyoffice.co.uk",
+  "source_url": "http://www.stanbridgefamilyoffice.co.uk",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2018-01-08",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-01-08",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/11137710",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-03-24",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-23",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-24",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=STANBRIDGE%20FAMILY%20OFFICE%20LTD&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160"
+  }
+ ],
+ "sources": [
+  "http://www.stanbridgefamilyoffice.co.uk",
+  "https://api.gleif.org/api/v1/lei-records/213800KKLUAGBBRY1160",
+  "https://find-and-update.company-information.service.gov.uk/company/11137710",
+  "https://find-and-update.company-information.service.gov.uk/company/11137710/officers",
+  "https://www.stanbridgefamilyoffice.co.uk"
+ ],
+ "discovery": null
+}

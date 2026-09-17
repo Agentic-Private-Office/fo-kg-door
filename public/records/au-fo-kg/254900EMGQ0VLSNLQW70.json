@@ -1,0 +1,179 @@
+{
+ "record": "Family Office Record",
+ "id": "254900EMGQ0VLSNLQW70",
+ "version": "2026-09-14.2",
+ "node": "au-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://au.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900EMGQ0VLSNLQW70",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900EMGQ0VLSNLQW70",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "CHOWALLOOR FAMILY OFFICE PTY LTD",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "AU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Australia"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2026-07-03",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "10 All Saints Cl, Cherrybrook, Sydney, AU-NSW, 2126, AU",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "TXVC",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ASIC — companies register (ACN)",
+   "register_id": "RA000014",
+   "id": {
+    "value": "699 872 636",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://connectonline.asic.gov.au/",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2026-07-03",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-14",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-08-14",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-08-14",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[Australian Business Register (ABN Lookup)]",
+   "reason": "GLEIF cites no ABN and the name was not on the search pages read",
+   "tried": "https://abr.business.gov.au/Search/ResultsActive?SearchText=CHOWALLOOR%20FAMILY%20OFFICE%20PTY%20LTD",
+   "answer": "no ABN"
+  },
+  {
+   "field": "registrations[ASIC Connect — registers]",
+   "reason": "ASIC Connect search has no machine read; the open-data registers stand in for it",
+   "tried": "https://connectonline.asic.gov.au/RegistrySearch/faces/landing/SearchRegisters.jspx",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://lei.bloomberg.com/leis/view/254900EMGQ0VLSNLQW70",
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70"
+  },
+  {
+   "field": "principals",
+   "reason": "no register read discloses principals for this entity",
+   "tried": [
+    "https://connectonline.asic.gov.au/"
+   ]
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900EMGQ0VLSNLQW70",
+  "https://lei.bloomberg.com/leis/view/254900EMGQ0VLSNLQW70"
+ ],
+ "discovery": null
+}

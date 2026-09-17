@@ -1,0 +1,200 @@
+{
+ "record": "Family Office Record",
+ "id": "529900WFYKAOFAW12585",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900WFYKAOFAW12585",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900WFYKAOFAW12585",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "Böhke & Co. Family Office Fonds",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2017-02-01",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Herzogstraße 15, Düsseldorf, DE-NW, 40217, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8888",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "FUND",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000373",
+   "register_id": "RA000373",
+   "id": {
+    "value": "70149487",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Karl‑Heinz Blecher",
+    "source_url": "https://am.oddo-bhf.com/de-de/professioneller-anleger/fonds/bohke-co-family-office-fonds-i/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Fondsmanager as the subject's own page says"
+   },
+   "role": "Fondsmanager"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://am.oddo-bhf.com",
+  "source_url": "https://am.oddo-bhf.com",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash"
+ },
+ "aliases": [
+  {
+   "value": "Böhke & Compagnie Vermögensverwaltungsfonds",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME",
+   "language": "de"
+  }
+ ],
+ "events": [
+  {
+   "date": "2017-01-13",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-02-01",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-01-27",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-01-13",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=B%C3%B6hke+%26+Co.+Family+Office+Fonds&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000373]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "answered 404",
+   "tried": "https://am.oddo-bhf.com",
+   "answer": 404
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585"
+  }
+ ],
+ "sources": [
+  "https://am.oddo-bhf.com",
+  "https://am.oddo-bhf.com/de-de/download-document/55831",
+  "https://am.oddo-bhf.com/de-de/professioneller-anleger/fonds/bohke-co-family-office-fonds-i/",
+  "https://api.gleif.org/api/v1/lei-records/529900WFYKAOFAW12585"
+ ],
+ "discovery": null
+}

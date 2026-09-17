@@ -1,0 +1,6618 @@
+{
+ "node": "uk-fo-kg",
+ "country": "GB",
+ "jurisdiction": "United Kingdom",
+ "host": "https://uk.fo-kg.ai",
+ "door": "https://uk.fo-kg.ai/mcp",
+ "host_long": "https://uk-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://uk-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office",
+ "records": [
+  {
+   "id": "2138001SXE69Q9C28B87",
+   "lei": "2138001SXE69Q9C28B87",
+   "legal_name": "ASPINALLS FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC350440",
+    "OC350440"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "WEYBRIDGE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.hfmcwealth.com",
+   "fields": {
+    "total": 33,
+    "sourced": 23,
+    "filled": 4,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/2138001SXE69Q9C28B87.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "21380055O2PBLMXJU957",
+   "lei": "21380055O2PBLMXJU957",
+   "legal_name": "TATE FAMILY INVESTMENTS LIMITED",
+   "aliases": [
+    "TATE FAMILY OFFICE LIMITED"
+   ],
+   "register_ids": [
+    "11098383",
+    "11098383"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "HARROGATE",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 20,
+    "sourced": 17,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/21380055O2PBLMXJU957.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2138006OK12625BX7Q18",
+   "lei": "2138006OK12625BX7Q18",
+   "legal_name": "FRY FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "08741581",
+    "08741581"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://fryfamilyoffice.com/",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/2138006OK12625BX7Q18.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2138009UF4C9CQDHVJ97",
+   "lei": "2138009UF4C9CQDHVJ97",
+   "legal_name": "JH FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "08501446",
+    "08501446"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "WAKEFIELD",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/2138009UF4C9CQDHVJ97.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800E3PNJO87RQTB30",
+   "lei": "213800E3PNJO87RQTB30",
+   "legal_name": "MOORE FAMILY OFFICE GROUP LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12996672",
+    "12996672"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.moorefamilyofficegroup.com",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 6,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800E3PNJO87RQTB30.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800EBNRL1Z2DR1639",
+   "lei": "213800EBNRL1Z2DR1639",
+   "legal_name": "DPS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15848391",
+    "15848391"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "HARROW",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800EBNRL1Z2DR1639.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800GA2PUHF6UGX845",
+   "lei": "213800GA2PUHF6UGX845",
+   "legal_name": "PING ON FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14905346",
+    "14905346"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Kington",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800GA2PUHF6UGX845.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800HVM5M14KYAV355",
+   "lei": "213800HVM5M14KYAV355",
+   "legal_name": "GREGORY FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09473311",
+    "09473311"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LEICESTER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 20,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800HVM5M14KYAV355.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800KERC61IJDNOV92",
+   "lei": "213800KERC61IJDNOV92",
+   "legal_name": "THE BRAKE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "04460930",
+    "04460930"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "MAIDSTONE",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 27,
+    "sourced": 23,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800KERC61IJDNOV92.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800KKLUAGBBRY1160",
+   "lei": "213800KKLUAGBBRY1160",
+   "legal_name": "STANBRIDGE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "11137710",
+    "11137710"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "http://www.stanbridgefamilyoffice.co.uk",
+   "fields": {
+    "total": 36,
+    "sourced": 19,
+    "filled": 11,
+    "confirmed": 5,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800KKLUAGBBRY1160.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800PGM9AYGB99JP40",
+   "lei": "213800PGM9AYGB99JP40",
+   "legal_name": "TY DANJUMA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "06934623",
+    "06934623"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "ESHER",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.tyd-fo.co.uk/",
+   "fields": {
+    "total": 35,
+    "sourced": 23,
+    "filled": 5,
+    "confirmed": 7,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800PGM9AYGB99JP40.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800SK7JLF8O391G31",
+   "lei": "213800SK7JLF8O391G31",
+   "legal_name": "ZEUS FAMILY OFFICE LIMITED",
+   "aliases": [
+    "BIDCO 1 LIMITED",
+    "IRWELL INVESTMENTS LIMITED"
+   ],
+   "register_ids": [
+    "13244896",
+    "13244896"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "MANCHESTER",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800SK7JLF8O391G31.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800TAL949GPDOAP21",
+   "lei": "213800TAL949GPDOAP21",
+   "legal_name": "SIMON FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07697113",
+    "07697113"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Chester",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800TAL949GPDOAP21.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800UPCQHRE1YRES11",
+   "lei": "213800UPCQHRE1YRES11",
+   "legal_name": "MOORE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11599401",
+    "11599401"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.moorefamilyofficegroup.com",
+   "fields": {
+    "total": 23,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 6,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800UPCQHRE1YRES11.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800X76BAQI4S87Y57",
+   "lei": "213800X76BAQI4S87Y57",
+   "legal_name": "VARDY FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "03847743",
+    "03847743"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "NEWCASTLE UPON TYNE",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.vardygroup.com",
+   "fields": {
+    "total": 27,
+    "sourced": 18,
+    "filled": 5,
+    "confirmed": 4,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/213800X76BAQI4S87Y57.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "2549007PWZG697NHEW49",
+   "lei": "2549007PWZG697NHEW49",
+   "legal_name": "Lynx Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "16631596",
+    "16631596"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Leamington Spa",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/2549007PWZG697NHEW49.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900BW26ER7DGL4K37",
+   "lei": "254900BW26ER7DGL4K37",
+   "legal_name": "Wimmer Family Office Ltd",
+   "aliases": [],
+   "register_ids": [
+    "07931194",
+    "07931194"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://wfo.am",
+   "fields": {
+    "total": 25,
+    "sourced": 16,
+    "filled": 2,
+    "confirmed": 7,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 2,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/254900BW26ER7DGL4K37.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900PV5D9NNA5HH116",
+   "lei": "254900PV5D9NNA5HH116",
+   "legal_name": "BHAVIK J SHAH FAMILY OFFICE (UK) LTD",
+   "aliases": [],
+   "register_ids": [
+    "08742377",
+    "08742377"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/254900PV5D9NNA5HH116.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "254900U4T1MRXFKMO254",
+   "lei": "254900U4T1MRXFKMO254",
+   "legal_name": "Freedman Family Office",
+   "aliases": [],
+   "register_ids": [
+    "15240886",
+    "15240886"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/254900U4T1MRXFKMO254.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "3912007BZMA6UFUGL222",
+   "lei": "3912007BZMA6UFUGL222",
+   "legal_name": "MG FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13100785",
+    "13100785"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 6,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/3912007BZMA6UFUGL222.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300UNRZ5UUEW5VH05",
+   "lei": "549300UNRZ5UUEW5VH05",
+   "legal_name": "BLU FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09580739",
+    "09580739"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Richmond",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.blu-fo.com",
+   "fields": {
+    "total": 28,
+    "sourced": 18,
+    "filled": 4,
+    "confirmed": 6,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/549300UNRZ5UUEW5VH05.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "635400RFERWHZAZ7TA73",
+   "lei": "635400RFERWHZAZ7TA73",
+   "legal_name": "Wright Family Office Limited",
+   "aliases": [
+    "WRIGHT FAMILY OFFICE LTD"
+   ],
+   "register_ids": [
+    "13699157",
+    "13699157"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "INACTIVE",
+   "structure": "single-family",
+   "website": "https://wrightfamilyoffice.com",
+   "fields": {
+    "total": 21,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 3,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/635400RFERWHZAZ7TA73.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "636700L3X539R7AMB262",
+   "lei": "636700L3X539R7AMB262",
+   "legal_name": "MONACO FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15031963",
+    "15031963"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/636700L3X539R7AMB262.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488335USRT49P6F0O13",
+   "lei": "6488335USRT49P6F0O13",
+   "legal_name": "MEDYNSKY FAMILY OFFICE UK LTD.",
+   "aliases": [],
+   "register_ids": [
+    "14567942",
+    "14567942"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Leeds",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.medynsky.co.uk/",
+   "fields": {
+    "total": 19,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 4,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/6488335USRT49P6F0O13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "648861W5Y1LI084UEI36",
+   "lei": "648861W5Y1LI084UEI36",
+   "legal_name": "CHELTONDALE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16852292",
+    "16852292"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/648861W5Y1LI084UEI36.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488MCC534289XW3GU42",
+   "lei": "6488MCC534289XW3GU42",
+   "legal_name": "CARLIN FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15825777",
+    "15825777"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Stockton-on-Tees",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/6488MCC534289XW3GU42.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488RGK85TM3687U6M60",
+   "lei": "6488RGK85TM3687U6M60",
+   "legal_name": "SWIX FAMILY OFFICE UK LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12912696",
+    "12912696"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": "https://www.swixfo.com",
+   "fields": {
+    "total": 24,
+    "sourced": 18,
+    "filled": 1,
+    "confirmed": 3,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/6488RGK85TM3687U6M60.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488VH0ZKGBG21229189",
+   "lei": "6488VH0ZKGBG21229189",
+   "legal_name": "PANTHEON A FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12935655",
+    "12935655"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 22,
+    "sourced": 17,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/6488VH0ZKGBG21229189.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945002FASOIZPMNI088",
+   "lei": "8945002FASOIZPMNI088",
+   "legal_name": "THE COLLINSON FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC453146",
+    "OC453146"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/8945002FASOIZPMNI088.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "89450053OQF4M2733S43",
+   "lei": "89450053OQF4M2733S43",
+   "legal_name": "MACDONALD FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17298102",
+    "17298102"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "DIDCOT",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/89450053OQF4M2733S43.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500HDACKJE5IOPA96",
+   "lei": "894500HDACKJE5IOPA96",
+   "legal_name": "FRANCIS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12706913",
+    "12706913"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "SOLIHULL",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 21,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/894500HDACKJE5IOPA96.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500UR26IS19GXHM13",
+   "lei": "894500UR26IS19GXHM13",
+   "legal_name": "A FAMILY OFFICE LTD",
+   "aliases": [
+    "A MARKETING OFFICE LTD"
+   ],
+   "register_ids": [
+    "14645536",
+    "14645536"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "LONDON",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/894500UR26IS19GXHM13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500W1VDBLZSEGZ620",
+   "lei": "894500W1VDBLZSEGZ620",
+   "legal_name": "RVPV Family Office Limited",
+   "aliases": [],
+   "register_ids": [
+    "09344469",
+    "09344469"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Cambridge",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 4,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/894500W1VDBLZSEGZ620.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845007136715Q70YD15",
+   "lei": "9845007136715Q70YD15",
+   "legal_name": "DARK HORSE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15399803",
+    "15399803"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://dhfamilyoffice.com/",
+   "fields": {
+    "total": 20,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/9845007136715Q70YD15.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DBB5A90E41F988",
+   "lei": "984500DBB5A90E41F988",
+   "legal_name": "THE OLIVER FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14126520",
+    "14126520"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "Newcastle Upon Tyne",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 5,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 5,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/984500DBB5A90E41F988.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500DD46EDJ3674784",
+   "lei": "984500DD46EDJ3674784",
+   "legal_name": "REDROCK FAMILY OFFICE LIMITED",
+   "aliases": [
+    "JANUS AVIATION HOLDINGS LIMITED",
+    "ROSINA INVESTMENT GROUP LIMITED",
+    "BLACKWOOD FINANCIAL SOLUTIONS LIMITED"
+   ],
+   "register_ids": [
+    "14023616",
+    "14023616"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": "London",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": "https://redrockfamilyoffice.com/",
+   "fields": {
+    "total": 25,
+    "sourced": 20,
+    "filled": 0,
+    "confirmed": 3,
+    "conflict": 2,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 6,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/984500DD46EDJ3674784.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15765939",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15765939",
+    "15765939"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15765939.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-04126971",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE ANALYTICS LTD",
+   "aliases": [],
+   "register_ids": [
+    "04126971",
+    "04126971"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-04126971.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07005437",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE CONSULTING LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07005437",
+    "07005437"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://fo-mc.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07005437.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13547769",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE DS LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13547769",
+    "13547769"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13547769.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13776345",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE EEB LTD",
+   "aliases": [],
+   "register_ids": [
+    "13776345",
+    "13776345"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13776345.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13547717",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE GD LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13547717",
+    "13547717"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13547717.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12243965",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE IN LONDON LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12243965",
+    "12243965"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://familyofficeinlondon.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12243965.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07042858",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE MANAGEMENT CONSULTING LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07042858",
+    "07042858"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://fo-mc.com",
+   "fields": {
+    "total": 18,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07042858.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07551428",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE RECRUITMENT LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07551428",
+    "07551428"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.familyofficerecruitment.com/",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07551428.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC224077",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE (SCOTLAND) LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "SC224077",
+    "SC224077"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 22,
+    "sourced": 22,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC224077.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12430486",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE SERVICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12430486",
+    "12430486"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12430486.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09928539",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE SOLUTIONS LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09928539",
+    "09928539"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09928539.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC435993",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE TAX LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC435993",
+    "OC435993"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC435993.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12777718",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE TAX SERVICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12777718",
+    "12777718"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.familyofficetax.co.uk",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12777718.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SL005780",
+   "lei": null,
+   "legal_name": "FAMILY OFFICE WEALTH MANAGEMENT",
+   "aliases": [],
+   "register_ids": [
+    "SL005780",
+    "SL005780"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 7,
+    "sourced": 7,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SL005780.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15167218",
+   "lei": null,
+   "legal_name": "GRACECHURCH FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15167218",
+    "15167218"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Liquidation",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15167218.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12715461",
+   "lei": null,
+   "legal_name": "GUNPUTH FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12715461",
+    "12715461"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12715461.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14644696",
+   "lei": null,
+   "legal_name": "HAWK FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14644696",
+    "14644696"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.hawkfo.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14644696.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14344019",
+   "lei": null,
+   "legal_name": "HAZELL FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "14344019",
+    "14344019"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14344019.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17064212",
+   "lei": null,
+   "legal_name": "HBBA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17064212",
+    "17064212"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17064212.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14156244",
+   "lei": null,
+   "legal_name": "HB FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "14156244",
+    "14156244"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://waminvest.co.uk",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14156244.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17190982",
+   "lei": null,
+   "legal_name": "HENRY KNIGHTSBRIDGE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17190982",
+    "17190982"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17190982.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-LP021541",
+   "lei": null,
+   "legal_name": "HERITAGE FAMILY OFFICE LP",
+   "aliases": [],
+   "register_ids": [
+    "LP021541",
+    "LP021541"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "http://www.heritagefo.com",
+   "fields": {
+    "total": 9,
+    "sourced": 7,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-LP021541.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC818914",
+   "lei": null,
+   "legal_name": "H FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "SC818914",
+    "SC818914"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC818914.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09352867",
+   "lei": null,
+   "legal_name": "HILL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09352867",
+    "09352867"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.hill-family.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09352867.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17314791",
+   "lei": null,
+   "legal_name": "THE HOUSE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17314791",
+    "17314791"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17314791.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12362997",
+   "lei": null,
+   "legal_name": "HUNTER FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "12362997",
+    "12362997"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12362997.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15595129",
+   "lei": null,
+   "legal_name": "IMPERIAL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15595129",
+    "15595129"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15595129.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15307067",
+   "lei": null,
+   "legal_name": "INTERNATIONAL FAMILY OFFICE BOARD LTD",
+   "aliases": [],
+   "register_ids": [
+    "15307067",
+    "15307067"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15307067.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14426060",
+   "lei": null,
+   "legal_name": "ISHER CAPITAL FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "14426060",
+    "14426060"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://www.ishercapital.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14426060.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15819014",
+   "lei": null,
+   "legal_name": "JACOBSEN FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15819014",
+    "15819014"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15819014.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09874669",
+   "lei": null,
+   "legal_name": "JC FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09874669",
+    "09874669"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.jcfo.co.uk",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09874669.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16616975",
+   "lei": null,
+   "legal_name": "THE JETHWA FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16616975",
+    "16616975"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16616975.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12018826",
+   "lei": null,
+   "legal_name": "JOSERIDAN FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "12018826",
+    "12018826"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12018826.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14105511",
+   "lei": null,
+   "legal_name": "KAAZAR FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "14105511",
+    "14105511"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://kaazarcapital.com/www-kaazarcapital/fo-com/",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14105511.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16861140",
+   "lei": null,
+   "legal_name": "KING FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16861140",
+    "16861140"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16861140.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OE034340",
+   "lei": null,
+   "legal_name": "KLESCH FAMILY OFFICE UK LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "OE034340",
+    "OE034340"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Registered",
+   "structure": "single-family",
+   "website": "https://www.klesch.com",
+   "fields": {
+    "total": 9,
+    "sourced": 7,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OE034340.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15809228",
+   "lei": null,
+   "legal_name": "KLW FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15809228",
+    "15809228"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15809228.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15714068",
+   "lei": null,
+   "legal_name": "KP FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15714068",
+    "15714068"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15714068.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16685015",
+   "lei": null,
+   "legal_name": "THE KYPRIADIS FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16685015",
+    "16685015"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16685015.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16824576",
+   "lei": null,
+   "legal_name": "L&L FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16824576",
+    "16824576"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16824576.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17422818",
+   "lei": null,
+   "legal_name": "LANESBOROUGH FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17422818",
+    "17422818"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17422818.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC414080",
+   "lei": null,
+   "legal_name": "THE LAW FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC414080",
+    "OC414080"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC414080.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC428315",
+   "lei": null,
+   "legal_name": "THE LAWSON FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC428315",
+    "OC428315"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC428315.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12701348",
+   "lei": null,
+   "legal_name": "THE LAWSON FAMILY OFFICE INVESTMENTS LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12701348",
+    "12701348"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12701348.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13663995",
+   "lei": null,
+   "legal_name": "LEGACY FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "13663995",
+    "13663995"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13663995.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15629748",
+   "lei": null,
+   "legal_name": "LEGACY FAMILY OFFICE SERVICES LTD",
+   "aliases": [],
+   "register_ids": [
+    "15629748",
+    "15629748"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15629748.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13950138",
+   "lei": null,
+   "legal_name": "LELS CLARK FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "13950138",
+    "13950138"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13950138.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC458402",
+   "lei": null,
+   "legal_name": "LIGHTSPEED FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC458402",
+    "OC458402"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 19,
+    "sourced": 19,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC458402.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16382594",
+   "lei": null,
+   "legal_name": "LOCKTON FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16382594",
+    "16382594"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16382594.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10368156",
+   "lei": null,
+   "legal_name": "LONDON FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "10368156",
+    "10368156"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "http://londonfamilyoffice.org",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 6,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10368156.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11299412",
+   "lei": null,
+   "legal_name": "LS FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "11299412",
+    "11299412"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://lsfamilyoffice.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11299412.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09356109",
+   "lei": null,
+   "legal_name": "MALLAMS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09356109",
+    "09356109"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09356109.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16588516",
+   "lei": null,
+   "legal_name": "THE MANVEDEEP SINGH FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16588516",
+    "16588516"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16588516.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16855510",
+   "lei": null,
+   "legal_name": "MARTIN'S FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16855510",
+    "16855510"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://www.martinfamilyoffice.co.uk/",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16855510.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11088819",
+   "lei": null,
+   "legal_name": "MASSELOS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11088819",
+    "11088819"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": "single-family",
+   "website": "https://masselos-family-office.webnode.co.uk/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11088819.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16319707",
+   "lei": null,
+   "legal_name": "MAYFAIR FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16319707",
+    "16319707"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": "single-family",
+   "website": "https://mayfairfamilyoffice.com",
+   "fields": {
+    "total": 14,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16319707.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17216809",
+   "lei": null,
+   "legal_name": "MAYFAIR FAMILY OFFICE (LONDON) LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17216809",
+    "17216809"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17216809.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10317212",
+   "lei": null,
+   "legal_name": "MCCARTHY HILL FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "10317212",
+    "10317212"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "http://www.mccarthyhillfamilyoffice.co.uk",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10317212.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16769587",
+   "lei": null,
+   "legal_name": "MEIR FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16769587",
+    "16769587"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16769587.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15519185",
+   "lei": null,
+   "legal_name": "AANDA FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15519185",
+    "15519185"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15519185.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17401032",
+   "lei": null,
+   "legal_name": "ABREKA MAITY FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17401032",
+    "17401032"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17401032.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC633205",
+   "lei": null,
+   "legal_name": "ACER FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "SC633205",
+    "SC633205"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC633205.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13043160",
+   "lei": null,
+   "legal_name": "AC FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13043160",
+    "13043160"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://acfamilyoffice.com/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 4,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13043160.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15791762",
+   "lei": null,
+   "legal_name": "ADRI FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15791762",
+    "15791762"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15791762.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12917029",
+   "lei": null,
+   "legal_name": "ADV UK FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "12917029",
+    "12917029"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12917029.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13476266",
+   "lei": null,
+   "legal_name": "AHLUWALIA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13476266",
+    "13476266"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 16,
+    "sourced": 16,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13476266.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15063628",
+   "lei": null,
+   "legal_name": "AJ FAMILY OFFICE CONCIERGE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15063628",
+    "15063628"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": "https://ajfoc.com",
+   "fields": {
+    "total": 15,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15063628.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11363534",
+   "lei": null,
+   "legal_name": "ALBERTO BOROLI FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "11363534",
+    "11363534"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11363534.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17221338",
+   "lei": null,
+   "legal_name": "ALEXANDER FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17221338",
+    "17221338"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17221338.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC390165",
+   "lei": null,
+   "legal_name": "ALLSKO FAMILY OFFICE RESOURCES LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC390165",
+    "OC390165"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC390165.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17443822",
+   "lei": null,
+   "legal_name": "ALLSOPP FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17443822",
+    "17443822"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17443822.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17289446",
+   "lei": null,
+   "legal_name": "ALPA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17289446",
+    "17289446"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17289446.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16385343",
+   "lei": null,
+   "legal_name": "AMARELA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16385343",
+    "16385343"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16385343.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13960353",
+   "lei": null,
+   "legal_name": "ARK FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "13960353",
+    "13960353"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://arkfamilyoffice.co.uk/",
+   "fields": {
+    "total": 15,
+    "sourced": 11,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13960353.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16705105",
+   "lei": null,
+   "legal_name": "AS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16705105",
+    "16705105"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "http://www.asifo.com/",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16705105.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12530501",
+   "lei": null,
+   "legal_name": "AUXILIA FAMILY OFFICE (UK) LTD",
+   "aliases": [],
+   "register_ids": [
+    "12530501",
+    "12530501"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12530501.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15142854",
+   "lei": null,
+   "legal_name": "AUXILIUM FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15142854",
+    "15142854"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15142854.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16187983",
+   "lei": null,
+   "legal_name": "BACCHUS FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16187983",
+    "16187983"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16187983.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10353797",
+   "lei": null,
+   "legal_name": "BAIJUL SHAH FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "10353797",
+    "10353797"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10353797.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16414230",
+   "lei": null,
+   "legal_name": "BAKHTIARI FAMILY OFFICE LTD.",
+   "aliases": [],
+   "register_ids": [
+    "16414230",
+    "16414230"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16414230.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC457144",
+   "lei": null,
+   "legal_name": "THE BALCOMBE FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC457144",
+    "OC457144"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC457144.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17432676",
+   "lei": null,
+   "legal_name": "BEAU RIVAGE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17432676",
+    "17432676"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17432676.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16145960",
+   "lei": null,
+   "legal_name": "BELLATOR FAMILY OFFICE SALES AND CONSULTANTS LTD",
+   "aliases": [],
+   "register_ids": [
+    "16145960",
+    "16145960"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16145960.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13975198",
+   "lei": null,
+   "legal_name": "BELLATOR FAMILY OFFICE SPV LTD",
+   "aliases": [],
+   "register_ids": [
+    "13975198",
+    "13975198"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13975198.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17346566",
+   "lei": null,
+   "legal_name": "BENTLEY FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17346566",
+    "17346566"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17346566.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09240390",
+   "lei": null,
+   "legal_name": "BESPOKE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "09240390",
+    "09240390"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://bespokefamilyoffice.co.uk/",
+   "fields": {
+    "total": 21,
+    "sourced": 16,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09240390.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12314480",
+   "lei": null,
+   "legal_name": "BH MULTI FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "12314480",
+    "12314480"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12314480.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17057179",
+   "lei": null,
+   "legal_name": "BINGHAM FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17057179",
+    "17057179"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17057179.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OE020636",
+   "lei": null,
+   "legal_name": "BKS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "OE020636",
+    "OE020636"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Registered",
+   "structure": "multi-family",
+   "website": "https://www.bksfamilyoffice.com",
+   "fields": {
+    "total": 11,
+    "sourced": 8,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OE020636.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16842134",
+   "lei": null,
+   "legal_name": "BLACKSTONE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16842134",
+    "16842134"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16842134.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11529655",
+   "lei": null,
+   "legal_name": "BLG FAMILY OFFICE UK LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11529655",
+    "11529655"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://blg.ie/service/family-office/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11529655.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17322116",
+   "lei": null,
+   "legal_name": "BLUE LION FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17322116",
+    "17322116"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17322116.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17274229",
+   "lei": null,
+   "legal_name": "THE BUCHAN FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17274229",
+    "17274229"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17274229.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16483430",
+   "lei": null,
+   "legal_name": "CAHERO FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16483430",
+    "16483430"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://www.cahero.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16483430.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15850256",
+   "lei": null,
+   "legal_name": "C&W FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15850256",
+    "15850256"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.cwfo.uk/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15850256.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SO308027",
+   "lei": null,
+   "legal_name": "CAPSTONE FAMILY OFFICE LLP",
+   "aliases": [],
+   "register_ids": [
+    "SO308027",
+    "SO308027"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.capstonefamilyllp.com/",
+   "fields": {
+    "total": 16,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SO308027.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC521563",
+   "lei": null,
+   "legal_name": "CAPSTONE FAMILY OFFICE (SCOTLAND) LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "SC521563",
+    "SC521563"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC521563.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-06254698",
+   "lei": null,
+   "legal_name": "CAROLINE BAKER FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "06254698",
+    "06254698"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.carolinebaker.co.uk/",
+   "fields": {
+    "total": 30,
+    "sourced": 22,
+    "filled": 7,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-06254698.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17449583",
+   "lei": null,
+   "legal_name": "CAVENDISH FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17449583",
+    "17449583"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.cavfo.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17449583.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11213617",
+   "lei": null,
+   "legal_name": "CAVENDISH FAMILY OFFICE (LONDON) LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11213617",
+    "11213617"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.cavfo.com",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11213617.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13513506",
+   "lei": null,
+   "legal_name": "CELESTIAL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13513506",
+    "13513506"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13513506.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14414434",
+   "lei": null,
+   "legal_name": "CHAPELTOWN FAMILY OFFICE SERVICES LTD",
+   "aliases": [],
+   "register_ids": [
+    "14414434",
+    "14414434"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14414434.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16775086",
+   "lei": null,
+   "legal_name": "CHARLES PARK FAMILY OFFICE LIMITED",
+   "aliases": [
+    "Charles Park Family Office"
+   ],
+   "register_ids": [
+    "16775086",
+    "16775086"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://charlesparkfamilyoffice.com/",
+   "fields": {
+    "total": 21,
+    "sourced": 16,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 3,
+   "registrations": 2,
+   "associations": 2,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16775086.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15092721",
+   "lei": null,
+   "legal_name": "THE CHINESE FAMILY OFFICES ASSOCIATION OF HONG KONG",
+   "aliases": [],
+   "register_ids": [
+    "15092721",
+    "15092721"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15092721.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13299347",
+   "lei": null,
+   "legal_name": "CK PROPERTIES AND FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13299347",
+    "13299347"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13299347.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11915326",
+   "lei": null,
+   "legal_name": "CLARE FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "11915326",
+    "11915326"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 14,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11915326.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15692088",
+   "lei": null,
+   "legal_name": "CLARE FAMILY OFFICE TEMP LTD",
+   "aliases": [],
+   "register_ids": [
+    "15692088",
+    "15692088"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15692088.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13335864",
+   "lei": null,
+   "legal_name": "CLARMOND FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13335864",
+    "13335864"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13335864.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15438157",
+   "lei": null,
+   "legal_name": "COPPICE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15438157",
+    "15438157"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://coppicewealth.com/",
+   "fields": {
+    "total": 17,
+    "sourced": 12,
+    "filled": 3,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15438157.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09986802",
+   "lei": null,
+   "legal_name": "CRESCO & POTENTIA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09986802",
+    "09986802"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09986802.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12030527",
+   "lei": null,
+   "legal_name": "CRESTBRIDGE FAMILY OFFICE HOLDINGS LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12030527",
+    "12030527"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 17,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12030527.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-09661710",
+   "lei": null,
+   "legal_name": "CREW FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "09661710",
+    "09661710"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.crewfo.com",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-09661710.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14289266",
+   "lei": null,
+   "legal_name": "CROWN GLOBAL FAMILY OFFICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14289266",
+    "14289266"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14289266.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14640511",
+   "lei": null,
+   "legal_name": "CRYPTO FAMILY OFFICE PLC",
+   "aliases": [],
+   "register_ids": [
+    "14640511",
+    "14640511"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": "https://cryptofamilyoffice.uk",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14640511.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14632160",
+   "lei": null,
+   "legal_name": "CRYPTO FAMILY OFFICE YACHT CLUB LTD",
+   "aliases": [],
+   "register_ids": [
+    "14632160",
+    "14632160"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14632160.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-03610982",
+   "lei": null,
+   "legal_name": "DAMAZEIN FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "03610982",
+    "03610982"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://damazein.com/",
+   "fields": {
+    "total": 22,
+    "sourced": 20,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-03610982.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12534693",
+   "lei": null,
+   "legal_name": "DANDI NEW FAMILY OFFICE CO LTD",
+   "aliases": [],
+   "register_ids": [
+    "12534693",
+    "12534693"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://dandi.com",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12534693.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SL014322",
+   "lei": null,
+   "legal_name": "DAO FAMILY OFFICE LP",
+   "aliases": [],
+   "register_ids": [
+    "SL014322",
+    "SL014322"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://daofamily.com/",
+   "fields": {
+    "total": 11,
+    "sourced": 7,
+    "filled": 3,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SL014322.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15954918",
+   "lei": null,
+   "legal_name": "DAVIDO FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15954918",
+    "15954918"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15954918.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OE035280",
+   "lei": null,
+   "legal_name": "DE GROOT FAMILY OFFICE B.V.",
+   "aliases": [],
+   "register_ids": [
+    "OE035280",
+    "OE035280"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Registered",
+   "structure": "single-family",
+   "website": "https://dgfo.com/",
+   "fields": {
+    "total": 11,
+    "sourced": 7,
+    "filled": 2,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OE035280.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17158890",
+   "lei": null,
+   "legal_name": "DELTA FAMILY OFFICE SERVICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17158890",
+    "17158890"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17158890.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13766405",
+   "lei": null,
+   "legal_name": "DE VILLIERS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13766405",
+    "13766405"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13766405.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-08742198",
+   "lei": null,
+   "legal_name": "DHAVAL MISTRY FAMILY OFFICE (UK) LTD",
+   "aliases": [],
+   "register_ids": [
+    "08742198",
+    "08742198"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-08742198.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17031882",
+   "lei": null,
+   "legal_name": "THE DIGITAL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "17031882",
+    "17031882"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17031882.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11787227",
+   "lei": null,
+   "legal_name": "DONE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11787227",
+    "11787227"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11787227.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC779316",
+   "lei": null,
+   "legal_name": "DONNELLY FAMILY OFFICE",
+   "aliases": [],
+   "register_ids": [
+    "SC779316",
+    "SC779316"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "http://www.donnellygroup.co.uk",
+   "fields": {
+    "total": 13,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC779316.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC186847",
+   "lei": null,
+   "legal_name": "DOUGLAS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "SC186847",
+    "SC186847"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 15,
+    "sourced": 15,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC186847.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14516485",
+   "lei": null,
+   "legal_name": "DRAGOON FAMILY OFFICES LTD",
+   "aliases": [],
+   "register_ids": [
+    "14516485",
+    "14516485"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14516485.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15989544",
+   "lei": null,
+   "legal_name": "DSW FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "15989544",
+    "15989544"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15989544.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-SC839415",
+   "lei": null,
+   "legal_name": "DUBAI FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "SC839415",
+    "SC839415"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://dubaifamilyoffice.co.uk",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-SC839415.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-05843174",
+   "lei": null,
+   "legal_name": "EASTLORDS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "05843174",
+    "05843174"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-05843174.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10774865",
+   "lei": null,
+   "legal_name": "EDENHURST FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "10774865",
+    "10774865"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10774865.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12088779",
+   "lei": null,
+   "legal_name": "EGERTON FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12088779",
+    "12088779"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12088779.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14760488",
+   "lei": null,
+   "legal_name": "EMPEROR FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14760488",
+    "14760488"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14760488.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-08973373",
+   "lei": null,
+   "legal_name": "ENCORE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "08973373",
+    "08973373"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.encorefamilyoffice.com/",
+   "fields": {
+    "total": 21,
+    "sourced": 13,
+    "filled": 7,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-08973373.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16817165",
+   "lei": null,
+   "legal_name": "ENSEADA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16817165",
+    "16817165"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://enseadafo.co.uk/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16817165.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16139594",
+   "lei": null,
+   "legal_name": "ETERNAL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16139594",
+    "16139594"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16139594.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15559379",
+   "lei": null,
+   "legal_name": "EVERSTREAM FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15559379",
+    "15559379"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://everstreamfamilyoffice.com",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15559379.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07401109",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE CHELTENHAM LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07401109",
+    "07401109"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07401109.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07599185",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE LONDON LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07599185",
+    "07599185"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.thefamilyoffice.co.uk/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07599185.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-07772247",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICER LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "07772247",
+    "07772247"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": "multi-family",
+   "website": "https://www.thefamilyofficer.com",
+   "fields": {
+    "total": 16,
+    "sourced": 13,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-07772247.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OE032004",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICER LLC",
+   "aliases": [],
+   "register_ids": [
+    "OE032004",
+    "OE032004"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Registered",
+   "structure": "multi-family",
+   "website": "https://www.thefamilyofficer.com/",
+   "fields": {
+    "total": 9,
+    "sourced": 7,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OE032004.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16395998",
+   "lei": null,
+   "legal_name": "THE FAMILY OFFICE SEARCH GROUP LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16395998",
+    "16395998"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": "https://www.thefamilyoffice.co.uk/",
+   "fields": {
+    "total": 12,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16395998.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14695938",
+   "lei": null,
+   "legal_name": "FENTON FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14695938",
+    "14695938"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14695938.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-06121114",
+   "lei": null,
+   "legal_name": "FERGUSON PARTNERS FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "06121114",
+    "06121114"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "multi-family",
+   "website": "https://www.ferguson.ch",
+   "fields": {
+    "total": 17,
+    "sourced": 14,
+    "filled": 3,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-06121114.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15469711",
+   "lei": null,
+   "legal_name": "FERNDALE FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15469711",
+    "15469711"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://ferndalefamily.co.uk/",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15469711.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17146305",
+   "lei": null,
+   "legal_name": "FISHER FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17146305",
+    "17146305"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17146305.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16831654",
+   "lei": null,
+   "legal_name": "FITZPATRICK FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "16831654",
+    "16831654"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://fitzpatrickfamilyoffice.com",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16831654.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17433407",
+   "lei": null,
+   "legal_name": "5.5 G.M.I. L'DOR V'DOR FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17433407",
+    "17433407"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://www.555gmildorvdorfamilyoffice.com/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17433407.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13212358",
+   "lei": null,
+   "legal_name": "FIVE KEYS FAMILY OFFICE (UK) LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13212358",
+    "13212358"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13212358.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-15719636",
+   "lei": null,
+   "legal_name": "FOOTPRINTS FAMILY OFFICE UK EUROPE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "15719636",
+    "15719636"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-15719636.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-11558533",
+   "lei": null,
+   "legal_name": "FORTNUM FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "11558533",
+    "11558533"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-11558533.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17004035",
+   "lei": null,
+   "legal_name": "THE FRACTIONAL FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17004035",
+    "17004035"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17004035.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-17062903",
+   "lei": null,
+   "legal_name": "FRIGUS FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "17062903",
+    "17062903"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": "single-family",
+   "website": "https://www.frigus.is/",
+   "fields": {
+    "total": 13,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-17062903.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-16682883",
+   "lei": null,
+   "legal_name": "FRONTIER FAMILY OFFICE FORUM HOLDINGS LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "16682883",
+    "16682883"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://noellereno.io/",
+   "fields": {
+    "total": 14,
+    "sourced": 13,
+    "filled": 1,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-16682883.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13611743",
+   "lei": null,
+   "legal_name": "FWG ATLANTISO FAMILY OFFICE LTD",
+   "aliases": [],
+   "register_ids": [
+    "13611743",
+    "13611743"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 10,
+    "sourced": 10,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13611743.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10931193",
+   "lei": null,
+   "legal_name": "GELLING FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "10931193",
+    "10931193"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10931193.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-14865503",
+   "lei": null,
+   "legal_name": "GENEVA FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "14865503",
+    "14865503"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-14865503.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OC431674",
+   "lei": null,
+   "legal_name": "GFO GLOBAL FAMILY OFFICES LLP",
+   "aliases": [],
+   "register_ids": [
+    "OC431674",
+    "OC431674"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active — Active proposal to strike off",
+   "structure": "single-family",
+   "website": "https://gfo.capital/",
+   "fields": {
+    "total": 12,
+    "sourced": 10,
+    "filled": 1,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OC431674.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-OE027930",
+   "lei": null,
+   "legal_name": "GISEV FAMILY OFFICE S. P. A.",
+   "aliases": [],
+   "register_ids": [
+    "OE027930",
+    "OE027930"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Registered",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 7,
+    "sourced": 7,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 0,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-OE027930.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-10394434",
+   "lei": null,
+   "legal_name": "GLOBAL FAMILY OFFICE LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "10394434",
+    "10394434"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 17,
+    "sourced": 17,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-10394434.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-12375054",
+   "lei": null,
+   "legal_name": "GLOBAL FAMILY OFFICE COMMUNITY LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "12375054",
+    "12375054"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": "https://www.globalfamilyofficecommunity.com/",
+   "fields": {
+    "total": 14,
+    "sourced": 11,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-12375054.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-13739916",
+   "lei": null,
+   "legal_name": "SADANA FAMILY OFFICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "13739916",
+    "13739916"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-13739916.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "GB-CH-NI616088",
+   "lei": null,
+   "legal_name": "WILSON FAMILY OFFICES LIMITED",
+   "aliases": [],
+   "register_ids": [
+    "NI616088",
+    "NI616088"
+   ],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": "Active",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 12,
+    "sourced": 12,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 1,
+   "registrations": 2,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/uk-fo-kg/GB-CH-NI616088.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-j-stern-family-office",
+   "lei": null,
+   "legal_name": "J. Stern & Co. Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/uk-fo-kg/AS-j-stern-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-alvarium-family-office",
+   "lei": null,
+   "legal_name": "Alvarium Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/uk-fo-kg/AS-alvarium-family-office.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "AS-eupean-family-office",
+   "lei": null,
+   "legal_name": "Eupean Family Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "United Kingdom",
+   "city": null,
+   "entity_status": null,
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 4,
+    "sourced": 4,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 1,
+   "registrations": 0,
+   "associations": 1,
+   "association_only": true,
+   "record": "/records/uk-fo-kg/AS-eupean-family-office.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 2935,
+  "sourced": 2532,
+  "filled": 166,
+  "confirmed": 218,
+  "conflict": 19,
+  "unverified": 0,
+  "gaps": 921,
+  "events": 345,
+  "registrations": 402,
+  "principals": 587,
+  "with_lei": 36,
+  "with_website": 71,
+  "association_listings": 5,
+  "association_records": 4,
+  "sources": 63
+ },
+ "sources": [
+  {
+   "name": "acfamilyoffice.com — subject website",
+   "url": "https://acfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ajfoc.com — subject website",
+   "url": "https://ajfoc.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "arkfamilyoffice.co.uk — subject website",
+   "url": "https://arkfamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "bespokefamilyoffice.co.uk — subject website",
+   "url": "https://bespokefamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "blg.ie — subject website",
+   "url": "https://blg.ie/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "charlesparkfamilyoffice.com — subject website",
+   "url": "https://charlesparkfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "coppicewealth.com — subject website",
+   "url": "https://coppicewealth.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "damazein.com — subject website",
+   "url": "https://damazein.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dandi.com — subject website",
+   "url": "https://dandi.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "daofamily.com — subject website",
+   "url": "https://daofamily.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dgfo.com — subject website",
+   "url": "https://dgfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "dhfamilyoffice.com — subject website",
+   "url": "https://dhfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "dubaifamilyoffice.co.uk — subject website",
+   "url": "https://dubaifamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "enseadafo.co.uk — subject website",
+   "url": "https://enseadafo.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "everstreamfamilyoffice.com — subject website",
+   "url": "https://everstreamfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "familyofficeinlondon.com — subject website",
+   "url": "https://familyofficeinlondon.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "ferndalefamily.co.uk — subject website",
+   "url": "https://ferndalefamily.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "Companies House — company and officers pages",
+   "url": "https://find-and-update.company-information.service.gov.uk/",
+   "role": "fill and confirm",
+   "reads": 402,
+   "answered_200": 402
+  },
+  {
+   "name": "fitzpatrickfamilyoffice.com — subject website",
+   "url": "https://fitzpatrickfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "fo-mc.com — subject website",
+   "url": "https://fo-mc.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "gfo.capital — subject website",
+   "url": "https://gfo.capital/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "kaazarcapital.com — subject website",
+   "url": "https://kaazarcapital.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "londonfamilyoffice.org — subject website",
+   "url": "https://londonfamilyoffice.org/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "lsfamilyoffice.com — subject website",
+   "url": "https://lsfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "masselos-family-office.webnode.co.uk — subject website",
+   "url": "https://masselos-family-office.webnode.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "mayfairfamilyoffice.com — subject website",
+   "url": "https://mayfairfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "redrockfamilyoffice.com — subject website",
+   "url": "https://redrockfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "waminvest.co.uk — subject website",
+   "url": "https://waminvest.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "wfo.am — subject website",
+   "url": "https://wfo.am/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "wrightfamilyoffice.com — subject website",
+   "url": "https://wrightfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.555gmildorvdorfamilyoffice.com — subject website",
+   "url": "https://www.555gmildorvdorfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.asifo.com — subject website",
+   "url": "https://www.asifo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.bksfamilyoffice.com — subject website",
+   "url": "https://www.bksfamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.blu-fo.com — subject website",
+   "url": "https://www.blu-fo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.cahero.com — subject website",
+   "url": "https://www.cahero.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.capstonefamilyllp.com — subject website",
+   "url": "https://www.capstonefamilyllp.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.carolinebaker.co.uk — subject website",
+   "url": "https://www.carolinebaker.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.cavfo.com — subject website",
+   "url": "https://www.cavfo.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "www.crewfo.com — subject website",
+   "url": "https://www.crewfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.cwfo.uk — subject website",
+   "url": "https://www.cwfo.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.encorefamilyoffice.com — subject website",
+   "url": "https://www.encorefamilyoffice.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.familyofficetax.co.uk — subject website",
+   "url": "https://www.familyofficetax.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.ferguson.ch — subject website",
+   "url": "https://www.ferguson.ch/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.frigus.is — subject website",
+   "url": "https://www.frigus.is/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.globalfamilyofficecommunity.com — subject website",
+   "url": "https://www.globalfamilyofficecommunity.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.hawkfo.com — subject website",
+   "url": "https://www.hawkfo.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.hfmcwealth.com — subject website",
+   "url": "https://www.hfmcwealth.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.hill-family.com — subject website",
+   "url": "https://www.hill-family.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.ishercapital.com — subject website",
+   "url": "https://www.ishercapital.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.jcfo.co.uk — subject website",
+   "url": "https://www.jcfo.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.klesch.com — subject website",
+   "url": "https://www.klesch.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.martinfamilyoffice.co.uk — subject website",
+   "url": "https://www.martinfamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.mccarthyhillfamilyoffice.co.uk — subject website",
+   "url": "https://www.mccarthyhillfamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "www.medynsky.co.uk — subject website",
+   "url": "https://www.medynsky.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.moorefamilyofficegroup.com — subject website",
+   "url": "https://www.moorefamilyofficegroup.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 2
+  },
+  {
+   "name": "Swiss family-office association (SFOA / Verband) — published member/directory page",
+   "url": "https://www.sfoa.ch/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.stanbridgefamilyoffice.co.uk — subject website",
+   "url": "https://www.stanbridgefamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.thefamilyoffice.co.uk — subject website",
+   "url": "https://www.thefamilyoffice.co.uk/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 0
+  },
+  {
+   "name": "www.thefamilyofficer.com — subject website",
+   "url": "https://www.thefamilyofficer.com/",
+   "role": "fill",
+   "reads": 2,
+   "answered_200": 0
+  },
+  {
+   "name": "www.tyd-fo.co.uk — subject website",
+   "url": "https://www.tyd-fo.co.uk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "The UHNW Institute — published member/directory page",
+   "url": "https://www.uhnwinstitute.org/",
+   "role": "association source",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.vardygroup.com — subject website",
+   "url": "https://www.vardygroup.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  }
+ ],
+ "refused": [
+  {
+   "register": "FCA Financial Services Register",
+   "subjects": 201
+  },
+  {
+   "register": "website",
+   "subjects": 14
+  }
+ ],
+ "reads": 469,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/uk-fo-kg/<source>/2026-09-14/"
+ }
+}

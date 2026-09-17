@@ -1,0 +1,209 @@
+{
+ "record": "Family Office Record",
+ "id": "391200P8LL2QOYXZ8Z46",
+ "version": "2026-09-14.2",
+ "node": "de-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://de.fo-kg.ai/mcp",
+ "lei": {
+  "value": "391200P8LL2QOYXZ8Z46",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/391200P8LL2QOYXZ8Z46",
+  "registration_status": "LAPSED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "39120001KULK7200U106"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "L-Family Office Nr. 7 GmbH & Co. KG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "de"
+  },
+  "jurisdiction": {
+   "value": "DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Germany"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2016-11-29",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Forststraße 43, Riemerling, 85521, DE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "8Z6G",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000304",
+   "register_id": "RA000304",
+   "id": {
+    "value": "HRA 106335",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Wolf‑Dietrich Loose",
+    "source_url": "https://www.l-familyoffice.com/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "(presumably) principal (linked via LinkedIn) as the subject's own page says"
+   },
+   "role": "(presumably) principal (linked via LinkedIn)"
+  },
+  {
+   "name": {
+    "value": "Katharina Staudacher",
+    "source_url": "https://www.l-familyoffice.com/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "(presumably) principal (linked via LinkedIn) as the subject's own page says"
+   },
+   "role": "(presumably) principal (linked via LinkedIn)"
+  },
+  {
+   "name": {
+    "value": "Christoph Loose",
+    "source_url": "https://www.l-familyoffice.com/",
+    "read_by": "gpt-4.1",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "(presumably) principal (linked via LinkedIn) as the subject's own page says"
+   },
+   "role": "(presumably) principal (linked via LinkedIn)"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.l-familyoffice.com/",
+  "source_url": "https://www.l-familyoffice.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gpt-4.1"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2016-11-29",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2018-09-04",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2022-09-04",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-08-08",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[BaFin — company database]",
+   "reason": "the BaFin search form returns no results to a plain request; not read this wave",
+   "tried": "https://portal.mvp.bafin.de/database/InstInfo/sucheForm.do?sucheButtonInstitut=Search&institutName=L-Family+Office+Nr.+7+GmbH+%26+Co.+KG&locale=en_GB",
+   "answer": "form-driven search"
+  },
+  {
+   "field": "registrations[Handelsregister (Registerportal) — RA000304]",
+   "reason": "the Registerportal search needs a browser session; the register id is as GLEIF records it",
+   "tried": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+   "answer": "browser session"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://www.l-familyoffice.com/"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/391200P8LL2QOYXZ8Z46",
+  "https://www.l-familyoffice.com/"
+ ],
+ "discovery": null
+}

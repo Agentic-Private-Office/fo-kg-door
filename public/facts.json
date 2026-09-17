@@ -1,0 +1,191 @@
+{
+  "graph": "Family Office Knowledge Graph",
+  "canonical": "https://familyofficeknowledgegraph.ai/",
+  "twins": [
+    "https://familyofficeknowledgegraph.com/",
+    "https://familyofficeknowledgegraph.org/",
+    "https://familyofficeknowledgegraph.io/"
+  ],
+  "operator": "Agentic KG Holdings",
+  "principal": "Matthew Keddy",
+  "office": "https://agent-kg.ai",
+  "office_line": "Family Office Knowledge Graph — familyofficeknowledgegraph.ai",
+  "surface_version": "0.19.12",
+  "as_of": "2026-09-14",
+  "record_shape": {
+    "name": "Family Office Record (FOR)",
+    "field": "{ value, source_url, read_by, read, state } — second_source_url, second_read_by where two independent public sources agree",
+    "sections": [
+      "identity (legal_name, jurisdiction, structure, formation, registered_office)",
+      "registrations (register, id, url, status, read)",
+      "lei",
+      "principals (as disclosed on the register, no more)",
+      "sectors (as disclosed)",
+      "website",
+      "aliases (sourced)",
+      "events (dated, URL'd)",
+      "gaps (declared, with reason)"
+    ],
+    "spine": "GLEIF",
+    "fill_and_confirm": "national registers: Corporations Canada, OrgBook BC, SEC IAPD, OSC orders; provincial registers that refuse machines are declared gaps"
+  },
+  "states": {
+    "sourced": "one public source, read and dated",
+    "filled": "completed by an engine from a source and not yet confirmed",
+    "confirmed": "two independent public sources agree",
+    "conflict": "sources disagree; both kept, none chosen",
+    "unverified": "a constructed pointer, marked as such"
+  },
+  "passes": [
+    "Harvest — enumerate subjects from the spine register",
+    "Fill — complete fields from source pages",
+    "Confirm — a second source per field"
+  ],
+  "doors": {
+    "apex": "https://mcp.familyofficeknowledgegraph.ai/mcp",
+    "agent_card": "https://agent.familyofficeknowledgegraph.ai/.well-known/agent-card.json",
+    "nodes": [
+      "https://ca-fo-kg.familyofficeknowledgegraph.ai/mcp"
+    ],
+    "resolve": "https://familyofficeknowledgegraph.ai/resolve/{identifier}",
+    "records": "https://familyofficeknowledgegraph.ai/records/nodes.json",
+    "shape": "apex door holds the index and forwards; the node door serves the record; nothing is stored at the apex"
+  },
+  "tools": [
+    "resolve_family_office",
+    "get_record",
+    "list_events_since",
+    "list_aliases",
+    "list_nodes"
+  ],
+  "keys": {
+    "jwks": "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+    "kid": "mk-office-2026-09",
+    "alg": "EdDSA",
+    "ring": [
+      "mk-office-2026-09",
+      "fo-kg-x402-2026-09"
+    ],
+    "x402": {
+      "jwks": "https://familyofficeknowledgegraph.ai/x402/jwks.json",
+      "kid": "fo-kg-x402-2026-09",
+      "alg": "EdDSA"
+    },
+    "signing": "records are confirmed, not signed — the office's signing has not shipped on this record"
+  },
+  "x402": {
+    "page": "https://familyofficeknowledgegraph.ai/x402",
+    "route": "https://familyofficeknowledgegraph.ai/api",
+    "price_usdc": "0.01",
+    "amount": "10000",
+    "network": "eip155:8453",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "scheme": "exact",
+    "x402Version": 2,
+    "facilitator": "https://api.cdp.coinbase.com/platform/v2/x402",
+    "receipts": "https://familyofficeknowledgegraph.ai/x402/receipt/{nonce}",
+    "jwks": "https://familyofficeknowledgegraph.ai/x402/jwks.json",
+    "kid": "fo-kg-x402-2026-09",
+    "resource": "GET /api → { receipt, statement, data }: data = the graph index of record (every node's record list); statement = its EdDSA JWT (kid fo-kg-x402-2026-09); receipt = the signed settlement receipt",
+    "doctrine": "https://agent-kg.ai/x402"
+  },
+  "oauth": {
+    "authorization_server": "https://agent-kg.ai",
+    "protected_resource": "https://familyofficeknowledgegraph.ai/.well-known/oauth-protected-resource",
+    "licensed_route": "https://familyofficeknowledgegraph.ai/licensed/index",
+    "scopes": [
+      "office:read"
+    ]
+  },
+  "contact": {
+    "form": "https://familyofficeknowledgegraph.ai/#contact",
+    "agents_mail": "allooloo@hey.com"
+  },
+  "record_pages": {
+    "status": "https://familyofficeknowledgegraph.ai/status",
+    "terms": "https://familyofficeknowledgegraph.ai/terms",
+    "privacy": "https://familyofficeknowledgegraph.ai/privacy",
+    "security": "https://familyofficeknowledgegraph.ai/security",
+    "no_cookies": "https://familyofficeknowledgegraph.ai/no-cookies",
+    "copy": "record-grade lines on the office template pending the CEO cut (ORDER-002 carried no copy of record for this surface)"
+  },
+  "page_script": {
+    "path": "https://familyofficeknowledgegraph.ai/webmcp.js",
+    "purpose": "WebMCP registration of the contact form (tool fo_kg_contact) — the one page script allowed by the office ruling of 2026-09-13",
+    "stores": "nothing"
+  },
+  "radar": {
+    "counts": "read from /records/<node>/index.json at request time — never typed",
+    "paid_calls": "held in KV for the office's own read; never rendered publicly (CEO ruling 2026-09-14: usage counts are competitive data)",
+    "readiness": {
+      "date": "2026-09-14",
+      "level": 5,
+      "level_name": "Agent-Native",
+      "pass": 17,
+      "fail": 5,
+      "neutral": 0,
+      "scanner": "isitagentready.com /api/scan",
+      "source": "FO-KG/SITE/rails/aeo/2026-09-14-after.json"
+    }
+  },
+  "entity": {
+    "name": "Agentic KG Holdings",
+    "mark": "https://familyofficeknowledgegraph.ai/akgh-icon-64.png",
+    "mark_svg": "https://familyofficeknowledgegraph.ai/akgh-icon.svg"
+  },
+  "harvest": {
+    "pattern": "Hunter Agent: search → source page → field with source_url, read_by, state",
+    "rails": [
+      "FO-KG/harvest/fetch_sources.py",
+      "FO-KG/harvest/build_records.py"
+    ],
+    "pond": "FO-KG/harvest/pond/<node>/<source>/<date>/ — dated, immutable drops",
+    "spec": "FO-KG/RECORD.md"
+  },
+  "kit": [
+    "https://ae.fo-kg.ai/mcp",
+    "https://agent.fo-kg.ai/.well-known/agent-card.json",
+    "https://au.fo-kg.ai/mcp",
+    "https://ca.fo-kg.ai/mcp",
+    "https://ch.fo-kg.ai/mcp",
+    "https://de.fo-kg.ai/mcp",
+    "https://dk.fo-kg.ai/mcp",
+    "https://es.fo-kg.ai/mcp",
+    "https://familyofficeknowledgegraph.ai/.well-known/agent-card.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/agent-skills/index.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/ai-catalog.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/api-catalog",
+    "https://familyofficeknowledgegraph.ai/.well-known/ard.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/http-message-signatures-directory",
+    "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/mcp.json",
+    "https://familyofficeknowledgegraph.ai/.well-known/oauth-authorization-server",
+    "https://familyofficeknowledgegraph.ai/.well-known/oauth-protected-resource",
+    "https://familyofficeknowledgegraph.ai/.well-known/security.txt",
+    "https://familyofficeknowledgegraph.ai/.well-known/skills.json",
+    "https://familyofficeknowledgegraph.ai/ai-catalog.json",
+    "https://familyofficeknowledgegraph.ai/api",
+    "https://familyofficeknowledgegraph.ai/auth.md",
+    "https://familyofficeknowledgegraph.ai/facts.json",
+    "https://familyofficeknowledgegraph.ai/health.json",
+    "https://familyofficeknowledgegraph.ai/licensed/index",
+    "https://familyofficeknowledgegraph.ai/llms.txt",
+    "https://familyofficeknowledgegraph.ai/openapi.json",
+    "https://familyofficeknowledgegraph.ai/records/nodes.json",
+    "https://familyofficeknowledgegraph.ai/resolve/{identifier}",
+    "https://familyofficeknowledgegraph.ai/robots.txt",
+    "https://familyofficeknowledgegraph.ai/sitemap.xml",
+    "https://familyofficeknowledgegraph.ai/x402",
+    "https://familyofficeknowledgegraph.ai/x402/jwks.json",
+    "https://fr.fo-kg.ai/mcp",
+    "https://it.fo-kg.ai/mcp",
+    "https://lu.fo-kg.ai/mcp",
+    "https://mcp.fo-kg.ai/mcp",
+    "https://nl.fo-kg.ai/mcp",
+    "https://no.fo-kg.ai/mcp",
+    "https://row.fo-kg.ai/mcp",
+    "https://sg.fo-kg.ai/mcp",
+    "https://uk.fo-kg.ai/mcp",
+    "https://us.fo-kg.ai/mcp"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+ "record": "Family Office Record",
+ "id": "529900FFWPNDUIHC9B92",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": {
+  "value": "529900FFWPNDUIHC9B92",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/529900FFWPNDUIHC9B92",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5299000J2N45DDNE4Y28"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "FvL Family Office und Treuhand AG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "de",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on Zefix — Zentraler Firmenindex (Swiss commercial register)"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": null,
+  "formation": {
+   "value": "1999-04-19",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Bahnhofstrasse 19, Herisau, CH-AR, 9100, CH",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Zefix — Zentraler Firmenindex (Swiss commercial register) (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "MVII",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "RA000549",
+   "register_id": "RA000549",
+   "id": {
+    "value": "CHE-101.039.583",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": null,
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-101.039.583",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://ar.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-101.039.583"
+   },
+   "url": "https://ar.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-101.039.583",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Ralf Jauck",
+    "source_url": "https://fvl-treuhand.ch/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Dr. Ralf Jauck",
+    "source_url": "https://fvl-treuhand.ch/leadership",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Strategischer Unternehmensberater / Präsident des Verwaltungsrates (VR-P) as the subject's own page says"
+   },
+   "role": "Strategischer Unternehmensberater / Präsident des Verwaltungsrates (VR-P)"
+  },
+  {
+   "name": {
+    "value": "Vanessa Jauck",
+    "source_url": "https://fvl-treuhand.ch/leadership",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Leitung Operations & Büromanagement as the subject's own page says"
+   },
+   "role": "Leitung Operations & Büromanagement"
+  },
+  {
+   "name": {
+    "value": "Aaron Jauck",
+    "source_url": "https://fvl-treuhand.ch/leadership",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Consultant – Betriebswirtschaftliche Beratung & digitale Entwicklungen as the subject's own page says"
+   },
+   "role": "Consultant – Betriebswirtschaftliche Beratung & digitale Entwicklungen"
+  },
+  {
+   "name": {
+    "value": "Maximilian Paul Otto Jauck",
+    "source_url": "https://fvl-treuhand.ch/leadership",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Associate – Edelmetalle & Vermögenssicherung as the subject's own page says"
+   },
+   "role": "Associate – Edelmetalle & Vermögenssicherung"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://fvl-treuhand.ch/",
+  "source_url": "https://fvl-treuhand.ch/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "1999-04-19",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-03-29",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-08-21",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-04-07",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-04-07",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/529900FFWPNDUIHC9B92",
+  "https://fvl-treuhand.ch/",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/454988.json"
+ ],
+ "discovery": null
+}

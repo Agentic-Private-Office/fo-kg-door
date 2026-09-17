@@ -1,0 +1,201 @@
+{
+ "record": "Family Office Record",
+ "id": "549300J9438YHJRLPE90",
+ "version": "2026-09-14.2",
+ "node": "nl-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://nl.fo-kg.ai/mcp",
+ "lei": {
+  "value": "549300J9438YHJRLPE90",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/549300J9438YHJRLPE90",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "724500A93Z8V1MJK5349"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "De Groot Family Office B.V.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "language": "nl"
+  },
+  "jurisdiction": {
+   "value": "NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Netherlands"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://dgfo.com/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+  },
+  "formation": {
+   "value": "1998-08-09",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "basis": "GLEIF creation date as written"
+  },
+  "registered_office": {
+   "value": "Bentveldsweg 140, Aerdenhout, 2111EE, NL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "54M6",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "KVK — Handelsregister (Kamer van Koophandel)",
+   "register_id": "RA000463",
+   "id": {
+    "value": "24286475",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "registeredAs on the GLEIF record"
+   },
+   "url": "https://www.kvk.nl/",
+   "status": null,
+   "read": "2026-09-14"
+  },
+  {
+   "register": "AFM registers",
+   "register_id": null,
+   "id": null,
+   "url": "https://www.afm.nl/en/sector/registers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "drs. J.A.G. (Han) de Groot",
+    "source_url": "https://dgfo.com/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dgfo.com/",
+  "source_url": "https://dgfo.com/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "gemini-3.6-flash, gpt-4.1, grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "1998-08-09",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-10-25",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-03-29",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-03-29",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[KVK — Handelsregister (Kamer van Koophandel)]",
+   "reason": "KVK public search renders client-side and extracts are paid — never attempted (HITL)",
+   "tried": "https://www.kvk.nl/zoeken/?source=all&q=De%20Groot%20Family%20Office%20B.V.",
+   "answer": "client-side search; extracts paid"
+  },
+  {
+   "field": "website",
+   "reason": "the page does not name the entity",
+   "tried": "https://dgfo.com/"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/549300J9438YHJRLPE90",
+  "https://dgfo.com/",
+  "https://nl.linkedin.com/company/de-groot-family-office",
+  "https://www.afm.nl/en/sector/registers"
+ ],
+ "discovery": [
+  {
+   "read_by": "grok-4.6",
+   "linkedin": "https://nl.linkedin.com/company/de-groot-family-office",
+   "x": null,
+   "website_named": "https://www.dgfo.com"
+  }
+ ]
+}

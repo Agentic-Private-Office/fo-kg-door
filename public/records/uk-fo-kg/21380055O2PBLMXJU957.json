@@ -1,0 +1,250 @@
+{
+ "record": "Family Office Record",
+ "id": "21380055O2PBLMXJU957",
+ "version": "2026-09-14.2",
+ "node": "uk-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://uk.fo-kg.ai/mcp",
+ "lei": {
+  "value": "21380055O2PBLMXJU957",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/21380055O2PBLMXJU957",
+  "registration_status": "RETIRED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "213800WAVVOPS85N2205"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "TATE FAMILY INVESTMENTS LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "conflict",
+   "language": "en",
+   "conflict_with": [
+    {
+     "value": [
+      "TATE FAMILY OFFICE LIMITED"
+     ],
+     "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+     "read_by": "fo-kg-harvest/0.2"
+    }
+   ]
+  },
+  "jurisdiction": {
+   "value": "GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "United Kingdom"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2017-12-06",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "OSBORNE HOUSE, 20 VICTORIA AVENUE, HARROGATE, GB-NYK, HG1 5QY, GB",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on Companies House (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "H0PO",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "INACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Companies House",
+   "register_id": "RA000585",
+   "id": {
+    "value": "11098383",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+   "status": {
+    "value": "Dissolved Dissolved on 14 November 2023",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Companies House — officers",
+   "register_id": null,
+   "id": {
+    "value": "11098383",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "TATE, Lesley Claire",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "TATE, Shane",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  },
+  {
+   "name": {
+    "value": "DAVIES, Rhys Antony Holmes",
+    "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "officer as disclosed on Companies House — officers"
+   },
+   "role": "officer"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [
+  {
+   "value": "TATE FAMILY OFFICE LIMITED",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "type": "PREVIOUS_LEGAL_NAME"
+  }
+ ],
+ "events": [
+  {
+   "date": "2017-12-06",
+   "event": "incorporated — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2019-01-18",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2020-01-18",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-11-14",
+   "event": "dissolved — Companies House",
+   "source_url": "https://find-and-update.company-information.service.gov.uk/company/11098383",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2024-12-16",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "registrations[FCA Financial Services Register]",
+   "reason": "the public register search refuses machine reads and the API needs a key the office does not hold",
+   "tried": "https://register.fca.org.uk/s/search?q=TATE%20FAMILY%20INVESTMENTS%20LIMITED&type=Companies",
+   "answer": "JavaScript application; API needs a registered key"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://find-and-update.company-information.service.gov.uk/company/11780940/officers",
+    "https://find-and-update.company-information.service.gov.uk/company/11098383"
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/21380055O2PBLMXJU957",
+  "https://find-and-update.company-information.service.gov.uk/company/11098383",
+  "https://find-and-update.company-information.service.gov.uk/company/11098383/officers",
+  "https://find-and-update.company-information.service.gov.uk/company/11780940/officers"
+ ],
+ "discovery": null
+}

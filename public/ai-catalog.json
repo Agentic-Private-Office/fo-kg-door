@@ -1,0 +1,349 @@
+{
+  "name": "Family Office Knowledge Graph",
+  "host": "familyofficeknowledgegraph.ai",
+  "canonical": "https://familyofficeknowledgegraph.ai/",
+  "version": "0.19.10",
+  "as_of": "2026-09-14",
+  "operator": "Agentic KG Holdings",
+  "principal": "Matthew Keddy",
+  "office": "https://agent-kg.ai",
+  "access": "open, read-only, no auth — except /api, a paid call (x402), and /licensed/index (office OAuth)",
+  "resources": [
+    {
+      "id": "home",
+      "url": "https://familyofficeknowledgegraph.ai/",
+      "type": "text/html",
+      "description": "The surface: the record shape, states, nodes, the door, sources, records, RADAR, machine kit, operator, contact form"
+    },
+    {
+      "id": "llms",
+      "url": "https://familyofficeknowledgegraph.ai/llms.txt",
+      "type": "text/plain",
+      "description": "Plain-text guide for language models"
+    },
+    {
+      "id": "facts",
+      "url": "https://familyofficeknowledgegraph.ai/facts.json",
+      "type": "application/json",
+      "description": "Facts of record (live counts and paid-calls line)"
+    },
+    {
+      "id": "nodes",
+      "url": "https://familyofficeknowledgegraph.ai/records/nodes.json",
+      "type": "application/json",
+      "description": "The nodes"
+    },
+    {
+      "id": "index-ae-fo-kg",
+      "url": "https://ae.fo-kg.ai/records/ae-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index ae-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-au-fo-kg",
+      "url": "https://au.fo-kg.ai/records/au-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index au-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-ca-fo-kg",
+      "url": "https://ca.fo-kg.ai/records/ca-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index ca-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-ch-fo-kg",
+      "url": "https://ch.fo-kg.ai/records/ch-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index ch-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-de-fo-kg",
+      "url": "https://de.fo-kg.ai/records/de-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index de-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-dk-fo-kg",
+      "url": "https://dk.fo-kg.ai/records/dk-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index dk-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-es-fo-kg",
+      "url": "https://es.fo-kg.ai/records/es-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index es-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-fr-fo-kg",
+      "url": "https://fr.fo-kg.ai/records/fr-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index fr-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-it-fo-kg",
+      "url": "https://it.fo-kg.ai/records/it-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index it-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-lu-fo-kg",
+      "url": "https://lu.fo-kg.ai/records/lu-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index lu-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-nl-fo-kg",
+      "url": "https://nl.fo-kg.ai/records/nl-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index nl-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-no-fo-kg",
+      "url": "https://no.fo-kg.ai/records/no-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index no-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-row-fo-kg",
+      "url": "https://row.fo-kg.ai/records/row-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index row-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-sg-fo-kg",
+      "url": "https://sg.fo-kg.ai/records/sg-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index sg-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-uk-fo-kg",
+      "url": "https://uk.fo-kg.ai/records/uk-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index uk-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "index-us-fo-kg",
+      "url": "https://us.fo-kg.ai/records/us-fo-kg/index.json",
+      "type": "application/json",
+      "description": "Node index us-fo-kg: records, totals, sources, exclusions"
+    },
+    {
+      "id": "record",
+      "url": "https://familyofficeknowledgegraph.ai/records/{node}/{lei}.json",
+      "type": "application/json",
+      "description": "A Family Office Record"
+    },
+    {
+      "id": "resolve",
+      "url": "https://familyofficeknowledgegraph.ai/resolve/{identifier}",
+      "type": "application/json",
+      "description": "Resolve an identifier over HTTP"
+    },
+    {
+      "id": "mcp-apex",
+      "url": "https://mcp.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Apex MCP door (streamable-http); card /.well-known/mcp.json"
+    },
+    {
+      "id": "mcp-ae-fo-kg",
+      "url": "https://ae.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door ae-fo-kg"
+    },
+    {
+      "id": "mcp-au-fo-kg",
+      "url": "https://au.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door au-fo-kg"
+    },
+    {
+      "id": "mcp-ca-fo-kg",
+      "url": "https://ca.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door ca-fo-kg"
+    },
+    {
+      "id": "mcp-ch-fo-kg",
+      "url": "https://ch.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door ch-fo-kg"
+    },
+    {
+      "id": "mcp-de-fo-kg",
+      "url": "https://de.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door de-fo-kg"
+    },
+    {
+      "id": "mcp-dk-fo-kg",
+      "url": "https://dk.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door dk-fo-kg"
+    },
+    {
+      "id": "mcp-es-fo-kg",
+      "url": "https://es.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door es-fo-kg"
+    },
+    {
+      "id": "mcp-fr-fo-kg",
+      "url": "https://fr.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door fr-fo-kg"
+    },
+    {
+      "id": "mcp-it-fo-kg",
+      "url": "https://it.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door it-fo-kg"
+    },
+    {
+      "id": "mcp-lu-fo-kg",
+      "url": "https://lu.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door lu-fo-kg"
+    },
+    {
+      "id": "mcp-nl-fo-kg",
+      "url": "https://nl.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door nl-fo-kg"
+    },
+    {
+      "id": "mcp-no-fo-kg",
+      "url": "https://no.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door no-fo-kg"
+    },
+    {
+      "id": "mcp-row-fo-kg",
+      "url": "https://row.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door row-fo-kg"
+    },
+    {
+      "id": "mcp-sg-fo-kg",
+      "url": "https://sg.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door sg-fo-kg"
+    },
+    {
+      "id": "mcp-uk-fo-kg",
+      "url": "https://uk.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door uk-fo-kg"
+    },
+    {
+      "id": "mcp-us-fo-kg",
+      "url": "https://us.fo-kg.ai/mcp",
+      "type": "application/json",
+      "description": "Node MCP door us-fo-kg"
+    },
+    {
+      "id": "agent-card",
+      "url": "https://agent.fo-kg.ai/.well-known/agent-card.json",
+      "type": "application/json",
+      "description": "A2A Agent Card, the five tools as skills"
+    },
+    {
+      "id": "jwks",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/jwks.json",
+      "type": "application/json",
+      "description": "Office keyring, kid mk-office-2026-09"
+    },
+    {
+      "id": "x402",
+      "url": "https://familyofficeknowledgegraph.ai/x402",
+      "type": "text/html",
+      "description": "x402: a paid call with a signed receipt"
+    },
+    {
+      "id": "api",
+      "url": "https://familyofficeknowledgegraph.ai/api",
+      "type": "application/json",
+      "description": "Paid call: 402 without payment; with payment { receipt, statement, data } — the graph index of record, signed"
+    },
+    {
+      "id": "x402-jwks",
+      "url": "https://familyofficeknowledgegraph.ai/x402/jwks.json",
+      "type": "application/json",
+      "description": "Receipt signing key, kid fo-kg-x402-2026-09"
+    },
+    {
+      "id": "x402-receipt",
+      "url": "https://familyofficeknowledgegraph.ai/x402/receipt/{nonce}",
+      "type": "application/json",
+      "description": "Resolve a receipt, forever"
+    },
+    {
+      "id": "oauth-pr",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/oauth-protected-resource",
+      "type": "application/json",
+      "description": "Protected-resource metadata; the authorization server is the office's at agent-kg.ai; licensed route /licensed/index"
+    },
+    {
+      "id": "auth-md",
+      "url": "https://familyofficeknowledgegraph.ai/auth.md",
+      "type": "text/markdown",
+      "description": "Agent registration instructions"
+    },
+    {
+      "id": "ard",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/ai-catalog.json",
+      "type": "application/json",
+      "description": "ARD catalog (envelope), also /.well-known/ard.json"
+    },
+    {
+      "id": "skills",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/skills.json",
+      "type": "application/json",
+      "description": "Skills with input/output shapes; index with digests at /.well-known/agent-skills/index.json"
+    },
+    {
+      "id": "api-catalog",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/api-catalog",
+      "type": "application/linkset+json",
+      "description": "RFC 9727 API catalog"
+    },
+    {
+      "id": "openapi",
+      "url": "https://familyofficeknowledgegraph.ai/openapi.json",
+      "type": "application/openapi+json",
+      "description": "OpenAPI 3.1 for the doors"
+    },
+    {
+      "id": "health",
+      "url": "https://familyofficeknowledgegraph.ai/health.json",
+      "type": "application/json",
+      "description": "Status"
+    },
+    {
+      "id": "security",
+      "url": "https://familyofficeknowledgegraph.ai/.well-known/security.txt",
+      "type": "text/plain",
+      "description": "Security contact (RFC 9116)"
+    },
+    {
+      "id": "sitemap",
+      "url": "https://familyofficeknowledgegraph.ai/sitemap.xml",
+      "type": "application/xml",
+      "description": "Sitemap"
+    },
+    {
+      "id": "robots",
+      "url": "https://familyofficeknowledgegraph.ai/robots.txt",
+      "type": "text/plain",
+      "description": "Crawl policy: open"
+    },
+    {
+      "id": "entity-mark",
+      "url": "https://familyofficeknowledgegraph.ai/akgh-icon.svg",
+      "type": "image/svg+xml",
+      "description": "Agentic KG Holdings entity mark (also /akgh-icon-64.png)"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+ "record": "Family Office Record",
+ "id": "254900ZN8UXPT00YXF72",
+ "version": "2026-09-14.2",
+ "node": "sg-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://sg.fo-kg.ai/mcp",
+ "lei": {
+  "value": "254900ZN8UXPT00YXF72",
+  "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+  "read_by": "fo-kg-harvest/0.2",
+  "read": "2026-09-14",
+  "state": "sourced",
+  "page": "https://search.gleif.org/#/record/254900ZN8UXPT00YXF72",
+  "registration_status": "ISSUED",
+  "corroboration": "FULLY_CORROBORATED",
+  "managing_lou": "5493001KJTIIGC8Y1R12"
+ },
+ "identity": {
+  "legal_name": {
+   "value": "DAS Family Office Pte. Ltd.",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "language": "en",
+   "second_source_url": "https://eservices.mas.gov.sg/fid/institution/detail/218600-DAS-FAMILY-OFFICE-PTE-LTD",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "name on MAS Financial Institutions Directory"
+  },
+  "jurisdiction": {
+   "value": "SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Singapore"
+  },
+  "structure": {
+   "value": "multi-family",
+   "source_url": "https://dfo.sg/",
+   "read_by": "sonar-pro",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "read the same by two or more readers on the same page",
+   "second_read_by": "grok-4.6"
+  },
+  "formation": {
+   "value": "2017-06-07",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "basis": "incorporation date on ACRA — Accounting and Corporate Regulatory Authority",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2"
+  },
+  "registered_office": {
+   "value": "101B Telok Ayer Street, #03-02A, Singapore, SG-01, 068574, SG",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "confirmed",
+   "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+   "second_read_by": "fo-kg-harvest/0.2",
+   "basis": "registered office on ACRA — Accounting and Corporate Regulatory Authority (city and postal code agree)"
+  },
+  "legal_form": {
+   "value": "IWZF",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "note": "ELF code as GLEIF records it"
+  },
+  "entity_status": {
+   "value": "ACTIVE",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": {
+   "value": "GENERAL",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ },
+ "registrations": [
+  {
+   "register": "ACRA — Accounting and Corporate Regulatory Authority",
+   "register_id": "RA000523",
+   "id": {
+    "value": "201715909W",
+    "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "confirmed",
+    "basis": "identifier on the register page",
+    "second_source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+    "second_read_by": "fo-kg-harvest/0.2"
+   },
+   "url": "https://data.gov.sg/datasets/d_acbc938ec77af18f94cecc4a7c9ec720/view",
+   "status": {
+    "value": "Live Company",
+    "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "MAS Financial Institutions Directory",
+   "register_id": null,
+   "id": {
+    "value": "218600",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/218600-DAS-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://eservices.mas.gov.sg/fid/institution/detail/218600-DAS-FAMILY-OFFICE-PTE-LTD",
+   "status": {
+    "value": "Exempt Financial Adviser",
+    "source_url": "https://eservices.mas.gov.sg/fid/institution/detail/218600-DAS-FAMILY-OFFICE-PTE-LTD",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Mario Christoph Becker",
+    "source_url": "https://dfo.sg/",
+    "read_by": "sonar-pro",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "principal as the subject's own page says"
+   },
+   "role": "principal"
+  },
+  {
+   "name": {
+    "value": "Mario Becker",
+    "source_url": "https://dfo.sg/",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "CEO & Founder as the subject's own page says"
+   },
+   "role": "CEO & Founder"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://dfo.sg/",
+  "source_url": "https://dfo.sg/",
+  "read_by": "sonar-pro",
+  "read": "2026-09-14",
+  "state": "confirmed",
+  "basis": "read the same by two or more readers on the same page",
+  "second_read_by": "grok-4.6"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2017-06-07",
+   "event": "entity created (as GLEIF records it)",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2017-06-07",
+   "event": "registered / incorporated — ACRA",
+   "source_url": "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2023-06-19",
+   "event": "LEI issued",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2026-05-20",
+   "event": "LEI record last updated",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2027-06-19",
+   "event": "LEI renewal due",
+   "source_url": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72"
+  }
+ ],
+ "sources": [
+  "https://api.gleif.org/api/v1/lei-records/254900ZN8UXPT00YXF72",
+  "https://data.gov.sg/api/action/datastore_search?resource_id=d_acbc938ec77af18f94cecc4a7c9ec720&q=family%20office&limit=500",
+  "https://dfo.sg/",
+  "https://eservices.mas.gov.sg/fid/institution/detail/218600-DAS-FAMILY-OFFICE-PTE-LTD"
+ ],
+ "discovery": null
+}

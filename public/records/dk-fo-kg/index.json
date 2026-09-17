@@ -1,0 +1,586 @@
+{
+ "node": "dk-fo-kg",
+ "country": "DK",
+ "jurisdiction": "Denmark",
+ "host": "https://dk.fo-kg.ai",
+ "door": "https://dk.fo-kg.ai/mcp",
+ "host_long": "https://dk-fo-kg.familyofficeknowledgegraph.ai",
+ "door_long": "https://dk-fo-kg.familyofficeknowledgegraph.ai/mcp",
+ "as_of": "2026-09-14",
+ "version": "2026-09-14.2",
+ "operator": "Agentic KG Holdings",
+ "spine": "GLEIF",
+ "subject_rule": "family office|family offices|bureau (multi-)?familial|bureau de gestion familial|multi[- ]family office|familienoffice|family[- ]office|familiekantoor|familiekontor|oficina familiar|ufficio (di )?famiglia|gestion de patrimoine familial",
+ "records": [
+  {
+   "id": "213800BJKEWADDO36L55",
+   "lei": "213800BJKEWADDO36L55",
+   "legal_name": "NORTH-EAST FAMILY OFFICE FONDSMÆGLERSELSKAB A/S",
+   "aliases": [
+    "NORTH-EAST FAMILY OFFICE ADVISOR A/S"
+   ],
+   "register_ids": [
+    "36449381"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "HELLERUP",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.nefo.com",
+   "fields": {
+    "total": 23,
+    "sourced": 14,
+    "filled": 7,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/213800BJKEWADDO36L55.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "213800RTGAWSFF11RF80",
+   "lei": "213800RTGAWSFF11RF80",
+   "legal_name": "NORTH-EAST FAMILY OFFICE APS",
+   "aliases": [
+    "PEWIC HOLDING 6 IVS"
+   ],
+   "register_ids": [
+    "36989041"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "HELLERUP",
+   "entity_status": "INACTIVE",
+   "structure": "single-family",
+   "website": "https://www.nefo.com/",
+   "fields": {
+    "total": 21,
+    "sourced": 14,
+    "filled": 5,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/213800RTGAWSFF11RF80.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "5493004I78HRSULMKM79",
+   "lei": "5493004I78HRSULMKM79",
+   "legal_name": "NORTH-EAST FAMILY OFFICE APS",
+   "aliases": [
+    "NORTH-EAST GROUP APS",
+    "NORTH-EAST FAMILY OFFICE HOLDING APS"
+   ],
+   "register_ids": [
+    "35244328"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "HELLERUP",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://www.nefo.com/",
+   "fields": {
+    "total": 23,
+    "sourced": 15,
+    "filled": 6,
+    "confirmed": 1,
+    "conflict": 1,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/5493004I78HRSULMKM79.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300KYV8KQRZSMKZ81",
+   "lei": "549300KYV8KQRZSMKZ81",
+   "legal_name": "NORTH-EAST FAMILY OFFICE HOLDING 4 APS",
+   "aliases": [
+    "ALGOT INVEST 2 APS"
+   ],
+   "register_ids": [
+    "36713445"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "HELLERUP",
+   "entity_status": "INACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.nefo.com",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 2,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/549300KYV8KQRZSMKZ81.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300MGNCQV11UOX675",
+   "lei": "549300MGNCQV11UOX675",
+   "legal_name": "Vestergaard Frandsen Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "38242415"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Copenhagen",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 11,
+    "sourced": 11,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 7,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/549300MGNCQV11UOX675.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300SZZKKQENRFCO74",
+   "lei": "549300SZZKKQENRFCO74",
+   "legal_name": "Metis Family Office A/S",
+   "aliases": [],
+   "register_ids": [
+    "36920521"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "København K",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.metis-familyoffice.dk/",
+   "fields": {
+    "total": 20,
+    "sourced": 13,
+    "filled": 5,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/549300SZZKKQENRFCO74.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "549300ZFO8TU48TOH542",
+   "lei": "549300ZFO8TU48TOH542",
+   "legal_name": "HERA FAMILY OFFICE ApS",
+   "aliases": [
+    "MADSEN & CO. HOLDING ApS"
+   ],
+   "register_ids": [
+    "32154905"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Roskilde",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.herafamilyoffice.dk/",
+   "fields": {
+    "total": 15,
+    "sourced": 12,
+    "filled": 1,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 5,
+   "events": 3,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/549300ZFO8TU48TOH542.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "6488556KBI7D72IAF456",
+   "lei": "6488556KBI7D72IAF456",
+   "legal_name": "Family Office Club ApS",
+   "aliases": [],
+   "register_ids": [
+    "44459752"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "København K",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.foc.dk/",
+   "fields": {
+    "total": 18,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 3,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/6488556KBI7D72IAF456.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "8945003SKKE79R80VO65",
+   "lei": "8945003SKKE79R80VO65",
+   "legal_name": "Larsen Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "43308025"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Aarhus C",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/8945003SKKE79R80VO65.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500CDFKPA0RLTV742",
+   "lei": "894500CDFKPA0RLTV742",
+   "legal_name": "PROSPECT Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "42607681"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "ALLERØD",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/894500CDFKPA0RLTV742.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500DBMBX9O3SU4V13",
+   "lei": "894500DBMBX9O3SU4V13",
+   "legal_name": "Copenhagen Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "39285738"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "København K",
+   "entity_status": "ACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/894500DBMBX9O3SU4V13.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500L9DZQMK3AZJN57",
+   "lei": "894500L9DZQMK3AZJN57",
+   "legal_name": "Stubkjær Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "41476036"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Herning",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "https://stubkjaerfamily.dk/",
+   "fields": {
+    "total": 19,
+    "sourced": 13,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/894500L9DZQMK3AZJN57.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "894500WYZ0I8CLQA3051",
+   "lei": "894500WYZ0I8CLQA3051",
+   "legal_name": "Bigler Family Office ApS",
+   "aliases": [],
+   "register_ids": [
+    "27908357"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Odense C",
+   "entity_status": "INACTIVE",
+   "structure": null,
+   "website": null,
+   "fields": {
+    "total": 13,
+    "sourced": 13,
+    "filled": 0,
+    "confirmed": 0,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 6,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/894500WYZ0I8CLQA3051.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "9845000B2A95CC07BF10",
+   "lei": "9845000B2A95CC07BF10",
+   "legal_name": "Nordic Luminary ApS",
+   "aliases": [
+    "Falk Family Office ApS",
+    "Falk Office ApS"
+   ],
+   "register_ids": [
+    "42862037"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "København Ø",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://nordicluminary.com",
+   "fields": {
+    "total": 18,
+    "sourced": 15,
+    "filled": 2,
+    "confirmed": 1,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/9845000B2A95CC07BF10.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500C5F41C4D364846",
+   "lei": "984500C5F41C4D364846",
+   "legal_name": "COHERE Family Office A/S",
+   "aliases": [
+    "Følsgaard Family Office A/S"
+   ],
+   "register_ids": [
+    "40600418"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "Holte",
+   "entity_status": "ACTIVE",
+   "structure": "single-family",
+   "website": "http://www.coherefamilyoffice.dk",
+   "fields": {
+    "total": 16,
+    "sourced": 14,
+    "filled": 0,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/984500C5F41C4D364846.json",
+   "version": "2026-09-14.2"
+  },
+  {
+   "id": "984500F6BFCTD3A6FA45",
+   "lei": "984500F6BFCTD3A6FA45",
+   "legal_name": "Imperium Family Office A/S",
+   "aliases": [
+    "Imperium Family Office ApS"
+   ],
+   "register_ids": [
+    "40822836"
+   ],
+   "jurisdiction": "Denmark",
+   "city": "København K",
+   "entity_status": "ACTIVE",
+   "structure": "multi-family",
+   "website": "https://www.imperium-fo.dk/",
+   "fields": {
+    "total": 20,
+    "sourced": 14,
+    "filled": 4,
+    "confirmed": 2,
+    "conflict": 0,
+    "unverified": 0
+   },
+   "gaps": 4,
+   "events": 4,
+   "registrations": 1,
+   "associations": 0,
+   "association_only": false,
+   "record": "/records/dk-fo-kg/984500F6BFCTD3A6FA45.json",
+   "version": "2026-09-14.2"
+  }
+ ],
+ "totals": {
+  "fields": 272,
+  "sourced": 214,
+  "filled": 40,
+  "confirmed": 15,
+  "conflict": 3,
+  "unverified": 0,
+  "gaps": 71,
+  "events": 62,
+  "registrations": 16,
+  "principals": 36,
+  "with_lei": 16,
+  "with_website": 11,
+  "association_listings": 0,
+  "association_records": 0,
+  "sources": 7
+ },
+ "sources": [
+  {
+   "name": "nordicluminary.com — subject website",
+   "url": "https://nordicluminary.com/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 0
+  },
+  {
+   "name": "stubkjaerfamily.dk — subject website",
+   "url": "https://stubkjaerfamily.dk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.foc.dk — subject website",
+   "url": "https://www.foc.dk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.herafamilyoffice.dk — subject website",
+   "url": "https://www.herafamilyoffice.dk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.imperium-fo.dk — subject website",
+   "url": "https://www.imperium-fo.dk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.metis-familyoffice.dk — subject website",
+   "url": "https://www.metis-familyoffice.dk/",
+   "role": "fill",
+   "reads": 1,
+   "answered_200": 1
+  },
+  {
+   "name": "www.nefo.com — subject website",
+   "url": "https://www.nefo.com/",
+   "role": "fill",
+   "reads": 3,
+   "answered_200": 3
+  }
+ ],
+ "refused": [
+  {
+   "register": "CVR — Det Centrale Virksomhedsregister (Erhvervsstyrelsen)",
+   "subjects": 16
+  },
+  {
+   "register": "Finanstilsynet — Virksomhedsregister",
+   "subjects": 16
+  },
+  {
+   "register": "website",
+   "subjects": 1
+  }
+ ],
+ "reads": 9,
+ "harvest": {
+  "sweep": "FO-KG/harvest/sweep.py",
+  "assemble": "FO-KG/harvest/assemble.py",
+  "drop": "FO-KG/harvest/pond/dk-fo-kg/<source>/2026-09-14/"
+ }
+}

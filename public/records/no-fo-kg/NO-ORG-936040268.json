@@ -1,0 +1,186 @@
+{
+ "record": "Family Office Record",
+ "id": "NO-ORG-936040268",
+ "version": "2026-09-14.3",
+ "node": "no-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://no.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "MUSTAD FAMILY OFFICE 1 AS",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "NO",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Norway"
+  },
+  "structure": null,
+  "formation": {
+   "value": "2025-06-18",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "registered_office": {
+   "value": "Mustads vei 1A, 0283, OSLO, Norge",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Aksjeselskap",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "registered",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null,
+  "industry_code": {
+   "value": "70.200",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Bedriftsrådgivning og annen administrativ rådgivning",
+   "basis": "industry code as Brønnøysundregistrene — Enhetsregisteret records it"
+  }
+ },
+ "registrations": [
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret",
+   "register_id": "RA000472",
+   "id": {
+    "value": "936040268",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/936040268"
+   },
+   "url": "https://data.brreg.no/enhetsregisteret/oppslag/enheter/936040268",
+   "status": {
+    "value": "registered",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  },
+  {
+   "register": "Brønnøysundregistrene — Enhetsregisteret — roles",
+   "register_id": null,
+   "id": {
+    "value": "936040268",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268/roller",
+   "status": null,
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Hans Olav Coward",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  },
+  {
+   "name": {
+    "value": "Tuva Bevreng Kråkenes",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268/roller",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "basis": "board or management role as the register discloses as disclosed on Brønnøysundregistrene — Enhetsregisteret — roles"
+   },
+   "role": "board or management role as the register discloses"
+  }
+ ],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [
+  {
+   "date": "2025-06-18",
+   "event": "founded — Enhetsregisteret",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  {
+   "date": "2025-08-27",
+   "event": "registered in the Enhetsregisteret",
+   "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=NO&filter[fulltext]=MUSTAD FAMILY OFFICE 1 AS"
+  },
+  {
+   "field": "website",
+   "reason": "no website disclosed on the registers read and none found by the search layer that names the entity",
+   "tried": [
+    "https://www.proff.no/selskap/mustad-family-office-1-as/oslo/bedriftsr%C3%A5dgivning/IFHALAK043Z",
+    "https://virksomhet.brreg.no/en/oppslag/enheter/936040268",
+    "https://www.proff.no/roller/mustad-family-office-1-as/oslo/bedriftsr%C3%A5dgivning/IFHALAK043Z?utm_source=openai",
+    null
+   ]
+  },
+  {
+   "field": "identity.structure",
+   "reason": "no public source read states the structure (single / multi-family / embedded / virtual)",
+   "tried": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://data.brreg.no/enhetsregisteret/api/enheter/936040268"
+  }
+ ],
+ "sources": [
+  "https://data.brreg.no/enhetsregisteret/api/enheter/936040268",
+  "https://data.brreg.no/enhetsregisteret/api/enheter/936040268/roller",
+  "https://data.brreg.no/enhetsregisteret/api/enheter?navn=family%20office&size=100&page=0",
+  "https://virksomhet.brreg.no/en/oppslag/enheter/936040268",
+  "https://www.proff.no/roller/mustad-family-office-1-as/oslo/bedriftsr%C3%A5dgivning/IFHALAK043Z?utm_source=openai",
+  "https://www.proff.no/selskap/mustad-family-office-1-as/oslo/bedriftsr%C3%A5dgivning/IFHALAK043Z"
+ ],
+ "discovery": null
+}

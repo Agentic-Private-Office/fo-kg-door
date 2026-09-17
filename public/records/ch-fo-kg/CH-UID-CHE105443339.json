@@ -1,0 +1,201 @@
+{
+ "record": "Family Office Record",
+ "id": "CH-UID-CHE105443339",
+ "version": "2026-09-14.2",
+ "node": "ch-fo-kg",
+ "as_of": "2026-09-14",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://ch.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Genico Family Office AG",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "jurisdiction": {
+   "value": "CH",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced",
+   "label": "Switzerland"
+  },
+  "structure": {
+   "value": "single-family",
+   "source_url": "https://www.genicofamilyoffice.ch/",
+   "read_by": "grok-4.6",
+   "read": "2026-09-14",
+   "state": "filled",
+   "basis": "read by Grok on the page it opened"
+  },
+  "formation": null,
+  "registered_office": {
+   "value": "Gartenstrassse, 7, 6300",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "legal_form": {
+   "value": "Aktiengesellschaft",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "EXISTIEREND",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  },
+  "category": null
+ },
+ "registrations": [
+  {
+   "register": "Zefix — Zentraler Firmenindex (Swiss commercial register)",
+   "register_id": "RA000548",
+   "id": {
+    "value": "CHE-105.443.339",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced",
+    "page": "https://zg.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-105.443.339"
+   },
+   "url": "https://zg.chregister.ch/cr-portal/auszug/auszug.xhtml?uid=CHE-105.443.339",
+   "status": {
+    "value": "EXISTIEREND",
+    "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+    "read_by": "fo-kg-harvest/0.2",
+    "read": "2026-09-14",
+    "state": "sourced"
+   },
+   "read": "2026-09-14"
+  }
+ ],
+ "principals": [
+  {
+   "name": {
+    "value": "Andreas Georgiadis",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Owner and VRP as the subject's own page says"
+   },
+   "role": "Owner and VRP"
+  },
+  {
+   "name": {
+    "value": "Andrea Georgiadis",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Property management as the subject's own page says"
+   },
+   "role": "Property management"
+  },
+  {
+   "name": {
+    "value": "Chiara Georgiadis",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Head of Investments as the subject's own page says"
+   },
+   "role": "Head of Investments"
+  },
+  {
+   "name": {
+    "value": "Lotty Heinzmann",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Office Management as the subject's own page says"
+   },
+   "role": "Office Management"
+  },
+  {
+   "name": {
+    "value": "Andreas Beyer",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Head of Legal as the subject's own page says"
+   },
+   "role": "Head of Legal"
+  },
+  {
+   "name": {
+    "value": "Sergio Magnavacca",
+    "source_url": "https://www.genicofamilyoffice.ch/en/contact",
+    "read_by": "grok-4.6",
+    "read": "2026-09-14",
+    "state": "filled",
+    "basis": "Head of Finance as the subject's own page says"
+   },
+   "role": "Head of Finance"
+  }
+ ],
+ "sectors": [],
+ "website": {
+  "value": "https://www.genicofamilyoffice.ch/",
+  "source_url": "https://www.genicofamilyoffice.ch/",
+  "read_by": "grok-4.6",
+  "read": "2026-09-14",
+  "state": "filled",
+  "basis": "read by Grok on the page it opened"
+ },
+ "aliases": [],
+ "events": [
+  {
+   "date": "2020-06-24",
+   "event": "last SHAB publication (Swiss Official Gazette of Commerce) — Zefix",
+   "source_url": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+   "read_by": "fo-kg-harvest/0.2",
+   "read": "2026-09-14",
+   "state": "sourced"
+  }
+ ],
+ "gaps": [
+  {
+   "field": "lei",
+   "reason": "no LEI: the entity is not on GLEIF under this name (searched by name)",
+   "tried": "https://api.gleif.org/api/v1/lei-records?filter[entity.legalAddress.country]=CH&filter[fulltext]=Genico Family Office AG"
+  },
+  {
+   "field": "registrations[FINMA — authorised institutions]",
+   "reason": "the FINMA public search has no machine read; an authorisation, if any, is not read this wave",
+   "tried": "https://www.finma.ch/en/finma-public/authorised-institutions-individuals-and-products/",
+   "answer": "JavaScript application"
+  },
+  {
+   "field": "sectors",
+   "reason": "no register read discloses sectors",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json"
+  },
+  {
+   "field": "identity.formation",
+   "reason": "no source read records a formation date",
+   "tried": "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json"
+  }
+ ],
+ "sources": [
+  "https://www.genicofamilyoffice.ch/",
+  "https://www.genicofamilyoffice.ch/en/",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/511982.json",
+  "https://www.zefix.ch/ZefixREST/api/v1/firm/search.json"
+ ],
+ "discovery": null
+}
