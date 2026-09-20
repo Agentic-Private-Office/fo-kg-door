@@ -1,5 +1,7 @@
 # familyofficeknowledgegraph.ai — weekly readiness scan (Sundays): scan -> record the score on facts.json (radar.readiness) -> deploy -> commit.
 $ErrorActionPreference = "Stop"
+$env:AZURE_CONFIG_DIR = 'C:\MATTHEWKEDDY\.azure'   # STARTHERE 2026-09-19: this root's login directories
+$env:GH_CONFIG_DIR = 'C:\MATTHEWKEDDY\.gh'
 $site = "C:\MATTHEWKEDDY\FO-KG\SITE"
 Set-Location "$site\rails"
 $log = "$site\rails\aeo\task.log"
