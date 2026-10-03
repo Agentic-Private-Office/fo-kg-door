@@ -55,22 +55,6 @@
       "kid": "rail-office-2026-09",
       "use": "sig",
       "alg": "EdDSA"
-    },
-    {
-      "kty": "OKP",
-      "crv": "Ed25519",
-      "x": "0au-QtiCsrGsKTu5PBaXUIRQn6ViYoNjn9kuXCd-Jao",
-      "kid": "rail-a2a-cosmetics-2026-09",
-      "use": "sig",
-      "alg": "EdDSA"
-    },
-    {
-      "kty": "OKP",
-      "crv": "Ed25519",
-      "x": "cbAplefc00V15c6PGHwQ0nq8dSpJk-RZ6erwfCWTet0",
-      "kid": "rail-a2a-peptides-2026-09",
-      "use": "sig",
-      "alg": "EdDSA"
     }
   ]
 }

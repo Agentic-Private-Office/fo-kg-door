@@ -49,9 +49,25 @@ function bazaar() {
     schema: { $schema: "https://json-schema.org/draft/2020-12/schema", type: "object", properties: { input: { type: "object", properties: { type: { type: "string", const: "http" }, method: { type: "string", enum: ["GET", "HEAD"] } }, required: ["type", "method"] }, output: { type: "object", properties: { type: { type: "string" }, example: { type: "object" } } } }, required: ["input"] } } };
 }
 
+// ORDER AK-x402-01 (2026-10-03): Open USD on Base as the second accept entry (Permit2 + the facilitator's eip2612GasSponsoring extension; the contract has no EIP-3009).
+// payTo = Worker secret X402_PAYTO_OUSD (falls back to X402_PAYTO). The USDC entry stays first and unchanged.
+export const OUSD = { asset: "0xB2000000000000000000002fEb517dFeC7415344", name: "OpenUSD", version: "1" };
+const EIP2612_GAS_SPONSORING = { eip2612GasSponsoring: { info: { description: "The facilitator accepts EIP-2612 gasless Permit to Permit2 canonical contract.", version: "1" }, schema: { type: "object" } } };
+export function accepts(env) {
+  const usdc = requirements(env);
+  return [usdc, { ...usdc, asset: OUSD.asset, payTo: env.X402_PAYTO_OUSD || env.X402_PAYTO, extra: { assetTransferMethod: "permit2", name: OUSD.name, version: OUSD.version } }];
+}
+// GET /x402/settled.json — the door's register: the count and the last settlement, from the door's own KV.
+export async function handleSettled(env) {
+  const out = { zone: new URL(X402.origin).hostname, settled: 0, last_tx: null, last_receipt: null, last_at: null, as_of: new Date().toISOString(), network: X402.network, asset: "USDC, OUSD", door: `${X402.origin}/x402` };
+  try { out.settled = parseInt((await env.FO_KG_OFFICE.get("x402:count")) || "0", 10); const l = await env.FO_KG_OFFICE.get("x402:last", "json"); if (l) { out.last_tx = l.transaction || null; out.last_receipt = l.receipt || null; out.last_at = l.at || null; } }
+  catch { return new Response(JSON.stringify({ error: "register unavailable" }), { status: 503, headers: X402_HEADERS }); }
+  return new Response(JSON.stringify(out, null, 1), { status: 200, headers: X402_HEADERS });
+}
+
 export function paymentRequired(env, error) {
   const req = requirements(env);
-  const body = { x402Version: 2, error: error || `Payment required: $0.01 USDC on ${req.network}`, accepts: [req], resource: { url: req.resource, description: req.description, mimeType: req.mimeType }, extensions: bazaar(), free_route: `${X402.origin}/records/nodes.json`, receipts: { jwks: `${X402.origin}/x402/jwks.json`, kid: X402.kid, resolve: `${X402.origin}/x402/receipt/{nonce}` }, operator: X402.operator };
+  const body = { x402Version: 2, error: error || `Payment required: $0.01 USDC on ${req.network}`, accepts: accepts(env), resource: { url: req.resource, description: req.description, mimeType: req.mimeType }, extensions: { ...bazaar(), ...EIP2612_GAS_SPONSORING }, free_route: `${X402.origin}/records/nodes.json`, receipts: { jwks: `${X402.origin}/x402/jwks.json`, kid: X402.kid, resolve: `${X402.origin}/x402/receipt/{nonce}` }, operator: X402.operator };
   return new Response(JSON.stringify(body, null, 1), { status: 402, headers: { ...X402_HEADERS, "PAYMENT-REQUIRED": b64(body) } });
 }
 
@@ -111,7 +127,8 @@ export async function handleApi(request, env, loadIndex) {
   if (!sig) return paymentRequired(env);
   let payload;
   try { payload = unb64(sig); } catch { return paymentRequired(env, "PAYMENT-SIGNATURE is not base64 JSON"); }
-  const req = requirements(env);
+  const chosen = String((payload.accepted && payload.accepted.asset) || "").toLowerCase(); const offered = accepts(env);
+  const req = offered.find((a) => a.asset.toLowerCase() === chosen) || offered[0];
   const v = await facilitator(env, "/verify", { x402Version: payload.x402Version || 2, paymentPayload: payload, paymentRequirements: req });
   if (!(v.body && v.body.isValid)) return paymentRequired(env, "payment not valid: " + ((v.body && (v.body.invalidReason || v.body.error)) || v.status));
   const data = await loadIndex();
@@ -120,8 +137,8 @@ export async function handleApi(request, env, loadIndex) {
   const tx = (s.body && (s.body.transaction || s.body.txHash)) || null;
   const now = Math.floor(Date.now() / 1000);
   const nonce = hex(16);
-  const payer = (s.body && s.body.payer) || (payload.payload && payload.payload.authorization && payload.payload.authorization.from) || "payer";
-  const claims = { iss: X402.origin, sub: payer, jti: nonce, iat: now, resource: req.resource, scheme: "exact", standard: "EIP-3009 transferWithAuthorization", network: req.network, asset: req.asset, amount: req.amount, amount_usdc: X402.amountUsdc, payTo: req.payTo, transaction: tx, explorer: tx ? X402.explorer + tx : null, settled, facilitator: env.X402_FACILITATOR || X402.facilitator, receipt_url: `${X402.origin}/x402/receipt/${nonce}`, operator: X402.operator };
+  const payer = (s.body && s.body.payer) || (payload.payload && payload.payload.authorization && payload.payload.authorization.from) || (payload.payload && payload.payload.permit2Authorization && payload.payload.permit2Authorization.from) || "payer";
+  const claims = { iss: X402.origin, sub: payer, jti: nonce, iat: now, resource: req.resource, scheme: "exact", standard: req.asset === OUSD.asset ? "Permit2 permitWitnessTransferFrom" : "EIP-3009 transferWithAuthorization", network: req.network, asset: req.asset, amount: req.amount, amount_usdc: X402.amountUsdc, payTo: req.payTo, transaction: tx, explorer: tx ? X402.explorer + tx : null, settled, facilitator: env.X402_FACILITATOR || X402.facilitator, receipt_url: `${X402.origin}/x402/receipt/${nonce}`, operator: X402.operator };
   let jwt = null, statement = null;
   try { jwt = await signReceipt(env, claims); } catch { jwt = null; }
   try { statement = await signReceipt(env, { iss: X402.origin, iat: now, jti: nonce, typ: "fo-kg-index", statement: data }); } catch { statement = null; }

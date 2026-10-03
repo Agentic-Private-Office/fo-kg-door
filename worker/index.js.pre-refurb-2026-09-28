@@ -4,15 +4,14 @@
 // and the three 301 twins (.com/.org/.io). Every count on a page is read from the records index at request time — never typed.
 // Every kit file has its content-type; anything missing is a real 404 (JSON, never HTML).
 
-import { handleApi, handleReceipt, handleSettled, paidStats, preflight, signStatement, X402 } from "./x402.js";
+import { handleApi, handleReceipt, paidStats, preflight, signStatement, X402 } from "./x402.js";
 import { protectedResource, asMetadata, handleLicensed } from "./oauth.js";
 import { handleMcp, serverCard, TOOLS, graph, resolveIdentifier } from "./mcp.js";
 
 const CANON = "familyofficeknowledgegraph.ai";
 const ORIGIN = `https://${CANON}`;
 const OFFICE = "https://agent-kg.ai";
-const VERSION = "0.20.1";
-const SURFACE = VERSION; // office refurb (SHIP 2026-09-28): the footer "Surface" line reads the one version of the surface
+const VERSION = "0.19.13";
 const OPERATOR = "Agentic KG Holdings";
 const CONTACT = "mailto:mk@agent-kg.ai"; // headers + machine kit only, never page copy
 const KID = "mk-office-2026-09";
@@ -31,7 +30,7 @@ const BASE_HEADERS = {
   "x-frame-options": "DENY",
   "referrer-policy": "strict-origin-when-cross-origin",
   "permissions-policy": "camera=(), microphone=(), geolocation=()",
-  "content-security-policy": "default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; base-uri 'none'; frame-ancestors 'none'",
+  "content-security-policy": "default-src 'none'; img-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://formspree.io; form-action https://formspree.io; base-uri 'none'; frame-ancestors 'none'",
   "content-signal": "search=yes, ai-input=yes, ai-train=yes",
   "x-office": "Family Office Knowledge Graph — Agentic KG Holdings",
   "x-office-operator": OPERATOR,
@@ -182,7 +181,6 @@ const handler = {
 
     // ---- x402
     if (path === "/api") return withHeaders(await handleApi(request, env, loadIndex), path, ctx);
-    if (path === "/x402/settled.json") return withHeaders(await handleSettled(env), path, ctx);
     const rm = path.match(/^\/x402\/receipt\/([^/]+)$/);
     if (rm) return withHeaders(await handleReceipt(env, rm[1]), path, ctx);
 
@@ -234,7 +232,7 @@ const handler = {
       // ORDER-008 (CEO 2026-09-14): §05 Sources and §06 Records are off the page — the record is served only via the door; metrics and the node table stay.
       const map = {
         "counts.records": fmt(t.records), "counts.nodes": fmt(t.nodes), "counts.fields": fmt(t.fields), "counts.sourced": fmt(t.sourced), "counts.filled": fmt(t.filled), "counts.confirmed": fmt(t.confirmed), "counts.conflict": fmt(t.conflict), "counts.unverified": fmt(t.unverified), "counts.gaps": fmt(t.gaps), "counts.events": fmt(t.events), "counts.sources": fmt(t.sources), "counts.registrations": fmt(t.registrations),
-        "counts.sourced_plus": fmt(t.sourced + t.confirmed), "counts.jurisdictions": fmt(t.jurisdictions), as_of: ctx.asOf || "pending", surface_version: SURFACE,
+        "counts.sourced_plus": fmt(t.sourced + t.confirmed), "counts.jurisdictions": fmt(t.jurisdictions), as_of: ctx.asOf || "pending", surface_version: VERSION,
         "nodes.rows": nodeRows, "nodes.list": facts.nodes.map((n) => `${n.jurisdiction} (${n.id}, ${fmt(n.records)} records)`).join(" · ") || "pending",
       };
       return withHeaders(await page("/index.html", map, CACHE.page, ["nodes.rows"]), "/", ctx);
@@ -247,14 +245,14 @@ const handler = {
         "x402.receiver": ps.receiver_configured ? "configured (Worker secret; the address is on the 402 offer)" : "not configured — /api answers 503 until the pay-to address is placed",
         "x402.last_tx": last.explorer ? `<a href="${esc(last.explorer)}" rel="noopener" target="_blank">${esc(last.transaction)}</a>` : null,
         "x402.last_receipt": last.receipt ? `<a href="${esc(last.receipt)}">${esc(last.receipt)}</a>` : null,
-        "x402.last_at": last.at ? esc(last.at) : null, surface_version: SURFACE, as_of: ctx.asOf || "pending",
+        "x402.last_at": last.at ? esc(last.at) : null, surface_version: VERSION, as_of: ctx.asOf || "pending",
       };
       return withHeaders(await page("/x402.html", map, "no-store", ["x402.last_tx", "x402.last_receipt"]), "/x402", ctx);
     }
 
     // ---- the five record pages; /status rows are live-probed at render
     if (RECORD_PAGES[path]) {
-      const map = { surface_version: SURFACE, as_of: ctx.asOf || "pending" };
+      const map = { surface_version: VERSION, as_of: ctx.asOf || "pending" };
       if (path === "/status") {
         const row = (label, ok, right, cls) => `<li class="${cls || (ok ? "ok" : "bad")}"><span>${esc(label)}</span><span class="${cls || (ok ? "ok" : "bad")}">${esc(right)}</span></li>`;
         const probe = async (p, expect) => {

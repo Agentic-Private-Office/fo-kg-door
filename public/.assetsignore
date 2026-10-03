@@ -1,0 +1,2 @@
+# never upload anchors or backups as static assets (office refurb ship fix 2026-09-28)
+*.pre-*
