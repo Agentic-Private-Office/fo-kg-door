@@ -65,7 +65,11 @@ def main():
     if "nothing to commit" in (r.stdout + r.stderr):
         print("nothing to commit"); return
     # CEO ruling 2026-09-17: Agentic-Private-Office is the active gh account for every office-root step; never switched away here
-    subprocess.run("gh auth switch --user Agentic-Private-Office", shell=True, capture_output=True)
+    # 2026-10-03 (AK-x402-01): no account switch. The office repos carry a repo-local credential helper pinned to the office login folder
+    # (GH_CONFIG_DIR=C:/MATTHEWKEDDY/.gh), so the push uses the office sign-in or fails; it never resolves to another estate's account.
+    who = subprocess.run('gh api user --jq .login', shell=True, capture_output=True, text=True, env=dict(os.environ, GH_CONFIG_DIR=r"C:\MATTHEWKEDDY\.gh")).stdout.strip()
+    if who != "Agentic-Private-Office":
+        print("PUSH SKIPPED: the office login folder resolves to %r, not Agentic-Private-Office" % who); return
     p = run("git push -q origin main")
     print("pushed" if p.returncode == 0 else "PUSH FAILED: " + (p.stderr or p.stdout)[-300:])
 
