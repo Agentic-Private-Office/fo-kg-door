@@ -3,8 +3,8 @@
   "kind": "agent-card",
   "name": "Family Office Knowledge Graph",
   "description": "One record per family office, drawn from the public record: the GLEIF spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Read-only, session-free, typed errors. Nodes: United Arab Emirates (ae-fo-kg), Australia (au-fo-kg), Canada (ca-fo-kg), Switzerland (ch-fo-kg), Germany (de-fo-kg), Denmark (dk-fo-kg), Spain (es-fo-kg), France (fr-fo-kg), Italy (it-fo-kg), Luxembourg (lu-fo-kg), Netherlands (nl-fo-kg), Norway (no-fo-kg), Rest of world (row-fo-kg), Singapore (sg-fo-kg), United Kingdom (uk-fo-kg), United States (us-fo-kg).",
-  "url": "https://mcp.fo-kg.ai/mcp",
-  "version": "0.19.10",
+  "url": "https://agent.fo-kg.ai/",
+  "version": "0.21.0",
   "documentationUrl": "https://familyofficeknowledgegraph.ai/llms.txt",
   "iconUrl": "https://familyofficeknowledgegraph.ai/icon-512.png",
   "provider": {
@@ -62,134 +62,123 @@
     "application/json",
     "text/markdown"
   ],
-  "supportedInterfaces": [
-    {
-      "url": "https://mcp.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "apex door — index, forwards to the node door"
-    },
-    {
-      "url": "https://ae.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door ae-fo-kg — serves the records"
-    },
-    {
-      "url": "https://au.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door au-fo-kg — serves the records"
-    },
-    {
-      "url": "https://ca.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door ca-fo-kg — serves the records"
-    },
-    {
-      "url": "https://ch.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door ch-fo-kg — serves the records"
-    },
-    {
-      "url": "https://de.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door de-fo-kg — serves the records"
-    },
-    {
-      "url": "https://dk.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door dk-fo-kg — serves the records"
-    },
-    {
-      "url": "https://es.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door es-fo-kg — serves the records"
-    },
-    {
-      "url": "https://fr.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door fr-fo-kg — serves the records"
-    },
-    {
-      "url": "https://it.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door it-fo-kg — serves the records"
-    },
-    {
-      "url": "https://lu.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door lu-fo-kg — serves the records"
-    },
-    {
-      "url": "https://nl.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door nl-fo-kg — serves the records"
-    },
-    {
-      "url": "https://no.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door no-fo-kg — serves the records"
-    },
-    {
-      "url": "https://row.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door row-fo-kg — serves the records"
-    },
-    {
-      "url": "https://sg.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door sg-fo-kg — serves the records"
-    },
-    {
-      "url": "https://uk.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door uk-fo-kg — serves the records"
-    },
-    {
-      "url": "https://us.fo-kg.ai/mcp",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "streamable-http",
-      "protocolVersion": "2025-06-18",
-      "description": "node door us-fo-kg — serves the records"
-    },
-    {
-      "url": "https://familyofficeknowledgegraph.ai/",
-      "protocolBinding": "HTTP+JSON",
-      "transport": "HTTP+JSON",
-      "protocolVersion": "1.0",
-      "description": "the surface, its Markdown twin, /resolve/{identifier} and the records"
-    }
-  ],
+  "supportedInterfaces": [],
+  "a2a": {
+    "endpoint": null,
+    "status": "No A2A endpoint. This agent is served over MCP (streamable-http) only; use the MCP doors below. A JSON-RPC POST to the card url answers error -32004 (UnsupportedOperation)."
+  },
+  "mcp": {
+    "transport": "streamable-http",
+    "protocolVersion": "2025-06-18",
+    "card": "https://mcp.fo-kg.ai/.well-known/mcp.json",
+    "doors": [
+      {
+        "url": "https://mcp.fo-kg.ai/mcp",
+        "role": "apex",
+        "description": "apex door — index, forwards to the node door"
+      },
+      {
+        "url": "https://ae.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "ae-fo-kg",
+        "description": "node door ae-fo-kg — serves the records"
+      },
+      {
+        "url": "https://au.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "au-fo-kg",
+        "description": "node door au-fo-kg — serves the records"
+      },
+      {
+        "url": "https://ca.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "ca-fo-kg",
+        "description": "node door ca-fo-kg — serves the records"
+      },
+      {
+        "url": "https://ch.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "ch-fo-kg",
+        "description": "node door ch-fo-kg — serves the records"
+      },
+      {
+        "url": "https://de.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "de-fo-kg",
+        "description": "node door de-fo-kg — serves the records"
+      },
+      {
+        "url": "https://dk.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "dk-fo-kg",
+        "description": "node door dk-fo-kg — serves the records"
+      },
+      {
+        "url": "https://es.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "es-fo-kg",
+        "description": "node door es-fo-kg — serves the records"
+      },
+      {
+        "url": "https://fr.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "fr-fo-kg",
+        "description": "node door fr-fo-kg — serves the records"
+      },
+      {
+        "url": "https://it.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "it-fo-kg",
+        "description": "node door it-fo-kg — serves the records"
+      },
+      {
+        "url": "https://lu.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "lu-fo-kg",
+        "description": "node door lu-fo-kg — serves the records"
+      },
+      {
+        "url": "https://nl.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "nl-fo-kg",
+        "description": "node door nl-fo-kg — serves the records"
+      },
+      {
+        "url": "https://no.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "no-fo-kg",
+        "description": "node door no-fo-kg — serves the records"
+      },
+      {
+        "url": "https://row.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "row-fo-kg",
+        "description": "node door row-fo-kg — serves the records"
+      },
+      {
+        "url": "https://sg.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "sg-fo-kg",
+        "description": "node door sg-fo-kg — serves the records"
+      },
+      {
+        "url": "https://uk.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "uk-fo-kg",
+        "description": "node door uk-fo-kg — serves the records"
+      },
+      {
+        "url": "https://us.fo-kg.ai/mcp",
+        "role": "node",
+        "node": "us-fo-kg",
+        "description": "node door us-fo-kg — serves the records"
+      }
+    ]
+  },
+  "surface": {
+    "url": "https://familyofficeknowledgegraph.ai/",
+    "description": "the surface, its Markdown twin, /resolve/{identifier} and the records (plain HTTP+JSON, not A2A)"
+  },
   "skills": [
     {
       "id": "resolve_family_office",
@@ -554,6 +543,166 @@
         },
         "required": [
           "nodes"
+        ]
+      }
+    },
+    {
+      "id": "claim_seat",
+      "name": "Claim seat",
+      "description": "A family office's own agent claims the seat of its own record: card_url + record_id → the record must resolve to the name the card gives → domain challenge (DNS TXT _fo-kg-seat.<domain> or /.well-known/fo-kg-seat.txt) → listed → claimed, seat key answered once; with seat_key and rows the seat sets its own fields on its own record only; verified is set by a person, never by a tool; the seat settles on /seat.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call claim_seat"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "card_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "record_id": {
+            "type": "string"
+          },
+          "challenge_id": {
+            "type": "string"
+          },
+          "seat_key": {
+            "type": "string"
+          },
+          "rows": {
+            "type": "object",
+            "properties": {
+              "website": {
+                "type": "string"
+              },
+              "aliases": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "sectors": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "structure": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "contact_url": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "card_url",
+          "record_id"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "string",
+            "enum": [
+              "accepted",
+              "proof_failed",
+              "claimed",
+              "rows_set",
+              "rows_refused",
+              "refused"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "record_id": {
+            "type": "string"
+          },
+          "seat_id": {
+            "type": "string"
+          },
+          "challenge": {
+            "type": "object"
+          },
+          "seat_key": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      }
+    },
+    {
+      "id": "list_my_receipts",
+      "name": "List my receipts",
+      "description": "For a seat holder only: the RCO-10060 receipts whose subject is its own record — who read it (as the door saw the reader), when, under which rule — each with its verify URL. Nobody else can list them.",
+      "tags": [
+        "family-office",
+        "public-record",
+        "mcp",
+        "read-only"
+      ],
+      "examples": [
+        "POST https://mcp.fo-kg.ai/mcp tools/call list_my_receipts"
+      ],
+      "inputModes": [
+        "application/json"
+      ],
+      "outputModes": [
+        "application/json"
+      ],
+      "input": {
+        "type": "object",
+        "properties": {
+          "record_id": {
+            "type": "string"
+          },
+          "seat_key": {
+            "type": "string"
+          },
+          "limit": {
+            "type": "integer"
+          },
+          "cursor": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "record_id",
+          "seat_key"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "result": {
+            "type": "string"
+          },
+          "receipts": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "result"
         ]
       }
     }

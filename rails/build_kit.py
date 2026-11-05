@@ -107,8 +107,10 @@ A knowledge graph of the office's kind (FO_START_ME_UP_3): one Family Office Rec
 
 - Apex door (MCP, streamable-http): {MCP}/mcp — holds the index, forwards to the node door · card {O}/.well-known/mcp.json · node doors <node>.fo-kg.ai/mcp (ca.fo-kg.ai … row.fo-kg.ai) · long names keep answering ({MCP_LONG}/mcp, <node>.familyofficeknowledgegraph.ai/mcp, {AGENT_LONG})
 - Node doors: {' · '.join(n['door'] for n in nodes['nodes'])} — serve the records
-- Tools (five, same names on every office graph): resolve_family_office(identifier) · get_record(identifier, version?) · list_events_since(identifier, since?, cursor?, limit?) · list_aliases(identifier) · list_nodes()
-- Agent Card (A2A): {AGENT}/.well-known/agent-card.json
+- Tools (seven): the five reads, same names on every office graph — resolve_family_office(identifier) · get_record(identifier, version?) · list_events_since(identifier, since?, cursor?, limit?) · list_aliases(identifier) · list_nodes() — and the seat pair, for a family office's own agent on its own record — claim_seat(card_url, record_id, challenge_id?, seat_key?, rows?) · list_my_receipts(record_id, seat_key)
+- Receipts: every cleared read of a record writes an RCO-10060 receipt on chain fo-kg (rco-records.ai; subject = the record id, rule_version = the tool); a seat holder lists the receipts of its own record with list_my_receipts
+- Seat lane (x402 v2, Base, USDC and Open USD): GET {O}/seat → 402 offer; a claimed seat settles there with ?seat_id=<seat id>; receipt under the office x402 key (mk-office-x402-2026-09, {OFFICE}/x402/jwks.json)
+- Agent Card (A2A): {AGENT}/.well-known/agent-card.json — describes the graph; there is no A2A endpoint, the MCP doors are the way in
 - Over HTTP: {O}/resolve/{{identifier}} · {O}/records/nodes.json · {O}/records/<node>/index.json · {O}/records/<node>/<LEI>.json
 - Paid door (x402 v2, $0.01 USDC, Base mainnet): GET {O}/api → 402 offer; with PAYMENT-SIGNATURE → {{ receipt, statement, data }} = the graph index of record signed (kid {X402_KID}); human door {O}/x402; doctrine {OFFICE}/x402
 - Licensed route: GET {O}/licensed/index with a Bearer token from the office authorization server ({OFFICE}/oauth/token, scope office:read); protected-resource metadata {O}/.well-known/oauth-protected-resource; instructions {O}/auth.md
@@ -121,7 +123,7 @@ A knowledge graph of the office's kind (FO_START_ME_UP_3): one Family Office Rec
 ## Machine kit
 
 - {O}/facts.json — facts of record (live counts and paid-calls line)
-- {AGENT}/.well-known/agent-card.json — A2A Agent Card (the five tools as skills); also served at {O}/.well-known/agent-card.json
+- {AGENT}/.well-known/agent-card.json — A2A Agent Card (the seven tools as skills); also served at {O}/.well-known/agent-card.json
 - {O}/.well-known/mcp.json — MCP server card (also /.well-known/mcp/server-card.json)
 - {O}/.well-known/ai-catalog.json — ARD catalog (also /.well-known/ard.json); {O}/ai-catalog.json — resource catalogue
 - {O}/.well-known/skills.json — skills with input/output shapes; {O}/.well-known/agent-skills/index.json — skills index with digests
@@ -184,6 +186,7 @@ openapi = {
         "/records/{node}/index.json": {"get": {"operationId": "nodeIndex", "summary": "A node's index (records, totals, sources)", "parameters": [{"name": "node", "in": "path", "required": True, "schema": {"type": "string"}}], "responses": {"200": {"description": "index"}, "404": {"description": "unknown node"}}}},
         "/records/{node}/{lei}.json": {"get": {"operationId": "record", "summary": "A Family Office Record", "parameters": [{"name": "node", "in": "path", "required": True, "schema": {"type": "string"}}, {"name": "lei", "in": "path", "required": True, "schema": {"type": "string", "pattern": "^[A-Z0-9]{20}$"}}], "responses": {"200": {"description": "record"}, "404": {"description": "unknown record"}}}},
         "/facts.json": {"get": {"operationId": "facts", "summary": "Facts of record (live counts, paid-calls line)", "responses": {"200": {"description": "facts"}}}},
+        "/seat": {"get": {"operationId": "seatLane", "summary": "Seat lane (x402 v2): 402 offer without payment; with PAYMENT-SIGNATURE and ?seat_id=<seat id of a claimed seat> → the seat settled for one year, receipt under the office x402 key (kid mk-office-x402-2026-09)", "parameters": [{"name": "seat_id", "in": "query", "required": False, "schema": {"type": "string"}}], "responses": {"200": {"description": "settled: { receipt, seat }"}, "402": {"description": "the seat offer"}}}},
         "/api": {"get": {"operationId": "paidCall", "summary": "Paid call (x402 v2): 402 offer without payment; { receipt, statement, data } with PAYMENT-SIGNATURE — the graph index of record, signed", "parameters": [{"name": "PAYMENT-SIGNATURE", "in": "header", "required": False, "schema": {"type": "string"}}], "responses": {"402": {"description": "x402 v2 PaymentRequired (body + PAYMENT-REQUIRED header)"}, "200": {"description": "settled: receipt, statement (EdDSA JWT), data", "headers": {"PAYMENT-RESPONSE": {"schema": {"type": "string"}}, "X-X402-Receipt": {"schema": {"type": "string"}}}}}}},
         "/x402/receipt/{nonce}": {"get": {"operationId": "receipt", "summary": "Resolve a receipt, forever", "parameters": [{"name": "nonce", "in": "path", "required": True, "schema": {"type": "string", "pattern": "^[a-f0-9]{32}$"}}], "responses": {"200": {"description": "the receipt"}, "404": {"description": "unknown nonce"}}}},
         "/x402/jwks.json": {"get": {"operationId": "x402Jwks", "summary": f"Receipt signing key, kid {X402_KID}", "responses": {"200": {"description": "JWKS"}}}},
@@ -202,7 +205,7 @@ wj(WK / "api-catalog", {"linkset": [
     {"anchor": f"{O}/api", "service-desc": [{"href": f"{O}/openapi.json", "type": "application/openapi+json"}], "service-doc": [{"href": f"{O}/x402", "type": "text/html"}], "status": [{"href": f"{O}/health.json"}]},
 ]})
 
-# skills — the five tools, with input/output shapes; digests over SKILL.md files
+# skills — the seven tools (five reads + the seat pair, FO-03), with input/output shapes; digests over SKILL.md files
 IDENT = {"type": "string", "description": "LEI, legal name, alias or register id"}
 FIELD = {"type": "object", "properties": {"value": {}, "source_url": {"type": "string"}, "read_by": {"type": "string"}, "read": {"type": "string"}, "state": {"type": "string", "enum": ["sourced", "filled", "confirmed", "conflict", "unverified"]}}, "required": ["value", "source_url", "read_by", "state"]}
 skills = [
@@ -211,6 +214,8 @@ skills = [
     {"name": "list_events_since", "description": "Dated, URL'd events on one record, oldest first, optionally since a date, paged by cursor.", "input": {"type": "object", "properties": {"identifier": IDENT, "since": {"type": "string", "format": "date"}, "cursor": {"type": "string"}, "limit": {"type": "integer", "minimum": 1, "maximum": 200}}, "required": ["identifier"]}, "output": {"type": "object", "properties": {"lei": {"type": "string"}, "events": {"type": "array"}, "next_cursor": {"type": ["string", "null"]}}, "required": ["lei", "events"]}},
     {"name": "list_aliases", "description": "Every name the record carries for one identifier, each with its source.", "input": {"type": "object", "properties": {"identifier": IDENT}, "required": ["identifier"]}, "output": {"type": "object", "properties": {"lei": {"type": "string"}, "legal_name": FIELD, "aliases": {"type": "array", "items": FIELD}}, "required": ["lei", "aliases"]}},
     {"name": "list_nodes", "description": "The graph's nodes with record counts read from each node's index, the node door and its as-of.", "input": {"type": "object", "properties": {}}, "output": {"type": "object", "properties": {"nodes": {"type": "array"}}, "required": ["nodes"]}},
+    {"name": "claim_seat", "description": "A family office's own agent claims the seat of its own record: card_url + record_id → the record must resolve to the name the card gives → domain challenge (DNS TXT _fo-kg-seat.<domain> or /.well-known/fo-kg-seat.txt) → listed → claimed, seat key answered once; with seat_key and rows the seat sets its own fields on its own record only; verified is set by a person, never by a tool; the seat settles on /seat.", "input": {"type": "object", "properties": {"card_url": {"type": "string", "format": "uri"}, "record_id": {"type": "string"}, "challenge_id": {"type": "string"}, "seat_key": {"type": "string"}, "rows": {"type": "object", "properties": {"website": {"type": "string"}, "aliases": {"type": "array", "items": {"type": "string"}}, "sectors": {"type": "array", "items": {"type": "string"}}, "structure": {"type": "string"}, "description": {"type": "string"}, "contact_url": {"type": "string"}}}}, "required": ["card_url", "record_id"]}, "output": {"type": "object", "properties": {"result": {"type": "string", "enum": ["accepted", "proof_failed", "claimed", "rows_set", "rows_refused", "refused"]}, "reason": {"type": "string"}, "record_id": {"type": "string"}, "seat_id": {"type": "string"}, "challenge": {"type": "object"}, "seat_key": {"type": "string"}}, "required": ["result"]}},
+    {"name": "list_my_receipts", "description": "For a seat holder only: the RCO-10060 receipts whose subject is its own record — who read it (as the door saw the reader), when, under which rule — each with its verify URL. Nobody else can list them.", "input": {"type": "object", "properties": {"record_id": {"type": "string"}, "seat_key": {"type": "string"}, "limit": {"type": "integer"}, "cursor": {"type": "string"}}, "required": ["record_id", "seat_key"]}, "output": {"type": "object", "properties": {"result": {"type": "string"}, "receipts": {"type": "array"}}, "required": ["result"]}},
 ]
 for s in skills:
     s["endpoints"] = [f"{MCP}/mcp"] + [n["door"] for n in nodes["nodes"]] + ([f"{O}/resolve/{{identifier}}"] if s["name"] == "resolve_family_office" else []) + ([f"{O}/records/nodes.json"] if s["name"] == "list_nodes" else [])
@@ -254,7 +259,7 @@ card = {
     "kind": "agent-card",
     "name": GRAPH,
     "description": "One record per family office, drawn from the public record: the GLEIF spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Read-only, session-free, typed errors. Nodes: " + ", ".join(f"{n['jurisdiction']} ({n['id']})" for n in nodes["nodes"]) + ".",
-    "url": f"{MCP}/mcp",
+    "url": f"{AGENT}/",  # FO-02 (2026-11-04): no A2A endpoint exists; the agent host answers A2A JSON-RPC with -32004 naming the MCP doors (see "a2a")
     "version": VERSION,
     "documentationUrl": f"{O}/llms.txt",
     "iconUrl": f"{O}/icon-512.png",
@@ -270,11 +275,15 @@ card = {
     "security": [{"none": []}],
     "defaultInputModes": ["application/json", "text/plain"],
     "defaultOutputModes": ["application/json", "text/markdown"],
-    "supportedInterfaces": [
-        {"url": f"{MCP}/mcp", "protocolBinding": "HTTP+JSON", "transport": "streamable-http", "protocolVersion": "2025-06-18", "description": "apex door — index, forwards to the node door"},
-        *[{"url": n["door"], "protocolBinding": "HTTP+JSON", "transport": "streamable-http", "protocolVersion": "2025-06-18", "description": f"node door {n['id']} — serves the records"} for n in nodes["nodes"]],
-        {"url": f"{O}/", "protocolBinding": "HTTP+JSON", "transport": "HTTP+JSON", "protocolVersion": "1.0", "description": "the surface, its Markdown twin, /resolve/{identifier} and the records"},
-    ],
+    # FO-02 (2026-11-04): the MCP doors are not A2A interfaces; listing them here sent A2A clients to /mcp (405 on message:send).
+    "supportedInterfaces": [],
+    "a2a": {"endpoint": None, "status": "No A2A endpoint. This agent is served over MCP (streamable-http) only; use the MCP doors below. A JSON-RPC POST to the card url answers error -32004 (UnsupportedOperation)."},
+    "mcp": {
+        "transport": "streamable-http", "protocolVersion": "2025-06-18", "card": f"{MCP}/.well-known/mcp.json",
+        "doors": [{"url": f"{MCP}/mcp", "role": "apex", "description": "apex door — index, forwards to the node door"}]
+                 + [{"url": n["door"], "role": "node", "node": n["id"], "description": f"node door {n['id']} — serves the records"} for n in nodes["nodes"]],
+    },
+    "surface": {"url": f"{O}/", "description": "the surface, its Markdown twin, /resolve/{identifier} and the records (plain HTTP+JSON, not A2A)"},
     "skills": [{"id": s["name"], "name": s["name"].replace("_", " ").capitalize(), "description": s["description"], "tags": ["family-office", "public-record", "mcp", "read-only"], "examples": [f"POST {MCP}/mcp tools/call {s['name']}"], "inputModes": ["application/json"], "outputModes": ["application/json"], "input": s["input"], "output": s["output"]} for s in skills],
     "nodes": [{"id": n["id"], "jurisdiction": n["jurisdiction"], "door": n["door"], "index": n["index"], "as_of": n["as_of"]} for n in nodes["nodes"]],
     "x402": {"route": f"{O}/api", "page": f"{O}/x402", "jwks": f"{O}/x402/jwks.json", "kid": X402_KID, "network": "eip155:8453", "price_usdc": "0.01"},
@@ -299,7 +308,7 @@ ard = {
            "capabilities": ["family-office-record", "events", "aliases"], "representativeQueries": [f"List the family offices on the {n['jurisdiction']} node.", "Which fields on this record are confirmed by two sources?"],
            "metadata": {"operator": OPERATOR, "node": n["id"], "index": n["index"], "serverCard": f"{n['host']}/.well-known/mcp.json"}} for n in nodes["nodes"]],
         {"displayName": "The graph as an A2A party", "identifier": "urn:air:familyofficeknowledgegraph.ai:agent:graph", "type": "application/json", "url": f"{AGENT}/.well-known/agent-card.json",
-         "description": "A2A Agent Card: the five tools as skills; supported interfaces the apex door, the node doors and HTTP+JSON; security schemes none, office OAuth and x402.",
+         "description": "A2A Agent Card: the seven tools as skills; supported interfaces the apex door, the node doors and HTTP+JSON; security schemes none, office OAuth and x402.",
          "capabilities": ["resolve-family-office", "family-office-record"], "representativeQueries": ["How do I query the Family Office Knowledge Graph as an agent?", "Which node serves a given family office?"],
          "metadata": {"operator": OPERATOR, "principal": PRINCIPAL, "office": OFFICE}},
         {"displayName": "The paid door (x402)", "identifier": "urn:air:familyofficeknowledgegraph.ai:api:x402", "type": "application/json", "url": f"{O}/api",
@@ -327,7 +336,7 @@ wj(PUB / "ai-catalog.json", {"name": GRAPH, "host": "familyofficeknowledgegraph.
         {"id": "resolve", "url": f"{O}/resolve/{{identifier}}", "type": "application/json", "description": "Resolve an identifier over HTTP"},
         {"id": "mcp-apex", "url": f"{MCP}/mcp", "type": "application/json", "description": "Apex MCP door (streamable-http); card /.well-known/mcp.json"},
         *[{"id": f"mcp-{n['id']}", "url": n["door"], "type": "application/json", "description": f"Node MCP door {n['id']}"} for n in nodes["nodes"]],
-        {"id": "agent-card", "url": f"{AGENT}/.well-known/agent-card.json", "type": "application/json", "description": "A2A Agent Card, the five tools as skills"},
+        {"id": "agent-card", "url": f"{AGENT}/.well-known/agent-card.json", "type": "application/json", "description": "A2A Agent Card, the seven tools as skills"},
         {"id": "jwks", "url": f"{O}/.well-known/jwks.json", "type": "application/json", "description": f"Office keyring, kid {KID}"},
         {"id": "x402", "url": f"{O}/x402", "type": "text/html", "description": "x402: a paid call with a signed receipt"},
         {"id": "api", "url": f"{O}/api", "type": "application/json", "description": "Paid call: 402 without payment; with payment { receipt, statement, data } — the graph index of record, signed"},

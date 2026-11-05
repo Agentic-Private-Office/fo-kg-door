@@ -1,0 +1,21 @@
+{
+ "node": "test-fo-kg",
+ "flag": "TEST",
+ "note": "TEST records for the seat proofs: not a node, not in records/nodes.json, not in any count; resolved on an exact id or name only.",
+ "as_of": "2026-11-05",
+ "version": "2026-11-05.test",
+ "operator": "Agentic KG Holdings",
+ "records": [
+  {
+   "id": "TEST-fo-kg-seat-proof",
+   "lei": null,
+   "legal_name": "Agentic KG Holdings Seat Test Office",
+   "aliases": [],
+   "register_ids": [],
+   "jurisdiction": "TEST",
+   "flag": "TEST",
+   "record": "/records/test-fo-kg/TEST-fo-kg-seat-proof.json",
+   "version": "2026-11-05.test"
+  }
+ ]
+}

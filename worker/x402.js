@@ -5,6 +5,7 @@
 // Every settlement counted in KV (FO_KG_OFFICE) and served on facts.json → radar.paid_calls.
 // Secrets (Worker secrets, never in the repo): X402_PAYTO, CDP_API_KEY_ID, CDP_API_KEY_SECRET, X402_RECEIPT_SEED. Nothing here logs a secret.
 // Office code (same shape as agent-kg.ai's door); no company estate code.
+// FO-03 (2026-11-05): the helpers are exported for the seat lane (seat.js); the per-call lane is unchanged.
 
 export const X402 = {
   origin: "https://familyofficeknowledgegraph.ai",
@@ -24,14 +25,14 @@ export const X402 = {
 
 const DESCRIPTION = "The Family Office Knowledge Graph index of record for $0.01 USDC — every node's record list (LEI, legal name, aliases, register ids, field states, as-of) as a signed statement (EdDSA, kid fo-kg-x402-2026-09) with a receipt that resolves forever at /x402/receipt/{nonce}. Operator: Agentic KG Holdings.";
 
-const b64 = (o) => btoa(unescape(encodeURIComponent(JSON.stringify(o))));
-const unb64 = (s) => JSON.parse(decodeURIComponent(escape(atob(s))));
-const b64uBuf = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
-const b64uStr = (s) => b64uBuf(new TextEncoder().encode(s));
+export const b64 = (o) => btoa(unescape(encodeURIComponent(JSON.stringify(o))));
+export const unb64 = (s) => JSON.parse(decodeURIComponent(escape(atob(s))));
+export const b64uBuf = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+export const b64uStr = (s) => b64uBuf(new TextEncoder().encode(s));
 const unb64u = (s) => Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/") + "===".slice((s.length + 3) % 4)), (c) => c.charCodeAt(0));
-const hex = (n) => Array.from(crypto.getRandomValues(new Uint8Array(n)), (b) => b.toString(16).padStart(2, "0")).join("");
+export const hex = (n) => Array.from(crypto.getRandomValues(new Uint8Array(n)), (b) => b.toString(16).padStart(2, "0")).join("");
 
-const X402_HEADERS = {
+export const X402_HEADERS = {
   "content-type": "application/json; charset=utf-8",
   "cache-control": "no-store",
   "access-control-allow-origin": "*",
@@ -90,12 +91,12 @@ async function cdpJwt(env, method, host, path) {
   return `${h}.${p}.${b64uBuf(sig)}`;
 }
 
-function importEd25519Seed(seed) {
+export function importEd25519Seed(seed) {
   const pkcs8 = new Uint8Array([0x30, 0x2e, 0x02, 0x01, 0x00, 0x30, 0x05, 0x06, 0x03, 0x2b, 0x65, 0x70, 0x04, 0x22, 0x04, 0x20, ...seed]);
   return crypto.subtle.importKey("pkcs8", pkcs8, { name: "Ed25519" }, false, ["sign"]);
 }
 
-async function facilitator(env, path, body) {
+export async function facilitator(env, path, body) {
   const base = env.X402_FACILITATOR || X402.facilitator;
   const u = new URL(base + path);
   const h = { "content-type": "application/json", accept: "application/json" };

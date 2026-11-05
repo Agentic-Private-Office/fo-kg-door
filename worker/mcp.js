@@ -1,8 +1,12 @@
 // familyofficeknowledgegraph.ai — the doors (FO_START_ME_UP_4). Streamable-HTTP MCP (JSON-RPC 2.0, one response per request),
 // public, read-only, session-free, no auth for reads, typed errors, real 404s.
-// Five tools, same names on every office graph: resolve_family_office · get_record · list_events_since · list_aliases · list_nodes.
+// Five read tools, same names on every office graph: resolve_family_office · get_record · list_events_since · list_aliases · list_nodes;
+// FO-03 (2026-11-05): + claim_seat and list_my_receipts (seat.js), and an RCO receipt on chain fo-kg for every cleared read (rco.js).
 // Apex door (mcp.<host>) holds the index and forwards; the node door (<node>.<host>) serves the record. Nothing answered from memory:
 // every answer is read from the harvested records served as assets by this Worker.
+
+import { claimSeat, listMyReceipts, seatBlock } from "./seat.js";
+import { writeReceipts, subjectsOf } from "./rco.js";
 
 export const OPERATOR = "Agentic KG Holdings";
 export const SERVER = { name: "Family Office Knowledge Graph", protocolVersion: "2025-06-18" };
@@ -28,7 +32,20 @@ export const TOOLS = [
   { name: "list_nodes", description: "The graph's nodes — one per jurisdiction — with record counts read from each node's index, the node door and its as-of.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
     outputSchema: { type: "object", properties: { nodes: { type: "array" }, apex: { type: "object" } }, required: ["nodes"] }, annotations: { ...RO, title: "List nodes" } },
+  { name: "claim_seat", description: "A family office's own agent claims the seat of its own record. Give card_url (the https URL of the office agent's card) and record_id (the record id as the graph serves it). The record must resolve to the name the card gives; the door then issues a domain challenge (DNS TXT _fo-kg-seat.<domain> or https://<domain>/.well-known/fo-kg-seat.txt). Call again with challenge_id: proven → the record moves listed → claimed and the seat key is answered once. With seat_key and rows, the seat sets its own fields on its own record only (website, aliases, sectors, structure, description, contact_url); the sourced fields are never touched and verified is set by a person, never by a tool. The seat settles on /seat (x402).",
+    inputSchema: { type: "object", properties: { card_url: { type: "string", description: "https URL of the office agent's card (A2A agent card JSON)" }, record_id: { type: "string", description: "the office's record id as the graph serves it (resolve_family_office lists it)", minLength: 2, maxLength: 120 },
+      challenge_id: { type: "string", description: "the challenge_id from the accepted claim, once the token is published" }, seat_key: { type: "string", description: "the seat key answered when the claim was proven (for rows)" },
+      rows: { type: "object", description: "the seat's own fields", properties: { website: { type: "string" }, aliases: { type: "array", items: { type: "string" } }, sectors: { type: "array", items: { type: "string" } }, structure: { type: "string" }, description: { type: "string" }, contact_url: { type: "string" } }, additionalProperties: false } },
+      required: ["card_url", "record_id"], additionalProperties: false },
+    outputSchema: { type: "object", properties: { result: { type: "string", enum: ["accepted", "proof_failed", "claimed", "rows_set", "rows_refused", "refused", "error"] }, reason: { type: "string" }, record_id: { type: "string" }, seat_id: { type: "string" }, claim_status: { type: "string" }, challenge: { type: "object" }, seat_key: { type: "string" } }, required: ["result"] },
+    annotations: { readOnlyHint: false, idempotentHint: false, destructiveHint: false, openWorldHint: true, title: "Claim a seat" } },
+  { name: "list_my_receipts", description: "For a seat holder only: the RCO-10060 receipts whose subject is its own record — who read it (as the door saw the reader: user agent, network, country), when, and under which rule (the tool) — newest first, each with its verify URL. Needs record_id and the seat key of that record; nobody else can list them.",
+    inputSchema: { type: "object", properties: { record_id: { type: "string", minLength: 2, maxLength: 120 }, seat_key: { type: "string" }, limit: { type: "integer", minimum: 1, maximum: 500, default: 100 }, cursor: { type: "string" } }, required: ["record_id", "seat_key"], additionalProperties: false },
+    outputSchema: { type: "object", properties: { result: { type: "string" }, record_id: { type: "string" }, receipts: { type: "array", items: { type: "object", properties: { id: { type: "string" }, rule: { type: "string" }, cleared_at: { type: "string" }, reader: { type: "object" }, verify: { type: "string" } } } } }, required: ["result"] },
+    annotations: { readOnlyHint: true, idempotentHint: true, destructiveHint: false, openWorldHint: false, title: "List the receipts of my record" } },
 ];
+const SEAT_TOOLS = new Set(["claim_seat", "list_my_receipts"]);
+export const TEST_NODE = "test-fo-kg";   // FO-03: TEST records for the seat proofs — not a node, not in nodes.json, not in any count
 
 const rpc = (id, result) => ({ jsonrpc: "2.0", id, result });
 const rpcErr = (id, code, message, data) => ({ jsonrpc: "2.0", id, error: { code, message, ...(data ? { data } : {}) } });
@@ -42,7 +59,8 @@ export function graph(env, url) {
   const nodes = () => asset("/records/nodes.json");
   const index = (node) => asset(`/records/${node}/index.json`);
   const record = (node, lei) => asset(`/records/${node}/${lei}.json`);
-  return { nodes, index, record };
+  const testIndex = () => asset(`/records/${TEST_NODE}/index.json`);
+  return { nodes, index, record, testIndex };
 }
 
 const norm = (s) => String(s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -63,9 +81,28 @@ export async function resolveIdentifier(g, identifier) {
       if (on) out.push({ id: r.id, lei: r.lei || null, legal_name: r.legal_name, node: node.id, record: `${node.host}${r.record}`, matched_on: on, version: ix.version });
     }
   }
+  // FO-03: TEST records (flagged TEST, outside every count) answer on an exact id, legal name or alias only — never on a contains search
+  if (g.testIndex) {
+    const tix = await g.testIndex();
+    for (const r of (tix && tix.records) || []) {
+      const on = norm(r.id) === n ? "id" : norm(r.legal_name) === n ? "legal_name" : (r.aliases || []).some((a) => norm(a) === n) ? "alias" : null;
+      if (on) out.push({ id: r.id, lei: null, legal_name: r.legal_name, node: TEST_NODE, record: `https://familyofficeknowledgegraph.ai${r.record}`, matched_on: on, version: tix.version, test: true, flag: "TEST" });
+    }
+  }
   // exact matches outrank contains
   const exact = out.filter((m) => m.matched_on !== "name_contains");
   return exact.length ? exact : out;
+}
+
+// FO-03: the record a seat claim names — the id must resolve to exactly that record (id or LEI, case-insensitive)
+export function resolveOneFor(g) {
+  return async (recordId) => {
+    const m = (await resolveIdentifier(g, recordId)).filter((x) => norm(x.id) === norm(recordId) || (x.lei && norm(x.lei) === norm(recordId)));
+    if (!m.length) return { why: "the record id does not resolve on the graph (resolve_family_office lists what the graph carries)" };
+    if (new Set(m.map((x) => x.id)).size > 1) return { why: "the record id is ambiguous on the graph" };
+    const rec = await g.record(m[0].node, m[0].id);
+    return rec ? { m: m[0], rec } : { why: "the record is listed in the index but not served" };
+  };
 }
 
 async function one(g, identifier) {
@@ -122,6 +159,7 @@ export async function apexCall(g, name, args, ctx) {
   let nodeId = null;
   if (args.identifier) { const m = await resolveIdentifier(g, args.identifier); if (m.length) nodeId = m[0].node; }
   if (!nodeId) return fail("not_found", { identifier: args.identifier, hint: "no node in the index carries this identifier" });
+  if (nodeId === TEST_NODE) return nodeCall(g, name, args, { role: "apex", door: ctx.apexDoor, via: "test record (in-process; flagged TEST)" });
   const nd = await g.nodes();
   const node = (nd.nodes || []).find((n) => n.id === nodeId);
   const servedBy = { role: "node", node: nodeId, door: node.door, via: "apex-forward" };
@@ -141,39 +179,83 @@ export async function apexCall(g, name, args, ctx) {
   return nodeCall(g, name, args, servedBy);
 }
 
+// The door's description of itself — served at GET / on the mcp and node hosts (humans, link checkers). Never on GET /mcp.
+export function doorInfo(url, ctx) {
+  const { version, role, nodeId } = ctx;
+  return { server: { ...SERVER, version }, operator: OPERATOR, role, node: role === "node" ? nodeId : null, transport: "streamable-http", endpoint: `${url.origin}/mcp`, usage: "POST JSON-RPC 2.0: initialize, tools/list, tools/call", tools: TOOLS.map((t) => t.name), card: `${url.origin}/.well-known/mcp.json`, agent_card: ctx.agentCard };
+}
+
+// FO-02 (2026-11-04): the door's audit line — one JSON line per JSON-RPC message to Workers Logs, with the tool name on every tools/call,
+// so per-tool counts can be read from the logs. No arguments, no identifiers, no IP are written.
+function audit(request, ctx, method, tool, outcome, extra) {
+  const cf = request.cf || {};
+  console.log(JSON.stringify({ audit: "fo-kg-door", v: ctx.version, role: ctx.role, node: ctx.role === "node" ? ctx.nodeId : null, host: new URL(request.url).hostname, method: String(method || "").slice(0, 64), tool: tool ? String(tool).slice(0, 64) : null, outcome, forwarded: !!request.headers.get("x-office-forwarded-by"), ua: (request.headers.get("user-agent") || "").slice(0, 160), country: cf.country || null, asn: cf.asn || null, ...(extra || {}) }));
+}
+const readerOf = (request) => { const cf = request.cf || {}; return { ua: (request.headers.get("user-agent") || "").slice(0, 160), asn: cf.asn || null, as_org: cf.asOrganization ? String(cf.asOrganization).slice(0, 80) : null, country: cf.country || null }; };
+const SEAT_FAIL = new Set(["refused", "rows_refused", "proof_failed", "error"]);
+const seatRes = (o) => ({ content: [{ type: "text", text: JSON.stringify(o, null, 1) }], structuredContent: o, ...(SEAT_FAIL.has(o.result) ? { isError: true } : {}) });
+
 export async function handleMcp(request, env, url, ctx) {
   const { version, role, apexDoor, nodeId } = ctx;
   const g = graph(env, url);
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: JSONH });
+  // FO-02 (2026-11-04): this door opens no server-to-client stream. Per MCP streamable-http, GET /mcp answers 405 so clients stop
+  // re-opening it (the 200-JSON answer drove a Claude Code reconnect loop: 418,766 GETs in 30 days). Same as the Capital Markets door.
   if (request.method === "GET") {
-    return new Response(JSON.stringify({ server: { ...SERVER, version }, operator: OPERATOR, role, node: role === "node" ? nodeId : null, transport: "streamable-http", endpoint: `${url.origin}/mcp`, usage: "POST JSON-RPC 2.0: initialize, tools/list, tools/call", tools: TOOLS.map((t) => t.name), card: `${url.origin}/.well-known/mcp.json`, agent_card: ctx.agentCard }, null, 1), { status: 200, headers: JSONH });
+    return new Response(JSON.stringify(rpcErr(null, -32000, "Method not allowed: this door opens no SSE stream; POST JSON-RPC 2.0 to this URL", { usage: "POST JSON-RPC 2.0: initialize, tools/list, tools/call", info: `${url.origin}/`, card: `${url.origin}/.well-known/mcp.json` })), { status: 405, headers: { ...JSONH, allow: "POST, OPTIONS" } });
   }
-  if (request.method !== "POST") return new Response(JSON.stringify(rpcErr(null, -32600, "POST required")), { status: 405, headers: JSONH });
+  if (request.method !== "POST") return new Response(JSON.stringify(rpcErr(null, -32600, "POST required")), { status: 405, headers: { ...JSONH, allow: "POST, OPTIONS" } });
   let msgs;
-  try { msgs = await request.json(); } catch { return new Response(JSON.stringify(rpcErr(null, -32700, "parse error")), { status: 400, headers: JSONH }); }
+  try { msgs = await request.json(); } catch { audit(request, ctx, "(unparsed)", null, "parse_error"); return new Response(JSON.stringify(rpcErr(null, -32700, "parse error")), { status: 400, headers: JSONH }); }
   const batch = Array.isArray(msgs);
   const out = [];
   for (const m of batch ? msgs : [msgs]) {
     const id = m && m.id !== undefined ? m.id : null;
-    if (!m || m.jsonrpc !== "2.0" || typeof m.method !== "string") { out.push(rpcErr(id, -32600, "invalid request")); continue; }
-    if (m.method.startsWith("notifications/")) continue;
+    if (!m || m.jsonrpc !== "2.0" || typeof m.method !== "string") { audit(request, ctx, "(invalid)", null, "invalid_request"); out.push(rpcErr(id, -32600, "invalid request")); continue; }
+    const tool = m.method === "tools/call" ? (m.params && m.params.name) : null;
+    if (m.method.startsWith("notifications/")) { audit(request, ctx, m.method, null, "accepted"); continue; }
+    const before = out.length;
     try {
       if (m.method === "initialize") {
-        out.push(rpc(id, { protocolVersion: (m.params && m.params.protocolVersion) || SERVER.protocolVersion, capabilities: { tools: { listChanged: false } }, serverInfo: { name: SERVER.name, version }, instructions: `Read-only door over the Family Office Knowledge Graph (public record, one record per family office, every field with source_url, read_by, state). ${role === "node" ? `This is the ${nodeId} node door; it serves the records.` : "This is the apex door; it holds the index and forwards to the node that serves the record."} Tools: resolve_family_office, get_record, list_events_since, list_aliases, list_nodes. Errors are typed. Nothing is answered from memory.` }));
+        out.push(rpc(id, { protocolVersion: (m.params && m.params.protocolVersion) || SERVER.protocolVersion, capabilities: { tools: { listChanged: false } }, serverInfo: { name: SERVER.name, version }, instructions: `Read-only door over the Family Office Knowledge Graph (public record, one record per family office, every field with source_url, read_by, state). ${role === "node" ? `This is the ${nodeId} node door; it serves the records.` : "This is the apex door; it holds the index and forwards to the node that serves the record."} Tools: resolve_family_office, get_record, list_events_since, list_aliases, list_nodes (reads; each cleared read is evidenced by an RCO-10060 receipt on chain fo-kg); claim_seat and list_my_receipts (a family office's own agent, its own record only). Errors are typed. Nothing is answered from memory.` }));
       } else if (m.method === "ping") {
         out.push(rpc(id, {}));
       } else if (m.method === "tools/list") {
         out.push(rpc(id, { tools: openSchemas(TOOLS) }));  // 2026-09-17 (CEO order): additionalProperties:false stripped at the schema hook; nothing else changes
       } else if (m.method === "tools/call") {
         const name = m.params && m.params.name;
-        if (!TOOLS.some((t) => t.name === name)) { out.push(rpcErr(id, -32602, `unknown tool: ${name}`, { tools: TOOLS.map((t) => t.name) })); continue; }
-        const args = (m.params && m.params.arguments) || {};
-        const res = role === "node" ? await nodeCall(g, name, args, { role: "node", node: nodeId, door: `${url.origin}/mcp`, via: "node-door" }) : await apexCall(g, name, args, { apexDoor, self: env.SELF });
-        out.push(rpc(id, res));
+        if (!TOOLS.some((t) => t.name === name)) out.push(rpcErr(id, -32602, `unknown tool: ${name}`, { tools: TOOLS.map((t) => t.name) }));
+        else {
+          const args = (m.params && m.params.arguments) || {};
+          let res;
+          if (SEAT_TOOLS.has(name)) res = seatRes(name === "claim_seat" ? await claimSeat(env, args, resolveOneFor(g)) : await listMyReceipts(env, args));   // FO-03: seat tools answer on any door
+          else res = role === "node" ? await nodeCall(g, name, args, { role: "node", node: nodeId, door: `${url.origin}/mcp`, via: "node-door" }) : await apexCall(g, name, args, { apexDoor, self: env.SELF });
+          // FO-03: get_record carries the seat block beside the sourced record (claim_status listed when no seat holds it)
+          const sc = res && res.structuredContent;
+          if (name === "get_record" && sc && sc.record && sc.record.id && !res.isError) { try { sc.seat = await seatBlock(env, sc.record.id); res.content = [{ type: "text", text: JSON.stringify(sc, null, 1) }]; } catch (e) {} }
+          out.push(rpc(id, res));
+          // FO-03 item 1: every cleared read writes an RCO receipt on chain fo-kg, once per call — at the door the caller reached, never on the
+          // apex-to-node hop (forwarded) — after the answer is sent; the receipt ids go on this call's audit line.
+          if (!res.isError && !request.headers.get("x-office-forwarded-by") && subjectsOf(name, sc).length) {
+            const reader = readerOf(request), nd = await g.nodes(), cc = {};
+            for (const n of (nd && nd.nodes) || []) cc[n.id] = n.country && n.country !== "ZZ" ? String(n.country).toUpperCase() : null;
+            const nodeBy = {}; for (const x of (sc.matches || [])) nodeBy[x.id] = x.node; if (sc.record) nodeBy[sc.record.id] = sc.record.node; if (sc.node && sc.record_id) nodeBy[sc.record_id] = sc.node;
+            const marketOf = (s) => cc[nodeBy[s] || (sc.served_by && sc.served_by.node)] || null;
+            const outcome = name === "claim_seat" || name === "list_my_receipts" ? `ok ${sc.result}` : "ok";
+            const job = writeReceipts(env, name, sc, reader, marketOf).then((r) => audit(request, ctx, m.method, tool, outcome, { rco: r.map((x) => x.id || `failed:${x.error}`), subjects: r.map((x) => x.subject) }))
+              .catch(() => audit(request, ctx, m.method, tool, outcome, { rco: ["failed:exception"] }));
+            if (ctx.exec && ctx.exec.waitUntil) ctx.exec.waitUntil(job); else await job;
+            continue;
+          }
+          if (SEAT_TOOLS.has(name)) { audit(request, ctx, m.method, tool, `${res.isError ? "seat_refused" : "ok"} ${sc && sc.result}${sc && sc.reason ? " " + sc.reason : ""}`, { seat_event: true }); continue; }
+        }
       } else out.push(rpcErr(id, -32601, `method not found: ${m.method}`));
     } catch (e) {
       out.push(rpcErr(id, -32603, "internal error"));
     }
+    const last = out.length > before ? out[out.length - 1] : null;
+    const outcome = !last ? "none" : last.error ? `rpc_error ${last.error.code}` : last.result && last.result.isError ? `tool_error ${(last.result.structuredContent && last.result.structuredContent.error && last.result.structuredContent.error.type) || "error"}` : "ok";
+    audit(request, ctx, m.method, tool, outcome);
   }
   if (!out.length) return new Response(null, { status: 202, headers: JSONH });
   return new Response(JSON.stringify(batch ? out : out[0], null, 1), { status: 200, headers: JSONH });
@@ -184,7 +266,7 @@ export function serverCard(version, origin, ctx) {
     serverInfo: { name: SERVER.name, version },
     transport: { type: "streamable-http", endpoint: `${origin}/mcp` },
     capabilities: { tools: {} },
-    tools: TOOLS.map((t) => ({ name: t.name, description: t.description, annotations: t.annotations })),
+    tools: openSchemas(TOOLS),  // FO-02 (2026-11-04): the card carries each tool exactly as tools/list serves it — inputSchema and outputSchema included
     authentication: { reads: "none" },
     role: ctx.role, node: ctx.role === "node" ? ctx.nodeId : null,
     doors: { apex: ctx.apexDoor, nodes: ctx.nodeDoors },

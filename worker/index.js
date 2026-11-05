@@ -6,12 +6,13 @@
 
 import { handleApi, handleReceipt, handleSettled, paidStats, preflight, signStatement, X402 } from "./x402.js";
 import { protectedResource, asMetadata, handleLicensed } from "./oauth.js";
-import { handleMcp, serverCard, TOOLS, graph, resolveIdentifier } from "./mcp.js";
+import { handleSeat } from "./seat.js";
+import { handleMcp, doorInfo, serverCard, TOOLS, graph, resolveIdentifier } from "./mcp.js";
 
 const CANON = "familyofficeknowledgegraph.ai";
 const ORIGIN = `https://${CANON}`;
 const OFFICE = "https://agent-kg.ai";
-const VERSION = "0.20.1";
+const VERSION = "0.21.0";   // FO-03 (2026-11-05): receipts on chain fo-kg, the seat pair (claim_seat, list_my_receipts), the seat lane /seat
 const SURFACE = VERSION; // office refurb (SHIP 2026-09-28): the footer "Surface" line reads the one version of the surface
 const OPERATOR = "Agentic KG Holdings";
 const CONTACT = "mailto:mk@agent-kg.ai"; // headers + machine kit only, never page copy
@@ -126,7 +127,7 @@ function withHeaders(res, path, ctx) {
 const fmt = (n) => (n === null || n === undefined ? "—" : Number(n).toLocaleString("en-CA"));
 
 const handler = {
-  async fetch(request, env) {
+  async fetch(request, env, exec) {
     const url = new URL(request.url);
     const host = url.hostname.toLowerCase();
     const role = LOCAL(host) ? (url.searchParams.get("role") || "surface") : roleOf(host);
@@ -142,7 +143,7 @@ const handler = {
     const loadJson = async (p) => { const r = await asset(p); return r.ok ? await r.json() : {}; };
     const nodesDoc = await g.nodes();
     const nodeId = role === "node" ? nodeIdOf(host) : null;
-    const ctx = { role, nodeId, version: VERSION, apexDoor: APEX_DOOR, agentCard: AGENT_CARD, canon: CANON, nodeDoors: (nodesDoc && nodesDoc.nodes || []).map((n) => n.door), asOf: null };
+    const ctx = { exec, role, nodeId, version: VERSION, apexDoor: APEX_DOOR, agentCard: AGENT_CARD, canon: CANON, nodeDoors: (nodesDoc && nodesDoc.nodes || []).map((n) => n.door), asOf: null };
     // as-of = the node's sweep start (from its index); the apex carries the latest node as-of
     const indexes = {};
     for (const n of (nodesDoc && nodesDoc.nodes) || []) indexes[n.id] = await g.index(n.id);
@@ -175,13 +176,17 @@ const handler = {
 
     // ---- doors that accept POST
     if (path === "/mcp") return withHeaders(await handleMcp(request, env, url, ctx), path, ctx);
-    if (path === "/api" && request.method === "OPTIONS") return preflight();
+    if ((path === "/api" || path === "/seat") && request.method === "OPTIONS") return preflight();
+    // FO-02 (2026-11-04): there is no A2A endpoint. A POST to the agent host's root answers A2A UnsupportedOperationError (-32004)
+    // naming the MCP doors, instead of a bare 405; the card says the same (a2a.endpoint = null).
+    if (path === "/" && role === "agent" && request.method === "POST") return withHeaders(jsonRes({ jsonrpc: "2.0", id: null, error: { code: -32004, message: "No A2A endpoint: this agent is served over MCP only", data: { mcp_apex: APEX_DOOR, mcp_nodes: ctx.nodeDoors, agent_card: AGENT_CARD } } }, 200, { "cache-control": "no-store" }), path, ctx);
     if (request.method !== "GET" && request.method !== "HEAD") {
       return withHeaders(new Response("Method Not Allowed", { status: 405, headers: { allow: "GET, HEAD", "content-type": "text/plain; charset=utf-8" } }), path, ctx);
     }
 
     // ---- x402
     if (path === "/api") return withHeaders(await handleApi(request, env, loadIndex), path, ctx);
+    if (path === "/seat") return withHeaders(await handleSeat(request, env), path, ctx);   // FO-03: the seat lane (seat.js) — its own 402, per seat per year
     if (path === "/x402/settled.json") return withHeaders(await handleSettled(env), path, ctx);
     const rm = path.match(/^\/x402\/receipt\/([^/]+)$/);
     if (rm) return withHeaders(await handleReceipt(env, rm[1]), path, ctx);
@@ -215,7 +220,7 @@ const handler = {
     }
     // the agent host's root is the card; the door hosts' roots describe the door
     if (path === "/" && role === "agent") return Response.redirect(AGENT_CARD, 302);
-    if (path === "/" && (role === "mcp" || role === "node")) return withHeaders(await handleMcp(new Request(request.url, { method: "GET" }), env, url, ctx), path, ctx);
+    if (path === "/" && (role === "mcp" || role === "node")) return withHeaders(jsonRes(doorInfo(url, ctx), 200, { "cache-control": "no-store" }), path, ctx);
 
     // ---- pages (HTML, or the Markdown twin on Accept: text/markdown — same words)
     const page = async (tplPath, map, cache, raw = []) => {
@@ -267,7 +272,10 @@ const handler = {
         rows.push(await probe("/api", 402));
         // the doors, on the wire
         for (const [label, u] of [["apex door · " + APEX_DOOR, APEX_DOOR], ...((nodesDoc && nodesDoc.nodes) || []).map((n) => [`node door · ${n.id}`, n.door]), ["agent card · " + AGENT_CARD, AGENT_CARD]]) {
-          try { const r = await (env.SELF ? env.SELF.fetch(u, { method: "GET", headers: { accept: "application/json" } }) : fetch(u, { method: "GET", headers: { accept: "application/json" }, signal: AbortSignal.timeout(4000) })); rows.push(row(label, r.status === 200, `${r.status} · ${(r.headers.get("content-type") || "").split(";")[0]}`)); }
+          // FO-02 (2026-11-04): GET /mcp answers 405 by design now, so a door is probed with a JSON-RPC ping (POST); the card stays a GET.
+          const isDoor = u.endsWith("/mcp");
+          const init = isDoor ? { method: "POST", headers: { accept: "application/json, text/event-stream", "content-type": "application/json", "x-office-forwarded-by": "status-probe" }, body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "ping" }) } : { method: "GET", headers: { accept: "application/json" } };
+          try { const r = await (env.SELF ? env.SELF.fetch(u, init) : fetch(u, { ...init, signal: AbortSignal.timeout(4000) })); rows.push(row(label, r.status === 200, `${r.status} · ${(r.headers.get("content-type") || "").split(";")[0]}${isDoor ? " · ping" : ""}`)); }
           catch (e) { rows.push(row(label, false, `no answer (${e && e.name})`, "warn")); }
         }
         const ps = await paidStats(env);

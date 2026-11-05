@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Family Office Knowledge Graph — the doors",
-    "version": "0.19.10",
+    "version": "0.21.0",
     "description": "Family Office Knowledge Graph. Operator: Agentic KG Holdings. Public record, read-only; MCP doors (apex + node); one paid call (x402); one licensed route (office OAuth).",
     "contact": {
       "name": "Agentic KG Holdings",
@@ -213,6 +213,30 @@
         "responses": {
           "200": {
             "description": "facts"
+          }
+        }
+      }
+    },
+    "/seat": {
+      "get": {
+        "operationId": "seatLane",
+        "summary": "Seat lane (x402 v2): 402 offer without payment; with PAYMENT-SIGNATURE and ?seat_id=<seat id of a claimed seat> → the seat settled for one year, receipt under the office x402 key (kid mk-office-x402-2026-09)",
+        "parameters": [
+          {
+            "name": "seat_id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "settled: { receipt, seat }"
+          },
+          "402": {
+            "description": "the seat offer"
           }
         }
       }

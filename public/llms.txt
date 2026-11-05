@@ -2,7 +2,7 @@
 
 > One record per family office, drawn from the public record: the GLEIF spine first, then the national registers that fill and confirm it. Every field carries where it came from, who read it, when, and its state. Nothing is inferred and nothing is typed.
 
-Operator: Agentic KG Holdings · Principal: Matthew Keddy · Office: https://agent-kg.ai · Surface: https://familyofficeknowledgegraph.ai · Surface version 0.19.10 · as of 2026-09-14
+Operator: Agentic KG Holdings · Principal: Matthew Keddy · Office: https://agent-kg.ai · Surface: https://familyofficeknowledgegraph.ai · Surface version 0.21.0 · as of 2026-09-14
 
 ## What it is
 
@@ -32,8 +32,10 @@ A knowledge graph of the office's kind (FO_START_ME_UP_3): one Family Office Rec
 
 - Apex door (MCP, streamable-http): https://mcp.fo-kg.ai/mcp — holds the index, forwards to the node door · card https://familyofficeknowledgegraph.ai/.well-known/mcp.json · node doors <node>.fo-kg.ai/mcp (ca.fo-kg.ai … row.fo-kg.ai) · long names keep answering (https://mcp.familyofficeknowledgegraph.ai/mcp, <node>.familyofficeknowledgegraph.ai/mcp, https://agent.familyofficeknowledgegraph.ai)
 - Node doors: https://ae.fo-kg.ai/mcp · https://au.fo-kg.ai/mcp · https://ca.fo-kg.ai/mcp · https://ch.fo-kg.ai/mcp · https://de.fo-kg.ai/mcp · https://dk.fo-kg.ai/mcp · https://es.fo-kg.ai/mcp · https://fr.fo-kg.ai/mcp · https://it.fo-kg.ai/mcp · https://lu.fo-kg.ai/mcp · https://nl.fo-kg.ai/mcp · https://no.fo-kg.ai/mcp · https://row.fo-kg.ai/mcp · https://sg.fo-kg.ai/mcp · https://uk.fo-kg.ai/mcp · https://us.fo-kg.ai/mcp — serve the records
-- Tools (five, same names on every office graph): resolve_family_office(identifier) · get_record(identifier, version?) · list_events_since(identifier, since?, cursor?, limit?) · list_aliases(identifier) · list_nodes()
-- Agent Card (A2A): https://agent.fo-kg.ai/.well-known/agent-card.json
+- Tools (seven): the five reads, same names on every office graph — resolve_family_office(identifier) · get_record(identifier, version?) · list_events_since(identifier, since?, cursor?, limit?) · list_aliases(identifier) · list_nodes() — and the seat pair, for a family office's own agent on its own record — claim_seat(card_url, record_id, challenge_id?, seat_key?, rows?) · list_my_receipts(record_id, seat_key)
+- Receipts: every cleared read of a record writes an RCO-10060 receipt on chain fo-kg (rco-records.ai; subject = the record id, rule_version = the tool); a seat holder lists the receipts of its own record with list_my_receipts
+- Seat lane (x402 v2, Base, USDC and Open USD): GET https://familyofficeknowledgegraph.ai/seat → 402 offer; a claimed seat settles there with ?seat_id=<seat id>; receipt under the office x402 key (mk-office-x402-2026-09, https://agent-kg.ai/x402/jwks.json)
+- Agent Card (A2A): https://agent.fo-kg.ai/.well-known/agent-card.json — describes the graph; there is no A2A endpoint, the MCP doors are the way in
 - Over HTTP: https://familyofficeknowledgegraph.ai/resolve/{identifier} · https://familyofficeknowledgegraph.ai/records/nodes.json · https://familyofficeknowledgegraph.ai/records/<node>/index.json · https://familyofficeknowledgegraph.ai/records/<node>/<LEI>.json
 - Paid door (x402 v2, $0.01 USDC, Base mainnet): GET https://familyofficeknowledgegraph.ai/api → 402 offer; with PAYMENT-SIGNATURE → { receipt, statement, data } = the graph index of record signed (kid fo-kg-x402-2026-09); human door https://familyofficeknowledgegraph.ai/x402; doctrine https://agent-kg.ai/x402
 - Licensed route: GET https://familyofficeknowledgegraph.ai/licensed/index with a Bearer token from the office authorization server (https://agent-kg.ai/oauth/token, scope office:read); protected-resource metadata https://familyofficeknowledgegraph.ai/.well-known/oauth-protected-resource; instructions https://familyofficeknowledgegraph.ai/auth.md
@@ -588,7 +590,7 @@ A knowledge graph of the office's kind (FO_START_ME_UP_3): one Family Office Rec
 ## Machine kit
 
 - https://familyofficeknowledgegraph.ai/facts.json — facts of record (live counts and paid-calls line)
-- https://agent.fo-kg.ai/.well-known/agent-card.json — A2A Agent Card (the five tools as skills); also served at https://familyofficeknowledgegraph.ai/.well-known/agent-card.json
+- https://agent.fo-kg.ai/.well-known/agent-card.json — A2A Agent Card (the seven tools as skills); also served at https://familyofficeknowledgegraph.ai/.well-known/agent-card.json
 - https://familyofficeknowledgegraph.ai/.well-known/mcp.json — MCP server card (also /.well-known/mcp/server-card.json)
 - https://familyofficeknowledgegraph.ai/.well-known/ai-catalog.json — ARD catalog (also /.well-known/ard.json); https://familyofficeknowledgegraph.ai/ai-catalog.json — resource catalogue
 - https://familyofficeknowledgegraph.ai/.well-known/skills.json — skills with input/output shapes; https://familyofficeknowledgegraph.ai/.well-known/agent-skills/index.json — skills index with digests

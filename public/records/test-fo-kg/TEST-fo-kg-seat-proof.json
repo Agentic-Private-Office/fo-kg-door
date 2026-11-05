@@ -1,0 +1,50 @@
+{
+ "record": "Family Office Record",
+ "id": "TEST-fo-kg-seat-proof",
+ "flag": "TEST",
+ "test": true,
+ "notice": "TEST record for the FO-03 seat proofs (claim_seat, rows, receipts). It is not a family office, is not on any node, and is in no count of the graph.",
+ "version": "2026-11-05.test",
+ "node": "test-fo-kg",
+ "as_of": "2026-11-05",
+ "operator": "Agentic KG Holdings",
+ "office": "https://agent-kg.ai",
+ "surface": "https://familyofficeknowledgegraph.ai",
+ "served_by": "https://mcp.fo-kg.ai/mcp",
+ "lei": null,
+ "identity": {
+  "legal_name": {
+   "value": "Agentic KG Holdings Seat Test Office",
+   "source_url": "https://fo-kg-seat-test.pages.dev/.well-known/agent-card.json",
+   "read_by": "fo-03-test",
+   "read": "2026-11-05",
+   "state": "sourced",
+   "language": "en"
+  },
+  "jurisdiction": {
+   "value": "TEST",
+   "source_url": "https://fo-kg-seat-test.pages.dev/.well-known/agent-card.json",
+   "read_by": "fo-03-test",
+   "read": "2026-11-05",
+   "state": "sourced"
+  },
+  "entity_status": {
+   "value": "TEST",
+   "source_url": "https://fo-kg-seat-test.pages.dev/.well-known/agent-card.json",
+   "read_by": "fo-03-test",
+   "read": "2026-11-05",
+   "state": "sourced"
+  }
+ },
+ "registrations": [],
+ "principals": [],
+ "sectors": [],
+ "website": null,
+ "aliases": [],
+ "events": [],
+ "gaps": [],
+ "sources": [
+  "https://fo-kg-seat-test.pages.dev/.well-known/agent-card.json"
+ ],
+ "discovery": null
+}

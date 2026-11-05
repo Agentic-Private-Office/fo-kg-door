@@ -2,7 +2,7 @@
   "name": "Family Office Knowledge Graph",
   "host": "familyofficeknowledgegraph.ai",
   "canonical": "https://familyofficeknowledgegraph.ai/",
-  "version": "0.19.10",
+  "version": "0.21.0",
   "as_of": "2026-09-14",
   "operator": "Agentic KG Holdings",
   "principal": "Matthew Keddy",
@@ -247,7 +247,7 @@
       "id": "agent-card",
       "url": "https://agent.fo-kg.ai/.well-known/agent-card.json",
       "type": "application/json",
-      "description": "A2A Agent Card, the five tools as skills"
+      "description": "A2A Agent Card, the seven tools as skills"
     },
     {
       "id": "jwks",

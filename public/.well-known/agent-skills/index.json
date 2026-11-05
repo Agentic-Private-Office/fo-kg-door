@@ -35,6 +35,20 @@
       "description": "The graph's nodes with record counts read from each node's index, the node door and its as-of.",
       "url": "/.well-known/agent-skills/list_nodes/SKILL.md",
       "digest": "sha256:00ad8450eb21be87ef978edd30637e62ad5be854d5ff2ed0e4b4aa06d53a9a3d"
+    },
+    {
+      "name": "claim_seat",
+      "type": "skill-md",
+      "description": "A family office's own agent claims the seat of its own record: card_url + record_id → the record must resolve to the name the card gives → domain challenge (DNS TXT _fo-kg-seat.<domain> or /.well-known/fo-kg-seat.txt) → listed → claimed, seat key answered once; with seat_key and rows the seat sets its own fields on its own record only; verified is set by a person, never by a tool; the seat settles on /seat.",
+      "url": "/.well-known/agent-skills/claim_seat/SKILL.md",
+      "digest": "sha256:bf19616d67bbae673b46387ac67a71e4a013f190beaf15b5f6829bbaca41ad86"
+    },
+    {
+      "name": "list_my_receipts",
+      "type": "skill-md",
+      "description": "For a seat holder only: the RCO-10060 receipts whose subject is its own record — who read it (as the door saw the reader), when, under which rule — each with its verify URL. Nobody else can list them.",
+      "url": "/.well-known/agent-skills/list_my_receipts/SKILL.md",
+      "digest": "sha256:59f9014b401838c0ad444d8cf74c1d1dcc053180328782efa5ab6588368162ac"
     }
   ]
 }

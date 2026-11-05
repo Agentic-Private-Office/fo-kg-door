@@ -397,7 +397,7 @@
       "identifier": "urn:air:familyofficeknowledgegraph.ai:agent:graph",
       "type": "application/json",
       "url": "https://agent.fo-kg.ai/.well-known/agent-card.json",
-      "description": "A2A Agent Card: the five tools as skills; supported interfaces the apex door, the node doors and HTTP+JSON; security schemes none, office OAuth and x402.",
+      "description": "A2A Agent Card: the seven tools as skills; supported interfaces the apex door, the node doors and HTTP+JSON; security schemes none, office OAuth and x402.",
       "capabilities": [
         "resolve-family-office",
         "family-office-record"
