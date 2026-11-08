@@ -15,6 +15,7 @@
 //                                                 (kid mk-office-x402-2026-09, jwks https://agent-kg.ai/x402/jwks.json). No price on any human page.
 // Store: the door's KV (FO_KG_OFFICE): seat:rec:<record id>, seat:keyhash:<sha256 of the seat key>, seat:ch:<challenge id>, mail:<day>:<id>.
 // Every claim and seat event is an audit line and a mail blob (the office has no mail rail; the blob waits for a sender — see the FO-03 report).
+import { EmailMessage } from "cloudflare:email";
 import { X402, OUSD, X402_HEADERS, facilitator, importEd25519Seed, b64, unb64, b64uStr, b64uBuf, hex } from "./x402.js";
 import { sha256hex, receiptsOf } from "./rco.js";
 
@@ -71,12 +72,51 @@ async function prove(domain, token) {
   return [false, null, `${txt && txt.length ? `the TXT record at ${DNS_LABEL}.${domain} does not carry the token` : `no TXT record at ${DNS_LABEL}.${domain}`}; ${wk}`];
 }
 
-// the mail rail: one blob per event in the door's KV, addressed to the office; it waits for a sender (none on the office rail yet)
+// the mail rail: one blob per event in the door's KV, addressed to the office, then sent through the send_email binding MAIL
+// (FO-03 re-close 2026-11-05: sender seats@agent-kg.ai, the CEO's routing rule on agent-kg.ai). A blob that cannot be sent stays queued and
+// the door's cron (every 15 minutes) retries it, at most 192 times (two days); every send is an audit line (method "mail").
 export async function mail(env, event) {
   const day = nowIso().slice(0, 10), id = `${Date.now()}_${hex(4)}`;
   const lines = Object.entries(event).filter(([k]) => k !== "type").map(([k, v]) => `${k}: ${typeof v === "object" ? JSON.stringify(v) : v}`);
-  const blob = { id, to: MAIL.to, from: MAIL.from, subject: `[fo-kg seat] ${event.type} · ${event.record_id || ""}`.trim(), text: `Family Office Knowledge Graph — seat event ${event.type}\n\n${lines.join("\n")}\n`, event, queued_at: nowIso(), status: "queued: the office has no mail rail; this blob waits for a sender" };
-  try { await env.FO_KG_OFFICE.put(`mail:${day}:${id}`, JSON.stringify(blob), { expirationTtl: 90 * 24 * 3600 }); return `mail:${day}:${id}`; } catch (e) { return null; }
+  const blob = { id, to: MAIL.to, from: MAIL.from, subject: `[fo-kg seat] ${event.type} · ${event.record_id || ""}`.trim(), text: `Family Office Knowledge Graph — seat event ${event.type}\n\n${lines.join("\n")}\n`, event, queued_at: nowIso(), status: "queued", attempts: 0 };
+  const key = `mail:${day}:${id}`;
+  try { await env.FO_KG_OFFICE.put(key, JSON.stringify(blob), { expirationTtl: 90 * 24 * 3600 }); } catch (e) { return null; }
+  try { await sendBlob(env, key, blob); } catch (e) {}
+  return key;
+}
+const b64utf8 = (s) => btoa(unescape(encodeURIComponent(s)));
+function mime(blob) {
+  const host = MAIL.from.split("@")[1];
+  return [`From: Family Office Knowledge Graph seats <${blob.from}>`, `To: <${blob.to}>`, `Subject: =?UTF-8?B?${b64utf8(blob.subject)}?=`, `Date: ${new Date().toUTCString()}`,
+    `Message-ID: <${blob.id}.${hex(4)}@${host}>`, "MIME-Version: 1.0", "Content-Type: text/plain; charset=UTF-8", "Content-Transfer-Encoding: base64", "", b64utf8(blob.text).replace(/(.{76})/g, "$1\r\n"), ""].join("\r\n");
+}
+async function sendBlob(env, key, blob) {
+  let status, err = null;
+  if (!env.MAIL) { status = "queued"; err = "no send_email binding"; }
+  else {
+    try { await env.MAIL.send(new EmailMessage(blob.from, blob.to, mime(blob))); status = "sent"; }
+    catch (e) { status = "queued"; err = String((e && e.message) || e).slice(0, 200); }
+  }
+  const next = { ...blob, status, attempts: (blob.attempts || 0) + (env.MAIL ? 1 : 0), ...(status === "sent" ? { sent_at: nowIso(), last_error: null } : { last_error: err }) };
+  try { await env.FO_KG_OFFICE.put(key, JSON.stringify(next), { expirationTtl: 90 * 24 * 3600 }); } catch (e) {}
+  console.log(JSON.stringify({ audit: "fo-kg-door", method: "mail", tool: null, outcome: status === "sent" ? "sent" : "send_failed", mail: key, event: blob.event && blob.event.type, attempts: next.attempts, error: err }));
+  return next;
+}
+// the cron: every queued blob is sent (at most 192 attempts each, two days of 15-minute tries); blobs from before the sender existed ("queued: …") are queued too
+export async function flushMail(env) {
+  const out = { sent: 0, failed: 0, skipped: 0 };
+  let cursor;
+  do {
+    const l = await env.FO_KG_OFFICE.list({ prefix: "mail:", limit: 1000, cursor });
+    for (const k of l.keys) {
+      const b = await kv.get(env, k.name);
+      if (!b || b.status === "sent" || !String(b.status || "").startsWith("queued")) { out.skipped++; continue; }
+      if ((b.attempts || 0) >= 192) { out.skipped++; continue; }
+      const r = await sendBlob(env, k.name, b); out[r.status === "sent" ? "sent" : "failed"]++;
+    }
+    cursor = l.list_complete ? null : l.cursor;
+  } while (cursor);
+  return out;
 }
 
 // the record a claim names: the record id must resolve to exactly that record (resolveOne → { m, rec } or { why })

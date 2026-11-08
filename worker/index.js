@@ -6,7 +6,7 @@
 
 import { handleApi, handleReceipt, handleSettled, paidStats, preflight, signStatement, X402 } from "./x402.js";
 import { protectedResource, asMetadata, handleLicensed } from "./oauth.js";
-import { handleSeat } from "./seat.js";
+import { handleSeat, flushMail } from "./seat.js";
 import { handleMcp, doorInfo, serverCard, TOOLS, graph, resolveIdentifier } from "./mcp.js";
 
 const CANON = "familyofficeknowledgegraph.ai";
@@ -127,6 +127,8 @@ function withHeaders(res, path, ctx) {
 const fmt = (n) => (n === null || n === undefined ? "—" : Number(n).toLocaleString("en-CA"));
 
 const handler = {
+  // FO-03 re-close (2026-11-05): the door's cron sends the queued seat mail blobs (seat.js flushMail), every 15 minutes
+  async scheduled(event, env, exec) { exec.waitUntil(flushMail(env).then((r) => console.log(JSON.stringify({ audit: "fo-kg-door", method: "mail-flush", tool: null, outcome: "ok", ...r }))).catch((e) => console.log(JSON.stringify({ audit: "fo-kg-door", method: "mail-flush", tool: null, outcome: "error", error: String(e).slice(0, 200) })))); },
   async fetch(request, env, exec) {
     const url = new URL(request.url);
     const host = url.hostname.toLowerCase();
