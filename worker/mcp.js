@@ -195,13 +195,24 @@ const readerOf = (request) => { const cf = request.cf || {}; return { ua: (reque
 const SEAT_FAIL = new Set(["refused", "rows_refused", "proof_failed", "error"]);
 const seatRes = (o) => ({ content: [{ type: "text", text: JSON.stringify(o, null, 1) }], structuredContent: o, ...(SEAT_FAIL.has(o.result) ? { isError: true } : {}) });
 
+// CONNECT-01 (2026-11-11): the agent address answers a person with one sentence, the address, and the way to /connect.
+function browserPage(url) {
+  const addr = `${url.origin}/mcp`;
+  const html = `<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1.0" />\n<title>Agent address — Family Office Knowledge Graph</title>\n<meta name="robots" content="noindex" />\n<style>:root{color-scheme:light dark;--bg:#000;--fg:#f2f2f2;--mute:#a8a8a8;--line:#333}@media (prefers-color-scheme:light){:root{--bg:#fff;--fg:#111;--mute:#555;--line:#ddd}}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:640px;margin:0 auto;padding:64px 16px}h1{font-size:24px;line-height:1.3;margin:0 0 20px}code{display:block;overflow-wrap:anywhere;padding:12px 14px;border:1px solid var(--line);border-radius:8px;font:15px/1.4 ui-monospace,Menlo,Consolas,monospace}p{margin:0 0 18px}a{color:inherit}.m{color:var(--mute);font-size:14px}</style>\n</head>\n<body>\n<main>\n<h1>This is an agent address. Add it to your agent.</h1>\n<p><code>${addr}</code></p>\n<p><a href="https://familyofficeknowledgegraph.ai/connect">How to connect an agent: familyofficeknowledgegraph.ai/connect</a></p>\n<p class="m">Family Office Knowledge Graph · Agentic KG Holdings</p>\n</main>\n</body>\n</html>\n`;
+  return new Response(html, { status: 200, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store", vary: "Accept" } });
+}
+
 export async function handleMcp(request, env, url, ctx) {
   const { version, role, apexDoor, nodeId } = ctx;
   const g = graph(env, url);
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: JSONH });
   // FO-02 (2026-11-04): this door opens no server-to-client stream. Per MCP streamable-http, GET /mcp answers 405 so clients stop
   // re-opening it (the 200-JSON answer drove a Claude Code reconnect loop: 418,766 GETs in 30 days). Same as the Capital Markets door.
+  // CONNECT-01 (2026-11-11): a plain browser visit (Accept has text/html, not text/event-stream) gets a short human page that links to /connect.
+  // Every other GET keeps the FO-02 405 below, byte for byte.
   if (request.method === "GET") {
+    const acc = (request.headers.get("accept") || "").toLowerCase();
+    if (acc.includes("text/html") && !acc.includes("text/event-stream")) return browserPage(url);
     return new Response(JSON.stringify(rpcErr(null, -32000, "Method not allowed: this door opens no SSE stream; POST JSON-RPC 2.0 to this URL", { usage: "POST JSON-RPC 2.0: initialize, tools/list, tools/call", info: `${url.origin}/`, card: `${url.origin}/.well-known/mcp.json` })), { status: 405, headers: { ...JSONH, allow: "POST, OPTIONS" } });
   }
   if (request.method !== "POST") return new Response(JSON.stringify(rpcErr(null, -32600, "POST required")), { status: 405, headers: { ...JSONH, allow: "POST, OPTIONS" } });

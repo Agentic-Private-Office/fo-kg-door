@@ -58,6 +58,8 @@ const BASE_HEADERS = {
   ].join(", "),
 };
 
+// CONNECT-01 (2026-11-11): /connect carries the house Copy button (inline onclick); its CSP allows that one handler by hash, nothing else.
+const CONNECT_CSP = BASE_HEADERS["content-security-policy"].replace("script-src 'self';", "script-src 'self' 'unsafe-hashes' 'sha256-zNqi6XRgHmU9aBKAj3a9YQoov0P1X9SkcRhPaPL3uJ8=';");
 const CACHE = { page: "public, max-age=300", kit: "public, max-age=3600", icon: "public, max-age=604800", asset: "public, max-age=86400", record: "public, max-age=600" };
 const TYPES = {
   "/llms.txt": "text/plain; charset=utf-8", "/robots.txt": "text/plain; charset=utf-8", "/.well-known/security.txt": "text/plain; charset=utf-8",
@@ -70,7 +72,7 @@ const KIT = new Set(["/llms.txt", "/facts.json", "/ai-catalog.json", "/robots.tx
   "/.well-known/api-catalog", "/.well-known/oauth-authorization-server", "/.well-known/openid-configuration", "/.well-known/oauth-protected-resource",
   "/.well-known/mcp/server-card.json", "/.well-known/mcp.json", "/.well-known/skills.json", "/.well-known/agent-skills/index.json", "/.well-known/http-message-signatures-directory"]);
 const ICON = /\.(ico|png|svg|jpg)$/;
-const RECORD_PAGES = { "/status": "/status.html", "/terms": "/terms.html", "/privacy": "/privacy.html", "/security": "/security.html", "/no-cookies": "/no-cookies.html" };
+const RECORD_PAGES = { "/connect": "/connect.html", "/status": "/status.html", "/terms": "/terms.html", "/privacy": "/privacy.html", "/security": "/security.html", "/no-cookies": "/no-cookies.html" };
 const STATUS_KIT = ["/llms.txt", "/facts.json", "/ai-catalog.json", "/.well-known/agent-card.json", "/.well-known/jwks.json", "/.well-known/mcp.json", "/.well-known/skills.json", "/.well-known/security.txt", "/robots.txt", "/sitemap.xml", "/records/nodes.json"];
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -293,7 +295,9 @@ const handler = {
         map["status.rows"] = rows.join("\n");
       }
       const res = await page(RECORD_PAGES[path], map, path === "/status" ? "no-store" : CACHE.page, path === "/status" ? ["status.rows"] : []);
-      return withHeaders(res, path === "/status" ? "/status" : "/", ctx);
+      const out = withHeaders(res, path === "/status" ? "/status" : "/", ctx);
+      if (path === "/connect") out.headers.set("content-security-policy", CONNECT_CSP);
+      return out;
     }
 
     // ---- static kit, records and assets; anything missing is a real 404 (JSON, never HTML)

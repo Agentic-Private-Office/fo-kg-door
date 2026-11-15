@@ -1,6 +1,6 @@
 /* ===============================================================
    gsc-rail.ai  —  AIO Division  —  Sibling-Brand v4.1
-   Matches gsc-em.com design language: dark base, baby blue +
+   Matches the estate design language: dark base, baby blue +
    signal green accents, Arial/Calibri/Consolas typography stack.
    v4.1 — fixed grid column collapse causing one-word-per-line
    text rendering in security cards, flow steps, and similar
@@ -27,7 +27,7 @@
   --rose:      #F472B6;
   --purple:    #C084FC;
 
-  /* Typography stack — same as gsc-em.com v4 */
+  /* Typography stack — the estate stack, v4 */
   --f-head: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   --f-body: "Calibri", "Segoe UI", system-ui, sans-serif;
   --f-mono: "Consolas", "Courier New", monospace;
